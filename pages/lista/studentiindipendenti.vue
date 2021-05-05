@@ -13,19 +13,19 @@ export default {
             mainWebsiteUrl: "https://studentiindipendenti.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
             desc: "metti-descrizione",
-            imageUrl:"/img/ternasinistrorsa.png",
+            imageUrl:"/img/sip.png",
             programma:
                 [
                     {
                         id : 1,
                         title: 'Titolo1',
-                        url: '/img/studentiindipendenti.png',
+                        url: '/img/sip.png',
                         desc: "Descrizione 1"
                     },
                     {
                         id: 2,
                         title: 'Titolo2',
-                        url: '/img/studentiindipendenti.png',
+                        url: '/img/sip.png',
                         desc: "Descrizione 2"
                     },
                 ],

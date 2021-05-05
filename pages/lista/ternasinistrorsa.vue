@@ -13,19 +13,19 @@ export default {
             mainWebsiteUrl: "https://www.ternasinistrorsa.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa.pdf",
             desc: "metti-descrizione",
-            imageUrl:"/img/ternasinistrorsa.png",
+            imageUrl:"/img/terna.png",
             programma:
                 [
                     {
                         id : 1,
                         title: 'Titolo1',
-                        url: '/img/ternasinistrorsa.png',
+                        url: '/img/terna.png',
                         desc: "Descrizione 1"
                     },
                     {
                         id: 2,
                         title: 'Titolo2',
-                        url: '/img/ternasinistrorsa.png',
+                        url: '/img/terna.png',
                         desc: "Descrizione 2"
                     },
                 ],
