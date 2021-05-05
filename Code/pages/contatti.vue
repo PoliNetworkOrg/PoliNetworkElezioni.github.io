@@ -85,10 +85,7 @@
   text-align: center;
 }
 
-.senateCdaDiv{
-    margin: 0px;
-    border-top: 1px solid #545454;
-}
+
 
 .nav-item{
     padding-right: 50px;

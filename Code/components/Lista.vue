@@ -49,7 +49,7 @@
             </div>
         </div><!-- our-info -->
 
-<hr class="senateCdaDiv"/>
+<HorizontalLine  />
 
     <div class="section members">
         <div class="container">
@@ -60,7 +60,7 @@
         </div>
     </div><!-- members -->
 
-	<hr class="senateCdaDiv"/>
+<HorizontalLine  />
 
 	   <div class="section members" style="background-color:white">
         <div class="container">
@@ -71,7 +71,7 @@
         </div>
     </div><!-- members -->
 
-	<hr class="senateCdaDiv"/>
+<HorizontalLine  />
 
   <div class="section members" style="background-color:white">
      <div class="container">
