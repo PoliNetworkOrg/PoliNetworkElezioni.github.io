@@ -29,7 +29,7 @@
     <div class="row text-center">
 
         <div class="col-lg-3 col-md-6 mb-4">
-            <a href="./auic/">
+            <a href="./scuola/auic/">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
                       <table class="tableScuole">
@@ -50,7 +50,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 mb-4">
-            <a href="./3i/">
+            <a href="./scuola/trei/">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
 
@@ -73,7 +73,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 mb-4">
-            <a href="./icat/">
+            <a href="./scuola/icat/">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
 
@@ -96,7 +96,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 mb-4">
-            <a href="./design/">
+            <a href="./scuola/design/">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
 
