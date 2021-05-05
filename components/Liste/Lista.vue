@@ -67,6 +67,7 @@
                  :key="candsenato.id"
                  style-param="display:flex;"
                  >
+                    <div>
                      <a href="#">
                         <div class="candidatoSV" style="text-align:center;">
                             <figure 
@@ -91,6 +92,7 @@
                             </div>
                         </div>
                     </a>
+                    </div>
                  </Frame>
 
              </div>
