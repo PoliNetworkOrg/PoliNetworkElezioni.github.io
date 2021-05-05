@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Lista :data-lista="items" />
+        <ListaDettaglio :data-lista="items" />
     </div>
 </template>
 
