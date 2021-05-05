@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ccs/design", {data:[{},{}],fetch:{},mutations:void 0});
