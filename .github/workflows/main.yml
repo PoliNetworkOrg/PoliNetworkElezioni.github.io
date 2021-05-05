@@ -1,43 +1,49 @@
-# This is a basic workflow to help you get started with Actions
+name: CD
 
-name: CI
-
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - main
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+  cd:
+    runs-on: ${{ matrix.os }}
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
     steps:
+      - name: 🛎 Checkout
+        uses: actions/checkout@master
 
-      - name: Build and generate nuxt
-        run: |
-              npm ci
-              npm run build
-              npm run generate
-              cd dist
-              git config --global user.name "ArmeF97"
-              git init
-              git add -A
-              git commit -m 'Generate github pages'
-              git push -f https://ArmeF97:${{ secrets.GITHUB_TOKEN }}@github.com/PoliNetworkElezioni/PoliNetworkElezioni.github.io.git master:gh-pages
-        working-directory: './'
-        shell: bash
+      - name: 🏗 Setup node env
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
+          check-latest: true
 
+      - name: 📦 Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
+      - name: 👨🏻‍💻 Install dependencies
+        run: npm ci
 
+      - name: 👀 Run linter
+        run: npm run lint
 
+      - name: 👨‍🏭️ Generate
+        run: npm run generate
 
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository:  PoliNetworkElezioni/PoliNetworkElezioni.github.io 
+          publish_dir: ./dist
