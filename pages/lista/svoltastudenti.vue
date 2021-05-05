@@ -1,13 +1,6 @@
 <template>
     <div>
-        <Lista 
-            name-p="Svoltastudenti"
-            url-official="https://svoltastudenti.it"
-            descrizione-lista-param="Nata nel 2008 per rendere partecipi tutti gli studenti nei processi formativi e decisionali dell’Ateneo che tutti i giorni viviamo. Opportunità, idee e rappresentanti del tutto svincolati dai partiti: siamo apartitici, laici e multiculturali."
-            image-url = "/img/svolta.png"
-            url-programma="https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf"
-            :data-lista=items
-        />
+        <Lista :data-lista=items />
     </div>
 </template>
 
@@ -16,6 +9,11 @@ export default {
     data () {
     return {
       items: {
+            name: "Svoltastudenti",
+            mainWebsiteUrl: "https://svoltastudenti.it",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf",
+            desc: "Nata nel 2008 per rendere partecipi tutti gli studenti nei processi formativi e decisionali dell’Ateneo che tutti i giorni viviamo. Opportunità, idee e rappresentanti del tutto svincolati dai partiti: siamo apartitici, laici e multiculturali.",
+            imageUrl:"/img/svolta.png",
             programma:
                 [
                     {
@@ -35,8 +33,15 @@ export default {
             {
                 desc: "La nostra idea di senato ecc...",
                 candidati:[
-                    {id: 1, imgUrl: "/img/candidati/marco_cesaro.jpg"},
-                    {id: 2, imgUrl: "/img/candidati/lorenzo_ghettini.jpg"}
+                    {id: 1, imgUrl: "/img/candidati/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
+                    {id: 2, imgUrl: "/img/candidati/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
+                           {id: 3, imgUrl: "/img/candidati/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
+                           {id: 4, imgUrl: "/img/candidati/matteo_reda.jpg", name: "Reda Matteo", detto: ""},
+                           {id: 5, imgUrl: "/img/candidati/alessia_bove.jpg", name: "Bove Alessia", detto: "ALESSIA"},
+                           {id: 6, imgUrl: "/img/candidati/lorenzo_macovei.jpg", name: "Macovei Lorenzo", detto: "MACOSSS"},
+                           {id: 7, imgUrl: "/img/candidati/elena_zannotti.jpg", name: "Zannotti Elena", detto: "ELLE"},
+                           {id: 8, imgUrl: "/img/candidati/klaudio_luku.jpg", name: "Luku Klaudio", detto: "KLAUDIO CON LA K"}
+
                 ]
             },
             cda:{
