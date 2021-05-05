@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <ConfrontoListe :items="items" />
+        <ConfrontoListe :liste="liste" :organi-confronto="organiConfronto" />
 
     </div>
 </template>
@@ -12,14 +12,27 @@
 export default {
     data () {
     return {
-      items: [
+
+    organiConfronto:[
+        {
+            id:1, 
+            name:"Senato",
+            desc:"IL SENATO INDIRIZZA E PROGRAMMA LO SVILUPPO DELL’ATENEO, CON PARTICOLARE RIGUARDO ALLA DIDATTICA E ALLA RICERCA, E VIGILA SUL FUNZIONAMENTO COMPLESSIVO DELL'ISTITUZIONE."
+        },
+        {
+            id:2,
+            name:"Consiglio di Amministrazione",
+            desc:"IL CONSIGLIO DI AMMINISTRAZIONE DEFINISCE LA PROGRAMMAZIONE ECONOMICA DI LUNGO PERIODO SULLA BASE DELLE PROPOSTE E DEI PARERI DEL SENATO ACCADEMICO."
+        }
+    ],
+
+      liste: [
             {      
                 id: 1, 
                 name: "Svoltastudenti",
                 imageUrlHorizontal: "/img/logo-svolta_hor.png",
                 linkLista: "/lista/svoltastudenti/",
-                organi:[
-                    
+                organi:[                
                     {
                         name: "Senato",
                         desc: "La nostra idea di senato ecc...",
