@@ -13,19 +13,19 @@ export default {
             mainWebsiteUrl: "https://www.poli-listaperta.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
             desc: "metti-descrizione",
-            imageUrl:"/img/listaperta.png",
+            imageUrl:"/img/listaaperta.png",
             programma:
                 [
                     {
                         id : 1,
                         title: 'Titolo1',
-                        url : '/img/listaperta.png',
+                        url : '/img/listaaperta.png',
                         desc: "Descrizione 1"
                     },
                     {
                         id: 2,
                         title: 'Titolo2',
-                        url : '/img/listaperta.png',
+                        url : '/img/listaaperta.png',
                         desc: "Descrizione 2"
                     },
                 ],
