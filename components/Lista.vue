@@ -67,30 +67,7 @@
                  :key="candsenato.id"
                  style-param="display:flex;"
                  >
-                     <a href="#">
-                        <div class="candidatoSV" style="text-align:center;">
-                            <figure 
-                                class="wow animated fadeInLeft animated"
-                                style="visibility: visible; animation-name: fadeInLeft;width:100%;"
-                            >
-                                <img 
-                                    class="border-img img-responsive center-block immagineCandidato" 
-                                    :src="candsenato.imgUrl"
-                                    style="width:100%;"
-                                 />
-                            </figure>
-                            <div class="imgcaption" style="text-align:center;">
-                                <strong class="nameCandidato">
-                                    <span>{{candsenato.name}} &nbsp;</span>
-                                    <br />
-                                    <span class="name">
-                                        {{candsenato.detto}}
-                                    </span>
-                                    
-                                </strong>
-                            </div>
-                        </div>
-                    </a>
+                     <Candidato :cand="candsenato" />
                  </Frame>
 
              </div>

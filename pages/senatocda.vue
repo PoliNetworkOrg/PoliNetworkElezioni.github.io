@@ -1,87 +1,98 @@
 <template>
     <div>
 
-<NavigationBar />
+        <NavigationBar />
 
-<!-- Page Content -->
-<div class="container">
+        <!-- Page Content -->
+        <div class="container" style="margin-left:calc(1px + 1vw);margin-right:calc(1px + 1vw);">
 
-    <!-- Jumbotron Header -->
-    <header class="jumbotron my-4 testoCentrale">
-        <div style="text-align:center;">
-            <h2>Elezioni rappresentanti degli studenti</h2>
-            <br/>
-            <h4>Senato</h4>
-            <p class="lead"><blockquote>
-            IL SENATO INDIRIZZA E PROGRAMMA LO
-            SVILUPPO DELL’ATENEO, CON
-            PARTICOLARE RIGUARDO ALLA
-            DIDATTICA E ALLA RICERCA, E VIGILA
-            SUL FUNZIONAMENTO COMPLESSIVO
-            DELL'ISTITUZIONE.</blockquote></p>
+            <!-- Jumbotron Header -->
+            <header class="jumbotron my-4 testoCentrale">
+                <div style="text-align:center;">
+                    <h2>Elezioni rappresentanti degli studenti</h2>
+                    <br/>
+                    <h4>Senato</h4>
+                    <p class="lead"><blockquote>
+                    IL SENATO INDIRIZZA E PROGRAMMA LO
+                    SVILUPPO DELL’ATENEO, CON
+                    PARTICOLARE RIGUARDO ALLA
+                    DIDATTICA E ALLA RICERCA, E VIGILA
+                    SUL FUNZIONAMENTO COMPLESSIVO
+                    DELL'ISTITUZIONE.</blockquote></p>
 
-            <h4 style="padding-top:5px;">Consiglio di Amministrazione</h4>
-            <p class="lead"><blockquote>
-            IL CONSIGLIO DI AMMINISTRAZIONE
-            DEFINISCE LA PROGRAMMAZIONE
-            ECONOMICA DI LUNGO PERIODO
-            SULLA BASE DELLE PROPOSTE
-            E DEI PARERI DEL SENATO ACCADEMICO.</blockquote></p>
+                    <h4 style="padding-top:5px;">Consiglio di Amministrazione</h4>
+                    <p class="lead"><blockquote>
+                    IL CONSIGLIO DI AMMINISTRAZIONE
+                    DEFINISCE LA PROGRAMMAZIONE
+                    ECONOMICA DI LUNGO PERIODO
+                    SULLA BASE DELLE PROPOSTE
+                    E DEI PARERI DEL SENATO ACCADEMICO.</blockquote></p>
 
-        </div>
+                </div>
 
 
-    </header>
+            </header>
 
-    <!-- Page Features -->
-    <div class="row text-center" id="listeContainer">
+            <!-- Page Features -->
+            <div class="row text-center" id="listeContainer">
 
-        <Frame class-param="col-lg-3 col-md-6 mb-4"
-            v-for="item in items"
-            :key="item.id"
-        >
-          <a :href="item.linkLista">
-            <div class="card">
-                <div class="listTile" style="width: 100%;">
-                    <div class="cap-left" style="width: 100%;display:block;">
-                        <div style="width:100%;">
-                            <img class="imageList" :src="item.imageUrlHorizontal" alt="">
-                        </div>
-                        <div style="padding-top:10px;">
-                        <div class="candidateTable" style="list-style:none;padding-left:0px;">
-                            <div>
-                                <h2>Senato</h2>
-                                <div id="senato">
-
-                                    
+                <Frame class-param="col-lg-3 col-md-6 mb-4"
+                    v-for="item in items"
+                    :key="item.id"
+                >
+                <a :href="item.linkLista">
+                    <div class="card">
+                        <div class="listTile" style="width: 100%;">
+                            <div class="cap-left" style="width: 100%;display:block;">
+                                <div style="width:100%;">
+                                    <img class="imageList" :src="item.imageUrlHorizontal" style="width:100%;">
+                                </div>
+                                <div style="padding-top:10px;">
+                                    <div class="candidateTable" style="list-style:none;padding-left:0px;">
+                                        <div>
+                                            <div style="width:100%;">
+                                                <h2>Senato</h2>
+                                            </div>
+                                            
+                                            <div style="display:flex;flex-wrap:wrap;">
+                                                <Frame 
+                                                    v-for="candsenato in item.senato.candidati"
+                                                    :key = "candsenato.id"
+                                                    class-param="col-md-6"
+                                                    style-param="margin:auto;"
+                                                >
+                                                    <div>
+                                                        <Candidato :cand="candsenato" />
+                                                    </div>
+                                                </Frame>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div>
+                                            <h2>CdA</h2>
+                                            <div id="cda"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <br />
-                            <div>
-                                <h2>CdA</h2>
-                                <div id="cda"></div>
-                            </div>
-                        </div>
                         </div>
                     </div>
-                </div>
+                </a>
+                </Frame>
+
+                
+
+            
             </div>
-          </a>
-        </Frame>
-
-        
-
-	
-    </div>
-    <!-- /.row -->
-
-</div>
-<!-- /.container -->
-
-
-<Footer />
+            <!-- /.row -->
 
         </div>
+        <!-- /.container -->
+
+
+        <Footer />
+
+    </div>
 </template>
 
 
