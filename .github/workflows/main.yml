@@ -34,6 +34,7 @@ jobs:
               git add -A
               git commit -m 'Generate github pages'
               git push -f https://ArmeF97:${{ secrets.GITHUB_TOKEN }}@github.com/PoliNetworkElezioni/PoliNetworkElezioni.github.io.git master:gh-pages
+        working-directory: './'
         shell: bash
 
 
