@@ -35,12 +35,12 @@ export default {
                 candidati:[
                     {id: 1, imgUrl: "/img/candidati/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
                     {id: 2, imgUrl: "/img/candidati/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
-                           {id: 3, imgUrl: "/img/candidati/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
-                           {id: 4, imgUrl: "/img/candidati/matteo_reda.jpg", name: "Reda Matteo", detto: ""},
-                           {id: 5, imgUrl: "/img/candidati/alessia_bove.jpg", name: "Bove Alessia", detto: "ALESSIA"},
-                           {id: 6, imgUrl: "/img/candidati/lorenzo_macovei.jpg", name: "Macovei Lorenzo", detto: "MACOSSS"},
-                           {id: 7, imgUrl: "/img/candidati/elena_zannotti.jpg", name: "Zannotti Elena", detto: "ELLE"},
-                           {id: 8, imgUrl: "/img/candidati/klaudio_luku.jpg", name: "Luku Klaudio", detto: "KLAUDIO CON LA K"}
+                    {id: 3, imgUrl: "/img/candidati/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
+                    {id: 4, imgUrl: "/img/candidati/matteo_reda.jpg", name: "Reda Matteo", detto: ""},
+                    {id: 5, imgUrl: "/img/candidati/alessia_bove.jpg", name: "Bove Alessia", detto: "ALESSIA"},
+                    {id: 6, imgUrl: "/img/candidati/lorenzo_macovei.jpg", name: "Macovei Lorenzo", detto: "MACOSSS"},
+                    {id: 7, imgUrl: "/img/candidati/elena_zannotti.jpg", name: "Zannotti Elena", detto: "ELLE"},
+                    {id: 8, imgUrl: "/img/candidati/klaudio_luku.jpg", name: "Luku Klaudio", detto: "KLAUDIO CON LA K"}
                 ]
             },
             cda:{
@@ -89,7 +89,8 @@ export default {
                         {id:2, imgUrl: "/img/candidati/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
 						{id:3, imgUrl: "/img/candidati/fabrizio_murillo.jpg", name: "Murillo Fabrizio Roldos Jose", detto: ""},
 						{id:4, imgUrl: "/img/candidati/henry_andrade.jpg", name: "Andrade Henry", detto: ""},
-						{id:5, imgUrl: "/img/candidati/elena_zannotti.jpg", name: "Zannotti Elena", detto: "ELLE"},
+						{id:5, imgUrl: "/img/candidati/elena_zannotti.jpg", name: "Zannotti Elena", detto: "ELLE"}
+                    ]
                 },
                 design:{
                     desc : "La scuola design...",
@@ -97,7 +98,8 @@ export default {
 						{id:1, imgUrl: "/img/candidati/marco_tintori.jpg", name: "Tintori Marco", detto: "TINTO"},
                         {id:2, imgUrl: "/img/candidati/giulia_daleo.jpg", name: "D'Aleo Giulia", detto: "GIUS"},
 						{id:3, imgUrl: "/img/candidati/vittorio_perobelli.jpg", name: "Perobelli Vittorio", detto: "PERO"},
-						{id:4, imgUrl: "/img/candidati/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},
+						{id:4, imgUrl: "/img/candidati/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"}
+                    ]
                 }
             }
         }         
