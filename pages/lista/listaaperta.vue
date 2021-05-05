@@ -11,7 +11,7 @@ export default {
       items: {
             name: "ListaAperta",
             mainWebsiteUrl: "https://www.poli-listaperta.it/",
-            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
             desc: "metti-descrizione",
             imageUrl:"/img/listaperta.png",
             programma:
