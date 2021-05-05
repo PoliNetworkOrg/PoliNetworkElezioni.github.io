@@ -52,7 +52,9 @@
                                 <div style="padding-top:10px;">
                                     <div class="candidateTable" style="list-style:none;padding-left:0px;">
                                         <FrameSenatoCda :item="item.senato" name="Senato"/>
-                                        <br />
+                                        <div style="padding:10px;">
+                                            &nbsp;
+                                        </div>
                                         <FrameSenatoCda :item="item.cda" name="CDA"/>
                                     </div>
                                 </div>

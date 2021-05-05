@@ -33,7 +33,7 @@ export default {
             default : null
         },
         name:{
-            type:Object,
+            type:String,
             default : null
         }
     }
