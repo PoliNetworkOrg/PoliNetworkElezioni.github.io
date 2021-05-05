@@ -41,6 +41,5 @@ jobs:
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository:  PoliNetworkElezioni/PoliNetworkElezioni.github.io 
-          publish_dir: ./dist
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./public
