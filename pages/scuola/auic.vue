@@ -28,7 +28,7 @@ export default {
                 organi: [                
                     {
                         name: "AUIC",
-                        desc: "La nostra idea di scuola auic ecc...",
+                        desc: "Incontri, eventi culturali e convenzioni: Rendere il Politecnico stesso teatro di incontri ed eventi integrati e inerenti al percorso didattico. Verso il mondo del lavoro: introdurre supporto istituzionale alla creazione del portfolio. Implementare corsi su software di disegno, modellazione e applicazione della metodologia BIM: Implementare l’insegnamento di programmi nei primi anni del corso di studi. Inserimento laboratori annuali: 3 mesi non sono sufficienti per portare avanti progetti all’altezza.",
            	            candidati:[
                             {id:1, imgUrl: "/img/candidati/svoltastudenti/elena_picchetti.jpg", name: "Picchetti Elena", detto: ""},
                             {id:2, imgUrl: "/img/candidati/svoltastudenti/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
