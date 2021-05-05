@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Lista :data-lista="items" />
+        <ListaDettaglio :data-lista="liste" />
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
       items: {
             name: "ListaAperta",
             mainWebsiteUrl: "https://www.poli-listaperta.it/",
-            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
             desc: "metti-descrizione",
             imageUrl:"/img/listaperta.png",
             programma:
@@ -35,12 +35,12 @@ export default {
                 candidati:[
                     {id: 1, imgUrl: "/img/candidati/marta_ghidoli.jpg", name: "Ghidoli Marta", detto: "MARTA"},
                     {id: 2, imgUrl: "/img/candidati/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
-                           {id: 3, imgUrl: "/img/candidati/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
-                           {id: 4, imgUrl: "/img/candidati/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
-                           {id: 5, imgUrl: "/img/candidati/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
-                           {id: 6, imgUrl: "/img/candidati/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
-                           {id: 7, imgUrl: "/img/candidati/alessandro_maestri.jpg", name: "Maestri Alessandro", detto: "BOBBI"},
-                           {id: 8, imgUrl: "/img/candidati/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"}
+                    {id: 3, imgUrl: "/img/candidati/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
+                    {id: 4, imgUrl: "/img/candidati/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
+                    {id: 5, imgUrl: "/img/candidati/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
+                    {id: 6, imgUrl: "/img/candidati/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
+                    {id: 7, imgUrl: "/img/candidati/alessandro_maestri.jpg", name: "Maestri Alessandro", detto: "BOBBI"},
+                    {id: 8, imgUrl: "/img/candidati/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"}
                 ]
             },
             cda:{
@@ -56,6 +56,8 @@ export default {
                 desc: "La nostra idea di scuola ecc...",
                 auic:{
                     desc: "La scuola auic...",
+                    candidati:
+                    [
 						{id:1, imgUrl: "/img/candidati/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
                         {id:2, imgUrl: "/img/candidati/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
 						{id:3, imgUrl: "/img/candidati/sara_galli.jpg", name: "Galli Sara", detto: "SARA"},
@@ -68,10 +70,13 @@ export default {
 						{id:10, imgUrl: "/img/candidati/pietro_rabaioli.jpg", name: "Rabaioli Pietro", detto: "RABA"},
 						{id:11, imgUrl: "/img/candidati/isaac_young.jpg", name: "Young Isaac Jason", detto: "ISAAC"},
 						{id:12, imgUrl: "/img/candidati/marco_stringhetti.jpg", name: "Stringhetti Marco", detto: "STRINGO"},
-						{id:13, imgUrl: "/img/candidati/sara_baldelli.jpg", name: "Baldelli Sara Micol", detto: ""},
+						{id:13, imgUrl: "/img/candidati/sara_baldelli.jpg", name: "Baldelli Sara Micol", detto: ""}
+                    ]
                 },
                 trei:{
                     desc :"La scuola 3i...",
+                    candidati:
+                    [
 						{id:1, imgUrl: "/img/candidati/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
                         {id:2, imgUrl: "/img/candidati/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
 						{id:3, imgUrl: "/img/candidati/giovanni_cavassi.jpg", name: "Cavassi Giovanni", detto: "CAVA"},
@@ -86,22 +91,28 @@ export default {
 						{id:12, imgUrl: "/img/candidati/giuliano_gemmani.jpg", name: "Gemmnani Giuliano", detto: "GEMMA"},
 						{id:13, imgUrl: "/img/candidati/marco_gandolla.jpg", name: "Gandolla Marco", detto: "QUAGLIA"},
 						{id:14, imgUrl: "/img/candidati/francesco_boldrini.jpg", name: "Boldrini Francesco", detto: "BOLD"},
-						{id:15, imgUrl: "/img/candidati/marco_guerini.jpg", name: "Guerini Marco", detto: "GUERO"},
+						{id:15, imgUrl: "/img/candidati/marco_guerini.jpg", name: "Guerini Marco", detto: "GUERO"}
+                    ]
                 },
                 icat:{
                     desc: "La scuola icat...",
+                    candidati:
+                    [
 						{id:1, imgUrl: "/img/candidati/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"}
 						{id:2, imgUrl: "/img/candidati/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
 						{id:3, imgUrl: "/img/candidati/pietro_perego.jpg", name: "Perego Pietro", detto: "PIE"},
 						{id:4, imgUrl: "/img/candidati/camilla_macchini.jpg", name: "Macchini Camilla", detto: "CAMI"},
 						{id:5, imgUrl: "/img/candidati/franscesco_cannerozzi.jpg", name: "Cannerozzi Francesco", detto: "CANNE"},
 						{id:6, imgUrl: "/img/candidati/davide_zini.jpg", name: "Zini Davide", detto: "ZINZAN"},
-						{id:7, imgUrl: "/img/candidati/giovanni_abbenda.jpg", name: "Abbenda Giovanni", detto: "GIO"},
+						{id:7, imgUrl: "/img/candidati/giovanni_abbenda.jpg", name: "Abbenda Giovanni", detto: "GIO"}
+                    ]
                 },
                 design:{
                     desc : "La scuola design...",
-						{id: 4, imgUrl: "/img/candidati/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
-                        {id:4, imgUrl: "/img/candidati/sofia_boni.jpg", name: "Boni Sofia", detto: "SOFI"}
+                    candidati:
+                    [
+						{id:1, imgUrl: "/img/candidati/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
+                        {id:2, imgUrl: "/img/candidati/sofia_boni.jpg", name: "Boni Sofia", detto: "SOFI"},
 						{id:3, imgUrl: "/img/candidati/maddalena_milanesi.jpg", name: "Milanesi Maddalena", detto: "MADDA"},
 						{id:4, imgUrl: "/img/candidati/lorenzo_bressan.jpg", name: "Bressan Lorenzo", detto: "BRACE"},
 						{id:5, imgUrl: "/img/candidati/maria_sammarini.jpg", name: "Sammarini Maria", detto: "MERY"},
@@ -113,7 +124,8 @@ export default {
 						{id:11, imgUrl: "/img/candidati/michele_bruno.jpg", name: "Bruno Michele", detto: "MICHI"},
 						{id:12, imgUrl: "/img/candidati/chiara_mazzeo.jpg", name: "Mazzeo Chiara", detto: ""},
 						{id:13, imgUrl: "/img/candidati/giovanni_provesi.jpg", name: "Provesi Giovanni", detto: "GIO"},
-						{id:14, imgUrl: "/img/candidati/chiara_anceschi.jpg", name: "Anceschi Chiara", detto: "CHIANCHI"},
+						{id:14, imgUrl: "/img/candidati/chiara_anceschi.jpg", name: "Anceschi Chiara", detto: "CHIANCHI"}
+                    ]
                 }
             }
         }         
