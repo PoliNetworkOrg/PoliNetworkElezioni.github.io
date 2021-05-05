@@ -22,12 +22,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-        - name : "nuxt"
-          uses: ashkantaravati/NuxtToGithubPages@v1.0
-          with:
-            username: 'ArmeF97'
-            reponame: 'PoliNetworkElezioni.github.io'
-            token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and generate nuxt
+        run: |
+              npm ci
+              npm run build
+              npm run generate
+              cd dist
+              git config --global user.name "ArmeF97"
+              git init
+              git add -A
+              git commit -m 'Generate github pages'
+              git push -f https://ArmeF97:${{ secrets.GITHUB_TOKEN }}@github.com/PoliNetworkElezioni/PoliNetworkElezioni.github.io.git master:gh-pages
+        shell: bash
+
+
 
 
 
