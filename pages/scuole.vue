@@ -25,100 +25,7 @@
 
     </header>
 
-    <!-- Page Features -->
-    <div class="row text-center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <a href="../scuola/auic/">
-                <div class="card h-100">
-                    <div class="listTile" style="width: 100%;">
-                      <table class="tableScuole">
-                        <tr>
-                          <td>
-                        <h1 class="scuole">Scuola AUIC</h1>
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                        <h5>ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI</h5>
-                      </td>
-                      </tr>
-                      </table>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <a href="../scuola/trei/">
-                <div class="card h-100">
-                    <div class="listTile" style="width: 100%;">
-
-
-                        <table class="tableScuole">
-                          <tr>
-                            <td>
-                          <h1 class="scuole">Scuola 3I</h1>
-                        </td>
-                        </tr>
-                        <tr>
-                          <td>
-                          <h5>INGEGNERIA INDUSTRIALE E DELL'INFORMAZIONE</h5>
-                        </td>
-                        </tr>
-                        </table>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <a href="../scuola/icat/">
-                <div class="card h-100">
-                    <div class="listTile" style="width: 100%;">
-
-                      <table class="tableScuole">
-                        <tr>
-                          <td>
-                        <h1 class="scuole">Scuola ICAT</h1>
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                        <h5>INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE</h5>
-                      </td>
-                      </tr>
-                      </table>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <a href="../scuola/design/">
-                <div class="card h-100">
-                    <div class="listTile" style="width: 100%;">
-
-                      <table class="tableScuole">
-                        <tr>
-                          <td>
-                        <h1 class="scuole">Scuola Design</h1>
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                        <h5>DESIGN</h5>
-                      </td>
-                      </tr>
-                      </table>
-
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- /.row -->
+    <ScuoleComponent  :scuole-link="scuole"/>
 
 </div>
 <!-- /.container -->
@@ -128,3 +35,20 @@
 
     </div>
 </template>
+
+<script>
+export default {
+    data () {
+    return {
+      scuole: [
+          "../scuola/auic/",
+          "../scuola/trei/",
+          "../scuola/icat/",
+          "../scuola/design/"
+      ]
+            
+           
+    }
+  }
+}
+</script>
