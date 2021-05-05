@@ -40,12 +40,12 @@
 export default {
     data () {
     return {
-      scuole: [
-          "../scuola/auic/",
-          "../scuola/trei/",
-          "../scuola/icat/",
-          "../scuola/design/"
-      ]
+      scuole: {
+          auic:"../scuola/auic/",
+          trei:"../scuola/trei/",
+          icat:"../scuola/icat/",
+          design:"../scuola/design/"
+      }
             
            
     }

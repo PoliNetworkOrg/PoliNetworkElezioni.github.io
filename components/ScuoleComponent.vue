@@ -103,7 +103,7 @@
 export default {
     props: {
         scuoleLink:{
-            type:Object,
+            type:Array,
             default : null
         }
     }

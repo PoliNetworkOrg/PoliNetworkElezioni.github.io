@@ -20,7 +20,7 @@
 					<a class="nav-link" href="/scuole/">Scuole</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/ccs/">CCS</a>
+					<a class="nav-link" href="/ccsScuole/">CCS</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/contatti/">Contatti</a>

@@ -38,12 +38,12 @@
 export default {
     data () {
     return {
-      scuole: [
-          "../ccs/auic/",
-          "../ccs/trei/",
-          "../ccs/icat/",
-          "../ccs/design/"
-      ]
+      scuole: {
+          auic:"../ccs/auic/",
+          trei:"../ccs/trei/",
+          icat:"../ccs/icat/",
+          design:"../ccs/design/"
+      }
     }
   }
 }
