@@ -75,15 +75,25 @@
     </div><!-- members -->
 
 <HorizontalLine  />
-
-	   <div class="section members" style="background-color:white">
+    <div class="section members">
         <div class="container">
             <h2>CDA</h2>
             <hr>
             <p class="lead-creative-banner">
                 {{dataLista.cda.desc}}
             </p>
-            <div id="includedContentCda"></div>
+             <div id="includedContentSenato" style="display:flex;flex-wrap: wrap;">
+
+                 <Frame 
+                 class-param="col-md-3 col-md-2"
+                 v-for="candcda in dataLista.cda.candidati"
+                 :key="candcda.id"
+                 style-param="display:flex;"
+                 >
+                     <Candidato :cand="candcda" url-lista="" />
+                 </Frame>
+
+             </div>
         </div>
     </div><!-- members -->
 

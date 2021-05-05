@@ -45,7 +45,13 @@ export default {
                 ]
             },
             cda:{
-                desc: "La nostra idea di cda ecc..."
+                desc: "La nostra idea di cda ecc...",
+                candidati:[
+                    {id:1, imgUrl: "/img/candidati/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
+                    {id:2, imgUrl: "/img/candidati/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},
+                    {id:3, imgUrl: "/img/candidati/giacomo_schiavone.jpg", name: "Schiavone Giacomo", detto: "GIACK"},
+                    {id:4, imgUrl: "/img/candidati/lorenzo_dionigi.jpg", name: "Dionigi Lorenzo", detto: ""}
+                ]
             },
             scuole:{
                 desc: "La nostra idea di scuola ecc...",
