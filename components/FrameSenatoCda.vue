@@ -2,7 +2,7 @@
 
     <div>
         <div style="width:100%;">
-            <h2>{{name}}</h2>
+            <h2>{{item.name}}</h2>
         </div>
         <div style="padding-bottom:calc(0.3rem + 5px);">
             <span style="font-size:calc(1px + 1rem);color:black;">
@@ -22,6 +22,10 @@
                 </div>
             </Frame>
         </div>
+
+        <div style="padding:10px;">
+            &nbsp;
+        </div>
     </div>
 </template>
 
@@ -30,10 +34,6 @@ export default {
     props: {
         item:{
             type:Object,
-            default : null
-        },
-        name:{
-            type:String,
             default : null
         }
     }

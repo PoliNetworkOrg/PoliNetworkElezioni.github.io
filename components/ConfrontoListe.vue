@@ -13,21 +13,27 @@
                         <h2>Elezioni rappresentanti degli studenti</h2>
                         <br/>
                         <h4>Senato</h4>
-                        <p class="lead"><blockquote>
-                        IL SENATO INDIRIZZA E PROGRAMMA LO
-                        SVILUPPO DELL’ATENEO, CON
-                        PARTICOLARE RIGUARDO ALLA
-                        DIDATTICA E ALLA RICERCA, E VIGILA
-                        SUL FUNZIONAMENTO COMPLESSIVO
-                        DELL'ISTITUZIONE.</blockquote></p>
+                        <p class="lead">
+                            <blockquote>
+                                IL SENATO INDIRIZZA E PROGRAMMA LO
+                                SVILUPPO DELL’ATENEO, CON
+                                PARTICOLARE RIGUARDO ALLA
+                                DIDATTICA E ALLA RICERCA, E VIGILA
+                                SUL FUNZIONAMENTO COMPLESSIVO
+                                DELL'ISTITUZIONE.
+                            </blockquote>
+                        </p>
 
                         <h4 style="padding-top:5px;">Consiglio di Amministrazione</h4>
-                        <p class="lead"><blockquote>
-                        IL CONSIGLIO DI AMMINISTRAZIONE
-                        DEFINISCE LA PROGRAMMAZIONE
-                        ECONOMICA DI LUNGO PERIODO
-                        SULLA BASE DELLE PROPOSTE
-                        E DEI PARERI DEL SENATO ACCADEMICO.</blockquote></p>
+                        <p class="lead">
+                            <blockquote>
+                                IL CONSIGLIO DI AMMINISTRAZIONE
+                                DEFINISCE LA PROGRAMMAZIONE
+                                ECONOMICA DI LUNGO PERIODO
+                                SULLA BASE DELLE PROPOSTE
+                                E DEI PARERI DEL SENATO ACCADEMICO.
+                            </blockquote>
+                        </p>
 
                     </div>
                 </div>
@@ -51,11 +57,12 @@
                                 </div>
                                 <div style="padding-top:10px;">
                                     <div class="candidateTable" style="list-style:none;padding-left:0px;">
-                                        <FrameSenatoCda :item="item.senato" name="Senato"/>
-                                        <div style="padding:10px;">
-                                            &nbsp;
-                                        </div>
-                                        <FrameSenatoCda :item="item.cda" name="CDA"/>
+                                        <Frame
+                                        v-for="item2 in item.organi"
+                                        :key="item2.name"
+                                        >
+                                            <FrameSenatoCda :item="item2"/>
+                                        </Frame>
                                     </div>
                                 </div>
                             </div>
