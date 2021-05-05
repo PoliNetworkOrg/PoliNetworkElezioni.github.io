@@ -51,29 +51,9 @@
                                 </div>
                                 <div style="padding-top:10px;">
                                     <div class="candidateTable" style="list-style:none;padding-left:0px;">
-                                        <div>
-                                            <div style="width:100%;">
-                                                <h2>Senato</h2>
-                                            </div>
-                                            
-                                            <div style="display:flex;flex-wrap:wrap;">
-                                                <Frame 
-                                                    v-for="candsenato in item.senato.candidati"
-                                                    :key = "candsenato.id"
-                                                    class-param="col-md-6"
-                                                    style-param="margin:auto;"
-                                                >
-                                                    <div>
-                                                        <Candidato :cand="candsenato" :url-lista="item.linkLista" />
-                                                    </div>
-                                                </Frame>
-                                            </div>
-                                        </div>
+                                        <FrameSenatoCda :item="item.senato" name="Senato"/>
                                         <br />
-                                        <div>
-                                            <h2>CdA</h2>
-                                            <div id="cda"></div>
-                                        </div>
+                                        <FrameSenatoCda :item="item.cda" name="CDA"/>
                                     </div>
                                 </div>
                             </div>
@@ -121,6 +101,15 @@ export default {
                         {id: 6, imgUrl: "/img/candidati/lorenzo_macovei.jpg", name: "Macovei Lorenzo", detto: "MACOSSS"},
                         {id: 7, imgUrl: "/img/candidati/elena_zannotti.jpg", name: "Zannotti Elena", detto: "ELLE"},
                         {id: 8, imgUrl: "/img/candidati/klaudio_luku.jpg", name: "Luku Klaudio", detto: "KLAUDIO CON LA K"}
+                    ]
+                },
+                cda:{
+                    desc: "La nostra idea di cda ecc...",
+                    candidati:[
+                        {id:1, imgUrl: "/img/candidati/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
+                        {id:2, imgUrl: "/img/candidati/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},
+                        {id:3, imgUrl: "/img/candidati/giacomo_schiavone.jpg", name: "Schiavone Giacomo", detto: "GIACK"},
+                        {id:4, imgUrl: "/img/candidati/lorenzo_dionigi.jpg", name: "Dionigi Lorenzo", detto: ""}
                     ]
                 }
             }
