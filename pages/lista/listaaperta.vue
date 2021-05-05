@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ListaDettaglio :data-lista="liste" />
+        <ListaDettaglio :data-lista="items" />
     </div>
 </template>
 
@@ -63,7 +63,7 @@ export default {
 						{id:3, imgUrl: "/img/candidati/sara_galli.jpg", name: "Galli Sara", detto: "SARA"},
 						{id:4, imgUrl: "/img/candidati/issa_tallawi.jpg", name: "Tallawi Issa", detto: "ISSA"},
 						{id:5, imgUrl: "/img/candidati/veronica_cantale.jpg", name: "Cantale Maria Veronica", detto: ""},
-						{id:6, imgUrl: "/img/candidati/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"}
+						{id:6, imgUrl: "/img/candidati/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"},
                         {id:7, imgUrl: "/img/candidati/elisabetta_taffa.jpg", name: "Taffa Elisabetta", detto: "ELI"},
                         {id:8, imgUrl: "/img/candidati/marco_galbiati.jpg", name: "Galbiati Marco", detto: "CALI"},
 						{id:9, imgUrl: "/img/candidati/marta_defre.jpg", name: "De fre Marta", detto: "MARTA"},
@@ -98,7 +98,7 @@ export default {
                     desc: "La scuola icat...",
                     candidati:
                     [
-						{id:1, imgUrl: "/img/candidati/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"}
+						{id:1, imgUrl: "/img/candidati/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
 						{id:2, imgUrl: "/img/candidati/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
 						{id:3, imgUrl: "/img/candidati/pietro_perego.jpg", name: "Perego Pietro", detto: "PIE"},
 						{id:4, imgUrl: "/img/candidati/camilla_macchini.jpg", name: "Macchini Camilla", detto: "CAMI"},
