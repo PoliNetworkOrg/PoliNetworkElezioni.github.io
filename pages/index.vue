@@ -42,13 +42,13 @@
 
 					<a :href="item.link">
 						<figure class="cap-left" style="width: 100%;">
-							<div class="card h-100" :style="item.style">
+							<Frame class-param="card h-100" :style-param="item.style">
 								<div class="listTile" style="width: 100%;">
 									<div class="containerImgList">
 										<XImage :image-url="(item.image)" class-param="imageList"  />
 									</div>
 								</div>
-							</div>
+							</Frame>
 							<figcaption class="h-100">
 								<br />
 								<h2 class="titleListaFigcaption">{{item.name}}</h2>
