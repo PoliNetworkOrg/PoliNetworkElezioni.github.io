@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ccs/auic", {data:[{},{}],fetch:{},mutations:void 0});
