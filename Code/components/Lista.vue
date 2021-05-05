@@ -31,20 +31,20 @@
                 <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;">Programma elettorale</h2>
                 <hr />
                 <div class="row">
-                    <div class="col-sm-6 wow animated fadeInLeft">
+                    <Frame class="col-sm-6 wow animated fadeInLeft"
+                    v-for="item in dataLista.programma"
+                    :key="item.id"
+                     >
+                     <div>
                         <figure>
-                            <img class="z-hover img-responsive" src="images/pc1.jpg" alt="Macbook">
+                            <img class="z-hover img-responsive" :src="item.url">
                         </figure>
-                        <h4>1. Titolo 1</h4>
-                        <p class="function-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer. </p>
+                        <h4>{{item.title}}</h4>
+                        <p class="function-text">
+                            {{item.desc}}
+                             </p>
                     </div>
-                    <div class="col-sm-6 wow animated fadeInRight">
-                        <figure>
-                            <img class="z-hover img-responsive" src="images/pc2.jpg" alt="Macbook">
-                        </figure>
-                        <h4>2. Titolo 2</h4>
-                        <p class="function-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer. </p>
-                    </div>
+                    </Frame>
                 </div>
             </div>
         </div><!-- our-info -->
@@ -55,7 +55,9 @@
         <div class="container">
             <h2>Senato</h2>
             <hr>
-            <p class="lead-creative-banner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="lead-creative-banner">
+                {{dataLista.senato.desc}}
+            </p>
              <div id="includedContentSenato"></div>
         </div>
     </div><!-- members -->
@@ -66,7 +68,9 @@
         <div class="container">
             <h2>CDA</h2>
             <hr>
-            <p class="lead-creative-banner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p class="lead-creative-banner">
+                {{dataLista.cda.desc}}
+            </p>
             <div id="includedContentCda"></div>
         </div>
     </div><!-- members -->
@@ -77,12 +81,32 @@
      <div class="container">
          <h2>Scuole</h2>
          <hr>
-         <p class="lead-creative-banner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+         <p class="lead-creative-banner">{{dataLista.scuole.desc}}</p>
          <ul>
-         <li class="liScuola"><span class="titleScuole">AUIC:</span><br class="spacerScuole" /><div id="includedContentScuoleAUIC"></div></li>
-         <li class="liScuola"><span class="titleScuole">3I:</span><br  class="spacerScuole"  /><div id="includedContentScuole3I"></div></li>
-         <li class="liScuola"><span class="titleScuole">CAT:</span><br  class="spacerScuole"  /><div id="includedContentScuoleCAT"></div></li>
-         <li class="liScuola"><span class="titleScuole">DESIGN:</span><br  class="spacerScuole"  /><div id="includedContentScuoleDESIGN"></div></li>
+            <li class="liScuola">
+                <span class="titleScuole">AUIC:</span>
+                <br class="spacerScuole" />
+                {{dataLista.scuole.auic.desc}}
+                <div id="includedContentScuoleAUIC"></div>
+                </li>
+            <li class="liScuola">
+                <span class="titleScuole">3I:</span>
+                <br  class="spacerScuole"  />
+                {{dataLista.scuole.trei.desc}}
+                <div id="includedContentScuole3I"></div>
+            </li>
+            <li class="liScuola">
+                <span class="titleScuole">CAT:</span>
+                <br  class="spacerScuole"  />
+                {{dataLista.scuole.icat.desc}}
+                <div id="includedContentScuoleCAT"></div>
+            </li>
+            <li class="liScuola">
+                <span class="titleScuole">DESIGN:</span>
+                <br  class="spacerScuole"  />
+                {{dataLista.scuole.design.desc}}
+                <div id="includedContentScuoleDESIGN"></div>
+            </li>
          </ul>
      </div>
  </div><!-- members -->
@@ -112,6 +136,10 @@ export default {
         urlProgramma:{
             type:String,
             default:""
+        },
+        dataLista:{
+            type:Object,
+            default : null
         }
     }
 }
@@ -141,5 +169,12 @@ img {
 
 .descrizioneLista {
 	font-size: calc(15px + 0.17vw + 0.08rem);
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	display: block;
+	width: 100% \9;
+	max-width: 90%;
+	height: auto;
 }
 </style>
