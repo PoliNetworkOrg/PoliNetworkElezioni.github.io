@@ -58,6 +58,38 @@ export default {
                         ]
                     }
                 ]
+            },
+            {      
+                id: 2, 
+                name: "Lista aperta",
+                imageUrlHorizontal: "/img/logo-listaaperta_hor.png",
+                linkLista: "/lista/listaaperta/",
+                organi:[                
+                    {
+                        name: "Senato",
+                        desc: "La nostra idea di senato ecc...",
+                        candidati:[
+                            {id: 1, imgUrl: "/img/candidati/listaaperta/marta_ghidoli.jpg", name: "Ghidoli Marta", detto: "MARTA"},
+                            {id: 2, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
+                            {id: 3, imgUrl: "/img/candidati/listaaperta/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
+                            {id: 4, imgUrl: "/img/candidati/listaaperta/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
+                            {id: 5, imgUrl: "/img/candidati/listaaperta/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
+                            {id: 6, imgUrl: "/img/candidati/listaaperta/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
+                            {id: 7, imgUrl: "/img/candidati/listaaperta/alessandro_maestri.jpg", name: "Maestri Alessandro", detto: "BOBBI"},
+                            {id: 8, imgUrl: "/img/candidati/listaaperta/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"}
+                        ]
+                    },
+                    {
+                        name: "Cda",
+                        desc: "La nostra idea di cda ecc...",
+                        candidati:[
+                            {id:1, imgUrl: "/img/candidati/listaaperta/daniele_radaelli.jpg", name: "Radaelli Daniele", detto: "REDA"},
+                            {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
+                            {id:3, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
+                            {id:4, imgUrl: "/img/candidati/listaaperta/sofia_boni.jpg", name: "Boni Sofia", detto: "SOFI"}
+                        ]
+                    }
+                ]
             }
         ]    
     }
