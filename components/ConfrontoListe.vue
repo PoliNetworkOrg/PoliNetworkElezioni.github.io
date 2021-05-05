@@ -30,11 +30,12 @@
             </header>
 
             <!-- Page Features -->
-            <div class="row text-center" id="listeContainer">
+            <div class="row text-center" id="listeContainer" style="display:flex;flex-wrap:wrap;">
 
-                <Frame class-param="col-lg-3 col-md-6 mb-4"
+                <Frame class-param="col-md-3"
                     v-for="item in liste"
                     :key="item.id"
+                    style-param="width:100%;"
                 >
                 <a :href="item.linkLista">
                     <div class="card">
