@@ -9,18 +9,18 @@
 
   	<div class="intro white" style="text-align: center;">
           <div style="width:100%;">
-		<img :src="imageUrl" style="width:calc(15px + 4vw + 5rem); padding:10px;text-align:center;">
+		<img :src="dataLista.imageUrl" style="width:calc(15px + 4vw + 5rem); padding:10px;text-align:center;">
           </div>
   		<div class="container wow animated fadeInUp">
-	  		<h2 style="color:black; font-size:calc(10px + 3vw + 0.5rem); ">{{this.nameP}}</h2>
+	  		<h2 style="color:black; font-size:calc(10px + 3vw + 0.5rem); ">{{this.dataLista.name}}</h2>
 
-		<a :href=this.urlOfficial><Button>Sito ufficiale 🌐</Button></a>
+		<a :href=this.dataLista.mainWebsiteUrl><Button>Sito ufficiale 🌐</Button></a>
 	
-		<a :href="urlProgramma">
+		<a :href="this.dataLista.mainProgrammaUrl">
             <Button>Programma elettorale - PDF Completo 🗳</Button>
         </a>
 		
-	  		<p id="office-place" class="office-place descrizioneLista">{{this.descrizioneListaParam}}</p>
+	  		<p id="office-place" class="office-place descrizioneLista">{{this.dataLista.desc}}</p>
   		</div><!-- /.container -->
   	</div><!-- /.intro -->
 
@@ -59,10 +59,10 @@
             <p class="lead-creative-banner">
                 {{dataLista.senato.desc}}
             </p>
-             <div id="includedContentSenato" style="display:flex;">
+             <div id="includedContentSenato" style="display:flex;flex-wrap: wrap;">
 
                  <Frame 
-                 class-param="col-md-3"
+                 class-param="col-md-3 col-md-2"
                  v-for="candsenato in dataLista.senato.candidati"
                  :key="candsenato.id"
                  style-param="display:flex;"
@@ -80,7 +80,14 @@
                                  />
                             </figure>
                             <div class="imgcaption" style="text-align:center;">
-                                <strong class="nameCandidato">CESARO MARCO <span class="name">"SOMMELIER"</span></strong>
+                                <strong class="nameCandidato">
+                                    <span>{{candsenato.name}} &nbsp;</span>
+                                    <br />
+                                    <span class="name">
+                                        {{candsenato.detto}}
+                                    </span>
+                                    
+                                </strong>
                             </div>
                         </div>
                     </a>
@@ -145,26 +152,6 @@
 <script>
 export default {
     props: {
-        nameP: {
-        type: String,
-        default: ""
-        },
-        urlOfficial:{
-            type:String,
-            default: ""
-        },
-        descrizioneListaParam:{
-            type:String,
-            default: ""
-        },
-        imageUrl:{
-            type:String,
-            default:""
-        },
-        urlProgramma:{
-            type:String,
-            default:""
-        },
         dataLista:{
             type:Object,
             default : null
@@ -204,6 +191,18 @@ img {
 	width: 100% \9;
 	max-width: 90%;
 	height: auto;
-    margin:auto;
+    margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 0px;
+}
+
+.imgcaption{
+    margin-bottom: calc(1.3rem + 3px);
+}
+
+figure{
+       margin-left:auto;
+        margin-right:auto;
+        margin-bottom: calc(0.2rem);
 }
 </style>
