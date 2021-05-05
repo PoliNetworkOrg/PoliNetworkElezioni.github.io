@@ -55,7 +55,7 @@ export default {
                 organi:[                
                     {
                         name: "3I",
-                        desc: "La nostra idea di scuola auic ecc...",
+                        desc: "La nostra idea di scuola 3I ecc...",
            	            candidati:[
                             {id:1, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
                             {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
