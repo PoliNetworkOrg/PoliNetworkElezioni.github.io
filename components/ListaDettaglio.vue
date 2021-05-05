@@ -32,9 +32,10 @@
                 <hr />
                 <div class="row">
                     <Frame 
-                    class-param="col-sm-6 wow animated fadeInLeft"
+                    class-param="col-sm-3 wow animated fadeInLeft"
                     v-for="item in dataLista.programma"
                     :key="item.id"
+                    style-param="margin:auto;"
                      >
                      <div>
                         <figure>
