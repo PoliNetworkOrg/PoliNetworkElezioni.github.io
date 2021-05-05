@@ -73,7 +73,7 @@
         <hr/>
         <a><span id="2"></span>Ingegneria dell'Automazione</a>
 		<ul>
-	</li><li> ABBENDA RICCARDO
+	<li> ABBENDA RICCARDO
 </li><li> BRANDOLINI ANDREA
 </li><li> CARBONE GAIA
 </li><li> ELGOHARY YOUSEF detto “YOUS”
@@ -81,6 +81,7 @@
 </li><li> PELLERITO ROBERTO
 </li><li> PETULICCHIO LORENZO detto “PETU”
 </li><li> SERATI ANDREA
+    </li>
 			</ul>
         <hr/>
         <a><span id="3"></span>Ingegneria Biomedica</a>
