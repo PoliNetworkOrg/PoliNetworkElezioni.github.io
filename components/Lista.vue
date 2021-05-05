@@ -67,7 +67,7 @@
                  :key="candsenato.id"
                  style-param="display:flex;"
                  >
-                     <Candidato :cand="candsenato" />
+                     <Candidato :cand="candsenato" url-lista="" />
                  </Frame>
 
              </div>

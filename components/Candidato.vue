@@ -1,6 +1,6 @@
 <template>
     <div class="candidatoCard">
-        <a href="#">
+        <a :href="urlLista">
             <div class="candidatoSV" style="text-align:center;">
                 <figure 
                     class="wow animated fadeInLeft animated"
@@ -34,6 +34,10 @@ export default {
     props: {
         cand:{
             type:Object,
+            default : null
+        },
+        urlLista:{
+            type:String,
             default : null
         }
     }
