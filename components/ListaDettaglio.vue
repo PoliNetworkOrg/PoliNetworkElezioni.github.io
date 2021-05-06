@@ -180,6 +180,8 @@
      </div>
  </div><!-- members -->
 
+<Footer />
+
 </div>
 </template>
 
