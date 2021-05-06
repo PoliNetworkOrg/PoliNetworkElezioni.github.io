@@ -7,6 +7,17 @@ body {
   padding-top: 56px;
 }
 
+.containerNavBar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .nav-item{
   display:flex;
