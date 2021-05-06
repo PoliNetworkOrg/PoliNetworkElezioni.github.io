@@ -75,6 +75,35 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 3, 
+                name: "Terna sinistrorsa",
+                imageUrlHorizontal: "/img/logo-terna_hor.png",
+                linkLista: "/lista/ternasinistrorsa/",
+                organi:[                
+                    {
+                        name: "3I",
+                        desc: "La nostra idea di scuola 3I ecc...",
+           	            candidati:
+                        [
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/pasculli_clarissa.jpg", name: "Pasculli Clarissa", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/bossi_núñezpedro.jpg", name: "Bossi Núñezpedro", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/ternasinistrorsa/drole_luca.jpg", name: "Drole Luca", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/sperandio_alberto.jpg", name: "Sperandio Alberto", detto: ""},
+                            {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/luzzini_davide.jpg", name: "Luzzini Davide", detto: ""},
+                            {id: 6 , imgUrl: "/img/candidati/ternasinistrorsa/bindoni_diego.jpg", name: "Bindoni Diego", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/ternasinistrorsa/santillan_moreno_carlos_alberto.jpg", name: "Santillan Moreno Carlos Alberto", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/ternasinistrorsa/catalano_delia.jpg", name: "Catalano Delia", detto: ""},
+                            {id: 9 , imgUrl: "/img/candidati/ternasinistrorsa/boveri_matteo.jpg", name: "Boveri Matteo", detto: "JOHNNY SHOCK"},
+                            {id: 10 , imgUrl: "/img/candidati/ternasinistrorsa/vasconi_fabrizio.jpg", name: "Vasconi Fabrizio", detto: "VASCO"},
+                            {id: 11 , imgUrl: "/img/candidati/ternasinistrorsa/travaglini_giorgio.jpg", name: "Travaglini Giorgio", detto: ""},
+                            {id: 12 , imgUrl: "/img/candidati/ternasinistrorsa/badilini_alberto.jpg", name: "Badilini Alberto", detto: ""},
+                            {id: 13 , imgUrl: "/img/candidati/ternasinistrorsa/martinoia_giada.jpg", name: "Martinoia Giada", detto: ""},
+                            {id: 14 , imgUrl: "/img/candidati/ternasinistrorsa/barattin_lorenzo.jpg", name: "Barattin Lorenzo", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }
