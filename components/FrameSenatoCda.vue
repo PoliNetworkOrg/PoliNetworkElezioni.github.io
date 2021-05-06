@@ -5,7 +5,7 @@
             <h2>{{item.name}}</h2>
         </div>
         <div style="padding-bottom:calc(0.3rem + 5px);">
-            <span style="font-size:calc(1px + 1rem);color:black;">
+            <span style="font-size:calc(1px + 1rem);color:black;padding:calc(1px + 1vw);">
                 {{item.desc}}
             </span>
         </div>
