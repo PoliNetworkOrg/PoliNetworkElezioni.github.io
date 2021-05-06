@@ -17,6 +17,10 @@
 <div>
   <a class="linkEligo" href="https://polimi.evoting.it/plc/utentehome/organiindex">🌐 Link piattaforma di voto 'Eligo'</a>
 </div>
+<div>
+	  <a class="linkEligo" href="https://youtu.be/lX5bhxXr_fI">📽 Video istruzioni al voto</a>
+	
+	</div>
 
 <br />
         <div style="text-align:left;">
