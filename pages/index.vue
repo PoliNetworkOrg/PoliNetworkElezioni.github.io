@@ -20,20 +20,22 @@
 			📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a></div>
 		</div>
 		<div style="padding:15px;"></div>
-		<div class="lead" style="padding:calc(5px + 0.1rem);border: 1px solid #0000002b;border-radius: calc(10px + 0.2rem);">
-			<table>
+		<div class="lead"
+		 style="padding:calc(5px + 0.1rem);border: 1px solid #0000002b;border-radius: calc(10px + 0.2rem);max-width:calc(9rem + 9vw + 150px);text-align:center;margin:auto;"
+		 >
+			<table style="width:100%;margin:auto;">
 				<tr>
 					<td style="padding-right:0.5rem;">
 						🗓
 						</td>
 						<td>
-							<table style="text-align:center;">
+							<table style="text-align:center;width:100%;">
 								<tr>
 		<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-lunedì 24/05/2021
+Lunedì 24/05/2021
 										</td>
 									<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-											giovedì 27/05/2021
+											Giovedì 27/05/2021
 											</td>
 								</tr>
 														<tr>
