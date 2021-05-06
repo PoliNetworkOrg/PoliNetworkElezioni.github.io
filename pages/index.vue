@@ -9,19 +9,56 @@
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 testoCentrale">
 		<div style="text-align:center;">
-      <h2>Elezioni rappresentanti degli studenti</h2>
-	  <h4><a href="https://polimi.it/elezioni-studenti">Politecnico di Milano</a></h4>
-	  <br />
+      <h2 style="font-size:calc(2px + 1.15rem + 0.65vw);">Elezioni rappresentanti degli studenti</h2>
+	  <h4 style="font-size:calc(2px + 1.05rem + 0.55vw);">
+		  <a href="https://polimi.it/elezioni-studenti">Politecnico di Milano</a>
+	  </h4>
+	  <div></div>
 	  <h5 style="text-align:left;padding-left:calc(4vw + 1rem);padding-right: calc(4vw + 1rem);">
-	  <ul style="    padding-left: 0px !important;">
-		<li>🗓 lunedì 24 maggio 2021 ore 09.00 - giovedì 27 maggio 2021 ore 23.59</li>
-		<li>📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a></li>
-		</ul>
+	  <div style="    padding-left: 0px !important;font-size:calc(1px + 0.9rem + 0.3vw);list-style:none;">
+		  <div class="lead" style="padding:5px;font-size:calc(1px + 0.79rem + 0.27vw);text-align:center;" >
+			📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a></div>
+		</div>
+		<div style="padding:15px;"></div>
+		<div class="lead" style="padding:calc(5px + 0.1rem);border: 1px solid #0000002b;border-radius: calc(10px + 0.2rem);">
+			<table>
+				<tr>
+					<td style="padding-right:0.5rem;">
+						🗓
+						</td>
+						<td>
+							<table style="text-align:center;">
+								<tr>
+		<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
+lunedì 24/05/2021
+										</td>
+									<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
+											giovedì 27/05/2021
+											</td>
+								</tr>
+														<tr>
+						<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
+ore 09.00
+										</td>
+						<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
+									ore 23.59
+											</td>
+								</tr>
+								
+								</table>
+							</td>
+					</tr>
+			 
+			</table>
+		</div>
+		
 	</h5>
 
 	  <br />
 
-      <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);">In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di maggio 2021 🗳</p>
+      <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);">
+		  In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di maggio 2021 🗳
+		  </p>
 	    </div>
 
 
@@ -80,8 +117,9 @@
 	<br />
 	<h3>🗣 Dibattito 28 ottobre 2020</h3>
 
-
+		<span class="lead" >
 		In attesa del nuovo dibattito che organizzeremo fra liste (previsto il 13,14,15 maggio) potete guardare quello svoltosi ad ottobre 2020
+		</span>
 	</div>
 	<br />
 	<div style="width:100%;text-align:center;">
