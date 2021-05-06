@@ -108,7 +108,7 @@ export default {
                             {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/alice_bancale.png", name: "Bancale Alice", detto: ""},
                             {id: 6 , imgUrl: "/img/candidati/ternasinistrorsa/nunez_pedro_bossi.png", name: "Bossi Núñez Pedro", detto: ""},
                             {id: 7 , imgUrl: "/img/candidati/ternasinistrorsa/delia_catalano.png", name: "Catalano Delia", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/ternasinistrorsa/matteo_boveri.png", name: "Boverimatteo", detto: "JOHNNY SHOCK"}
+                            {id: 8 , imgUrl: "/img/candidati/ternasinistrorsa/matteo_boveri.png", name: "Boveri Matteo", detto: "JOHNNY SHOCK"}
                         ]
                     },
                     {
