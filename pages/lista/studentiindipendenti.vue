@@ -32,7 +32,7 @@ export default {
                 ],
             senato:
             {
-                desc: "Per noi in senato è importante discutere di decisioni politche aprendo davvero alla possibilità di portare i temi dell3 student3 senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tutt3",
+                desc: "Per noi in senato è importante discutere di decisioni politche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз",
                 candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff.jpg", name: "Wolff Jonathan", detto: "JONNY"},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.jpg", name: "Iodice Andrea", detto: ""},
@@ -56,7 +56,7 @@ export default {
             scuole:{
                 desc: "Nelle scuole vogliamo un coordinamento maggiore tra ccs per uniformare le esperienze così che la qualità delle esperienze formative non dipenda dal cognome. Crediamo che si possano valorizzare le modalità di gestione virtuose dei corsi e che vada tutelata al meglio la possibilità degli studenti di costruire una carriera personalizzata relativamente al percorso formativo e che ci sia pari trattamento su tutte le questioni legate ad un corso di laurea.",
                 auic:{
-                    desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tutt3 la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
+                    desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tuttз la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/tommasopaolo_bertolini.jpg", name: "Bertolini Tommasopaolo", detto: "TOMMI"},
@@ -95,7 +95,7 @@ export default {
                     ]
                 },
                 icat:{
-                    desc: "A ICAT crediamo che i parziali debbano essere una libera scelta che non precluda il numero di appelli di una sessione. Crediamo che sia necessario aumentare il numero di laboratori che siano anche specifici ai 2 corsi di studio che compongono la scuola. La valutazione degli esami deve avere delle tempistiche certe dato che troppo spesso succede siano a discrezione del docente mettendo in difficoltà scaglioni di studenti. Crediamo sia necessario implementare delle modalità didattiche più interattive che stimolino la comprensione e la partecipazione dell3 studenti.",
+                    desc: "A ICAT crediamo che i parziali debbano essere una libera scelta che non precluda il numero di appelli di una sessione. Crediamo che sia necessario aumentare il numero di laboratori che siano anche specifici ai 2 corsi di studio che compongono la scuola. La valutazione degli esami deve avere delle tempistiche certe dato che troppo spesso succede siano a discrezione del docente mettendo in difficoltà scaglioni di studenti. Crediamo sia necessario implementare delle modalità didattiche più interattive che stimolino la comprensione e la partecipazione dellз studentз.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/matteo_chiavegato.jpg", name: "Chiavegato Matteo", detto: ""},
@@ -106,7 +106,7 @@ export default {
                     ]
                 },
                 design:{
-                    desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per l3 studenti di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
+                    desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per lз studentз di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.jpg", name: "Ippolito Ilenia", detto: ""},
