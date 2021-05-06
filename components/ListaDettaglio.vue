@@ -57,7 +57,7 @@
 
     <div class="section members">
         <div class="container">
-            <h2 >Senato</h2>
+            <h2 >Senato 💬</h2>
             <hr>
             <p class="lead-creative-banner">
                 {{dataLista.senato.desc}}
@@ -80,7 +80,7 @@
 <HorizontalLine  />
     <div class="section members">
         <div class="container">
-            <h2>CDA</h2>
+            <h2>CDA 💶</h2>
             <hr>
             <p class="lead-creative-banner">
                 {{dataLista.cda.desc}}
