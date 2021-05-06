@@ -44,6 +44,14 @@
     width: 100%;
 }
 
+.container5{
+    margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+    width: 100%;
+}
+
 .nav-item{
     padding-right: 50px;
     padding-left: 50px;

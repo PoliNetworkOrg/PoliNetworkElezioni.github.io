@@ -75,8 +75,8 @@
 
 <hr />
 
-	<div>
-	<div  style="width:100%;text-align:center;display:block;">
+	<div class="container5">
+	<div  style="width:100%;text-align:center;display:block;" class="container2">
 	<br />
 	<h3>🗣 Dibattito 28 ottobre 2020</h3>
 
