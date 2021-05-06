@@ -12,7 +12,7 @@
       <h2>Elezioni rappresentanti degli studenti</h2>
 	  <h4><a href="https://polimi.it/elezioni-studenti">Politecnico di Milano</a></h4>
 	  <br />
-	  <h5 style="text-align:left;padding-left:calc(4vw + 1rem);">
+	  <h5 style="text-align:left;padding-left:calc(4vw + 1rem);padding-right: calc(4vw + 1rem);">
 	  <ul style="    padding-left: 0px !important;">
 		<li>🗓 lunedì 24 maggio 2021 ore 09.00 - giovedì 27 maggio 2021 ore 23.59</li>
 		<li>📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a></li>
