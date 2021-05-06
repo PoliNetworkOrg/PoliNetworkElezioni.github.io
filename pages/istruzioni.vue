@@ -7,7 +7,7 @@
 <div class="container">
 
     <!-- Jumbotron Header -->
-    <header class=" my-4 testoCentrale">
+    <header class=" my-4 ">
 		<div style="text-align:center;">
 			<span class="contattiTitle">Istruzioni di voto</span>
 			<br />
