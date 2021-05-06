@@ -28,7 +28,7 @@
 
         <div class="section" id="our-info">
             <div class="container" style="max-width: 100%;margin:auto; width:100%;">
-                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;padding-left:calc(0.3vw + 0.3rem);">Programma elettorale</h2> 
+                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container">Programma elettorale</h2> 
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">{{dataLista.programmaSottotitolo}}</h3>
                 <div style="padding:5px;"></div>
@@ -57,7 +57,7 @@
 
     <div class="section members">
         <div class="container">
-            <h2>Senato</h2>
+            <h2 >Senato</h2>
             <hr>
             <p class="lead-creative-banner">
                 {{dataLista.senato.desc}}
