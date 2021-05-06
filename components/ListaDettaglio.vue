@@ -105,62 +105,70 @@
          <h2>Scuole</h2>
          <hr>
          <p class="lead-creative-banner">{{dataLista.scuole.desc}}</p>
-         <ul>
+         <ul style="list-style:none;">
             <li class="liScuola">
-                <span class="titleScuole">AUIC:</span>
-                <br class="spacerScuole" />
-                {{dataLista.scuole.auic.desc}}
+                <span class="titleScuole">AUIC</span>
+                <div  class="spacerScuole"  ></div>
+                <div class="descrizioneScuola">
+                     {{dataLista.scuole.auic.desc}}
+                </div>
                 <div id="includedContentScuoleAUIC"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
                     v-for="candcda in dataLista.scuole.auic.candidati"
                     :key="candcda.id"
-                    style-param="display:flex;"
+                    style-param="display:flex;margin: auto;"
                     >
                         <Candidato :cand="candcda" url-lista="" />
                     </Frame>
                 </div>
                 </li>
             <li class="liScuola">
-                <span class="titleScuole">3I:</span>
-                <br  class="spacerScuole"  />
+                <span class="titleScuole">3I</span>
+                <div  class="spacerScuole"  ></div>
+                <div class="descrizioneScuola">
                 {{dataLista.scuole.trei.desc}}
+                      </div>
                 <div id="includedContentScuole3I"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
                     v-for="candcda in dataLista.scuole.trei.candidati"
                     :key="candcda.id"
-                    style-param="display:flex;"
+                    style-param="display:flex;margin: auto;"
                     >
                         <Candidato :cand="candcda" url-lista="" />
                     </Frame>
                 </div>
             </li>
             <li class="liScuola">
-                <span class="titleScuole">ICAT:</span>
-                <br  class="spacerScuole"  />
+                <span class="titleScuole">ICAT</span>
+                <div  class="spacerScuole"  ></div>
+                        <div class="descrizioneScuola">
                 {{dataLista.scuole.icat.desc}}
+                     </div>
                 <div id="includedContentScuoleICAT"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
                     v-for="candcda in dataLista.scuole.icat.candidati"
                     :key="candcda.id"
-                    style-param="display:flex;"
+                    style-param="display:flex;margin: auto;"
                     >
                         <Candidato :cand="candcda" url-lista="" />
                     </Frame>
                 </div>
             </li>
             <li class="liScuola">
-                <span class="titleScuole">DESIGN:</span>
-                <br  class="spacerScuole"  />
+                <span class="titleScuole">DESIGN</span>
+                <div  class="spacerScuole"  ></div>
+                             <div class="descrizioneScuola">
                 {{dataLista.scuole.design.desc}}
+                         </div>
                 <div id="includedContentScuoleDESIGN"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
                     v-for="candcda in dataLista.scuole.design.candidati"
                     :key="candcda.id"
-                    style-param="display:flex;"
+                    style-param="display:flex;margin: auto;"
                     >
                         <Candidato :cand="candcda" url-lista="" />
                     </Frame>
