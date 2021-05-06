@@ -35,7 +35,7 @@
                 <Frame class-param="col-md-3"
                     v-for="item in liste"
                     :key="item.id"
-                    style-param="width:100%;"
+                    style-param="max-width: 100%;flex: 1 4 25%;min-width:calc(150px + 9rem + 3vw)"
                 >
                 <a :href="item.linkLista">
                     <div class="card">
