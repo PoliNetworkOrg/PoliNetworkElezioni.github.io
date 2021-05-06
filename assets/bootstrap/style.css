@@ -37,6 +37,12 @@
     max-width: calc(720px + 26vw + 9rem);
 }
 
+.container4{
+    margin-right: auto;
+	margin-left: auto;
+    max-width: calc(720px + 26vw + 9rem);
+    width: 100%;
+}
 
 .nav-item{
     padding-right: 50px;

@@ -32,9 +32,11 @@
                     Programma elettorale 📝
                 </h2> 
                 <hr />
-                <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">{{dataLista.programmaSottotitolo}}</h3>
+                <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">
+                    {{dataLista.programmaSottotitolo}}
+                </h3>
                 <div style="padding:5px;"></div>
-                <div class="row" style="margin:calc(1px + 0.01rem + 0.1vw);">
+                <div class="row container4">
                     <Frame 
                     class-param="col-sm-3 wow animated fadeInLeft"
                     v-for="item in dataLista.programma"
