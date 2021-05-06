@@ -110,25 +110,61 @@
                 <span class="titleScuole">AUIC:</span>
                 <br class="spacerScuole" />
                 {{dataLista.scuole.auic.desc}}
-                <div id="includedContentScuoleAUIC"></div>
+                <div id="includedContentScuoleAUIC"  style="display:flex;flex-wrap: wrap;">
+                    <Frame 
+                    class-param="col-md-3 col-md-2"
+                    v-for="candcda in dataLista.scuole.auic.candidati"
+                    :key="candcda.id"
+                    style-param="display:flex;"
+                    >
+                        <Candidato :cand="candcda" url-lista="" />
+                    </Frame>
+                </div>
                 </li>
             <li class="liScuola">
                 <span class="titleScuole">3I:</span>
                 <br  class="spacerScuole"  />
                 {{dataLista.scuole.trei.desc}}
-                <div id="includedContentScuole3I"></div>
+                <div id="includedContentScuole3I"  style="display:flex;flex-wrap: wrap;">
+                    <Frame 
+                    class-param="col-md-3 col-md-2"
+                    v-for="candcda in dataLista.scuole.trei.candidati"
+                    :key="candcda.id"
+                    style-param="display:flex;"
+                    >
+                        <Candidato :cand="candcda" url-lista="" />
+                    </Frame>
+                </div>
             </li>
             <li class="liScuola">
-                <span class="titleScuole">CAT:</span>
+                <span class="titleScuole">ICAT:</span>
                 <br  class="spacerScuole"  />
                 {{dataLista.scuole.icat.desc}}
-                <div id="includedContentScuoleCAT"></div>
+                <div id="includedContentScuoleICAT"  style="display:flex;flex-wrap: wrap;">
+                    <Frame 
+                    class-param="col-md-3 col-md-2"
+                    v-for="candcda in dataLista.scuole.icat.candidati"
+                    :key="candcda.id"
+                    style-param="display:flex;"
+                    >
+                        <Candidato :cand="candcda" url-lista="" />
+                    </Frame>
+                </div>
             </li>
             <li class="liScuola">
                 <span class="titleScuole">DESIGN:</span>
                 <br  class="spacerScuole"  />
                 {{dataLista.scuole.design.desc}}
-                <div id="includedContentScuoleDESIGN"></div>
+                <div id="includedContentScuoleDESIGN"  style="display:flex;flex-wrap: wrap;">
+                    <Frame 
+                    class-param="col-md-3 col-md-2"
+                    v-for="candcda in dataLista.scuole.design.candidati"
+                    :key="candcda.id"
+                    style-param="display:flex;"
+                    >
+                        <Candidato :cand="candcda" url-lista="" />
+                    </Frame>
+                </div>
             </li>
          </ul>
      </div>
