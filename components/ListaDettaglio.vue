@@ -27,12 +27,12 @@
 
 
         <div class="section" id="our-info">
-            <div class="container" style="max-width: 100%;">
-                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;">Programma elettorale</h2> 
+            <div class="container" style="max-width: 100%;margin:auto; width:100%;">
+                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;padding-left:calc(0.3vw + 0.3rem);">Programma elettorale</h2> 
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">{{dataLista.programmaSottotitolo}}</h3>
                 <div style="padding:5px;"></div>
-                <div class="row">
+                <div class="row" style="margin:calc(1px + 0.01rem + 0.1vw);">
                     <Frame 
                     class-param="col-sm-3 wow animated fadeInLeft"
                     v-for="item in dataLista.programma"
@@ -41,10 +41,10 @@
                      >
                      <div style="border:1px solid #0000003c;padding: calc(3px + 0.5rem);margin: 0px; border-radius:calc(10px + 1rem);width: 100%;">
                         <figure>
-                            <img class="z-hover img-responsive" :src="item.url" style="max-width: calc(100px + 2rem + 2vw + 2vh);width: 100%;">
+                            <img class="z-hover img-responsive" :src="item.url" style="max-width: calc(100px + 2rem + 2vw + 2vh);width: 100%;padding:2px;">
                         </figure>
-                        <h4 style="padding-top:3px;">{{item.title}}</h4>
-                        <p class="function-text">
+                        <h4 style="padding-top:3px;text-align:center;">{{item.title}}</h4>
+                        <p class="function-text" style="text-align:left;padding:calc(0.5vw); margin-bottom:0.2rem;">
                             {{item.desc}}
                              </p>
                     </div>
