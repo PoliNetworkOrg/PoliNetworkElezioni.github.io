@@ -114,10 +114,8 @@ export default {
     }
   },
   mounted(){
-	  document.addEventListener("DOMContentLoaded",
-	   function()
-	   {   
-			for (var j=0; j < 5; j++)
+	   window.addEventListener("DOMContentLoaded", event => {
+      	 for (var j=0; j < 5; j++)
 			{
 				var ul =  document.getElementById("listeContainer");
 				if (ul != null)
@@ -127,9 +125,8 @@ export default {
 					}
 				}
 			}
-			
-		}
-	)
+    	});
+
   }
 }
 </script>
