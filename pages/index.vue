@@ -7,7 +7,7 @@
   <div class="container3">
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4 testoCentrale">
+    <header class="jumbotron my-4 testoCentrale" style="max-width: 100%;border:none;">
 		<div style="text-align:center;">
       <h2 style="font-size:calc(2px + 1.15rem + 0.65vw);">Elezioni rappresentanti degli studenti</h2>
 	  <h4 style="font-size:calc(2px + 1.05rem + 0.55vw);">
@@ -58,9 +58,14 @@ ore 09.00
 
 	  <br />
 
+<div class="container6">
+
       <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);">
+
 		  In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di maggio 2021 🗳
 		  </p>
+		  </div>
+
 	    </div>
 
 

@@ -52,6 +52,16 @@
     width: 100%;
 }
 
+.container6{
+    margin-right: auto;
+	margin-left: auto;
+	padding-right: calc(1px + 0.1vw + 0.02rem);
+	padding-left: calc(1px + 0.1vw + 0.02rem);
+    width: 100%;
+    max-width: calc(720px + 7vw + 6rem);
+}
+
+
 .nav-item{
     padding-right: 50px;
     padding-left: 50px;
