@@ -20,45 +20,13 @@
 			📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a></div>
 		</div>
 		<div style="padding:15px;"></div>
-		<div class="lead"
-		 style="padding:calc(5px + 0.1rem);border: 1px solid #0000002b;border-radius: calc(10px + 0.2rem);max-width:calc(9rem + 9vw + 150px);text-align:center;margin:auto;"
-		 >
-			<table style="width:100%;margin:auto;">
-				<tr>
-					<td style="padding-right:0.5rem;">
-						🗓
-						</td>
-						<td>
-							<table style="text-align:center;width:100%;">
-								<tr>
-		<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-Lunedì 24/05/2021
-										</td>
-									<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-											Giovedì 27/05/2021
-											</td>
-								</tr>
-														<tr>
-						<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-ore 09.00
-										</td>
-						<td style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-									ore 23.59
-											</td>
-								</tr>
-								
-								</table>
-							</td>
-					</tr>
-			 
-			</table>
-		</div>
+		<Calendario />
 		
 	</h5>
 
 	  <br />
 
-<div class="container6">
+	<div class="container6">
 
       <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);">
 
@@ -166,17 +134,25 @@ export default {
     },
     methods: {
         test(){
-            for (var j=0; j < 5; j++)
+			
+            for (var j=0; j < 1; j++)
            {
                 var ul =  document.getElementById("listeContainer");
                 if (ul != null)
                 {
                     for (var i = ul.children.length; i >= 0; i--) {
-                        ul.appendChild(ul.children[Math.random() * i | 0]);
+						var j = Math.random() * i | 0;
+						var ul2 = ul.children[j];
+						if (ul2 !=null)
+						{
+                           ul.appendChild(ul2);
+						   console.log(ul2);
+						}
                     }
 					ul.style.opacity = '1';
                 }
             }
+			
         }
     }
 }
