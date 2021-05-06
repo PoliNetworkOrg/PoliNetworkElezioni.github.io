@@ -108,9 +108,8 @@ export default {
                         name: "Cda",
                         desc: "La nostra idea di cda ecc...",
                         candidati:[
-                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""}
-                        ]
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
+                       ]
                     }
                 ]
             },

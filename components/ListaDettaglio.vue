@@ -145,7 +145,7 @@
                 </div>
             </li>
             <li class="liScuola">
-                <span class="titleScuole">ICAT 🏗</span>
+                <span class="titleScuole">ICAT 🚧</span>
                 <div  class="spacerScuole"  ></div>
                         <div class="descrizioneScuola">
                 {{dataLista.scuole.icat.desc}}

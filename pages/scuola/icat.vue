@@ -73,7 +73,7 @@ export default {
            	            desc: "La scuola icat...",
                         candidati:
                         [
-                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
+                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/luca_lo_bosco.png", name: "Lo Bosco Luca", detto: ""}
                         ]
                     }
                 ]

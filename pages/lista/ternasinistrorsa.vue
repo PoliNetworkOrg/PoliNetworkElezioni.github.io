@@ -40,8 +40,7 @@ export default {
             cda:{
                 desc: "La nostra idea di cda ecc...",
                 candidati:[
-                  {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""},
-                  {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""}
+                  {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                 ]
             },
             scuole:{
@@ -65,7 +64,7 @@ export default {
                     desc: "La scuola icat...",
                     candidati:
                     [
-                      {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
+                      {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/luca_lo_bosco.png", name: "Lo Bosco Luca", detto: ""}
                     ]
                 },
                 design:{
