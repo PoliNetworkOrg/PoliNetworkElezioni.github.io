@@ -82,6 +82,29 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 4, 
+                name: "Studenti indipendenti",
+                imageUrlHorizontal: "/img/logo-sip_hor.png",
+                linkLista: "/lista/studentiindipendenti/",
+                organi:[                
+                    {
+                        name: "Design",
+                        desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per l3 studenti di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
+                        candidati:
+                        [
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.jpg", name: "Ippolito Ilenia", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/laura_giordano.jpg", name: "Giordano Laura", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/irene_la_ferla.jpg", name: "La Ferla Irene", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni.jpg", name: "Arrigoni Chiara", detto: ""},
+                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/federica_pompa.jpg", name: "Pompa Federica", detto: ""},
+                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/caterina_creanza.jpg", name: "Creanza Caterina", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/andreea_ciortan.jpg", name: "Ciortan Andreea", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/lavinia_patti.jpg", name: "Patti Lavinia", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }

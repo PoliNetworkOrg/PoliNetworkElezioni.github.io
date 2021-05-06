@@ -82,6 +82,33 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 4, 
+                name: "Studenti indipendenti",
+                imageUrlHorizontal: "/img/logo-sip_hor.png",
+                linkLista: "/lista/studentiindipendenti/",
+                organi:[                
+                    {
+                        name: "AUIC",
+                        desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tutt3 la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
+                        candidati:
+                        [
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/tommasopaolo_bertolini.jpg", name: "Bertolini Tommasopaolo", detto: "TOMMI"},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/debora_maurelli.jpg", name: "Maurelli Debora", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/giulia_cantatore.jpg", name: "Cantatore Giulia", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/emily_lawrence.jpg", name: "Lawrence Emily", detto: ""},
+                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni.jpg", name: "Crisogianni Gloria Maria", detto: ""},
+                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca.jpg", name: "Deluca Maria Nicole", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/luca_francioli.jpg", name: "Francioli Luca", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/miranda_valeria_margarita_gonzalez.jpg", name: "Gonzàlez Miranda Valeria Margarita", detto: ""},
+                            {id: 9 , imgUrl: "/img/candidati/studentiindipendenti/gabriele_haardt.jpg", name: "Haardt Gabriele", detto: ""},
+                            {id: 10 , imgUrl: "/img/candidati/studentiindipendenti/ilaria_masciarelli.jpg", name: "Masciarelli Ilaria", detto: ""},
+                            {id: 11 , imgUrl: "/img/candidati/studentiindipendenti/chiara_berti.jpg", name: "Berti Chiara", detto: ""},
+                            {id: 12 , imgUrl: "/img/candidati/studentiindipendenti/pietro_buongiorno.jpg", name: "Buongiorno Pietro", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }

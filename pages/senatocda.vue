@@ -122,26 +122,26 @@ export default {
                 organi:[                
                     {
                         name: "Senato",
-                        desc: "La nostra idea di senato ecc...",
+                        desc: "Per noi in senato è importante discutere di decisioni politche aprendo davvero alla possibilità di portare i temi dell3 student3 senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tutt3",
                         candidati:[
-                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/wolff_jonathan.jpg", name: "Wolff Jonathan", detto: "JONNY"},
-                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/iodice_andrea.jpg", name: "Iodice Andrea", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/deluca_maria_nicole.jpg", name: "Deluca Maria Nicole", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/magaz_milagros.jpg", name: "Magaz Milagros", detto: "MILI"},
-                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/zamboni_marco.jpg", name: "Zamboni Marco", detto: "ZAMBO"},
-                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/marcucci_edoardo.jpg", name: "Marcucci Edoardo", detto: ""},
-                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/spiniello_mario.jpg", name: "Spiniello Mario", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/stramare_davide.jpg", name: "Stramare Davide", detto: "DADO"}
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff.jpg", name: "Wolff Jonathan", detto: "JONNY"},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.jpg", name: "Iodice Andrea", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca.jpg", name: "Deluca Maria Nicole", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/milagros_magaz.jpg", name: "Magaz Milagros", detto: "MILI"},
+                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/marco_zamboni.jpg", name: "Zamboni Marco", detto: "ZAMBO"},
+                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.jpg", name: "Marcucci Edoardo", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello.jpg", name: "Spiniello Mario", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare.jpg", name: "Stramare Davide", detto: "DADO"}
                         ]
                     },
                     {
                         name: "Cda",
-                        desc: "La nostra idea di cda ecc...",
+                        desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                         candidati:[
-                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/crisogianni_gloria_maria.jpg", name: "Crisogianni Gloria Maria", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/notarianni_anita_clara.jpg", name: "Notarianni Anita Clara", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/arrigoni_chiara.jpg", name: "Arrigoni Chiara", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/carbone_gaia.jpg", name: "Carbone Gaia", detto: ""}
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni.jpg", name: "Crisogianni Gloria Maria", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.jpg", name: "Notarianni Anita Clara", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni.jpg", name: "Arrigoni Chiara", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone.jpg", name: "Carbone Gaia", detto: ""}
                         ]
                     }
                 ]
