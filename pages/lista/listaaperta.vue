@@ -19,16 +19,28 @@ export default {
                 [
                     {
                         id : 1,
-                        title: 'Titolo1',
+                        title: 'Valorizziamo la triennale',
                         url : '/img/listaaperta.png',
-                        desc: "Descrizione 1"
+                        desc: "Desideriamo valorizzare mediante proposte concrete le lauree triennali, che ad oggi sembrano essere una semplice preparazione per la magistrale. Per questo motivo, finché non ci sarà una reale valorizzazione della triennale, non bisogna alzare ulteriormente le medie d’accesso alla magistrale!"
                     },
                     {
                         id: 2,
-                        title: 'Titolo2',
+                        title: 'Registrazioni',
                         url : '/img/listaaperta.png',
-                        desc: "Descrizione 2"
+                        desc: "Le registrazioni sono un prezioso materiale didattico: lavoreremo affinché vengano sempre mantenute, coscienti del fatto che non potranno mai sostituire le vere lezioni live e in presenza."
                     },
+                    {
+                        id: 3,
+                        title: 'Abbassiamo le tasse',
+                        url : '/img/listaaperta.png',
+                        desc: "Lavoreremo insieme all’Ateneo per destinare investimenti al Diritto allo Studio in particolare per diminuire il contributo per le fasce medio-basse, anche grazie alla proposta di ulteriori esoneri per merito"
+                    },
+                    {
+                        id: 4,
+                        title: 'Aumentiamo gli spazi studio',
+                        url : '/img/listaaperta.png',
+                        desc: "È fondamentale per noi avere spazi di qualità in cui poter studiare: proponiamo di sfruttare le nuove tecnologie e forme di lavoro flessibili, per liberare uffici amministrativi e aumentare gli spazi studio."
+                    }
                 ],
             senato:
             {
