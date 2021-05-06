@@ -30,7 +30,7 @@
             </header>
 
             <!-- Page Features -->
-            <div class="row text-center" id="listeContainer" style="display:flex;flex-wrap:wrap;">
+            <div class="row text-center" id="listeContainer2" style="display:flex;flex-wrap:wrap;">
 
                 <Frame class-param="col-md-3"
                     v-for="item in liste"

@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(){
-    /*
+    
     for (var j=0; j < 5; j++)
     {
-        var ul =  document.getElementById("listeContainer");
+        var ul =  document.getElementById("listeContainer2");
         if (ul != null)
         {
             for (var i = ul.children.length; i >= 0; i--) {
@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function(){
             }
         }
     }
-    */
+    
 });
 
