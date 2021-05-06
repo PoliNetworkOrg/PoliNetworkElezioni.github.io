@@ -28,8 +28,10 @@
 
         <div class="section" id="our-info">
             <div class="container">
-                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;">Programma elettorale</h2>
+                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;">Programma elettorale</h2> 
                 <hr />
+                <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">{{dataLista.programmaSottotitolo}}</h3>
+                <div style="padding:5px;"></div>
                 <div class="row">
                     <Frame 
                     class-param="col-sm-3 wow animated fadeInLeft"

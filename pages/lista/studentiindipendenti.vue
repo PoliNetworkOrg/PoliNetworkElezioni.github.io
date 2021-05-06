@@ -14,6 +14,7 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
             desc: "metti-descrizione",
             imageUrl:"/img/sip.png",
+            programmaSottotitolo:"Inserisci sottotitolo...",
             programma:
                 [
                     {

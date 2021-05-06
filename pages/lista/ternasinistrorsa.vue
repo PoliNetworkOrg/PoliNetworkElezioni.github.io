@@ -14,6 +14,7 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa.pdf",
             desc: "metti-descrizione",
             imageUrl:"/img/terna.png",
+            programmaSottotitolo:"Siamo più di un numero",
             programma:
                 [
                     {
