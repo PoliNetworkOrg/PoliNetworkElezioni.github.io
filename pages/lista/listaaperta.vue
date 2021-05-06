@@ -14,7 +14,7 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
             desc: "metti-descrizione",
             imageUrl:"/img/listaaperta.png",
-            programmaSottotitolo:"Inserisci sottotitolo...",
+            programmaSottotitolo:"Inserisci slogan...",
             programma:
                 [
                     {
