@@ -67,7 +67,7 @@ export default {
                 organi:[                
                     {
                         name: "Senato",
-                        desc: "In CdA ci batteremo per il Diritto allo Studio: una battaglia decisiva per permettere a tutti gli studenti di poter vivere a pieno l’università! Inoltre, ci impegneremo sempre per garantire i giusti finanziamenti per sviluppare i nostri campus sempre di più come luoghi di aggregazione e di qualità.",
+                        desc: "In Senato lavoreremo per garantire una didattica di qualità aperta a forme innovative per valorizzare le attitudini di ogni studente. Inoltre, è per noi un tema fondamentale incentivare l’internazionalizzazione sia al Politecnico sia con esperienze all’estero.",
                         candidati:[
                             {id: 1, imgUrl: "/img/candidati/listaaperta/marta_ghidoli.jpg", name: "Ghidoli Marta", detto: "MARTA"},
                             {id: 2, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
@@ -87,6 +87,70 @@ export default {
                             {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
                             {id:3, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
                             {id:4, imgUrl: "/img/candidati/listaaperta/sofia_boni.jpg", name: "Boni Sofia", detto: "SOFI"}
+                        ]
+                    }
+                ]
+            },
+            {      
+                id: 3, 
+                name: "Terna sinistrorsa",
+                imageUrlHorizontal: "/img/logo-terna_hor.png",
+                linkLista: "/lista/ternasinistrorsa/",
+                organi:[                
+                    {
+                        name: "Senato",
+                        desc: "La nostra idea di senato ecc...",
+                        candidati:[
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/bacigalupoada.jpg", name: "Bacigalupoada", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/simionato_alice.jpg", name: "Simionato Alice", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/ternasinistrorsa/bindoni_diego.jpg", name: "Bindoni Diego", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/lleshi_bruna.jpg", name: "Lleshi Bruna", detto: ""},
+                            {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/bancale_alice.jpg", name: "Bancale Alice", detto: ""},
+                            {id: 6 , imgUrl: "/img/candidati/ternasinistrorsa/bossi_núñez_pedro.jpg", name: "Bossi Núñez Pedro", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/ternasinistrorsa/catalano_delia.jpg", name: "Catalano Delia", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/ternasinistrorsa/boverimatteo.jpg", name: "Boverimatteo", detto: "JOHNNY SHOCK"}
+                        ]
+                    },
+                    {
+                        name: "Cda",
+                        desc: "La nostra idea di cda ecc...",
+                        candidati:[
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/luzzini_davide.jpg", name: "Luzzini Davide", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/pasculli_clarissa.jpg", name: "Pasculli Clarissa", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/ternasinistrorsa/drole_luca.jpg", name: "Drole Luca", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/martinoia_giada.jpg", name: "Martinoia Giada", detto: ""}
+                        ]
+                    }
+                ]
+            },
+            {      
+                id: 4, 
+                name: "Studenti indipendenti",
+                imageUrlHorizontal: "/img/logo-sip_hor.png",
+                linkLista: "/lista/studentiindipendenti/",
+                organi:[                
+                    {
+                        name: "Senato",
+                        desc: "La nostra idea di senato ecc...",
+                        candidati:[
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/wolff_jonathan.jpg", name: "Wolff Jonathan", detto: "JONNY"},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/iodice_andrea.jpg", name: "Iodice Andrea", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/deluca_maria_nicole.jpg", name: "Deluca Maria Nicole", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/magaz_milagros.jpg", name: "Magaz Milagros", detto: "MILI"},
+                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/zamboni_marco.jpg", name: "Zamboni Marco", detto: "ZAMBO"},
+                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/marcucci_edoardo.jpg", name: "Marcucci Edoardo", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/spiniello_mario.jpg", name: "Spiniello Mario", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/stramare_davide.jpg", name: "Stramare Davide", detto: "DADO"}
+                        ]
+                    },
+                    {
+                        name: "Cda",
+                        desc: "La nostra idea di cda ecc...",
+                        candidati:[
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/crisogianni_gloria_maria.jpg", name: "Crisogianni Gloria Maria", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/notarianni_anita_clara.jpg", name: "Notarianni Anita Clara", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/arrigoni_chiara.jpg", name: "Arrigoni Chiara", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/carbone_gaia.jpg", name: "Carbone Gaia", detto: ""}
                         ]
                     }
                 ]
