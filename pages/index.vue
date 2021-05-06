@@ -28,7 +28,7 @@
     </header>
 
     <!-- Page Features -->
-    <div class="row text-center" id="listeContainer" v-on:load="test">
+    <div class="row text-center" id="listeContainer" v-on:load="test" style="display:none;">
 
 			<Frame
 			v-for="item in items"
@@ -129,6 +129,7 @@ export default {
                     for (var i = ul.children.length; i >= 0; i--) {
                         ul.appendChild(ul.children[Math.random() * i | 0]);
                     }
+					           ul.style.display = 'flex';
                 }
             }
         }

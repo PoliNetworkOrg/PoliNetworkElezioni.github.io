@@ -30,7 +30,7 @@
             </header>
 
             <!-- Page Features -->
-            <div class="row text-center" id="listeContainer2" style="display:flex;flex-wrap:wrap;" v-on:load="test2">
+            <div class="row text-center" id="listeContainer2" style="display:none;flex-wrap:wrap;" v-on:load="test2">
 
                 <Frame class-param="col-md-3"
                     v-for="item in liste"
@@ -103,6 +103,8 @@ export default {
                     for (var i = ul.children.length; i >= 0; i--) {
                         ul.appendChild(ul.children[Math.random() * i | 0]);
                     }
+
+                    ul.style.display = 'flex';
                 }
             }
         }
