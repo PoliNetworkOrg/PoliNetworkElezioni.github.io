@@ -19,6 +19,24 @@
     padding-left: 15px;
 }
 
+.container2{
+    width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+    max-width: calc(720px + 2vw);
+}
+
+.container3{
+    width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+    max-width: calc(720px + 25vw + 8rem);
+}
+
 
 .nav-item{
     padding-right: 50px;

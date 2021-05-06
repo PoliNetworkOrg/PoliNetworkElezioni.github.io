@@ -11,7 +11,7 @@
           <div style="width:100%;">
 		<img :src="dataLista.imageUrl" style="width:calc(15px + 4vw + 5rem); padding:10px;text-align:center;">
           </div>
-  		<div class="container wow animated fadeInUp">
+  		<div class="container2 wow animated fadeInUp">
 	  		<h2 style="color:black; font-size:calc(10px + 3vw + 0.5rem); ">{{this.dataLista.name}}</h2>
 
 		<a :href=this.dataLista.mainWebsiteUrl><Button>Sito ufficiale 🌐</Button></a>
@@ -27,7 +27,7 @@
 
 
         <div class="section" id="our-info">
-            <div class="container" style="max-width: 100%;margin:auto; width:100%;">
+            <div class="container2" style="max-width: 100%;margin:auto; width:100%;">
                 <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container">
                     Programma elettorale 📝
                 </h2> 
@@ -58,7 +58,7 @@
 <HorizontalLine  />
 
     <div class="section members">
-        <div class="container">
+        <div class="container2">
             <h2 >Senato 💬</h2>
             <hr>
             <p class="lead-creative-banner">
@@ -81,7 +81,7 @@
 
 <HorizontalLine  />
     <div class="section members">
-        <div class="container">
+        <div class="container2">
             <h2>CDA 💶</h2>
             <hr>
             <p class="lead-creative-banner">
@@ -105,7 +105,7 @@
 <HorizontalLine  />
 
   <div class="section members" style="background-color:white">
-     <div class="container">
+     <div class="container2">
          <h2>Scuole</h2>
          <hr>
          <p class="lead-creative-banner">{{dataLista.scuole.desc}}</p>

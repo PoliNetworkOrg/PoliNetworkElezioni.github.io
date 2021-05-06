@@ -4,7 +4,7 @@
 <div>
 <NavigationBar />
 
-<div class="container">
+<div class="container2">
 
     <!-- Jumbotron Header -->
     <header class=" my-4 ">

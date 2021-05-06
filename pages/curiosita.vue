@@ -6,7 +6,7 @@
 
 
 <div style="padding-top:calc(50px + 1vh + 1rem);width:100%;">
-    <div class="container">
+    <div class="container2">
         <h2>Curiosit&agrave;</h2>
         <p>
             Questo sito è realizzato da <a href="https://polinetwork.github.io/">PoliNetwork</a>

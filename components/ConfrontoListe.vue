@@ -4,7 +4,7 @@
         <NavigationBar />
 
         <!-- Page Content -->
-        <div class="container" style="width: 100%;max-width: 100%;margin:0px;">
+        <div class="container2" style="width: 100%;max-width: 100%;margin:0px;">
 
             <!-- Jumbotron Header -->
             <header class="jumbotron my-4 testoCentrale">
