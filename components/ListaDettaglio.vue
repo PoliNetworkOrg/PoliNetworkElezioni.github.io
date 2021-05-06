@@ -27,7 +27,7 @@
 
 
         <div class="section" id="our-info">
-            <div class="container">
+            <div class="container" style="max-width: 100%;">
                 <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;">Programma elettorale</h2> 
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">{{dataLista.programmaSottotitolo}}</h3>
@@ -37,13 +37,13 @@
                     class-param="col-sm-3 wow animated fadeInLeft"
                     v-for="item in dataLista.programma"
                     :key="item.id"
-                    style-param="margin:auto;"
+                    style-param="margin:auto;min-width:calc(150px + 6rem + 2vw);display:flex;flex: 1 1 25%;padding:5px;max-width: 100%;"
                      >
-                     <div>
+                     <div style="border:1px solid #0000003c;padding: calc(3px + 0.5rem);margin: 0px; border-radius:calc(10px + 1rem);width: 100%;">
                         <figure>
-                            <img class="z-hover img-responsive" :src="item.url">
+                            <img class="z-hover img-responsive" :src="item.url" style="max-width: calc(100px + 2rem + 2vw + 2vh);width: 100%;">
                         </figure>
-                        <h4>{{item.title}}</h4>
+                        <h4 style="padding-top:3px;">{{item.title}}</h4>
                         <p class="function-text">
                             {{item.desc}}
                              </p>
