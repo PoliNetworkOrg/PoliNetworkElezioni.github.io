@@ -28,7 +28,7 @@
 
         <div class="section" id="our-info">
             <div class="container2" style="max-width: 100%;margin:auto; width:100%;">
-                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container">
+                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container2">
                     Programma elettorale 📝
                 </h2> 
                 <hr />
