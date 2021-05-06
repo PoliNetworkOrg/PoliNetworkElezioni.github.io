@@ -87,20 +87,9 @@ export default {
                         desc: "La nostra idea di scuola 3I ecc...",
            	            candidati:
                         [
-                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/nunez_pedro_bossi_.png", name: "Bossi Núñezpedro", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/ternasinistrorsa/luca_drole.png", name: "Drole Luca", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/alberto_sperandio.png", name: "Sperandio Alberto", detto: ""},
-                            {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""},
-                            {id: 6 , imgUrl: "/img/candidati/ternasinistrorsa/diego_bindoni.png", name: "Bindoni Diego", detto: ""},
-                            {id: 7 , imgUrl: "/img/candidati/ternasinistrorsa/moreno_carlos_alberto_santillan.png", name: "Santillan Moreno Carlos Alberto", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/ternasinistrorsa/delia_catalano.png", name: "Catalano Delia", detto: ""},
-                            {id: 9 , imgUrl: "/img/candidati/ternasinistrorsa/matteo_boveri_.png", name: "Boveri Matteo", detto: "JOHNNY SHOCK"},
-                            {id: 10 , imgUrl: "/img/candidati/ternasinistrorsa/fabrizio_vasconi.png", name: "Vasconi Fabrizio", detto: "VASCO"},
-                            {id: 11 , imgUrl: "/img/candidati/ternasinistrorsa/giorgio_travaglini.png", name: "Travaglini Giorgio", detto: ""},
-                            {id: 12 , imgUrl: "/img/candidati/ternasinistrorsa/alberto_badilini.png", name: "Badilini Alberto", detto: ""},
-                            {id: 13 , imgUrl: "/img/candidati/ternasinistrorsa/giada_martinoia.png", name: "Martinoia Giada", detto: ""},
-                            {id: 14 , imgUrl: "/img/candidati/ternasinistrorsa/lorenzo_barattin.png", name: "Barattin Lorenzo", detto: ""}
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},                     
+                            {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
+    
                         ]
                     }
                 ]

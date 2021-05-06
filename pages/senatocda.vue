@@ -101,14 +101,7 @@ export default {
                         name: "Senato",
                         desc: "La nostra idea di senato ecc...",
                         candidati:[
-                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/alice_simionato.png", name: "Simionato Alice", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/ternasinistrorsa/diego_bindoni.png", name: "Bindoni Diego", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/bruna_lleshi.png", name: "Lleshi Bruna", detto: ""},
-                            {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/alice_bancale.png", name: "Bancale Alice", detto: ""},
-                            {id: 6 , imgUrl: "/img/candidati/ternasinistrorsa/nunez_pedro_bossi.png", name: "Bossi Núñez Pedro", detto: ""},
-                            {id: 7 , imgUrl: "/img/candidati/ternasinistrorsa/delia_catalano.png", name: "Catalano Delia", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/ternasinistrorsa/matteo_boveri.png", name: "Boveri Matteo", detto: "JOHNNY SHOCK"}
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
                         ]
                     },
                     {
@@ -116,9 +109,7 @@ export default {
                         desc: "La nostra idea di cda ecc...",
                         candidati:[
                             {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/ternasinistrorsa/luca_drole.png", name: "Drole Luca", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/giada_martinoia.png", name: "Martinoia Giada", detto: ""}
+                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""}
                         ]
                     }
                 ]
