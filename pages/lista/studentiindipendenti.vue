@@ -12,9 +12,9 @@ export default {
             name: "Studenti Indipendenti",
             mainWebsiteUrl: "https://studentiindipendenti.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
-            desc: "metti-descrizione",
+            desc: "Studenti indipendenti e la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università È un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità A tutela del percorso formativo e del benessere psicologico di ciascuno.",
             imageUrl:"/img/sip.png",
-            programmaSottotitolo:"Inserisci slogan...",
+            programmaSottotitolo:"Per la rappresentanza come mezzo e non come fine",
             programma:
                 [
                     {
@@ -32,7 +32,7 @@ export default {
                 ],
             senato:
             {
-                desc: "La nostra idea di senato ecc...",
+                desc: "Per noi in senato è importante discutere di decisioni politche aprendo davvero alla possibilità di portare i temi dell3 student3 senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tutt3",
                 candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff.jpg", name: "Wolff Jonathan", detto: "JONNY"},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.jpg", name: "Iodice Andrea", detto: ""},
@@ -45,7 +45,7 @@ export default {
                 ]
             },
             cda:{
-                desc: "La nostra idea di cda ecc...",
+                desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                 candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni.jpg", name: "Crisogianni Gloria Maria", detto: ""},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.jpg", name: "Notarianni Anita Clara", detto: ""},
@@ -54,9 +54,9 @@ export default {
                 ]
             },
             scuole:{
-                desc: "La nostra idea di scuola ecc...",
+                desc: "Nelle scuole vogliamo un coordinamento maggiore tra ccs per uniformare le esperienze così che la qualità delle esperienze formative non dipenda dal cognome. Crediamo che si possano valorizzare le modalità di gestione virtuose dei corsi e che vada tutelata al meglio la possibilità degli studenti di costruire una carriera personalizzata relativamente al percorso formativo e che ci sia pari trattamento su tutte le questioni legate ad un corso di laurea.",
                 auic:{
-                    desc: "La scuola auic...",
+                    desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tutt3 la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/tommasopaolo_bertolini.jpg", name: "Bertolini Tommasopaolo", detto: "TOMMI"},
@@ -74,7 +74,7 @@ export default {
                     ]
                 },
                 trei:{
-                    desc :"La scuola 3i...",
+                    desc :"Piano di studi personalizzabile: crediamo che ognuno debba decidere con meno vincoli possibile il proprio percorso di studi in modo che si creino figure professionali nuove e multidisciplinari. Crediamo che l'abolizione delle medie di accesso alla magistrale sia  un ulteriore incentivo a far proseguire gli studi e a combattere l'abbandono degli studi, un problema caratteristico e grave del nostro ateneo. Le differenze tra scaglioni devono essere abolite promuovendo gli esempi virtuosi. Sempre nell'ottica di aumentare la scelta tra i corsi vogliamo incrementare il numero di laboratori a scelta.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.jpg", name: "Marcucci Edoardo", detto: ""},
@@ -95,7 +95,7 @@ export default {
                     ]
                 },
                 icat:{
-                    desc: "La scuola icat...",
+                    desc: "A ICAT crediamo che i parziali debbano essere una libera scelta che non precluda il numero di appelli di una sessione. Crediamo che sia necessario aumentare il numero di laboratori che siano anche specifici ai 2 corsi di studio che compongono la scuola. La valutazione degli esami deve avere delle tempistiche certe dato che troppo spesso succede siano a discrezione del docente mettendo in difficoltà scaglioni di studenti. Crediamo sia necessario implementare delle modalità didattiche più interattive che stimolino la comprensione e la partecipazione dell3 studenti.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/matteo_chiavegato.jpg", name: "Chiavegato Matteo", detto: ""},
@@ -106,7 +106,7 @@ export default {
                     ]
                 },
                 design:{
-                    desc : "La scuola design...",
+                    desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per l3 studenti di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
                     candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.jpg", name: "Ippolito Ilenia", detto: ""},
