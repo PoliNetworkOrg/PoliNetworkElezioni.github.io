@@ -28,7 +28,9 @@
 
         <div class="section" id="our-info">
             <div class="container" style="max-width: 100%;margin:auto; width:100%;">
-                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container">Programma elettorale</h2> 
+                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container">
+                    Programma elettorale 📝
+                </h2> 
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">{{dataLista.programmaSottotitolo}}</h3>
                 <div style="padding:5px;"></div>
@@ -109,7 +111,7 @@
          <p class="lead-creative-banner">{{dataLista.scuole.desc}}</p>
          <ul style="list-style:none;">
             <li class="liScuola">
-                <span class="titleScuole">AUIC</span>
+                <span class="titleScuole">AUIC 📐</span>
                 <div  class="spacerScuole"  ></div>
                 <div class="descrizioneScuola">
                      {{dataLista.scuole.auic.desc}}
@@ -126,7 +128,7 @@
                 </div>
                 </li>
             <li class="liScuola">
-                <span class="titleScuole">3I</span>
+                <span class="titleScuole">3I 🔧</span>
                 <div  class="spacerScuole"  ></div>
                 <div class="descrizioneScuola">
                 {{dataLista.scuole.trei.desc}}
@@ -143,7 +145,7 @@
                 </div>
             </li>
             <li class="liScuola">
-                <span class="titleScuole">ICAT</span>
+                <span class="titleScuole">ICAT 🏗</span>
                 <div  class="spacerScuole"  ></div>
                         <div class="descrizioneScuola">
                 {{dataLista.scuole.icat.desc}}
@@ -160,7 +162,7 @@
                 </div>
             </li>
             <li class="liScuola">
-                <span class="titleScuole">DESIGN</span>
+                <span class="titleScuole">DESIGN ✏️</span>
                 <div  class="spacerScuole"  ></div>
                              <div class="descrizioneScuola">
                 {{dataLista.scuole.design.desc}}
