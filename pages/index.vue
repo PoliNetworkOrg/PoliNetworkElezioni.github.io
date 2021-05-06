@@ -7,16 +7,16 @@
   <div class="container3">
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4 testoCentrale" style="max-width: 100%;border:none;">
+    <header class="jumbotron my-4 testoCentrale" style="max-width: 100%;border:none;margin-top:10px;margin-bottom:10px;padding-bottom:calc(10px + 1rem);padding-top:calc(2px + 5rem);">
 		<div style="text-align:center;">
-      <h2 style="font-size:calc(2px + 1.15rem + 0.65vw);">Elezioni rappresentanti degli studenti</h2>
-	  <h4 style="font-size:calc(2px + 1.05rem + 0.55vw);">
+      <h2 style="font-size:calc(4px + 1.27rem + 0.77vw);">Elezioni rappresentanti degli studenti</h2>
+	  <h4 style="font-size:calc(2px + 1.15rem + 0.65vw);">
 		  <a href="https://polimi.it/elezioni-studenti">Politecnico di Milano</a>
 	  </h4>
 	  <div></div>
 	  <h5 style="text-align:left;padding-left:calc(4vw + 1rem);padding-right: calc(4vw + 1rem);">
 	  <div style="    padding-left: 0px !important;font-size:calc(1px + 0.9rem + 0.3vw);list-style:none;">
-		  <div class="lead" style="padding:5px;font-size:calc(1px + 0.79rem + 0.27vw);text-align:center;" >
+		  <div class="lead" style="padding:5px;font-size:calc(2px + 0.82rem + 0.29vw);text-align:center;" >
 			📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a></div>
 		</div>
 		<div style="padding:15px;"></div>
@@ -28,7 +28,7 @@
 
 	<div class="container6">
 
-      <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);">
+      <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);text-align:left;">
 
 		  In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di maggio 2021 🗳
 		  </p>
