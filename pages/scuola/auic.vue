@@ -78,7 +78,9 @@ export default {
                         desc: "La nostra idea di scuola auic ecc...",
            	            candidati:
                         [
-                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""}
+                           {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""},
+                           {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/letizia_guido.png", name: "Guido Letizia", detto: ""}
+                    
                         ]
                     }
                 ]
