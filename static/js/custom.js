@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-    
+    /*
     for (var j=0; j < 5; j++)
     {
         var ul =  document.getElementById("listeContainer2");
@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
             }
         }
     }
+    */
     
 });
 

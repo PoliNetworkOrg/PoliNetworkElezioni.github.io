@@ -28,7 +28,7 @@
     </header>
 
     <!-- Page Features -->
-    <div class="row text-center" id="listeContainer">
+    <div class="row text-center" id="listeContainer" v-on:load="test">
 
 			<Frame
 			v-for="item in items"
@@ -112,6 +112,28 @@ export default {
 		  {id:4, name: "Studenti Indipendenti", image: "/img/sip.png", link :"/lista/studentiindipendenti/", style:"background-color: #00bbff40;"}
 	  ]
     }
-  }
+  },
+
+    mounted() {
+      this.$nextTick(() => {
+        this.test();
+      });
+    },
+    methods: {
+        test(){
+            for (var j=0; j < 5; j++)
+           {
+                var ul =  document.getElementById("listeContainer");
+                if (ul != null)
+                {
+                    for (var i = ul.children.length; i >= 0; i--) {
+                        ul.appendChild(ul.children[Math.random() * i | 0]);
+                    }
+                }
+            }
+        }
+    }
 }
+
+
 </script>
