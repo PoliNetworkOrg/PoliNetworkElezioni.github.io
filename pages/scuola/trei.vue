@@ -104,6 +104,36 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 4, 
+                name: "Studenti indipendenti",
+                imageUrlHorizontal: "/img/logo-sip_hor.png",
+                linkLista: "/lista/studentiindipendenti/",
+                organi:[                
+                    {
+                        name: "3I",
+                        desc: "La nostra idea di scuola 3I ecc...",
+           	            candidati:
+                        [
+                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/marcucci_edoardo.jpg", name: "Marcucci Edoardo", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/portentoso_alice.jpg", name: "Portentoso Alice", detto: ""},
+                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/fiorani_elena.jpg", name: "Fiorani Elena", detto: ""},
+                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/zamboni_marco.jpg", name: "Zamboni Marco", detto: "ZAMBO"},
+                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/wolff_jonathan.jpg", name: "Wolff Jonathan", detto: "JONNY"},
+                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/benatti_francesca.jpg", name: "Benatti Francesca", detto: ""},
+                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/spiniello_mario.jpg", name: "Spiniello Mario", detto: ""},
+                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/carbone_gaia.jpg", name: "Carbone Gaia", detto: ""},
+                            {id: 9 , imgUrl: "/img/candidati/studentiindipendenti/stramare_davide.jpg", name: "Stramare Davide", detto: "DADO"},
+                            {id: 10 , imgUrl: "/img/candidati/studentiindipendenti/truvolo_federica.jpg", name: "Truvolo Federica", detto: ""},
+                            {id: 11 , imgUrl: "/img/candidati/studentiindipendenti/finardi_sara_ehetagegnehu.jpg", name: "Finardi Sara Ehetagegnehu", detto: "FES"},
+                            {id: 12 , imgUrl: "/img/candidati/studentiindipendenti/puddu_francesco.jpg", name: "Puddu Francesco", detto: ""},
+                            {id: 13 , imgUrl: "/img/candidati/studentiindipendenti/contardi_pietro.jpg", name: "Contardi Pietro", detto: ""},
+                            {id: 14 , imgUrl: "/img/candidati/studentiindipendenti/serino_roberto.jpg", name: "Serino Roberto", detto: ""},
+                            {id: 15 , imgUrl: "/img/candidati/studentiindipendenti/oppizzii_alice.jpg", name: "Oppizzii Alice", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }
