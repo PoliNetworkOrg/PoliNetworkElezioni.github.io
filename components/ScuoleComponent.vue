@@ -8,18 +8,18 @@
             <a :href="scuoleLink.auic">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
-                      <table class="tableScuole">
-                        <tr>
-                          <td>
+                      <div class="divScuole">
+                        <div>
+                          <div>
                         <h1 class="scuole">Scuola AUIC</h1>
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
+                      </div>
+                      </div>
+                      <div>
+                        <div>
                         <h5>ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI</h5>
-                      </td>
-                      </tr>
-                      </table>
+                      </div>
+                      </div>
+                      </div>
                     </div>
                 </div>
             </a>
@@ -31,18 +31,18 @@
                     <div class="listTile" style="width: 100%;">
 
 
-                        <table class="tableScuole">
-                          <tr>
-                            <td>
+                        <div class="divScuole">
+                          <div>
+                            <div>
                           <h1 class="scuole">Scuola 3I</h1>
-                        </td>
-                        </tr>
-                        <tr>
-                          <td>
-                          <h5>INGEGNERIA INDUSTRIALE E DELL'INFORMAZIONE</h5>
-                        </td>
-                        </tr>
-                        </table>
+                        </div>
+                        </div>
+                        <div>
+                          <div>
+                          <h5>INGEGNERIA INDUSTRIALE E DELL' INFORMAZIONE</h5>
+                        </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -53,18 +53,18 @@
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
 
-                      <table class="tableScuole">
-                        <tr>
-                          <td>
+                      <div class="divScuole">
+                        <div>
+                          <div>
                         <h1 class="scuole">Scuola ICAT</h1>
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
+                      </div>
+                      </div>
+                      <div>
+                        <div>
                         <h5>INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE</h5>
-                      </td>
-                      </tr>
-                      </table>
+                      </div>
+                      </div>
+                      </div>
 
                     </div>
                 </div>
@@ -76,18 +76,18 @@
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
 
-                      <table class="tableScuole">
-                        <tr>
-                          <td>
+                      <div class="divScuole">
+                        <div>
+                          <div>
                         <h1 class="scuole">Scuola Design</h1>
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
+                      </div>
+                      </div>
+                      <div>
+                        <div>
                         <h5>DESIGN</h5>
-                      </td>
-                      </tr>
-                      </table>
+                      </div>
+                      </div>
+                      </div>
 
                     </div>
                 </div>
@@ -109,3 +109,4 @@ export default {
     }
 }
 </script>
+
