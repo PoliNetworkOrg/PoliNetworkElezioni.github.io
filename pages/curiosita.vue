@@ -9,8 +9,8 @@
     <div class="container2">
         <h2>Curiosit&agrave;</h2>
         <p>
-            Questo sito è realizzato da <a href="https://polinetwork.github.io/">PoliNetwork</a>
-             con l'obiettivo di rendere più chiaro possibile agli studenti programmi e candidati.
+            Questo sito, realizzato da <a href="https://polinetwork.github.io/">PoliNetwork</a>,
+             ha l'obiettivo di rendere più chiaro possibile agli studenti programmi e candidati.
         </p>
         
         <p>
