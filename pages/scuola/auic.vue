@@ -66,6 +66,22 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 3, 
+                name: "Terna sinistrorsa",
+                imageUrlHorizontal: "/img/logo-terna_hor.png",
+                linkLista: "/lista/ternasinistrorsa/",
+                organi:[                
+                    {
+                        name: "AUIC",
+                        desc: "La nostra idea di scuola auic ecc...",
+           	            candidati:
+                        [
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }

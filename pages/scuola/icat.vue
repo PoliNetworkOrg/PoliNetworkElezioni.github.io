@@ -60,6 +60,23 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 3, 
+                name: "Terna sinistrorsa",
+                imageUrlHorizontal: "/img/logo-terna_hor.png",
+                linkLista: "/lista/ternasinistrorsa/",
+                organi:[                
+                    {
+                        name: "ICAT",
+                        desc: "La nostra idea di scuola ICAT ecc...",
+           	            desc: "La scuola icat...",
+                        candidati:
+                        [
+                            {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }

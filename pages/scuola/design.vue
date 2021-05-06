@@ -66,6 +66,22 @@ export default {
                         ]
                     }
                 ]
+            },
+            { 
+                id: 3, 
+                name: "Terna sinistrorsa",
+                imageUrlHorizontal: "/img/logo-terna_hor.png",
+                linkLista: "/lista/ternasinistrorsa/",
+                organi:[                
+                    {
+                        name: "Design",
+                        desc : "La scuola design...",
+                        candidati:
+                        [
+                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/giovanni_smoquina.png", name: "Smoquina Giovanni", detto: ""}
+                        ]
+                    }
+                ]
             }
         ]    
     }
