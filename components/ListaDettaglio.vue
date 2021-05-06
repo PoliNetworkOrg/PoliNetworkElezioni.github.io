@@ -66,7 +66,7 @@
                  class-param="col-md-3 col-md-2"
                  v-for="candsenato in dataLista.senato.candidati"
                  :key="candsenato.id"
-                 style-param="display:flex;"
+                 style-param="display:flex;margin: auto;"
                  >
                      <Candidato :cand="candsenato" url-lista="" />
                  </Frame>
@@ -89,7 +89,7 @@
                  class-param="col-md-3 col-md-2"
                  v-for="candcda in dataLista.cda.candidati"
                  :key="candcda.id"
-                 style-param="display:flex;"
+                 style-param="display:flex;margin: auto;"
                  >
                      <Candidato :cand="candcda" url-lista="" />
                  </Frame>
