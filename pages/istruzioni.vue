@@ -460,7 +460,7 @@
 				<span class="answerSpan">
           <ul>
             <li>Visita il <a href="https://polimi.it/elezioni-studenti">sito ufficiale</a> dedicato alle elezioni del Politecnico di Milano</li>
-            <li>Visita la nostra pagina di <a href="../contatti/index.html">contatti</a></li>
+            <li>Visita la nostra pagina di <a href="../contatti/">contatti</a></li>
           </ul>
 
         </span>

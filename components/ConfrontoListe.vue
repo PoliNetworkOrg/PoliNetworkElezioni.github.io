@@ -30,7 +30,7 @@
             </header>
 
             <!-- Page Features -->
-            <div class="row text-center" id="listeContainer2" style="display:flex;flex-wrap:wrap;">
+            <div class="row text-center" id="listeContainer2" style="display:flex;flex-wrap:wrap;" v-on:load="test2">
 
                 <Frame class-param="col-md-3"
                     v-for="item in liste"
@@ -85,6 +85,26 @@ export default {
         organiConfronto:{
             type:Array,
             default : null
+        }
+    },
+
+    mounted() {
+      this.$nextTick(() => {
+        this.test2();
+      });
+    },
+    methods: {
+        test2(){
+            for (var j=0; j < 5; j++)
+            {
+                var ul =  document.getElementById("listeContainer2");
+                if (ul != null)
+                {
+                    for (var i = ul.children.length; i >= 0; i--) {
+                        ul.appendChild(ul.children[Math.random() * i | 0]);
+                    }
+                }
+            }
         }
     }
 }
