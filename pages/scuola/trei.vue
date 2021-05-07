@@ -87,8 +87,9 @@ export default {
                         desc: "La nostra idea di scuola 3I ecc...",
            	            candidati:
                         [
-                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""}
-                       
+                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
+                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/pedro_bossi.png", name: "Bossi Pedro", detto: ""}
+                        
                         ]
                     }
                 ]
