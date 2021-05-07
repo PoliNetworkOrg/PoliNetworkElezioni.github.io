@@ -7,7 +7,7 @@
 <div class="container2">
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4 testoCentrale">
+    <header class="jumbotron my-4 testoCentrale" style="border:none;">
         <div style="text-align:center;">
             <h2>Elezioni rappresentanti degli studenti</h2>
             <h4>CCS</h4>
