@@ -15,7 +15,9 @@
             
        
         </div>
-        <p class="m-0 text-center" style="font-size: calc(1px + 0.4rem + 0.2vw);color: #000000d9;padding-top:10px;">Questo sito non è affiliato al Politecnico di Milano</p>
+        <p class="m-0 text-center" style="font-size: calc(3px + 0.3rem + 0.2vw);color: #000000d9;padding-top:10px;">
+            Questo sito non è affiliato al Politecnico di Milano
+            </p>
     </div>
     <!-- /.container -->
 </footer>

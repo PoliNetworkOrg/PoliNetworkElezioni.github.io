@@ -44,8 +44,8 @@ export default {
                     { id: 8, imgUrl: "/img/candidati/svoltastudenti/klaudio_luku.jpg", name: "Luku Klaudio", detto: "KLAUDIO CON LA K"}
                 ]
             },
-            cda:{
-                desc: "La nostra idea di cda ecc...",
+            CdA:{
+                desc: "La nostra idea di CdA ecc...",
                 candidati:[
                     { id: 1, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
                     { id: 2, imgUrl: "/img/candidati/svoltastudenti/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},

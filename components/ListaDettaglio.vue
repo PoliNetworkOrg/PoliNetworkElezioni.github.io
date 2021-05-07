@@ -84,20 +84,20 @@
 <HorizontalLine  />
     <div class="section members">
         <div class="container2">
-            <h2>CDA 💶</h2>
+            <h2>CdA 💶</h2>
             <hr>
             <p class="lead-creative-banner">
-                {{dataLista.cda.desc}}
+                {{dataLista.CdA.desc}}
             </p>
              <div id="includedContentSenato" style="display:flex;flex-wrap: wrap;">
 
                  <Frame 
                  class-param="col-md-3 col-md-2"
-                 v-for="candcda in dataLista.cda.candidati"
-                 :key="candcda.id"
+                 v-for="candCdA in dataLista.CdA.candidati"
+                 :key="candCdA.id"
                  style-param="display:flex;margin: auto;"
                  >
-                     <Candidato :cand="candcda" url-lista="" />
+                     <Candidato :cand="candCdA" url-lista="" />
                  </Frame>
 
              </div>
@@ -121,11 +121,11 @@
                 <div id="includedContentScuoleAUIC"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
-                    v-for="candcda in dataLista.scuole.auic.candidati"
-                    :key="candcda.id"
+                    v-for="candCdA in dataLista.scuole.auic.candidati"
+                    :key="candCdA.id"
                     style-param="display:flex;margin: auto;"
                     >
-                        <Candidato :cand="candcda" url-lista="" />
+                        <Candidato :cand="candCdA" url-lista="" />
                     </Frame>
                 </div>
                 </li>
@@ -138,11 +138,11 @@
                 <div id="includedContentScuole3I"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
-                    v-for="candcda in dataLista.scuole.trei.candidati"
-                    :key="candcda.id"
+                    v-for="candCdA in dataLista.scuole.trei.candidati"
+                    :key="candCdA.id"
                     style-param="display:flex;margin: auto;"
                     >
-                        <Candidato :cand="candcda" url-lista="" />
+                        <Candidato :cand="candCdA" url-lista="" />
                     </Frame>
                 </div>
             </li>
@@ -155,11 +155,11 @@
                 <div id="includedContentScuoleICAT"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
-                    v-for="candcda in dataLista.scuole.icat.candidati"
-                    :key="candcda.id"
+                    v-for="candCdA in dataLista.scuole.icat.candidati"
+                    :key="candCdA.id"
                     style-param="display:flex;margin: auto;"
                     >
-                        <Candidato :cand="candcda" url-lista="" />
+                        <Candidato :cand="candCdA" url-lista="" />
                     </Frame>
                 </div>
             </li>
@@ -172,11 +172,11 @@
                 <div id="includedContentScuoleDESIGN"  style="display:flex;flex-wrap: wrap;">
                     <Frame 
                     class-param="col-md-3 col-md-2"
-                    v-for="candcda in dataLista.scuole.design.candidati"
-                    :key="candcda.id"
+                    v-for="candCdA in dataLista.scuole.design.candidati"
+                    :key="candCdA.id"
                     style-param="display:flex;margin: auto;"
                     >
-                        <Candidato :cand="candcda" url-lista="" />
+                        <Candidato :cand="candCdA" url-lista="" />
                     </Frame>
                 </div>
             </li>

@@ -48,8 +48,8 @@ export default {
                         ]
                     },
                     {
-                        name: "Cda",
-                        desc: "La nostra idea di cda ecc...",
+                        name: "CdA",
+                        desc: "La nostra idea di CdA ecc...",
                         candidati:[
                             { id: 1, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
                             { id: 2, imgUrl: "/img/candidati/svoltastudenti/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},
@@ -80,7 +80,7 @@ export default {
                         ]
                     },
                     {
-                        name: "Cda",
+                        name: "CdA",
                         desc: "In CdA ci batteremo per il Diritto allo Studio: una battaglia decisiva per permettere a tutti gli studenti di poter vivere a pieno l’università! Inoltre, ci impegneremo sempre per garantire i giusti finanziamenti per sviluppare i nostri campus sempre di più come luoghi di aggregazione e di qualità.",
                         candidati:[
                             {id:1, imgUrl: "/img/candidati/listaaperta/daniele_redaelli.jpg", name: "Radaelli Daniele", detto: "REDA"},
@@ -105,8 +105,8 @@ export default {
                         ]
                     },
                     {
-                        name: "Cda",
-                        desc: "La nostra idea di cda ecc...",
+                        name: "CdA",
+                        desc: "La nostra idea di CdA ecc...",
                         candidati:[
                             {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                        ]
@@ -134,7 +134,7 @@ export default {
                         ]
                     },
                     {
-                        name: "Cda",
+                        name: "CdA",
                         desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                         candidati:[
                             {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni.jpg", name: "Crisogianni Gloria Maria", detto: ""},

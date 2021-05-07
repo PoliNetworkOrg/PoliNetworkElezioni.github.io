@@ -7,28 +7,30 @@
         <div class="container2" style="width: 100%;max-width: 100%;margin:0px;">
 
             <!-- Jumbotron Header -->
-            <header class="jumbotron my-4 testoCentrale">
-                <div style="margin:auto;">
-                    <div style="text-align:center;">
-                        <h2>Elezioni rappresentanti degli studenti</h2>
-                        <br/>
-                        <Frame v-for="item in organiConfronto"
-                        :key="item.id">
-                            <div>
-                                <h4>{{item.name}}</h4>
-                                <p class="lead">
-                                    <blockquote>
-                                        {{item.desc}}
-                                    </blockquote>
-                                </p>
-                            </div>
-                        </Frame>
+            <div class="container7">
+                <header class="jumbotron my-4 testoCentrale" style="border:none;">
+                    <div style="margin:auto;">
+                        <div style="text-align:center;">
+                            <h2>Elezioni rappresentanti degli studenti</h2>
+                            <br/>
+                            <Frame v-for="item in organiConfronto"
+                            :key="item.id">
+                                <div>
+                                    <h4>{{item.name}}</h4>
+                                    <p class="lead">
+                                        <blockquote>
+                                            {{item.desc}}
+                                        </blockquote>
+                                    </p>
+                                </div>
+                            </Frame>
+                        </div>
                     </div>
-                </div>
+                
 
+                </header>
 
-            </header>
-
+            </div>
             <!-- Page Features -->
             <div class="row text-center" id="listeContainer2" style="display:flex;flex-wrap:wrap;opacity:0.5;" v-on:load="test2">
 
@@ -50,7 +52,7 @@
                                         v-for="item2 in item.organi"
                                         :key="item2.name"
                                         >
-                                            <FrameSenatoCda :item="item2"/>
+                                            <FrameSenatoCdA :item="item2"/>
                                         </Frame>
                                     </div>
                                 </div>

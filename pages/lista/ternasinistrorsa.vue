@@ -37,8 +37,8 @@ export default {
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
                 ]
             },
-            cda:{
-                desc: "La nostra idea di cda ecc...",
+            CdA:{
+                desc: "La nostra idea di CdA ecc...",
                 candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                 ]
