@@ -3,16 +3,15 @@
 <!-- Page Content -->
 <div>
 <NavigationBar />
-
+<div style="padding-top:calc(20px + 0.5vh + 0.5rem);width:100%;">
 <div class="container2">
 <div class="container6">
 
     <!-- Jumbotron Header -->
     <header class=" my-4 ">
-		<div style="text-align:center;">
+		<div style="text-align:left;">
 			<span class="contattiTitle">Contatti</span>
-			<br />
-      <br />
+			<div style="padding:5px;"></div>
 		</div>
         <div style="text-align:left;">
 
@@ -47,6 +46,7 @@
 
  
 
+</div>
 </div>
 </div>
 

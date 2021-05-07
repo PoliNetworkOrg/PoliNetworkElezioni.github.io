@@ -7,7 +7,9 @@
 
 <div style="padding-top:calc(50px + 1vh + 1rem);width:100%;">
     <div class="container2">
-        <h2>Curiosit&agrave;</h2>
+    <div class="container6">
+        <header class=" my-4 ">
+        <h2 style="padding-bottom:1rem;" class="container4">Curiosit&agrave;</h2>
         <p>
             Questo sito, realizzato da <a href="https://polinetwork.github.io/">PoliNetwork</a>,
              ha l'obiettivo di rendere più chiaro possibile agli studenti programmi e candidati.
@@ -30,7 +32,8 @@
         </p>
 
       
-        
+        </header>
+        </div>
         </div>
 </div>
 
