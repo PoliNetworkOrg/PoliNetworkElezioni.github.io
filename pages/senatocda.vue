@@ -35,7 +35,7 @@ export default {
                 organi:[                
                     {
                         name: "Senato",
-                        desc: "La nostra idea di senato ecc...",
+                        desc: "In Senato per noi è fondamentale portare avanti idee a misura di studente, in modo slegato da influenze partitiche e confessionali. Portiamo avanti il dialogo con le istituzioni richiedendo mutuo rispetto, in modo da portare le scelte di ateneo sempre più a favore degli studenti.",
                         candidati:[
                             {id: 1, imgUrl: "/img/candidati/svoltastudenti/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
                             { id: 2, imgUrl: "/img/candidati/svoltastudenti/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
@@ -49,7 +49,7 @@ export default {
                     },
                     {
                         name: "CdA",
-                        desc: "La nostra idea di CdA ecc...",
+                        desc: "Ci battiamo ogni anno per mantenere la politica di IDONEI = BENEFICIARI, e in CdA vogliamo continuare a lavorare per diminuire i gap tra studenti di fasce diverse, per far sì che le opportunità coi bandi aumentino sempre di più e per tutelare gli studenti più deboli e le loro famiglie.",
                         candidati:[
                             { id: 1, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
                             { id: 2, imgUrl: "/img/candidati/svoltastudenti/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},

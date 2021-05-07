@@ -14,25 +14,37 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf",
             desc: ["Nata nel 2008 per rendere partecipi tutti gli studenti nei processi formativi e decisionali dell’Ateneo che tutti i giorni viviamo. Opportunità, idee e rappresentanti del tutto svincolati dai partiti: siamo apartitici, laici e multiculturali."],
             imageUrl:"/img/svolta.png",
-            programmaSottotitolo:"Inserisci slogan...",
+            programmaSottotitolo:"StudentsMakePolimi",
             programma:
                 [
                     {
                         id : 1,
-                        title: 'Titolo1',
-                        url : '/img/svolta.png',
-                        desc: "Descrizione 1"
+                        title: "DIDATTICA PIU' A MISURA DI STUDENTE",
+                        url : '/img/programmi/svoltastudenti/1.jpg',
+                        desc: "Vogliamo ampliare la scelta delle tesi di laurea, inserendo la possibilità di condividerle con altri corsi di studio, realizzare una piattaforma online che faciliti le collaborazioni tra studenti, costituire reti di aiuto tra studenti per la mobilità internazionale, istituire un questionario post esame per la valutazione delle modalità di somministrazione, e creare programmi di mobilità ultra breve."
                     },
                     {
                         id: 2,
-                        title: 'Titolo2',
-                        url : '/img/svolta.png',
-                        desc: "Descrizione 2"
+                        title: 'RIDUZIONE DEI COSTI E SOSTEGNI ECONOMICI',
+             url : '/img/programmi/svoltastudenti/2.jpg',
+                        desc: "Continueremo a lottare perché sia mantenuta la politica di IDONEI = BENEFICIARI, per garantire agevolazioni per studenti che svolgono attività complementari (sport, lavoro), abbassare il prezzo dei menù nelle mense e ampliare convenzioni per studenti per eventi, fiere e teatri"
+                    },
+                    {
+                        id : 3,
+                        title: "PARI OPPORTUNITA'",
+                     url : '/img/programmi/svoltastudenti/4.jpg',
+                        desc: "Chiederemo l'inserimento di insegnamenti in materia di Diversity & Inclusion in tutti i corsi di laurea, e ci faremo promotori del rilancio dello sportello psicologico e del servizio POLIPSI, implementando anche l'azione peer-to-peer. "
+                    },
+                    {
+                        id: 4,
+                        title: 'CAMPUS LIFE E AMBIENTE',
+                        url : '/img/programmi/svoltastudenti/3.jpg',
+                        desc: "Vogliamo rendere il Politecnico la prima università italiana totalmente Carbon Neutral entro il 2040, impegnare l'ateneo nell'implementazione dell'Agenda 2030 dell'ONU e nei rispettivi Sustainable Development Goals, e sviluppare un'impronta etica e umanistica in tutti i corsi di laurea."
                     },
                 ],
             senato:
             {
-                desc: "La nostra idea di senato ecc...",
+                desc: "In Senato per noi è fondamentale portare avanti idee a misura di studente, in modo slegato da influenze partitiche e confessionali. Portiamo avanti il dialogo con le istituzioni richiedendo mutuo rispetto, in modo da portare le scelte di ateneo sempre più a favore degli studenti.",
                 candidati:[
                     { id: 1, imgUrl: "/img/candidati/svoltastudenti/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
                     { id: 2, imgUrl: "/img/candidati/svoltastudenti/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
@@ -45,7 +57,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "La nostra idea di CdA ecc...",
+                desc: "Ci battiamo ogni anno per mantenere la politica di IDONEI = BENEFICIARI, e in CdA vogliamo continuare a lavorare per diminuire i gap tra studenti di fasce diverse, per far sì che le opportunità coi bandi aumentino sempre di più e per tutelare gli studenti più deboli e le loro famiglie.",
                 candidati:[
                     { id: 1, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
                     { id: 2, imgUrl: "/img/candidati/svoltastudenti/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},
@@ -54,7 +66,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "La nostra idea di scuola ecc...",
+                desc: "Nelle scuole ci battiamo perché la distribuzione dei CFU sia sempre più uniforme, perché gli esami siano unificati, annullando così le differenze per scaglione, e per fare in modo di creare più scelta all'interno dei corsi. Inoltre, vogliamo che si crei una rete studentesca importante, di peer tutoring e condivisione di progetti, e cerchiamo di aumentare sempre di più le opportunità laboratoriali, per un politecnico più tecnico.",
                 auic:{
                     desc: "Incontri, eventi culturali e convenzioni: Rendere il Politecnico stesso teatro di incontri ed eventi integrati e inerenti al percorso didattico. Verso il mondo del lavoro: introdurre supporto istituzionale alla creazione del portfolio. Implementare corsi su software di disegno, modellazione e applicazione della metodologia BIM: Implementare l’insegnamento di programmi nei primi anni del corso di studi. Inserimento laboratori annuali: 3 mesi non sono sufficienti per portare avanti progetti all’altezza.",
 					candidati:[
