@@ -191,6 +191,19 @@
      </div>
  </div><!-- members -->
 
+<div style="padding:1.6rem;"></div>
+<HorizontalLine />
+<div style="padding:1.7rem;"></div>
+
+<div class="container6" >
+<div class="container3">
+    <div class="lead container3" style="text-align:center;width:100%;padding-bottom:1.5rem;font-size:calc(1rem + 1vw);">
+        Visita anche le pagine dedicate alle altre liste
+    </div>
+    <QuadratiListe />
+</div>
+</div>
+
 <Footer />
 
 </div>
