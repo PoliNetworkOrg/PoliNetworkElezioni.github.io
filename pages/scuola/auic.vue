@@ -47,23 +47,23 @@ export default {
                 organi:[                
                     {
                         name: "AUIC",
-                        desc: "La nostra idea di scuola auic ecc...",
-           	            candidati:
-                        [
-                            {id:1, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
-                            {id:2, imgUrl: "/img/candidati/listaaperta/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
-                            {id:3, imgUrl: "/img/candidati/listaaperta/sara_galli.jpg", name: "Galli Sara", detto: "SARA"},
-                            {id:4, imgUrl: "/img/candidati/listaaperta/issa_tallawi.jpg", name: "Tallawi Issa", detto: "ISSA"},
-                            {id:5, imgUrl: "/img/candidati/listaaperta/veronica_cantale.jpg", name: "Cantale Maria Veronica", detto: ""},
-                            {id:6, imgUrl: "/img/candidati/listaaperta/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"},
-                            {id:7, imgUrl: "/img/candidati/listaaperta/elisabetta_taffa.jpg", name: "Taffa Elisabetta", detto: "ELI"},
-                            {id:8, imgUrl: "/img/candidati/listaaperta/marco_galbiati.jpg", name: "Galbiati Marco", detto: "CALI"},
-                            {id:9, imgUrl: "/img/candidati/listaaperta/marta_defre.jpg", name: "De fre Marta", detto: "MARTA"},
-                            {id:10, imgUrl: "/img/candidati/listaaperta/pietro_rabaioli.jpg", name: "Rabaioli Pietro", detto: "RABA"},
-                            {id:11, imgUrl: "/img/candidati/listaaperta/isaac_young.jpg", name: "Young Isaac Jason", detto: "ISAAC"},
-                            {id:12, imgUrl: "/img/candidati/listaaperta/marco_stringhetti.jpg", name: "Stringhetti Marco", detto: "STRINGO"},
-                            {id:13, imgUrl: "/img/candidati/listaaperta/sara_baldelli.jpg", name: "Baldelli Sara Micol", detto: ""}
-                        ]
+                        desc: "In scuola Auic lavoreremo su due pilastri: didattica e diritto allo studio. Per quanto riguarda la didattica, vorremmo dotare i docenti di strumenti tecnologici e digitali per aggiornare la didattica alle nuove forme che saranno decisive per noi studenti nel mondo del lavoro. Il Diritto allo Studio per gli studenti di Auic passa inevitabilmente dai costi che si devono sostenere per stampe e modelli: proponiamo un fondo e delle convenzioni per venire incontro, almeno in parte, a tutti gli studenti.",
+                    candidati:
+                    [
+						{id:1, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
+                        {id:2, imgUrl: "/img/candidati/listaaperta/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
+						{id:3, imgUrl: "/img/candidati/listaaperta/sara_galli.jpg", name: "Galli Sara", detto: "SARA"},
+						{id:4, imgUrl: "/img/candidati/listaaperta/issa_tallawi.jpg", name: "Tallawi Issa", detto: "ISSA"},
+						{id:5, imgUrl: "/img/candidati/listaaperta/maria_veronica_cantale.jpg", name: "Cantale Maria Veronica", detto: ""},
+						{id:6, imgUrl: "/img/candidati/listaaperta/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"},
+                        {id:7, imgUrl: "/img/candidati/listaaperta/elisabetta_taffa.png", name: "Taffa Elisabetta", detto: "ELI"},
+                        {id:8, imgUrl: "/img/candidati/listaaperta/marco_galbiati.jpg", name: "Galbiati Marco", detto: "CALI"},
+						{id:9, imgUrl: "/img/candidati/listaaperta/marta_de_fre.jpg", name: "De fre Marta", detto: "MARTA"},
+						{id:10, imgUrl: "/img/candidati/listaaperta/pietro_rabaioli.jpg", name: "Rabaioli Pietro", detto: "RABA"},
+						{id:11, imgUrl: "/img/candidati/listaaperta/isaac_young.jpg", name: "Young Isaac Jason", detto: "ISAAC"},
+						{id:12, imgUrl: "/img/candidati/listaaperta/marco_stringhetti.jpg", name: "Stringhetti Marco", detto: "STRINGO"},
+						{id:13, imgUrl: "/img/candidati/listaaperta/sara_baldelli.jpg", name: "Baldelli Sara Micol", detto: ""}
+                    ]
                     }
                 ]
             },

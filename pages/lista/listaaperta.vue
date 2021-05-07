@@ -24,25 +24,25 @@ export default {
                     {
                         id : 1,
                         title: 'Valorizziamo la triennale',
-                        url : '/img/listaaperta.png',
+                        url : '/img/programmi/listaaperta/1.jpg',
                         desc: "Desideriamo valorizzare mediante proposte concrete le lauree triennali, che ad oggi sembrano essere una semplice preparazione per la magistrale. Per questo motivo, finché non ci sarà una reale valorizzazione della triennale, non bisogna alzare ulteriormente le medie d’accesso alla magistrale!"
                     },
                     {
                         id: 2,
                         title: 'Registrazioni',
-                        url : '/img/listaaperta.png',
+                        url : '/img/programmi/listaaperta/4.jpg',
                         desc: "Le registrazioni sono un prezioso materiale didattico: lavoreremo affinché vengano sempre mantenute, coscienti del fatto che non potranno mai sostituire le vere lezioni live e in presenza."
                     },
                     {
                         id: 3,
                         title: 'Abbassiamo le tasse',
-                        url : '/img/listaaperta.png',
+                        url : '/img/programmi/listaaperta/3.jpg',
                         desc: "Lavoreremo insieme all’Ateneo per destinare investimenti al Diritto allo Studio in particolare per diminuire il contributo per le fasce medio-basse, anche grazie alla proposta di ulteriori esoneri per merito"
                     },
                     {
                         id: 4,
                         title: 'Aumentiamo gli spazi studio',
-                        url : '/img/listaaperta.png',
+                        url : '/img/programmi/listaaperta/2.jpg',
                         desc: "È fondamentale per noi avere spazi di qualità in cui poter studiare: proponiamo di sfruttare le nuove tecnologie e forme di lavoro flessibili, per liberare uffici amministrativi e aumentare gli spazi studio."
                     }
                 ],
@@ -79,11 +79,11 @@ export default {
                         {id:2, imgUrl: "/img/candidati/listaaperta/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
 						{id:3, imgUrl: "/img/candidati/listaaperta/sara_galli.jpg", name: "Galli Sara", detto: "SARA"},
 						{id:4, imgUrl: "/img/candidati/listaaperta/issa_tallawi.jpg", name: "Tallawi Issa", detto: "ISSA"},
-						{id:5, imgUrl: "/img/candidati/listaaperta/veronica_cantale.jpg", name: "Cantale Maria Veronica", detto: ""},
+						{id:5, imgUrl: "/img/candidati/listaaperta/maria_veronica_cantale.jpg", name: "Cantale Maria Veronica", detto: ""},
 						{id:6, imgUrl: "/img/candidati/listaaperta/elisabetta_alberton.jpg", name: "Alberton Elisabetta", detto: "BETTA"},
-                        {id:7, imgUrl: "/img/candidati/listaaperta/elisabetta_taffa.jpg", name: "Taffa Elisabetta", detto: "ELI"},
+                        {id:7, imgUrl: "/img/candidati/listaaperta/elisabetta_taffa.png", name: "Taffa Elisabetta", detto: "ELI"},
                         {id:8, imgUrl: "/img/candidati/listaaperta/marco_galbiati.jpg", name: "Galbiati Marco", detto: "CALI"},
-						{id:9, imgUrl: "/img/candidati/listaaperta/marta_defre.jpg", name: "De fre Marta", detto: "MARTA"},
+						{id:9, imgUrl: "/img/candidati/listaaperta/marta_de_fre.jpg", name: "De fre Marta", detto: "MARTA"},
 						{id:10, imgUrl: "/img/candidati/listaaperta/pietro_rabaioli.jpg", name: "Rabaioli Pietro", detto: "RABA"},
 						{id:11, imgUrl: "/img/candidati/listaaperta/isaac_young.jpg", name: "Young Isaac Jason", detto: "ISAAC"},
 						{id:12, imgUrl: "/img/candidati/listaaperta/marco_stringhetti.jpg", name: "Stringhetti Marco", detto: "STRINGO"},
@@ -97,9 +97,9 @@ export default {
 						{id:1, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
 						{id:3, imgUrl: "/img/candidati/listaaperta/giovanni_cavassi.jpg", name: "Cavassi Giovanni", detto: "CAVA"},
-						{id:4, imgUrl: "/img/candidati/listaaperta/letizia_perri.jpg", name: "Perri Letizia Maria", detto: "LETI"},
+						{id:4, imgUrl: "/img/candidati/listaaperta/letizia_maria_perri.jpg", name: "Perri Letizia Maria", detto: "LETI"},
 						{id:5, imgUrl: "/img/candidati/listaaperta/john_powell.jpg", name: "Powell John Edgar", detto: "JOHN.JE"},
-						{id:6, imgUrl: "/img/candidati/listaaperta/lorenzo_petulicchio.jpg", name: "Petulicchio Lorenzo", detto: "PETU"},
+						{id:6, imgUrl: "/img/candidati/listaaperta/lorenzo_petullicchio.jpg", name: "Petullicchio Lorenzo", detto: "PETU"},
                         {id:7, imgUrl: "/img/candidati/listaaperta/francesca_castellotti.jpg", name: "Castellotti Francesca", detto: "FRANCI"},
                         {id:8, imgUrl: "/img/candidati/listaaperta/matteo_crivellari.jpg", name: "Crivellari Matteo", detto: "CRIVE"},
 						{id:9, imgUrl: "/img/candidati/listaaperta/gloria_lopiano.jpg", name: "Lopiano Gloria", detto: ""},
@@ -119,7 +119,7 @@ export default {
 						{id:2, imgUrl: "/img/candidati/listaaperta/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
 						{id:3, imgUrl: "/img/candidati/listaaperta/pietro_perego.jpg", name: "Perego Pietro", detto: "PIE"},
 						{id:4, imgUrl: "/img/candidati/listaaperta/camilla_macchini.jpg", name: "Macchini Camilla", detto: "CAMI"},
-						{id:5, imgUrl: "/img/candidati/listaaperta/franscesco_cannerozzi.jpg", name: "Cannerozzi Francesco", detto: "CANNE"},
+						{id:5, imgUrl: "/img/candidati/listaaperta/francesco_cannerozzi.jpg", name: "Cannerozzi Francesco", detto: "CANNE"},
 						{id:6, imgUrl: "/img/candidati/listaaperta/davide_zini.jpg", name: "Zini Davide", detto: "ZINZAN"},
 						{id:7, imgUrl: "/img/candidati/listaaperta/giovanni_abbenda.jpg", name: "Abbenda Giovanni", detto: "GIO"}
                     ]
@@ -135,8 +135,8 @@ export default {
 						{id:5, imgUrl: "/img/candidati/listaaperta/maria_sammarini.jpg", name: "Sammarini Maria", detto: "MERY"},
 						{id:6, imgUrl: "/img/candidati/listaaperta/michele_dondi.jpg", name: "Dondi Michele", detto: "MIKE"},
                         {id:7, imgUrl: "/img/candidati/listaaperta/luca_tassetto.jpg", name: "Tassetto Luca", detto: "TAX"},
-                        {id:8, imgUrl: "/img/candidati/listaaperta/giacomo_tomesani.jpg", name: "Tomesani Giacomo Maria", detto: "JACK"},
-						{id:9, imgUrl: "/img/candidati/listaaperta/caterina_grillo.jpg", name: "Grillo Caterina Maria", detto: "CATE"},
+                        {id:8, imgUrl: "/img/candidati/listaaperta/giacomo_maria_tomesani.jpg", name: "Tomesani Giacomo Maria", detto: "JACK"},
+						{id:9, imgUrl: "/img/candidati/listaaperta/caterina_maria_grillo.jpg", name: "Grillo Caterina Maria", detto: "CATE"},
 						{id:10, imgUrl: "/img/candidati/listaaperta/giovanni_clericetti.jpg", name: "Clericetti Giovanni", detto: "GIOCLE"},
 						{id:11, imgUrl: "/img/candidati/listaaperta/michele_bruno.jpg", name: "Bruno Michele", detto: "MICHI"},
 						{id:12, imgUrl: "/img/candidati/listaaperta/chiara_mazzeo.jpg", name: "Mazzeo Chiara", detto: ""},
