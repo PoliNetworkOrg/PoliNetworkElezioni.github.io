@@ -35,7 +35,7 @@
               <li>50 per ogni scuola, idem per quanto riguarda il raggiungimento</li>
               <li>20 per ogni candidato in CCS (a differenza degli altri organi qui il sistema permette di raccoglierne di più, che però appunto non servono)</li>
               <li>Si può dare il sostegno a una sola lista/candidato per ogni organo, non si può sostenere sé stessi</li>
-              <li>Nei corsi di Ing. Geoinformatica, ing. Nucleare, Music & Acoustic Engineering ci vogliono meno firme per il CCS (rispettivamente: 9, 19, 18)</li>
+              <li>Nei corsi di Ing. Geoinformatica, Ing. Nucleare, Music & Acoustic Engineering ci vogliono meno firme per il CCS (rispettivamente: 9, 19, 18)</li>
               <li>Per i Consigli di Riferimento dei Poli Territoriali le firme a sostegno sono 10</li>
               <li>Una volta dato il sostegno non si può modificare</li>
               <li>Chi sostiene qualcuno figura nella lista dei sostegni</li>
