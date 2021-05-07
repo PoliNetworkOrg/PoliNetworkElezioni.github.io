@@ -10,6 +10,7 @@
     <header class="jumbotron my-4 testoCentrale" style="border:none;">
         <div style="text-align:center;">
             <h2>Elezioni rappresentanti degli studenti</h2>
+            <br />
             <h4>Scuole</h4>
             <br/>
 
