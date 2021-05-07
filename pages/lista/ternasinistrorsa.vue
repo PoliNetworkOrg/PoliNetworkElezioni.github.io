@@ -19,16 +19,28 @@ export default {
                 [
                     {
                         id : 1,
-                        title: 'Titolo1',
+                        title: 'Hasta la gratuità',
                         url: '/img/terna.png',
-                        desc: "Descrizione 1"
+                        desc: "Assorbenti gratuiti nei bagni dell’Ateneo! Continuiamo a lottare per la gratuità degli assorbenti: che siano accessibili a tutta la componente femminile del Politecnico. La situazione attuale è una scelta politica, non dettata dalla mancanza di soldi. A fronte di un disavanzo di bilancio di 39 milioni, non è mai stata presa in considerazione la proposta che abbiamo sviluppato in due anni di lavoro: con il vostro supporto vogliamo dare un segnale concreto per appianare le disparità di genere e tenere fede ai valori universitari. Non ci sono scuse per non farlo."
                     },
                     {
                         id: 2,
-                        title: 'Titolo2',
+                        title: 'Accessibilità e Inclusione',
                         url: '/img/terna.png',
-                        desc: "Descrizione 2"
+                        desc: "L’inclusività è uno dei valori cardine dell’Ateneo, facciamo sì che lo sia anche nella prassi di tutti i giorni. Inclusione e accessibilità, due punti chiave del nostro programma. Dobbiamo superare un sistema basato solamente sulla media, o sul voto di laurea, che rispecchia una meritocrazia finta, che non esprime realmente l’impegno e l’interessamento dellз studentз. Vogliamo impegnarci per abbattere le barriere architettoniche e assicurare maggiore sensibilità per le disabilità."
                     },
+                    {
+                        id: 3,
+                        title: 'Tasse',
+                        url: '/img/terna.png',
+                        desc: "Riteniamo indispensabile che i nostri sforzi e progetti di rappresentanza riguardino il diritto allo studio e l’abbassamento delle tasse per coloro che necessitano di un aiuto economico, al fine di minimizzare le disparità tra gli studenti e permettere loro di raggiungere al meglio i propri obiettivi. Ti sembra giusto pagare le tasse per un ISEE che non è il tuo? Secondo noi non lo è. Vogliamo riformare il sistema di tassazione abolendo la divisione in fasce: la tassazione continua permetterebbe di far pagare ad ogni studentз tasse eque secondo le proprie disponibilità economiche."
+                    },
+                    {
+                        id: 4,
+                        title: 'Pendolari, Fuorisede e Poli Territoriali',
+                        url: '/img/terna.png',
+                        desc: "E' fondamentale un'attenzione maggiore per le categorie poco rappresentate. Per noi è necessario fornire nuove tutele ai pendolari permettendo giustificazioni per assenze o ritardi causati da Trenord, garantire orari compatibili con un rientro in sicurezza ed estendere lo sportello furti non solo agli spazi dell'ateneo. Per i fuorisede dobbiamo ottenere lo spostamento del medico di base in Lombardia, oltre il covid e garantire sconti o rimborsi per il rientro a casa. Nel nostro programma abbiamo dedicato un'intera sezione per i Poli Territoriali, ognuno con le sue problematiche: dalla riduzione quanto più possibile le differenze di tassi di promozione tra sedi di Milano e Poli Territoriali all'aumentare il numero dei rappresentanti. Leggi il nostro programma per saperne di più!"
+                    }
                 ],
             senato:
             {
@@ -38,7 +50,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "La nostra idea di CdA ecc...",
+                desc: "L’università gratuita si costruisce dal basso! Tassazione più equa: veramente continua e progressiva. Vogliamo innalzare la soglia massima di ISEE per la riduzione del contributo di modo che la tassazione sia più equa anche per coloro che sono sopra l’attuale massimale. Lotteremo, dentro e fuori l’ateneo, per maggiori fondi statali in modo di ridurre sempre il carico agli studenti e portare la NO TAX AREA totale a 30.000 € di ISEE.",
                 candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                 ]
@@ -55,7 +67,7 @@ export default {
                     ]
                 },
                 trei:{
-                    desc :"La scuola 3i...",
+                    desc :"I calendari d’esame ci fanno spesso storcere il naso: date troppo vicine o lontane tra loro, sovrapposizioni… Esiste qualcosa che ci tuteli? Per ora solo delle “linee guida”, per questo vogliamo un regolamento che ci garantisca i nostri diritti! Vogliamo migliorare la didattica valorizzando laboratori, realizzando nuovi spazi per permettere agli studenti di realizzare i loro progetti e aggiungere la possibilità di esprimere un giudizio anche dopo un esame.",
                     candidati:
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
@@ -64,7 +76,7 @@ export default {
                     ]
                 },
                 icat:{
-                    desc: "La scuola icat...",
+                    desc: "Ridurre il carico degli esami aggiungendo le prove in itinere, limitando le prove con diverse modalità (scritto, orale, e progetto obbligatori) e migliorando le ore di esercitazioni eliminando le ripetizioni tra i corsi. In particolare, vogliamo ci impegneremo per rendere più equo il rapporto tra la valutazione del progetto e il tempo necessario per realizzarlo. Dobbiamo, e insieme possiamo, arrivare all’eliminazione delle precedenze! Ad ICAT ci impegneremo per più praticità ed esperienza sul campo, insieme ad un supporto crescente da parte del Career Service e per aver maggiormente al centro dei nostri corsi il tema della sostenibilità ambientale.",
                     candidati:
                     [
                       {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/luca_lo_bosco.png", name: "Lo Bosco Luca", detto: ""},
