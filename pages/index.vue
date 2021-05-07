@@ -7,7 +7,7 @@
   <div class="container3">
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-4 testoCentrale" style="max-width: 100%;border:none;margin-top:10px;margin-bottom:10px;padding-bottom:calc(10px + 1rem);padding-top:calc(2px + 5rem);">
+    <header class="my-4 testoCentrale" style="max-width: 100%;border:none;margin-top:10px;margin-bottom:10px;padding-bottom:calc(10px + 1rem);padding-top:calc(2px + 5rem);">
 		<div style="text-align:center;">
       <h2 style="font-size:calc(4px + 1.27rem + 0.77vw);">Elezioni rappresentanti degli studenti</h2>
 	  <h4 style="font-size:calc(2px + 1.15rem + 0.65vw);">
@@ -26,14 +26,15 @@
 
 	  <br />
 
+	<div class="container8">
 	<div class="container6">
 
-      <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);text-align:left;">
+      <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);text-align:center;">
 
 		  In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di maggio 2021 🗳
 		  </p>
 		  </div>
-
+	</div>
 	    </div>
 
 
@@ -90,11 +91,12 @@
 	<div class="container5">
 	<div  style="width:100%;text-align:center;display:block;" class="container2">
 	<br />
-	<h3>🗣 Dibattito 28 ottobre 2020</h3>
-
+	<h3 class="dibattito">🗣 Dibattito 28 ottobre 2020</h3>
+		<div class="container8">
 		<span class="lead" >
 		In attesa del nuovo dibattito che organizzeremo fra liste (previsto il 13,14,15 maggio) potete guardare quello svoltosi ad ottobre 2020
 		</span>
+		</div>
 	</div>
 	<br />
 	<div style="width:100%;text-align:center;">
@@ -159,3 +161,9 @@ export default {
 
 
 </script>
+
+<style >
+.dibattito{
+	font-size: calc(10px + 0.2rem + 1vw);
+}
+</style>
