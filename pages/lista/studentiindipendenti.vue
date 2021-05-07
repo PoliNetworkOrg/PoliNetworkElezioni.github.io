@@ -14,6 +14,7 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
             desc: ["Studenti indipendenti e la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università È un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità A tutela del percorso formativo e del benessere psicologico di ciascuno."],
             imageUrl:"/img/sip.png",
+            instagram:"https://www.instagram.com/studenti.indipendenti.polimi/",
             programmaSottotitolo:"Per la rappresentanza come mezzo e non come fine",
             programma:
                 [

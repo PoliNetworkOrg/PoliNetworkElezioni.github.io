@@ -18,6 +18,7 @@ export default {
             "Readytobeback: siamo pronti a tornare in università, come prima ma più di prima!",
             "Readytobetogether: l’esperienza di uno studente all’interno del politecnico non può essere in solitudine: per questo ci candidiamo insieme! Siamo 120 candidati, una squadra "],
             imageUrl:"/img/listaaperta.png",
+            instagram:"https://www.instagram.com/poli_listaperta/",
             programmaSottotitolo:"READY TO BE BACK TOGETHER!",
             programma:
                 [

@@ -14,6 +14,7 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa.pdf",
             desc: ["Siamo La Terna Sinistrorsa, una lista di rappresentanza studentesca del Politecnico di Milano. Da 25 anni lottiamo per un’università basata sul diritto allo studio e senza disuguaglianze. Inclusione, parità ed equità sono i notri valori fondanti: scopri il nostro programma e i nostri candidati!"],
             imageUrl:"/img/terna.png",
+            instagram:"https://www.instagram.com/la_terna_sinistrorsa/",
             programmaSottotitolo:"Siamo più di un numero",
             programma:
                 [

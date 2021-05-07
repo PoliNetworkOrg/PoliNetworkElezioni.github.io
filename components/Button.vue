@@ -9,13 +9,16 @@
 <style scoped>
 
 .btn-container{
-	padding:0.5rem;
+	padding:0.35rem;
 }
 
 .btn {
 	color:white;
 	font-size: 1.1em;
-	padding: 1rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
 	letter-spacing: .08em;
 	background-color: #03071ec9;
 	color: #fcfbf9;

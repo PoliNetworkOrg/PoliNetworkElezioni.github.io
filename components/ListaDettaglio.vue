@@ -14,11 +14,19 @@
   		<div class="container2 wow animated fadeInUp">
 	  		<h2 style="color:black; font-size:calc(10px + 3vw + 0.5rem); ">{{this.dataLista.name}}</h2>
 
-		<a :href=this.dataLista.mainWebsiteUrl><Button>Sito ufficiale 🌐</Button></a>
-	
-		<a :href="this.dataLista.mainProgrammaUrl">
-            <Button>Programma elettorale - PDF Completo 🗳</Button>
-        </a>
+        <div class="buttonContainerDiv">
+            <a :href=this.dataLista.mainWebsiteUrl class="buttonLista">
+                <Button>&nbsp;Sito ufficiale 🌐&nbsp;</Button>
+            </a>
+        
+            <a :href="this.dataLista.mainProgrammaUrl" class="buttonLista">
+                <Button>&nbsp;Programma elettorale - PDF🗳&nbsp;</Button>
+            </a>
+
+            <a :href="this.dataLista.instagram" class="buttonLista">
+                <Button>&nbsp;Instagram 📷&nbsp;</Button>
+            </a>
+        </div>
 		
             <Frame
                 v-for="descItem in dataLista.desc"
@@ -264,5 +272,28 @@ figure{
        margin-left:auto;
         margin-right:auto;
         margin-bottom: calc(0.2rem);
+}
+
+.buttonContainerDiv{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    max-width: calc(20vw + 30rem + 100px);
+    padding-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.buttonLista{
+    display: flex;
+    margin: auto;
+    font-size: calc(0.6rem + 0.5vw);
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
 }
 </style>
