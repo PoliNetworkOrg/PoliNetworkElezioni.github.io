@@ -20,7 +20,14 @@
             <Button>Programma elettorale - PDF Completo 🗳</Button>
         </a>
 		
-	  		<p id="office-place" class="office-place descrizioneLista">{{this.dataLista.desc}}</p>
+            <Frame
+                v-for="descItem in dataLista.desc"
+                :key="descItem"
+            >
+	  		<p id="office-place" class="office-place descrizioneLista">
+                  {{descItem}}
+                  </p>
+                </Frame>
   		</div><!-- /.container -->
   	</div><!-- /.intro -->
 
