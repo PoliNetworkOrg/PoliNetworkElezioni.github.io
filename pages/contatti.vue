@@ -5,6 +5,7 @@
 <NavigationBar />
 
 <div class="container2">
+<div class="container6">
 
     <!-- Jumbotron Header -->
     <header class=" my-4 ">
@@ -46,6 +47,7 @@
 
  
 
+</div>
 </div>
 
 <!-- /.container -->
