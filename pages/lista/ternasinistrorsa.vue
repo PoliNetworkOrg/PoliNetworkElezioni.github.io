@@ -21,25 +21,25 @@ export default {
                     {
                         id : 1,
                         title: 'Hasta la gratuità',
-                        url: '/img/terna.png',
+                        url: '/img/programmi/ternasinistrorsa/1.png',
                         desc: "Assorbenti gratuiti nei bagni dell’Ateneo! Continuiamo a lottare per la gratuità degli assorbenti: che siano accessibili a tutta la componente femminile del Politecnico. La situazione attuale è una scelta politica, non dettata dalla mancanza di soldi. A fronte di un disavanzo di bilancio di 39 milioni, non è mai stata presa in considerazione la proposta che abbiamo sviluppato in due anni di lavoro: con il vostro supporto vogliamo dare un segnale concreto per appianare le disparità di genere e tenere fede ai valori universitari. Non ci sono scuse per non farlo."
                     },
                     {
                         id: 2,
                         title: 'Accessibilità e Inclusione',
-                        url: '/img/terna.png',
+                        url: '/img/programmi/ternasinistrorsa/2.png',
                         desc: "L’inclusività è uno dei valori cardine dell’Ateneo, facciamo sì che lo sia anche nella prassi di tutti i giorni. Inclusione e accessibilità, due punti chiave del nostro programma. Dobbiamo superare un sistema basato solamente sulla media, o sul voto di laurea, che rispecchia una meritocrazia finta, che non esprime realmente l’impegno e l’interessamento dellз studentз. Vogliamo impegnarci per abbattere le barriere architettoniche e assicurare maggiore sensibilità per le disabilità."
                     },
                     {
                         id: 3,
                         title: 'Tasse',
-                        url: '/img/terna.png',
+                        url: '/img/programmi/ternasinistrorsa/3.png',
                         desc: "Riteniamo indispensabile che i nostri sforzi e progetti di rappresentanza riguardino il diritto allo studio e l’abbassamento delle tasse per coloro che necessitano di un aiuto economico, al fine di minimizzare le disparità tra gli studenti e permettere loro di raggiungere al meglio i propri obiettivi. Ti sembra giusto pagare le tasse per un ISEE che non è il tuo? Secondo noi non lo è. Vogliamo riformare il sistema di tassazione abolendo la divisione in fasce: la tassazione continua permetterebbe di far pagare ad ogni studentз tasse eque secondo le proprie disponibilità economiche."
                     },
                     {
                         id: 4,
                         title: 'Pendolari, Fuorisede e Poli Territoriali',
-                        url: '/img/terna.png',
+                        url: '/img/programmi/ternasinistrorsa/4.png',
                         desc: "E' fondamentale un'attenzione maggiore per le categorie poco rappresentate. Per noi è necessario fornire nuove tutele ai pendolari permettendo giustificazioni per assenze o ritardi causati da Trenord, garantire orari compatibili con un rientro in sicurezza ed estendere lo sportello furti non solo agli spazi dell'ateneo. Per i fuorisede dobbiamo ottenere lo spostamento del medico di base in Lombardia, oltre il covid e garantire sconti o rimborsi per il rientro a casa. Nel nostro programma abbiamo dedicato un'intera sezione per i Poli Territoriali, ognuno con le sue problematiche: dalla riduzione quanto più possibile le differenze di tassi di promozione tra sedi di Milano e Poli Territoriali all'aumentare il numero dei rappresentanti. Leggi il nostro programma per saperne di più!"
                     }
                 ],
@@ -57,7 +57,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "La nostra idea di scuola ecc...",
+                desc: "Nelle quattro scuole ci impegneremo per una didattica più giusta, per un maggiore rispetto dei nostri diritti, e per eliminare ostacoli retaggio del passato. Ogni scuola ha le sue peculiarità e problematiche, abbiamo studiato molto attentamente quali proposte mettere in campo. Insieme, possiamo ambire a un'università sempre più a misura di student[inserire e capovolta] partendo dal basso, dal quotidiano svolgersi di lezioni ed esami",
                 auic:{
                     desc: "Tutti abbiamo diritto agli stessi strumenti per la progettazione per questo richiediamo un accesso digitale alla bibliografia e un maggior numero di software gratuiti come Sketch-up pro e Lumion. Ci impegneremo anche per ridurre ulteriori costi a carico di noi studentз richiedendo la strumentazione adatta per poter svolgere revisioni in digitale. Ogni studentə vale più della sua media per questo proponiamo di essere valutati equamente per gli accessi sis ai laboratori che alle magistrali",
                     candidati:
