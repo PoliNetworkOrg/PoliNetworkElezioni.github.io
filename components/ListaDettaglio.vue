@@ -43,7 +43,7 @@
 
         <div class="section" id="our-info">
             <div class="container2" style="max-width: 100%;margin:auto; width:100%;">
-                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);padding-top:2rem;text-align:left;" class="container2">
+                <h2 class="container2 programmaElettorale">
                     Programma elettorale 📝
                 </h2> 
                 <hr />
@@ -295,5 +295,11 @@ figure{
     align-self: center;
     align-content: center;
     align-items: center;
+}
+
+.programmaElettorale{
+     font-size:calc(10px + 1.5vw + 0.3rem);
+     padding-top:4.5rem;
+     text-align:left;
 }
 </style>
