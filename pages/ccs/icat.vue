@@ -13,12 +13,17 @@
 	<h1 style="text-align:center;">ICAT - CCS</h1>
 
     <header class="jumbotron my-4 testoCentrale">
+        <div class="titoloCCS">
+			<span class="lead">
+				Elenco corsi di studio:
+			</span>
+		</div>
         <div style="text-align:center;">
-                <ul>
-                    <li><a class="topLinks" href="#1">Ingegneria per l'Ambiente e il Territorio - sede di Milano</a></li>
-                    <li><a class="topLinks" href="#2">Ingegneria Civile - sede di Milano</a></li>
-                    <li><a class="topLinks" href="#3">Ingegneria Civile e Ambientale - sede di Lecco</a></li>
-                    <li><a class="topLinks" href="#4">Civil Engineering for Risk Mitigation - Sede di Lecco</a></li>
+               <ul style="ulCcs">
+                    <li class="liCcs"><a class="topLinks" href="#1">Ingegneria per l'Ambiente e il Territorio - sede di Milano</a></li>
+                    <li class="liCcs"><a class="topLinks" href="#2">Ingegneria Civile - sede di Milano</a></li>
+                    <li class="liCcs"><a class="topLinks" href="#3">Ingegneria Civile e Ambientale - sede di Lecco</a></li>
+                    <li class="liCcs"><a class="topLinks" href="#4">Civil Engineering for Risk Mitigation - Sede di Lecco</a></li>
                 </ul>
         </div>
     </header>
