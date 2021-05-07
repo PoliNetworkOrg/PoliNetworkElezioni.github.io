@@ -56,7 +56,7 @@
                     class-param="col-sm-3 wow animated fadeInLeft"
                     v-for="item in dataLista.programma"
                     :key="item.id"
-                    style-param="margin:auto;min-width:calc(150px + 6rem + 2vw);display:flex;flex: 1 1 25%;padding:5px;max-width: 100%;"
+                    style-param="min-width:calc(150px + 6rem + 2vw);display:flex;flex: 1 1 25%;padding:5px;max-width: 100%;"
                      >
                      <div style="border:1px solid #0000003c;padding: calc(3px + 0.5rem);margin: 0px; border-radius:calc(10px + 1rem);width: 100%;">
                         <figure>
