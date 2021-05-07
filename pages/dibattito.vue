@@ -26,7 +26,7 @@
 	<h3 class="dibattito">Dibattito 28 Ottobre 2020</h3>
 		<div class="container8">
 		<span class="lead" >
-		In attesa del nuovo dibattito che organizzeremo fra liste (previsto il 13-14-15 Maggio) potete guardare quello svoltosi ad Ottobre 2020
+		In attesa del nuovo dibattito che organizzeremo fra liste (previsto il 13-14-15 Maggio) potete guardare quello svoltosi ad Ottobre 2020.
 		</span>
 		</div>
 	</div>
