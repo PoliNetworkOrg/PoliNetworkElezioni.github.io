@@ -88,19 +88,19 @@
 
 <hr />
 
-	<div class="container5">
-	<div  style="width:100%;text-align:center;display:block;" class="container2">
-	<br />
-	<h3 class="dibattito">🗣 Dibattito 28 ottobre 2020</h3>
-		<div class="container8">
-		<span class="lead" >
-		In attesa del nuovo dibattito che organizzeremo fra liste (previsto il 13,14,15 maggio) potete guardare quello svoltosi ad ottobre 2020
-		</span>
-		</div>
+ <div class="container5">
+	 <div class="container3 lead" style="text-align:center;padding-top:calc(10px + 1rem);padding-bottom:calc(0.5rem);">
+		<h3 class="dibattito">🗣 Dibattito fra liste</h3>
+		<span class="container5" style="padding-top:3px;">
+						Le liste di rappresentanza si affronteranno in una serie di dibattiti tematici
+					</span>
 	</div>
+	<Dibattito />
 	<br />
 	<div style="width:100%;text-align:center;">
-	<iframe  style="width:80%;height:40%;min-height: 350px;max-width: 700px;" src="https://www.youtube.com/embed/wr5Ry4eAaZM?start=1377" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<a href="/dibattito/">
+			<Button>Maggiori info</Button>
+		</a>
 	</div>
 	</div>
 
@@ -162,8 +162,3 @@ export default {
 
 </script>
 
-<style >
-.dibattito{
-	font-size: calc(10px + 0.2rem + 1vw);
-}
-</style>
