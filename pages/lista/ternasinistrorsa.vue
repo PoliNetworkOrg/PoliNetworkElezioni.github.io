@@ -33,13 +33,13 @@ export default {
                     {
                         id: 3,
                         title: 'Tasse',
-                        url: '/img/programmi/ternasinistrorsa/3.png',
+                        url: '/img/programmi/ternasinistrorsa/4.png',
                         desc: "Riteniamo indispensabile che i nostri sforzi e progetti di rappresentanza riguardino il diritto allo studio e l’abbassamento delle tasse per coloro che necessitano di un aiuto economico, al fine di minimizzare le disparità tra gli studenti e permettere loro di raggiungere al meglio i propri obiettivi. Ti sembra giusto pagare le tasse per un ISEE che non è il tuo? Secondo noi non lo è. Vogliamo riformare il sistema di tassazione abolendo la divisione in fasce: la tassazione continua permetterebbe di far pagare ad ogni studentз tasse eque secondo le proprie disponibilità economiche."
                     },
                     {
                         id: 4,
                         title: 'Pendolari, Fuorisede e Poli Territoriali',
-                        url: '/img/programmi/ternasinistrorsa/4.png',
+                        url: '/img/programmi/ternasinistrorsa/3.png',
                         desc: "E' fondamentale un'attenzione maggiore per le categorie poco rappresentate. Per noi è necessario fornire nuove tutele ai pendolari permettendo giustificazioni per assenze o ritardi causati da Trenord, garantire orari compatibili con un rientro in sicurezza ed estendere lo sportello furti non solo agli spazi dell'ateneo. Per i fuorisede dobbiamo ottenere lo spostamento del medico di base in Lombardia, oltre il covid e garantire sconti o rimborsi per il rientro a casa. Nel nostro programma abbiamo dedicato un'intera sezione per i Poli Territoriali, ognuno con le sue problematiche: dalla riduzione quanto più possibile le differenze di tassi di promozione tra sedi di Milano e Poli Territoriali all'aumentare il numero dei rappresentanti. Leggi il nostro programma per saperne di più!"
                     }
                 ],
