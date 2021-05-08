@@ -15,7 +15,7 @@ export default {
         {
             id:1,
             name:"ICAT",
-            desc:"Nella scuola ICAT...."
+            desc:"La Scuola di Ingegneria Civile Ambientale e Territoriale eroga i Corsi di Studio in Ingegneria per l'Ambiente e il Territorio (campus Leonardo), Ingegneria Civile (campus Leonardo), Ingegneria Civile per la Mitigazione del Rischio/Civil Engineering for Risk Mitigation (campus Lecco) e Geoinformatics Engineering/Ingegneria Geoinformatica (campus Leonardo)."
         }
     ],
 

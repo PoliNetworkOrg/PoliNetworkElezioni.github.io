@@ -121,7 +121,7 @@ export default {
                 organi:[
                     {
                         name: "Senato",
-                        desc: "Per noi in senato è importante discutere di decisioni politiche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз.",
+                        desc: "Per noi in Senato è importante discutere di decisioni politiche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз.",
                         candidati:[
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff_sen.PNG", name: "Wolff Jonathan", detto: "JONNY"},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.PNG", name: "Iodice Andrea", detto: ""},
@@ -135,7 +135,7 @@ export default {
                     },
                     {
                         name: "CdA",
-                        desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
+                        desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il Politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                         candidati:[
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},

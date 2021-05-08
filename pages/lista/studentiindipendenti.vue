@@ -21,25 +21,25 @@ export default {
                     {
                         id : 1,
                         title: 'Aumentiamo gli appelli annui',
-                        url: '/img/sip.png',
+                        url: '/img/programmi/studentiindipendenti/3.webp',
                         desc: "Proponiamo di aumentare il numero totale di appelli all’anno ad almeno 7, di istituire una sessione straordinaria per i ripetenti e di dare la possibilità istituzionale di svolgere il primo appello durante il secondo parziale."
                     },
                     {
                         id: 2,
                         title: 'Assorbenti e preservativi gratuiti',
-                        url: '/img/sip.png',
+                        url: '/img/programmi/studentiindipendenti/4.jpg',
                         desc: "Chiediamo che vengano installati distributori di assorbenti gratuiti, garantendo alla componente femminile l’accesso a un bene di necessità. Chiediamo inoltre l’installazione di distributori di preservativi gratuiti per combattere la diffusione delle malattie sessualmente trasmissibili."
                     },
                     {
                         id : 3,
                         title: 'Borracce gratuite e Ufficio sostenibilità',
-                        url: '/img/sip.png',
+                        url: '/img/programmi/studentiindipendenti/2.webp',
                         desc: "Per combattere il consumo di plastica proponiamo che venga fornita gratuitamente una borraccia di alluminio per tuttз lз studentз. Chiediamo l’istituzione di un Ufficio Sostenibilità di ateneo col compito di monitorare l’impatto ambientale e l’impegno ecologico del Poli."
                     },
                     {
                         id: 4,
                         title: 'Licenze per tuttз',
-                        url: '/img/sip.png',
+                        url: '/img/programmi/studentiindipendenti/1.webp',
                         desc: "Proponiamo che vengano erogate a tutta la componente studentesca le licenze dei software più comunemente utilizzati e che vengano messi a disposizione gratuitamente su richiesta anche i software più specifici senza escludere lз studentз in base al corso di studio."
                     },
                 ],
