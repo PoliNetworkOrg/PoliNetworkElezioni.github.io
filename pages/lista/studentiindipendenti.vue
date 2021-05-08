@@ -13,7 +13,7 @@ export default {
             mainWebsiteUrl: "https://studentiindipendenti.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
             desc: ["Studenti indipendenti e la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università È un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità A tutela del percorso formativo e del benessere psicologico di ciascuno."],
-            imageUrl:"/img/sip.png",
+            imageUrl:"/img/sip2.png",
             instagram:"https://www.instagram.com/studenti.indipendenti.polimi/",
             programmaSottotitolo:"Per la rappresentanza come mezzo e non come fine",
             programma:
@@ -99,7 +99,7 @@ export default {
                         {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello.PNG", name: "Spiniello Mario", detto: ""},
                         {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone.PNG", name: "Carbone Gaia", detto: ""},
                         {id: 9 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare.PNG", name: "Stramare Davide", detto: "DADO"},
-                        {id: 10 , imgUrl: "/img/sip.PNG", name: "Truvolo Federica", detto: ""},
+                        {id: 10 , imgUrl: "/img/candidati/studentiindipendenti/sip.PNG", name: "Truvolo Federica", detto: ""},
                         {id: 11 , imgUrl: "/img/candidati/studentiindipendenti/sara_ehetagegnehu_finardi.PNG", name: "Finardi Sara Ehetagegnehu", detto: "FES"},
                         {id: 12 , imgUrl: "/img/candidati/studentiindipendenti/francesco_puddu.PNG", name: "Puddu Francesco", detto: ""},
                         {id: 13 , imgUrl: "/img/candidati/studentiindipendenti/pietro_contardi.PNG", name: "Contardi Pietro", detto: ""},
@@ -129,7 +129,7 @@ export default {
                         {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/federica_pompa.PNG", name: "Pompa Federica", detto: ""},
                         {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/caterina_creanza.PNG", name: "Creanza Caterina", detto: ""},
                         {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/andreea_ciortan.PNG", name: "Ciortan Andreea", detto: ""},
-                        {id: 8 , imgUrl: "/img/sip.PNG", name: "Patti Lavinia", detto: ""}
+                        {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/sip.PNG", name: "Patti Lavinia", detto: ""}
                     ]
                 }
             }
