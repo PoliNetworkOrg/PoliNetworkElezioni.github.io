@@ -26,7 +26,7 @@
                             </Frame>
                         </div>
                     </div>
-                
+
 
                 </header>
 
@@ -42,7 +42,7 @@
                 <a :href="item.linkLista">
                     <div class="card">
                         <div class="listTile" style="width: 100%;">
-                            <div class="cap-left" style="width: 100%;display:block;">
+                            <div class="cap-left" style="width: 100%;display:block; padding: 0px;">
                                 <div style="width:100%;">
                                     <img class="imageList" :src="item.imageUrlHorizontal" style="width:100%;max-width:100%;">
                                 </div>
@@ -62,9 +62,9 @@
                 </a>
                 </Frame>
 
-                
 
-            
+
+
             </div>
             <!-- /.row -->
 

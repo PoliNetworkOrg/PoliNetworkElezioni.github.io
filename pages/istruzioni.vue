@@ -19,7 +19,7 @@
 </div>
 <div>
 	  <a class="linkEligo" href="https://youtu.be/lX5bhxXr_fI">📽 Video istruzioni al voto</a>
-	
+
 	</div>
 
 <br />
@@ -60,12 +60,26 @@
           		<td style="border-top: 2px solid #000000; border-left: 2px solid #000000" align="left" valign=bottom><font face="Arial">posti</font></td>
           		<td style="border-top: 2px solid #000000; border-right: 2px solid #000000" align="left" valign=bottom><font color="#000000">preferenze</font></td>
           	</tr>
+            <tr>
+          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 0px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">Senato Accademico</font></b></td>
+              <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000;" align="left" valign=bottom><font color="#000000"><br></font></td>
+          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000;" align="center" valign=bottom><font color="#000000"><br></font></td>
+          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">4</font></b></td>
+          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">3</font></b></td>
+          	</tr>
+            <tr>
+          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 0px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">CDA</font></b></td>
+              <td align="left" valign=bottom><font color="#000000"><br></font></td>
+              <td align="center" valign=bottom><font color="#000000"><br></font></td>
+              <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">2</font></b></td>
+          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">2</font></b></td>
+          	</tr>
           	<tr>
-          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">AUIC</font></b></td>
-          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
-          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" align="center" valign=middle><b><font face="Arial" size=1 color="#000000">MI - Leo</font></b></td>
-          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
-          		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
+          		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">AUIC</font></b></td>
+          		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
+          		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" align="center" valign=middle><b><font face="Arial" size=1 color="#000000">MI - Leo</font></b></td>
+          		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
+          		<td style="border-top: 2px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
           	</tr>
           	<tr>
           		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Urbanistica:Citt&agrave; Ambiente Paesaggio</font></td>
@@ -169,8 +183,8 @@
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">DESIGN</font></b></td>
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><b><font face="Arial" size=1 color="#000000">MI - Bov</font></b></td>
-          		<td style="border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
-          		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
+          		<td style="border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
+          		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
           	</tr>
           	<tr>
           		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Design del Prodotto Industriale</font></td>
@@ -225,8 +239,8 @@
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">ICAT</font></b></td>
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><b><font face="Arial" size=1 color="#000000">MI - Leo</font></b></td>
-          		<td style="border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
-          		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
+          		<td style="border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
+          		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
           	</tr>
           	<tr>
           		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Ingegneria per l'Ambiente e il Territorio  </font></td>
@@ -267,8 +281,8 @@
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">3I</font></b></td>
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
           		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle><b><font face="Arial" size=1 color="#000000">MI - Leo, MI Bov</font></b></td>
-          		<td style="border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
-          		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000"><br></font></b></td>
+          		<td style="border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
+          		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">5</font></b></td>
           	</tr>
           	<tr>
           		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Ingegneria Aerospaziale</font></td>
