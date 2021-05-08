@@ -13,19 +13,19 @@ export default {
 
     organiConfronto:[
         {
-            id:1, 
+            id:1,
             name:"3I",
             desc:"La scuola coordina le attività didattiche per la maggior parte delle lauree e delle lauree magistrali in Ingegneria del Politecnico di Milano. La Scuola di Ingegneria Industriale e dell’Informazione è di gran lunga la più grande delle quattro presenti al Politecnico, con circa il 60 percento degli studenti iscritti nei propri corsi di Laurea e Laurea Magistrale. La Commissione Paritetica ha il compito di monitorare l’offerta formativa, la qualità della didattica e i servizi erogati agli studenti e di esprimere pareri sull'istituzione e la soppressione dei Corsi di studio. é composta da 5 studenti e 5 professori."
         }
     ],
 
       liste: [
-            { 
-                id: 1, 
+            {
+                id: 1,
                 name: "Svoltastudenti",
                 imageUrlHorizontal: "/img/logo-svolta_hor.png",
                 linkLista: "/lista/svoltastudenti/",
-                organi: [                
+                organi: [
                     {
                         name: "3I",
                         desc: "Creare di rete di Ambassadors con lo scopo di avvicinare le ragazze al mondo ingegneristico. Aumentare l’attività laboratoriale nei corsi a scelta in magistrale: questi corsi sono già interdipartimentali e la contaminazione sarebbe facilmente implementabile. Inserire l’bbligo di caricare una versione corretta del tema d’esame e garantire la possibilità di accedere ai temi d’esami degli anni precedenti e simulazioni, attraverso un archivio centralizzato. Introdurre un nuovo appello d’esame: introdurre un appello totale in concomitanza della seconda prova parziale.",
@@ -47,12 +47,12 @@ export default {
                     }
                 ]
             },
-            { 
-                id: 2, 
+            {
+                id: 2,
                 name: "Lista aperta",
                 imageUrlHorizontal: "/img/logo-listaaperta_hor.png",
                 linkLista: "/lista/listaaperta/",
-                organi:[                
+                organi:[
                     {
                         name: "3I",
                         desc :"Il nostro lavoro nella scuola 3I si concentrerà principalmente su 3 aspetti: valorizzare la laurea triennali, aumentare la qualità dell’esperienza didattica e costruire una didattica che tiene conto dell’esperienza digitale dell’emergenza Covid. Non si può pensare di rendere ancora più difficile l’ingresso in magistrale senza politiche di valorizzazione del percorso della laurea triennale, che sempre di più sta perdendo qualità nella didattica. Per aumentare la qualità della didattica crediamo che sia fondamentale aumentare la possibilità di personalizzare il proprio percorso di studi, a partire dalle lauree in discontinuità. Infine, ci teniamo a cogliere gli aspetti positivi del digitale, come le registrazioni, per migliorare la didattica innovativa.",
@@ -77,12 +77,12 @@ export default {
                     }
                 ]
             },
-            { 
-                id: 3, 
+            {
+                id: 3,
                 name: "Terna sinistrorsa",
                 imageUrlHorizontal: "/img/logo-terna_hor.png",
                 linkLista: "/lista/ternasinistrorsa/",
-                organi:[                
+                organi:[
                     {
                         name: "3I",
                         desc :"I calendari d’esame ci fanno spesso storcere il naso: date troppo vicine o lontane tra loro, sovrapposizioni… Esiste qualcosa che ci tuteli? Per ora solo delle “linee guida”, per questo vogliamo un regolamento che ci garantisca i nostri diritti! Vogliamo migliorare la didattica valorizzando laboratori, realizzando nuovi spazi per permettere agli studenti di realizzare i loro progetti e aggiungere la possibilità di esprimere un giudizio anche dopo un esame.",
@@ -90,42 +90,42 @@ export default {
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
                       {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/pedro_bossi.png", name: "Bossi Pedro", detto: ""}
-                
+
                     ]
                     }
                 ]
             },
-            { 
-                id: 4, 
+            {
+                id: 4,
                 name: "Studenti indipendenti",
                 imageUrlHorizontal: "/img/logo-sip_hor.png",
                 linkLista: "/lista/studentiindipendenti/",
-                organi:[                
+                organi:[
                     {
                         name: "3I",
                         desc :"Piano di studi personalizzabile: crediamo che ognuno debba decidere con meno vincoli possibile il proprio percorso di studi in modo che si creino figure professionali nuove e multidisciplinari. Crediamo che l'abolizione delle medie di accesso alla magistrale sia  un ulteriore incentivo a far proseguire gli studi e a combattere l'abbandono degli studi, un problema caratteristico e grave del nostro ateneo. Le differenze tra scaglioni devono essere abolite promuovendo gli esempi virtuosi. Sempre nell'ottica di aumentare la scelta tra i corsi vogliamo incrementare il numero di laboratori a scelta.",
                         candidati:
                         [
-                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.jpg", name: "Marcucci Edoardo", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/alice_portentoso.jpg", name: "Portentoso Alice", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/elena_fiorani.jpg", name: "Fiorani Elena", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/marco_zamboni.jpg", name: "Zamboni Marco", detto: "ZAMBO"},
-                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff.jpg", name: "Wolff Jonathan", detto: "JONNY"},
-                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/francesca_benatti.jpg", name: "Benatti Francesca", detto: ""},
-                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello.jpg", name: "Spiniello Mario", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone.jpg", name: "Carbone Gaia", detto: ""},
-                            {id: 9 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare.jpg", name: "Stramare Davide", detto: "DADO"},
-                            {id: 10 , imgUrl: "/img/candidati/studentiindipendenti/federica_truvolo.jpg", name: "Truvolo Federica", detto: ""},
-                            {id: 11 , imgUrl: "/img/candidati/studentiindipendenti/sara_ehetagegnehu_finardi.jpg", name: "Finardi Sara Ehetagegnehu", detto: "FES"},
-                            {id: 12 , imgUrl: "/img/candidati/studentiindipendenti/francesco_puddu.jpg", name: "Puddu Francesco", detto: ""},
-                            {id: 13 , imgUrl: "/img/candidati/studentiindipendenti/pietro_contardi.jpg", name: "Contardi Pietro", detto: ""},
-                            {id: 14 , imgUrl: "/img/candidati/studentiindipendenti/roberto_serino.jpg", name: "Serino Roberto", detto: ""},
-                            {id: 15 , imgUrl: "/img/candidati/studentiindipendenti/alice_oppizzii.jpg", name: "Oppizzii Alice", detto: ""}
+                        {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.PNG", name: "Marcucci Edoardo", detto: ""},
+                        {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/alice_portentoso.PNG", name: "Portentoso Alice", detto: ""},
+                        {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/elena_fiorani.PNG", name: "Fiorani Elena", detto: ""},
+                        {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/marco_zamboni.PNG", name: "Zamboni Marco", detto: "ZAMBO"},
+                        {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff.PNG", name: "Wolff Jonathan", detto: "JONNY"},
+                        {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/francesca_benatti.PNG", name: "Benatti Francesca", detto: ""},
+                        {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello.PNG", name: "Spiniello Mario", detto: ""},
+                        {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone.PNG", name: "Carbone Gaia", detto: ""},
+                        {id: 9 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare.PNG", name: "Stramare Davide", detto: "DADO"},
+                        {id: 10 , imgUrl: "/img/sip.PNG", name: "Truvolo Federica", detto: ""},
+                        {id: 11 , imgUrl: "/img/candidati/studentiindipendenti/sara_ehetagegnehu_finardi.PNG", name: "Finardi Sara Ehetagegnehu", detto: "FES"},
+                        {id: 12 , imgUrl: "/img/candidati/studentiindipendenti/francesco_puddu.PNG", name: "Puddu Francesco", detto: ""},
+                        {id: 13 , imgUrl: "/img/candidati/studentiindipendenti/pietro_contardi.PNG", name: "Contardi Pietro", detto: ""},
+                        {id: 14 , imgUrl: "/img/candidati/studentiindipendenti/roberto_serino.PNG", name: "Serino Roberto", detto: ""},
+                        {id: 15 , imgUrl: "/img/candidati/studentiindipendenti/alice_oppizzii.PNG", name: "Oppizzii Alice", detto: ""}
                         ]
                     }
                 ]
             }
-        ]    
+        ]
     }
   }
 }

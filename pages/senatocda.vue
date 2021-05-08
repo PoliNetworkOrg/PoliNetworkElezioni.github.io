@@ -15,7 +15,7 @@ export default {
 
     organiConfronto:[
         {
-            id:1, 
+            id:1,
             name:"Senato",
             desc:"IL SENATO INDIRIZZA E PROGRAMMA LO SVILUPPO DELL’ATENEO, CON PARTICOLARE RIGUARDO ALLA DIDATTICA E ALLA RICERCA, E VIGILA SUL FUNZIONAMENTO COMPLESSIVO DELL'ISTITUZIONE."
         },
@@ -27,12 +27,12 @@ export default {
     ],
 
       liste: [
-            {      
-                id: 1, 
+            {
+                id: 1,
                 name: "Svoltastudenti",
                 imageUrlHorizontal: "/img/logo-svolta_hor.png",
                 linkLista: "/lista/svoltastudenti/",
-                organi:[                
+                organi:[
                     {
                         name: "Senato",
                         desc: "In Senato per noi è fondamentale portare avanti idee a misura di studente, in modo slegato da influenze partitiche e confessionali. Portiamo avanti il dialogo con le istituzioni richiedendo mutuo rispetto, in modo da portare le scelte di ateneo sempre più a favore degli studenti.",
@@ -59,12 +59,12 @@ export default {
                     }
                 ]
             },
-            {      
-                id: 2, 
+            {
+                id: 2,
                 name: "Lista aperta",
                 imageUrlHorizontal: "/img/logo-listaaperta_hor.png",
                 linkLista: "/lista/listaaperta/",
-                organi:[                
+                organi:[
                     {
                         name: "Senato",
                         desc: "In Senato lavoreremo per garantire una didattica di qualità aperta a forme innovative per valorizzare le attitudini di ogni studente. Inoltre, è per noi un tema fondamentale incentivare l’internazionalizzazione sia al Politecnico sia con esperienze all’estero.",
@@ -91,12 +91,12 @@ export default {
                     }
                 ]
             },
-            {      
-                id: 3, 
+            {
+                id: 3,
                 name: "Terna sinistrorsa",
                 imageUrlHorizontal: "/img/logo-terna_hor.png",
                 linkLista: "/lista/ternasinistrorsa/",
-                organi:[                
+                organi:[
                     {
                         name: "Senato",
                         desc: "Chi studia non è solo un numero: Siamo più dei voti che prendiamo, per questo l’accesso alle lauree magistrali non dovrebbe essere vincolato solo alla nostra media. Il diritto allo studio va garantito ed esteso a tutte le persone che ne hanno bisogno, per questo proponiamo l’innalzamento della NO TAX area totale ad almeno 30mila euro di isee  e una tassazione progressiva e continua che elimini l’attuale divisione in fasce. Chiediamo un Politecnico più accessibile architettonicamente ed economicamente, con mense a prezzi più bassi e assorbenti gratuiti nei bagni. Un Politecnico attento alla sostenibilità e alle disabilità. ",
@@ -113,39 +113,39 @@ export default {
                     }
                 ]
             },
-            {      
-                id: 4, 
+            {
+                id: 4,
                 name: "Studenti indipendenti",
                 imageUrlHorizontal: "/img/logo-sip_hor.png",
                 linkLista: "/lista/studentiindipendenti/",
-                organi:[                
+                organi:[
                     {
                         name: "Senato",
                         desc: "Per noi in senato è importante discutere di decisioni politiche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз.",
                         candidati:[
-                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff.jpg", name: "Wolff Jonathan", detto: "JONNY"},
-                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.jpg", name: "Iodice Andrea", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca.jpg", name: "Deluca Maria Nicole", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/milagros_magaz.jpg", name: "Magaz Milagros", detto: "MILI"},
-                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/marco_zamboni.jpg", name: "Zamboni Marco", detto: "ZAMBO"},
-                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.jpg", name: "Marcucci Edoardo", detto: ""},
-                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello.jpg", name: "Spiniello Mario", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare.jpg", name: "Stramare Davide", detto: "DADO"}
+                        {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff_sen.PNG", name: "Wolff Jonathan", detto: "JONNY"},
+                        {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.PNG", name: "Iodice Andrea", detto: ""},
+                        {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca_sen.PNG", name: "Deluca Maria Nicole", detto: ""},
+                        {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/milagros_magaz.PNG", name: "Magaz Milagros", detto: "MILI"},
+                        {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/marco_zamboni_sen.PNG", name: "Zamboni Marco", detto: "ZAMBO"},
+                        {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci_sen.PNG", name: "Marcucci Edoardo", detto: ""},
+                        {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello_sen.PNG", name: "Spiniello Mario", detto: ""},
+                        {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare_sen.PNG", name: "Stramare Davide", detto: "DADO"}
                         ]
                     },
                     {
                         name: "CdA",
                         desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                         candidati:[
-                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni.jpg", name: "Crisogianni Gloria Maria", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.jpg", name: "Notarianni Anita Clara", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni.jpg", name: "Arrigoni Chiara", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone.jpg", name: "Carbone Gaia", detto: ""}
+                        {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
+                        {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},
+                        {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni_cda.PNG", name: "Arrigoni Chiara", detto: ""},
+                        {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone_cda.PNG", name: "Carbone Gaia", detto: ""}
                         ]
                     }
                 ]
             }
-        ]    
+        ]
     }
   }
 }

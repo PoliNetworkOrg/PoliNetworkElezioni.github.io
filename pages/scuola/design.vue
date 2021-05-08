@@ -13,19 +13,19 @@ export default {
 
     organiConfronto:[
         {
-            id:1, 
+            id:1,
             name:"Design",
             desc:"Nella scuola design...."
         }
     ],
 
       liste: [
-            { 
-                id: 1, 
+            {
+                id: 1,
                 name: "Svoltastudenti",
                 imageUrlHorizontal: "/img/logo-svolta_hor.png",
                 linkLista: "/lista/svoltastudenti/",
-                organi: [                
+                organi: [
                     {
                         name: "Design",
                         desc : "Creare spazi per lo scambio di materiali avanzati dai progetti. Implementare l’omologazione dei software usati nei corsi, aggiornandoli a ciò che ora viene richiesto dal mondo del lavoro e creazione di una libreria di Mooc/video tutorial sull’utilizzo dei vari software. Introdurre più workshop e passion in action in collaborazione tra i diversi indirizzi. Inserire la possibilità di poter scegliere lo scaglione nei corsi di laboratorio che presentano differenze nei progetti.",
@@ -38,12 +38,12 @@ export default {
                     }
                 ]
             },
-            { 
-                id: 2, 
+            {
+                id: 2,
                 name: "Lista aperta",
                 imageUrlHorizontal: "/img/logo-listaaperta_hor.png",
                 linkLista: "/lista/listaaperta/",
-                organi:[                
+                organi:[
                     {
                         name: "Design",
                     desc : "Proponiamo di aumentare i rapporti con le aziende per garantire l’ibridazione dei quattro corsi di studio nei workshop. Vogliamo aumentare le interazioni con il Career Service durante le lezioni chiedendo di poter avere un Career Point all’interno del campus. Desideriamo revisionare gli obiettivi dei laboratori di elementi visivi per tutti i corsi di studio, così da aumentare le capacità di visual del progetto. Infine, proponiamo di aumentare le convenzioni con i musei: entrata gratuita per gli studenti del Politecnico alla Triennale, alla Fondazione Castiglioni e al Kartell museo. Inoltre chiediamo la possibilità di ottenere pass a fiere come il Salone del mobile. Per migliorare il nostro Campus, proponiamo una tensostruttura con tavoli e sedie cablati nei prati tra il B6 e il B8, e il cablaggio dei tavoli del pratone dietro al B1.",
@@ -67,12 +67,12 @@ export default {
                     }
                 ]
             },
-            { 
-                id: 3, 
+            {
+                id: 3,
                 name: "Terna sinistrorsa",
                 imageUrlHorizontal: "/img/logo-terna_hor.png",
                 linkLista: "/lista/ternasinistrorsa/",
-                organi:[                
+                organi:[
                     {
                         name: "Design",
                         desc : "Continuiamo la nostra lotta per il rimborso dei costi dei materiali e per la stipulazione di convenzioni con negozi specialistici. Garantire il rimborso spese vuol dire dare a tuttз la possibilità di sperimentare, indipendentemente dalla fascia di reddito di appartenenza. Vogliamo inoltre garantire la possibilità ad ogni studentə di scegliere, all’interno della calendarizzazione, quando sostenere i propri esami. Chiediamo inoltre che siano chiare le valutazioni d’esame, con criteri omogenei tra diversi scaglioni. Vogliamo promuovere una cultura del progetto multidisciplinare, aperta alla sperimentazione e alla contaminazione. Proponiamo il potenziamento dei laboratori già esistenti e la valutazione di un nuovo Polifactory, sul modello già esistente, di libero accesso allз studentз.",
@@ -84,30 +84,30 @@ export default {
                     }
                 ]
             },
-            { 
-                id: 4, 
+            {
+                id: 4,
                 name: "Studenti indipendenti",
                 imageUrlHorizontal: "/img/logo-sip_hor.png",
                 linkLista: "/lista/studentiindipendenti/",
-                organi:[                
+                organi:[
                     {
                         name: "Design",
                         desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per lз studentз di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
                         candidati:
                         [
-                            {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.jpg", name: "Ippolito Ilenia", detto: ""},
-                            {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/laura_giordano.jpg", name: "Giordano Laura", detto: ""},
-                            {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/irene_la_ferla.jpg", name: "La Ferla Irene", detto: ""},
-                            {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni.jpg", name: "Arrigoni Chiara", detto: ""},
-                            {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/federica_pompa.jpg", name: "Pompa Federica", detto: ""},
-                            {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/caterina_creanza.jpg", name: "Creanza Caterina", detto: ""},
-                            {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/andreea_ciortan.jpg", name: "Ciortan Andreea", detto: ""},
-                            {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/lavinia_patti.jpg", name: "Patti Lavinia", detto: ""}
+                        {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.PNG", name: "Ippolito Ilenia", detto: ""},
+                        {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/laura_giordano.PNG", name: "Giordano Laura", detto: ""},
+                        {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/irene_la_ferla.PNG", name: "La Ferla Irene", detto: ""},
+                        {id: 4 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni.PNG", name: "Arrigoni Chiara", detto: ""},
+                        {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/federica_pompa.PNG", name: "Pompa Federica", detto: ""},
+                        {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/caterina_creanza.PNG", name: "Creanza Caterina", detto: ""},
+                        {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/andreea_ciortan.PNG", name: "Ciortan Andreea", detto: ""},
+                        {id: 8 , imgUrl: "/img/sip.PNG", name: "Patti Lavinia", detto: ""}
                         ]
                     }
                 ]
             }
-        ]    
+        ]
     }
   }
 }
