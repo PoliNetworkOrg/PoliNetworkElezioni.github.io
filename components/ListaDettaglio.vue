@@ -18,7 +18,7 @@
             <a :href=this.dataLista.mainWebsiteUrl class="buttonLista">
                 <Button>&nbsp;Sito ufficiale 🌐&nbsp;</Button>
             </a>
-        
+
             <a :href="this.dataLista.mainProgrammaUrl" class="buttonLista">
                 <Button>&nbsp;Programma elettorale - PDF🗳&nbsp;</Button>
             </a>
@@ -27,7 +27,7 @@
                 <Button>&nbsp;Instagram 📷&nbsp;</Button>
             </a>
         </div>
-		
+
             <Frame
                 v-for="descItem in dataLista.desc"
                 :key="descItem"
@@ -45,14 +45,14 @@
             <div class="container2" style="max-width: 100%;margin:auto; width:100%;">
                 <h2 class="container2 programmaElettorale">
                     Programma elettorale 📝
-                </h2> 
+                </h2>
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">
                     {{dataLista.programmaSottotitolo}}
                 </h3>
                 <div style="padding:5px;"></div>
                 <div class="row container4">
-                    <Frame 
+                    <Frame
                     class-param="col-sm-3 wow animated fadeInLeft"
                     v-for="item in dataLista.programma"
                     :key="item.id"
@@ -60,7 +60,7 @@
                      >
                      <div style="border:1px solid #0000003c;padding: calc(3px + 0.5rem);margin: 0px; border-radius:calc(10px + 1rem);width: 100%;">
                         <figure>
-                            <img class="z-hover img-responsive" :src="item.url" style="max-width: calc(100px + 2rem + 2vw + 2vh);width: 100%;padding:2px;">
+                            <img class="z-hover img-responsive" :src="item.url" style="max-width: calc(100px + 2rem + 2vw + 2vh);width: 100%;padding:2px; border-radius: calc(10px + 1rem);">
                         </figure>
                         <h4 style="padding-top:3px;text-align:center;">{{item.title}}</h4>
                         <p class="function-text" style="text-align:left;padding:calc(0.5vw); margin-bottom:0.2rem;">
@@ -83,7 +83,7 @@
             </p>
              <div id="includedContentSenato" style="display:flex;flex-wrap: wrap;">
 
-                 <Frame 
+                 <Frame
                  class-param="col-md-3 col-md-2"
                  v-for="candsenato in dataLista.senato.candidati"
                  :key="candsenato.id"
@@ -106,7 +106,7 @@
             </p>
              <div id="includedContentSenato" style="display:flex;flex-wrap: wrap;">
 
-                 <Frame 
+                 <Frame
                  class-param="col-md-3 col-md-2"
                  v-for="candCdA in dataLista.CdA.candidati"
                  :key="candCdA.id"
@@ -134,7 +134,7 @@
                      {{dataLista.scuole.auic.desc}}
                 </div>
                 <div id="includedContentScuoleAUIC"  style="display:flex;flex-wrap: wrap;">
-                    <Frame 
+                    <Frame
                     class-param="col-md-3 col-md-2"
                     v-for="candCdA in dataLista.scuole.auic.candidati"
                     :key="candCdA.id"
@@ -151,7 +151,7 @@
                 {{dataLista.scuole.trei.desc}}
                       </div>
                 <div id="includedContentScuole3I"  style="display:flex;flex-wrap: wrap;">
-                    <Frame 
+                    <Frame
                     class-param="col-md-3 col-md-2"
                     v-for="candCdA in dataLista.scuole.trei.candidati"
                     :key="candCdA.id"
@@ -168,7 +168,7 @@
                 {{dataLista.scuole.icat.desc}}
                      </div>
                 <div id="includedContentScuoleICAT"  style="display:flex;flex-wrap: wrap;">
-                    <Frame 
+                    <Frame
                     class-param="col-md-3 col-md-2"
                     v-for="candCdA in dataLista.scuole.icat.candidati"
                     :key="candCdA.id"
@@ -185,7 +185,7 @@
                 {{dataLista.scuole.design.desc}}
                          </div>
                 <div id="includedContentScuoleDESIGN"  style="display:flex;flex-wrap: wrap;">
-                    <Frame 
+                    <Frame
                     class-param="col-md-3 col-md-2"
                     v-for="candCdA in dataLista.scuole.design.candidati"
                     :key="candCdA.id"

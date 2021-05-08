@@ -4,7 +4,7 @@
 <!-- Page Features -->
     <div class="row text-center">
 
-           <div class="col-lg-3 col-md-6 scuolaCard" style="margin:auto;">
+           <div class="col-lg-3 col-md-6 scuolaCard" style="">
             <a :href="scuoleLink.auic">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
@@ -24,7 +24,7 @@
                 </div>
             </a>
         </div>
-     <div class="col-lg-3 col-md-6 scuolaCard" style="margin:auto;">
+     <div class="col-lg-3 col-md-6 scuolaCard"">
             <a :href="scuoleLink.trei">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
@@ -47,7 +47,7 @@
             </a>
         </div>
 
-             <div class="col-lg-3 col-md-6 scuolaCard" style="margin:auto;">
+             <div class="col-lg-3 col-md-6 scuolaCard" style="">
             <a :href="scuoleLink.icat">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
@@ -70,7 +70,7 @@
             </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 scuolaCard" style="margin:auto;">
+        <div class="col-lg-3 col-md-6 scuolaCard" style="">
             <a :href="scuoleLink.design">
                 <div class="card h-100">
                     <div class="listTile" style="width: 100%;">
