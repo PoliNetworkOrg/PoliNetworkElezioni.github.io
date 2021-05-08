@@ -12,7 +12,7 @@ export default {
             name: "Studenti Indipendenti",
             mainWebsiteUrl: "https://studentiindipendenti.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
-            desc: ["Studenti indipendenti e la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università È un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità A tutela del percorso formativo e del benessere psicologico di ciascuno."],
+            desc: ["Studenti Indipendenti è la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università è un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità a tutela del percorso formativo e del benessere psicologico di ciascuno."],
             imageUrl:"/img/sip2.png",
             instagram:"https://www.instagram.com/studenti.indipendenti.polimi/",
             programmaSottotitolo:"Per la rappresentanza come mezzo e non come fine",
@@ -22,7 +22,7 @@ export default {
                         id : 1,
                         title: 'Aumentiamo gli appelli annui',
                         url: '/img/sip.png',
-                        desc: "Proponiamo di aumentare il numero totale di appelli all’anno ad almeno 7, di istituire una sessione straordinaria per i ripetenti e di dare la possibilità istituzionale di svolgere il primo appello durante il secondo parziale. (da cambiare?)"
+                        desc: "Proponiamo di aumentare il numero totale di appelli all’anno ad almeno 7, di istituire una sessione straordinaria per i ripetenti e di dare la possibilità istituzionale di svolgere il primo appello durante il secondo parziale."
                     },
                     {
                         id: 2,
@@ -45,7 +45,7 @@ export default {
                 ],
             senato:
             {
-                desc: "Per noi in senato è importante discutere di decisioni politiche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз.",
+                desc: "Per noi in Senato è importante discutere di decisioni politiche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз.",
                 candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff_sen.PNG", name: "Wolff Jonathan", detto: "JONNY"},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.PNG", name: "Iodice Andrea", detto: ""},
@@ -58,7 +58,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
+                desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il Politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                 candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},
@@ -67,7 +67,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Nelle scuole vogliamo un coordinamento maggiore tra ccs per uniformare le esperienze così che la qualità delle esperienze formative non dipenda dal cognome. Crediamo che si possano valorizzare le modalità di gestione virtuose dei corsi e che vada tutelata al meglio la possibilità degli studenti di costruire una carriera personalizzata relativamente al percorso formativo e che ci sia pari trattamento su tutte le questioni legate ad un corso di laurea.",
+                desc: "Nelle scuole vogliamo un coordinamento maggiore tra CCS per uniformare le esperienze così che la qualità delle esperienze formative non dipenda dal cognome. Crediamo che si possano valorizzare le modalità di gestione virtuose dei corsi e che vada tutelata al meglio la possibilità degli studenti di costruire una carriera personalizzata relativamente al percorso formativo e che ci sia pari trattamento su tutte le questioni legate ad un corso di laurea.",
                 auic:{
                     desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tuttз la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
                     candidati:
