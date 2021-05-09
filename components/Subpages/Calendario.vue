@@ -14,12 +14,15 @@
 							<table style="text-align:center;width:100%;">
 								<tr>
 									<td class="calendarioTD" style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-										Lunedì 24/05/2021
+										<span v-if="language=='it'">Lunedì 24/05/2021</span>
+										<span v-if="language=='en'">Monday 24/05/2021</span>
 									</td>
 								</tr>
 								<tr>
 									<td class="calendarioTD"  style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-										ore 09.00
+											<span v-if="language=='it'">ore 09.00</span>
+												<span v-if="language=='en'">at 09.00</span>
+									
 									</td>
 								</tr>
 							</table>
@@ -31,12 +34,19 @@
 							<table style="text-align:center;width:100%;">
 								<tr>
 									<td class="calendarioTD"  style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-										Giovedì 27/05/2021
+										
+										<span v-if="language=='it'">Giovedì 27/05/2021</span>
+										<span v-if="language=='en'">Thursday 27/05/2021</span>
+
 									</td>
 								</tr>
 								<tr>
 									<td  class="calendarioTD" style="padding-left:calc(6px + 0.1rem);padding-right:calc(6px + 0.1rem);">
-										ore 23.59
+										
+										<span v-if="language=='it'">ore 23.59</span>
+										<span v-if="language=='en'">at 23.59</span>
+
+					
 									</td>
 								</tr>
 							</table>
@@ -56,3 +66,15 @@
 	font-size: calc(1.1rem + 0.12vw);
 }
 </style>
+
+<script>
+export default {
+    props: {
+        language:{
+            type:String,
+     
+			required:true
+        }
+    }
+}
+</script>
