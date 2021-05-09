@@ -11,7 +11,7 @@ export default {
       items: {
             name: "Studenti Indipendenti",
             mainWebsiteUrl: "https://studentiindipendenti.it/",
-            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti_ENG.pdf",
           desc: ["Studenti Indipendenti is the new list of representatives of the Politecnico, independent, non-denominational and non-partisan. For us, representation is not an end to be reached but a means with which to improve the lives of students. a secular, inclusive and sustainable place, in which to encourage cooperation and create community to protect the educational path and the psychological well-being of each one. "],   imageUrl:"/img/sip2.png",
             instagram:"https://www.instagram.com/studenti.indipendenti.polimi/",
             programmaSottotitolo:"For representation as a means and not as an end",

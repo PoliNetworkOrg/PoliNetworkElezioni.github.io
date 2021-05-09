@@ -11,7 +11,7 @@ export default {
       items: {
             name: "Lista Aperta",
             mainWebsiteUrl: "https://www.readytobe-listaperta.com",
-            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta_-_Inglese.pdf",
          desc: ["Lista Aperta is a group of students and friends who spend most of their days at the University. This is why we are interested in improving the place we are in, to allow everyone to fully enjoy the university experience, from study spaces to teaching in the classrooms up to extracurricular activities. ",
              "The electoral campaign has started in these days at the Poli: our motto for these elections is READY TO BE BACK TOGETHER!",
              "Ready to be: we are there, we are present and we live the university every day, certain of the value of new meetings, in class, during lunch breaks or in study rooms to study together.",

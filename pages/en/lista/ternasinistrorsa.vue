@@ -11,7 +11,7 @@ export default {
       items: {
             name: "La Terna Sinistrorsa",
             mainWebsiteUrl: "https://www.ternasinistrorsa.it/",
-            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa.pdf",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa_-_inglese.pdf",
          desc: ["We are La Terna Sinistrorsa, a student representation list of the Politecnico di Milano. For 25 years we have been fighting for a university based on the right to study and without inequalities. Inclusion, equality and equity are our founding values: discover ours program and our candidates! "],   imageUrl:"/img/terna.png",
             instagram:"https://www.instagram.com/la_terna_sinistrorsa/",
             programmaSottotitolo:"We are more than a number",

@@ -11,7 +11,7 @@ export default {
       items: {
             name: "Svoltastudenti",
             mainWebsiteUrl: "https://svoltastudenti.it",
-            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf",
+            mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti_-_Inglese.pdf",
            desc: ["Born in 2008 to involve all students in the training and decision-making processes of the University that we experience every day. Opportunities, ideas and representatives completely independent from parties: we are non-partisan, secular and multicultural."],  imageUrl:"/img/svolta.png",
             instagram:"https://www.instagram.com/svoltastudenti/",
             programmaSottotitolo:"StudentsMakePolimi",
