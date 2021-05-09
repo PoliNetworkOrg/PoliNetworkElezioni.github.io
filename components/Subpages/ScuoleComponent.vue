@@ -11,12 +11,32 @@
                       <div class="divScuole">
                         <div>
                           <div>
-                        <h1 class="scuole">Scuola AUIC</h1>
+                        <h1 class="scuole">
+                          
+   <span v-if="language=='it'">
+                          Scuola AUIC
+                          </span>
+                               <span v-if="language=='en'">
+                           AUIC School
+                          </span>
+
+                        </h1>
                       </div>
                       </div>
                       <div>
                         <div>
-                        <h5 class="scuoleTitolo">ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI</h5>
+                        <h5 class="scuoleTitolo">
+                          
+                             <span v-if="language=='it'">
+                          ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI
+                          </span>
+                               <span v-if="language=='en'">
+                          URBAN ARCHITECTURE CONSTRUCTION ENGINEERING
+                          </span>
+                          
+                          
+                          
+                          </h5>
                       </div>
                       </div>
                       </div>
@@ -33,12 +53,33 @@
                         <div class="divScuole">
                           <div>
                             <div>
-                          <h1 class="scuole">Scuola 3I</h1>
+                          <h1 class="scuole">
+                            
+   <span v-if="language=='it'">
+                          Scuola 3I
+                          </span>
+                               <span v-if="language=='en'">
+                           3I School
+                          </span>
+
+                          </h1>
                         </div>
                         </div>
                         <div>
                           <div>
-                          <h5 class="scuoleTitolo">INGEGNERIA INDUSTRIALE E DELL' INFORMAZIONE</h5>
+                          <h5 class="scuoleTitolo">
+
+                    <span v-if="language=='it'">
+                           INGEGNERIA INDUSTRIALE E DELL' INFORMAZIONE
+                          </span>
+                               <span v-if="language=='en'">
+                INDUSTRIAL AND INFORMATION ENGINEERING
+                          </span>
+                          
+            
+
+                            
+                            </h5>
                         </div>
                         </div>
                         </div>
@@ -55,12 +96,34 @@
                       <div class="divScuole">
                         <div>
                           <div>
-                        <h1 class="scuole">Scuola ICAT</h1>
+                        <h1 class="scuole">
+                          
+   <span v-if="language=='it'">
+                          Scuola ICAT
+                          </span>
+                               <span v-if="language=='en'">
+                           ICAT School
+                          </span>
+
+                        </h1>
                       </div>
                       </div>
                       <div>
                         <div>
-                        <h5 class="scuoleTitolo">INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE</h5>
+                        <h5 class="scuoleTitolo">
+                          
+                
+                          
+                          
+                    <span v-if="language=='it'">
+                                  INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE
+                          </span>
+                               <span v-if="language=='en'">
+              CIVIL, ENVIRONMENTAL AND TERRITORIAL ENGINEERING
+                          </span>
+                          
+            
+                          </h5>
                       </div>
                       </div>
                       </div>
@@ -78,12 +141,33 @@
                       <div class="divScuole">
                         <div>
                           <div>
-                        <h1 class="scuole">Scuola Design</h1>
+                        <h1 class="scuole">
+                          <span v-if="language=='it'">
+                          Scuola Design
+                          </span>
+                               <span v-if="language=='en'">
+                           Design School
+                          </span>
+                          </h1>
                       </div>
                       </div>
                       <div>
                         <div>
-                        <h5 class="scuoleTitolo">MODA, INTERNI, COMUNICAZIONE, PRODOTTO</h5>
+                        <h5 class="scuoleTitolo">
+                                                 
+                          
+                    <span v-if="language=='it'">
+                               MODA, INTERNI, COMUNICAZIONE, PRODOTTO
+                          </span>
+                               <span v-if="language=='en'">
+FASHION, INTERIORS, COMMUNICATION, PRODUCT
+                          </span>
+                          
+            
+            
+                          
+                          
+                          </h5>
                       </div>
                       </div>
                       </div>
@@ -104,6 +188,10 @@ export default {
         scuoleLink:{
             type:Object,
             default : null
+        },
+        language:{
+          type:String,
+          required:true
         }
     }
 }

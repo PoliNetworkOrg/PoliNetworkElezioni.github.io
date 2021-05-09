@@ -26,7 +26,7 @@
 
     </header>
 
-    <SubpagesScuoleComponent  :scuole-link="scuole"/>
+    <SubpagesScuoleComponent  :scuole-link="scuole"  language="en" />
 
 </div>
 <!-- /.container -->
