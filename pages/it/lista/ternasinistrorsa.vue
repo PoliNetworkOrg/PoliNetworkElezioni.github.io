@@ -57,7 +57,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Nelle quattro scuole ci impegneremo per una didattica più giusta, per un maggiore rispetto dei nostri diritti, e per eliminare ostacoli retaggio del passato. Ogni scuola ha le sue peculiarità e problematiche, abbiamo studiato molto attentamente quali proposte mettere in campo. Insieme, possiamo ambire a un'università sempre più a misura di student[inserire e capovolta] partendo dal basso, dal quotidiano svolgersi di lezioni ed esami",
+              desc: "Nelle quattro scuole ci impegneremo per una didattica più giusta, per un maggiore rispetto dei nostri diritti, e per eliminare ostacoli retaggio del passato. Ogni scuola ha le sue peculiarità e problematiche, abbiamo studiato molto attentamente quali proposte mettere in campo. Insieme, possiamo ambire a un'università sempre più a misura di studentə partendo dal basso, dal quotidiano svolgersi di lezioni ed esami",
                 auic:{
                     desc: "Tutti abbiamo diritto agli stessi strumenti per la progettazione per questo richiediamo un accesso digitale alla bibliografia e un maggior numero di software gratuiti come Sketch-up pro e Lumion. Ci impegneremo anche per ridurre ulteriori costi a carico di noi studentз richiedendo la strumentazione adatta per poter svolgere revisioni in digitale. Ogni studentə vale più della sua media per questo proponiamo di essere valutati equamente per gli accessi sis ai laboratori che alle magistrali",
                     candidati:

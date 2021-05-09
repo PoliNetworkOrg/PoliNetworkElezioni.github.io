@@ -50,7 +50,7 @@ export default {
                 ]
             },
             scuole:{
-               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together , we can aspire to a university that is increasingly student-friendly [insert and overturned] starting from the bottom, from the daily unfolding of lessons and exams ",
+               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together , we can aspire to a university that is increasingly student-friendly starting from the bottom, from the daily unfolding of lessons and exams ",
                 auic:{
                  desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's ",    candidati:
                     [
