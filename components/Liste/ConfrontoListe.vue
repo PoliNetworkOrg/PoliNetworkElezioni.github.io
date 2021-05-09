@@ -11,7 +11,11 @@
                 <header class="jumbotron my-4 testoCentrale" style="border:none;">
                     <div style="margin:auto;">
                         <div style="text-align:center;">
-                            <h2>Elezioni rappresentanti degli studenti</h2>
+                            <h2>
+                		<span  v-if="language == 'it' ">Elezioni rappresentanti degli studenti</span>
+		<span  v-if="language == 'en' ">Election of student representatives</span>
+                                
+                                </h2>
                             <br/>
                             <LayoutFrame v-for="item in organiConfronto"
                             :key="item.id">
