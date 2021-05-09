@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ccs/trei", {data:[{}],fetch:{},mutations:void 0});
