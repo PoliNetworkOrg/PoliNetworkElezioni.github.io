@@ -16,18 +16,30 @@
 
         <div class="buttonContainerDiv">
             <a :href=this.dataLista.mainWebsiteUrl class="buttonLista">
-                <Button v-if="language=='it'">&nbsp;Sito ufficiale 🌐&nbsp;</Button>
-                <Button v-if="language=='en'">&nbsp;Official website 🌐&nbsp;</Button>
+                <LayoutButton>
+                    <span  v-if="language=='it'">&nbsp;Sito ufficiale 🌐&nbsp;</span>
+                     <span  v-if="language=='en'">&nbsp;Official website 🌐&nbsp;</span>
+                    </LayoutButton>
+        
             </a>
 
             <a :href="this.dataLista.mainProgrammaUrl" class="buttonLista">
-                <Button v-if="language=='it'">&nbsp;Programma elettorale - PDF🗳&nbsp;</Button>
-                <Button v-if="language=='en'">&nbsp;Electoral program - PDF🗳&nbsp;</Button>
+
+                    <LayoutButton>
+                    <span  v-if="language=='it'">&nbsp;Programma elettorale - PDF🗳&nbsp;</span>
+                     <span  v-if="language=='en'">&nbsp;Electoral program - PDF🗳&nbsp;</span>
+                    </LayoutButton>
+
+  
             </a>
 
             <a :href="this.dataLista.instagram" class="buttonLista">
-                <Button v-if="language=='it'">&nbsp;Instagram 📷&nbsp;</Button>
-                <Button v-if="language=='en'">&nbsp;Instagram 📷&nbsp;</Button>
+                <LayoutButton  >
+                        <span  v-if="language=='it'">&nbsp;Instagram 📷&nbsp;;</span>
+                     <span  v-if="language=='en'">&nbsp;Instagram 📷&nbsp;</span>
+                    
+                    </LayoutButton>
+
             </a>
         </div>
 

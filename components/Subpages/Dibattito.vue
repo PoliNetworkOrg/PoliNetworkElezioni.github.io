@@ -12,18 +12,24 @@
 					<table class="tabDibattito"  >
 						<tr class="trDibattito">
 							<td class="tdDibattito">
-								13 Maggio
+													<span v-if="language=='it'">13 Maggio</span>
+												<span v-if="language=='en'">13 May</span>
+							
 							</td>
 							<td class="tdDibattito">
 								<table style="width:100%;" class="tabDibattito4">
 									<tr>
 										<td class="tdDibattito2">
-											Sostenibilità e spazi
+																		<span v-if="language=='it'">Sostenibilità e spazi</span>
+												<span v-if="language=='en'">Sustainability and spaces</span>	
+											
 										</td>
 									</tr>
 									<tr>
 								<td class="tdDibattito2">
-											Didattica e università
+																<span v-if="language=='it'">Didattica e università</span>
+												<span v-if="language=='en'">Didactics and universities</span>	
+											
 										</td>
 									</tr>
 								</table>
@@ -31,18 +37,23 @@
 						</tr>
 						<tr class="trDibattito">
 							<td class="tdDibattito">
-								14 Maggio
+							<span v-if="language=='it'">14 Maggio</span>
+												<span v-if="language=='en'">14 May</span>
 							</td>
 							<td class="tdDibattito">
 										<table style="width:100%;" class="tabDibattito4">
 									<tr>
 								<td class="tdDibattito2">
-											Tasse, accessibilità, DSU
+													<span v-if="language=='it'">Tasse, accessibilità, DSU</span>
+												<span v-if="language=='en'">Taxes, accessibility, DSU</span>	
+											
 										</td>
 									</tr>
 									<tr>
 						<td class="tdDibattito2">
-											Tematiche sociali, internazionalizzazione, welfare &amp; varie
+														<span v-if="language=='it'">Tematiche sociali, internazionalizzazione, welfare &amp; varie</span>
+												<span v-if="language=='en'">Social issues, internationalization, welfare &amp; various</span>	
+											
 										</td>
 									</tr>
 								</table>
@@ -50,10 +61,13 @@
 						</tr>
 						<tr class="trDibattito">
 							<td class="tdDibattito">
-								15 Maggio
+												<span v-if="language=='it'">15 Maggio</span>
+												<span v-if="language=='en'">15 May</span>
 							</td>
-							<td class="tdDibattito">						
-								Dibattito finale				
+							<td class="tdDibattito">	
+													<span v-if="language=='it'">Dibattito finale</span>
+												<span v-if="language=='en'">Final debate</span>					
+												
 							</td>
 						</tr>
 					</table>

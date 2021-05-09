@@ -16,7 +16,7 @@
 					</span>
         </div>
 	</div>
-<SubpagesDibattito />
+<SubpagesDibattito  language="it" />
 
 <LayoutHorizontalLine />
 
