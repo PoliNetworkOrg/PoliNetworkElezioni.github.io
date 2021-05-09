@@ -2,7 +2,7 @@
 
 <template>
 <div>
-    <LayoutNavigationBar />
+    <LayoutNavigationBar :language="language" />
 
     <br />
     <br />
@@ -16,15 +16,18 @@
 
         <div class="buttonContainerDiv">
             <a :href=this.dataLista.mainWebsiteUrl class="buttonLista">
-                <Button>&nbsp;Sito ufficiale 🌐&nbsp;</Button>
+                <Button v-if="language=='it'">&nbsp;Sito ufficiale 🌐&nbsp;</Button>
+                <Button v-if="language=='en'">&nbsp;Official website 🌐&nbsp;</Button>
             </a>
 
             <a :href="this.dataLista.mainProgrammaUrl" class="buttonLista">
-                <Button>&nbsp;Programma elettorale - PDF🗳&nbsp;</Button>
+                <Button v-if="language=='it'">&nbsp;Programma elettorale - PDF🗳&nbsp;</Button>
+                <Button v-if="language=='en'">&nbsp;Electoral program - PDF🗳&nbsp;</Button>
             </a>
 
             <a :href="this.dataLista.instagram" class="buttonLista">
-                <Button>&nbsp;Instagram 📷&nbsp;</Button>
+                <Button v-if="language=='it'">&nbsp;Instagram 📷&nbsp;</Button>
+                <Button v-if="language=='en'">&nbsp;Instagram 📷&nbsp;</Button>
             </a>
         </div>
 
@@ -44,7 +47,7 @@
         <div class="section" id="our-info">
             <div class="container2" style="max-width: 100%;margin:auto; width:100%;">
                 <h2 class="container2 programmaElettorale">
-                    Programma elettorale 📝
+                    Electoral program 📝
                 </h2>
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">
@@ -76,7 +79,10 @@
 
     <div class="section members">
         <div class="container2">
-            <h2 >Senato 💬</h2>
+            <h2 >
+                 <span v-if="language=='it'">Senato 💬</span>
+                <span v-if="language=='en'">Senate 💬</span>                
+            </h2>
             <hr>
             <p class="lead-creative-banner">
                 {{dataLista.senato.desc}}
@@ -123,7 +129,10 @@
 
   <div class="section members" style="background-color:white">
      <div class="container2">
-         <h2>Scuole</h2>
+         <h2>
+             <span v-if="language=='it'">Scuole</span>
+             <span v-if="language=='en'">Schools</span>
+        </h2>
          <hr>
          <p class="lead-creative-banner">{{dataLista.scuole.desc}}</p>
          <ul style="list-style:none;">
@@ -206,13 +215,14 @@
 <div class="container6" >
 <div class="container3">
     <div class="lead container3" style="text-align:center;width:100%;padding-bottom:1.5rem;font-size:calc(1rem + 1vw);">
-        Visita anche le pagine dedicate alle altre liste
+        <span v-if="language == 'it'">Visita anche le pagine dedicate alle altre liste</span>
+        <span v-if="language == 'en'">Also visit the pages dedicated to the other lists</span>
     </div>
     <SubpagesQuadratiListe :language="language" />
 </div>
 </div>
 
-<LayoutFooter />
+<LayoutFooter  :language="language"   />
 
 </div>
 </template>
@@ -226,7 +236,6 @@ export default {
         },
         language:{
             type:String,
-            default : 'it',
 			required:true
         }
     }

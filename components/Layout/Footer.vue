@@ -30,7 +30,6 @@ export default {
     props: {
         language:{
             type:String,
-            default : 'it',
 			required:true
         }
     }

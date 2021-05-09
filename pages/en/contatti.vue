@@ -13,31 +13,31 @@
 			<span class="contattiTitle">Contatti</span>
 			<div style="padding:5px;"></div>
 		</div>
-        <div style="text-align:left;">
+<div style = "text-align: left;">
 
-			<ul style="list-style: none;padding-left:0px;">
-			<li class="li">
-				<span class="questionSpan">Sono membro di una lista di rappresentanza e vorrei aggiornare le informazioni presenti su questo sito</span>
-				<br class="spacerQuestion" />
-				<span class="answerSpan">Tutte le liste di rappresentanza sono già in contatto con noi, contatta quindi il tuo responsabile di lista</span>
-			</li>
-      <li class="li">
-				<span class="questionSpan">Sono candidato (ad esempio in un corso di studi) ma non sono affiliato con nessuna lista di rappresentanza, e vorrei essere aggiunto a questo sito</span>
-				<br class="spacerQuestion" />
-				<span class="answerSpan">Scrivi a <a href="https://t.me/GabrieleAur98">Gabriele</a></span>
-			</li>
-      <li class="li">
-				<span class="questionSpan">Sono uno studente e vorrei avere più informazioni e/o segnalare degli errori</span>
-				<br class="spacerQuestion" />
-				<span class="answerSpan">Scrivi a <a href="https://t.me/GabrieleAur98">Gabriele</a></span>
-			</li>
-      <li class="li">
-				<span class="questionSpan">Faccio parte di una qualsiasi altra categoria d'utenza e vorrei contattarvi in merito a queste pagine dedicate alle elezioni</span>
-				<br class="spacerQuestion" />
-				<span class="answerSpan">Scrivi a <a href="https://t.me/GabrieleAur98">Gabriele</a></span>
-			</li>
+<ul style = "list-style: none; padding-left: 0px;">
+<li class = "li">
+<span class = "questionSpan"> I am a member of a representative list and would like to update the information on this site </span>
+<br class="spacerQuestion" />
+<span class = "answerSpan"> All representative lists are already in contact with us, please contact your list manager </span>
+</li>
+      <li class = "li">
+<span class = "questionSpan"> I am a candidate (for example in a course of study) but I am not affiliated with any representative list, and would like to be added to this site </span>
+<br class="spacerQuestion" />
+<span class = "answerSpan"> Write to <a href="https://t.me/GabrieleAur98"> Gabriele </a> </span>
+</li>
+      <li class = "li">
+<span class = "questionSpan"> I am a student and I would like to have more information and / or report errors </span>
+<br class="spacerQuestion" />
+<span class = "answerSpan"> Write to <a href="https://t.me/GabrieleAur98"> Gabriele </a> </span>
+</li>
+      <li class = "li">
+<span class = "questionSpan"> I belong to any other user category and I would like to contact you about these pages dedicated to elections </span>
+<br class="spacerQuestion" />
+<span class = "answerSpan"> Write to <a href="https://t.me/GabrieleAur98"> Gabriele </a> </span>
+</li>
 
-			</ul>
+</ul>
 
 
         </div>

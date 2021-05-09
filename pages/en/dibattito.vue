@@ -5,14 +5,14 @@
 
 <div style="padding:calc(6px + 1.5rem);"></div>
 	 <div class="container3 lead" style="text-align:center;padding-top:calc(10px + 1rem);padding-bottom:calc(0.5rem);">
-		<h3 class="dibattito">🗣 Dibattito 13-14-15 Maggio 2021</h3>
+		<h3 class="dibattito">🗣 Debate May 13-14-15, 2021</h3>
         <div class="container9">
 		<span class="container3" style="padding-top:3px;">
-						Le liste di rappresentanza si affronteranno in una serie di dibattiti tematici in presenza, organizzati da <a href="https://www.poliradio.it/">POLI.RADIO</a>.
+						The representative lists will face each other in a series of thematic debates in the presence, organized by <a href="https://www.poliradio.it/"> POLI.RADIO </a>.
                         <div style="padding:5px;"></div>
-                        I dibattiti saranno trasmessi sul <a href="https://www.youtube.com/user/polimi">canale YouTube</a> ufficiale dell'ateneo.
+                        The debates will be broadcast on the university's official <a href="https://www.youtube.com/user/polimi"> YouTube channel </a>.
                         <div style="padding:5px;"></div>
-                        <span style="font-style:italic;">Aggiorneremo a breve questa pagina con maggiori dettagli (argomenti, orari).</span>
+                        <span style = "font-style: italic;"> We will shortly update this page with more details (topics, times). </span>
 					</span>
         </div>
 	</div>
@@ -23,10 +23,10 @@
 <div class="container5">
 	<div  style="width:100%;text-align:center;display:block;" class="container2">
 	<br />
-	<h3 class="dibattito">Dibattito 28 Ottobre 2020</h3>
+	<h3 class = "debate"> Debate 28 October 2020 </h3>
 		<div class="container8">
 		<span class="lead" >
-		In attesa del nuovo dibattito che organizzeremo fra liste (previsto il 13-14-15 Maggio) potete guardare quello svoltosi ad Ottobre 2020.
+		Waiting for the new debate that we will organize between lists (scheduled for 13-14-15 May) you can look at the one held in October 2020.
 		</span>
 		</div>
 	</div>

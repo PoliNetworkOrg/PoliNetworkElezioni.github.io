@@ -15,7 +15,7 @@
     <header class="jumbotron my-4 testoCentrale">
         <div class="titoloCCS">
 			<span class="lead">
-				Elenco corsi di studio:
+				List of study courses:
 			</span>
 		</div>
         <div style="text-align:center;">

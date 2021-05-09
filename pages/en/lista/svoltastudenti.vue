@@ -12,41 +12,36 @@ export default {
             name: "Svoltastudenti",
             mainWebsiteUrl: "https://svoltastudenti.it",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Svoltastudenti.pdf",
-            desc: ["Nata nel 2008 per rendere partecipi tutti gli studenti nei processi formativi e decisionali dell’Ateneo che tutti i giorni viviamo. Opportunità, idee e rappresentanti del tutto svincolati dai partiti: siamo apartitici, laici e multiculturali."],
-            imageUrl:"/img/svolta.png",
+           desc: ["Born in 2008 to involve all students in the training and decision-making processes of the University that we experience every day. Opportunities, ideas and representatives completely independent from parties: we are non-partisan, secular and multicultural."],  imageUrl:"/img/svolta.png",
             instagram:"https://www.instagram.com/svoltastudenti/",
             programmaSottotitolo:"StudentsMakePolimi",
             programma:
                 [
                     {
                         id : 1,
-                        title: "DIDATTICA PIU' A MISURA DI STUDENTE",
+                    title: "MORE STUDENT-FRIENDLY EDUCATION",
                         url : '/img/programmi/svoltastudenti/1.jpg',
-                        desc: "Vogliamo ampliare la scelta delle tesi di laurea, inserendo la possibilità di condividerle con altri corsi di studio, realizzare una piattaforma online che faciliti le collaborazioni tra studenti, costituire reti di aiuto tra studenti per la mobilità internazionale, istituire un questionario post esame per la valutazione delle modalità di somministrazione, e creare programmi di mobilità ultra breve."
+                         desc: "We want to expand the choice of degree theses, including the possibility of sharing them with other courses of study, create an online platform that facilitates collaboration between students, set up aid networks between students for international mobility, set up a post-exam questionnaire for the evaluation of the methods of administration, and create ultra short mobility programs." 
                     },
                     {
                         id: 2,
-                        title: 'RIDUZIONE DEI COSTI E SOSTEGNI ECONOMICI',
+    title: 'COST REDUCTION AND FINANCIAL SUPPORT',
              url : '/img/programmi/svoltastudenti/2.jpg',
-                        desc: "Continueremo a lottare perché sia mantenuta la politica di IDONEI = BENEFICIARI, per garantire agevolazioni per studenti che svolgono attività complementari (sport, lavoro), abbassare il prezzo dei menù nelle mense e ampliare convenzioni per studenti per eventi, fiere e teatri"
-                    },
+                  desc: "We will continue to fight to maintain the policy of SUITABLE = BENEFICIARIES, to guarantee discounts for students who carry out complementary activities (sport, work), lower the price of menus in canteens and expand agreements for students for events, fairs and theaters"   },
                     {
                         id : 3,
-                        title: "PARI OPPORTUNITA'",
+                  title: "EQUAL OPPORTUNITIES",
                      url : '/img/programmi/svoltastudenti/4.jpg',
-                        desc: "Chiederemo l'inserimento di insegnamenti in materia di Diversity & Inclusion in tutti i corsi di laurea, e ci faremo promotori del rilancio dello sportello psicologico e del servizio POLIPSI, implementando anche l'azione peer-to-peer. "
-                    },
+                desc: "We will ask for the inclusion of courses on Diversity & Inclusion in all degree courses, and we will promote the relaunch of the psychological help desk and the POLIPSI service, also implementing peer-to-peer action."      },
                     {
                         id: 4,
-                        title: 'CAMPUS LIFE E AMBIENTE',
+                   title: 'CAMPUS LIFE AND ENVIRONMENT',
                         url : '/img/programmi/svoltastudenti/3.jpg',
-                        desc: "Vogliamo rendere il Politecnico la prima università italiana totalmente Carbon Neutral entro il 2040, impegnare l'ateneo nell'implementazione dell'Agenda 2030 dell'ONU e nei rispettivi Sustainable Development Goals, e sviluppare un'impronta etica e umanistica in tutti i corsi di laurea."
-                    },
+                desc: "We want to make the Politecnico the first totally Carbon Neutral Italian university by 2040, engage the university in the implementation of the UN 2030 Agenda and the respective Sustainable Development Goals, and develop an ethical and humanistic footprint in all degree courses."     },
                 ],
             senato:
             {
-                desc: "In Senato per noi è fondamentale portare avanti idee a misura di studente, in modo slegato da influenze partitiche e confessionali. Portiamo avanti il dialogo con le istituzioni richiedendo mutuo rispetto, in modo da portare le scelte di ateneo sempre più a favore degli studenti.",
-                candidati:[
+             desc: "In the Senate it is essential for us to carry forward student-friendly ideas, in a way that is unrelated to party and confessional influences. We carry on the dialogue with the institutions requesting mutual respect, in order to bring the choices of the university more and more in favor of the students. ",   candidati:[
                     { id: 1, imgUrl: "/img/candidati/svoltastudenti/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
                     { id: 2, imgUrl: "/img/candidati/svoltastudenti/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
                     { id: 3, imgUrl: "/img/candidati/svoltastudenti/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
@@ -58,8 +53,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "Ci battiamo ogni anno per mantenere la politica di IDONEI = BENEFICIARI, e in CdA vogliamo continuare a lavorare per diminuire i gap tra studenti di fasce diverse, per far sì che le opportunità coi bandi aumentino sempre di più e per tutelare gli studenti più deboli e le loro famiglie.",
-                candidati:[
+             desc: "We strive every year to maintain the policy of SUITABLE = BENEFICIARIES, and in the Board of Directors we want to continue working to reduce the gaps between students of different groups, to ensure that the opportunities with tenders increase more and more and to protect students the weakest and their families. ",   candidati:[
                     { id: 1, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi.jpg", name: "Sgroi Antonino", detto: "LILLO"},
                     { id: 2, imgUrl: "/img/candidati/svoltastudenti/eva_parenti.jpg", name: "Parenti Eva", detto: "EVA"},
                     { id: 3, imgUrl: "/img/candidati/svoltastudenti/giacomo_schiavone.jpg", name: "Schiavone Giacomo", detto: "GIACK"},
@@ -67,10 +61,8 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Nelle scuole ci battiamo perché la distribuzione dei CFU sia sempre più uniforme, perché gli esami siano unificati, annullando così le differenze per scaglione, e per fare in modo di creare più scelta all'interno dei corsi. Inoltre, vogliamo che si crei una rete studentesca importante, di peer tutoring e condivisione di progetti, e cerchiamo di aumentare sempre di più le opportunità laboratoriali, per un politecnico più tecnico.",
-                auic:{
-                    desc: "Incontri, eventi culturali e convenzioni: Rendere il Politecnico stesso teatro di incontri ed eventi integrati e inerenti al percorso didattico. Verso il mondo del lavoro: introdurre supporto istituzionale alla creazione del portfolio. Implementare corsi su software di disegno, modellazione e applicazione della metodologia BIM: Implementare l’insegnamento di programmi nei primi anni del corso di studi. Inserimento laboratori annuali: 3 mesi non sono sufficienti per portare avanti progetti all’altezza.",
-					candidati:[
+             desc: "In schools we fight for the distribution of credits to be more and more uniform, for the exams to be unified, thus eliminating the differences by bracket, and to create more choice within the courses. create an important student network of peer tutoring and project sharing, and we try to increase the laboratory opportunities more and more, for a more technical polytechnic. ",    auic:{
+                  desc: "Meetings, cultural events and conventions: Making the Politecnico itself the scene of integrated meetings and events related to the educational path. Towards the world of work: introducing institutional support to the creation of the portfolio. Implementing courses on design, modeling and application software of the BIM methodology: Implement the teaching of programs in the first years of the course of study. Insertion of annual workshops: 3 months are not enough to carry out projects that are up to standard. ",	candidati:[
                         { id: 1, imgUrl: "/img/candidati/svoltastudenti/elena_picchetti.jpg", name: "Picchetti Elena", detto: ""},
                         { id: 2, imgUrl: "/img/candidati/svoltastudenti/davide_diceglie_auic.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
                         { id: 3, imgUrl: "/img/candidati/svoltastudenti/ian_fernandez.jpg", name: "Fernàndez Nava Ian Anthony Alloxis", detto: "IANF"},
@@ -79,8 +71,7 @@ export default {
 					]
                 },
                 trei:{
-                    desc :"Creare di rete di Ambassadors con lo scopo di avvicinare le ragazze al mondo ingegneristico. Aumentare l’attività laboratoriale nei corsi a scelta in magistrale: questi corsi sono già interdipartimentali e la contaminazione sarebbe facilmente implementabile. Inserire l’bbligo di caricare una versione corretta del tema d’esame e garantire la possibilità di accedere ai temi d’esami degli anni precedenti e simulazioni, attraverso un archivio centralizzato. Introdurre un nuovo appello d’esame: introdurre un appello totale in concomitanza della seconda prova parziale.",
-					candidati:[
+               desc: "Create a network of Ambassadors with the aim of bringing girls closer to the engineering world. Increase laboratory activity in elective courses in the master's degree: these courses are already interdepartmental and the contamination would be easily implemented. Insert the obligation to upload a correct version of the exam topic and guarantee the possibility of accessing the exam topics of previous years and simulations, through a centralized archive. Introduce a new exam session: introduce a total session in conjunction with the second partial test. ",		candidati:[
 						{id:1, imgUrl: "/img/candidati/svoltastudenti/marsona_panci.jpg", name: "Panci Marsona", detto: "MARS"},
                         {id:2, imgUrl: "/img/candidati/svoltastudenti/raif_muhammad.jpg", name: "Muhammad Raif", detto: "RAIF"},
 						{id:3, imgUrl: "/img/candidati/svoltastudenti/mercedes_alazraki.jpg", name: "Alazraki Mercedes", detto: "MERCY AMG"},
@@ -97,8 +88,7 @@ export default {
 					]
                 },
                 icat:{
-                    desc: "PEER TUTORING: Incentivare e approfondire l’utilizzo del peer tutoring. Nuovi collegamenti con il mondo professionale: organizzare visite in cantiere, visite in azienda e colloqui “face to face” con professionisti del settore. FISICA 1+ FISICA 2A: Spezzare l’esame annuale in due moduli, per permettere agli studenti di sostenere i due esami distaccati tra loro/ in anni accademici diversi. LABS: introduzione di laboratori ed esperienze in aula nei corsi triennali al fine di dare un riscontro pratico alla teoria.",
-					candidati:[
+               desc: "PEER TUTORING: Encourage and deepen the use of peer tutoring. New connections with the professional world: organize site visits, company visits and 'face to face' interviews with professionals in the sector. PHYSICS 1+ PHYSICS 2A: Breaking the annual exam in two modules, to allow students to take the two exams separated from each other / in different academic years. LABS: introduction of laboratories and classroom experiences in the three-year courses in order to give practical feedback to the theory. ",	candidati:[
 						{id:1, imgUrl: "/img/candidati/svoltastudenti/eleonora_pietrobelli.jpg", name: "Pietrobelli Eleonora", detto: ""},
                         {id:2, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi_icat.jpg", name: "Sgroi Antonino", detto: "LILLO"},
 						{id:3, imgUrl: "/img/candidati/svoltastudenti/fabrizio_murillo.jpg", name: "Murillo Fabrizio Roldos Jose", detto: ""},
@@ -107,8 +97,8 @@ export default {
                     ]
                 },
                 design:{
-                    desc : "Creare spazi per lo scambio di materiali avanzati dai progetti. Implementare l’omologazione dei software usati nei corsi, aggiornandoli a ciò che ora viene richiesto dal mondo del lavoro e creazione di una libreria di Mooc/video tutorial sull’utilizzo dei vari software. Introdurre più workshop e passion in action in collaborazione tra i diversi indirizzi. Inserire la possibilità di poter scegliere lo scaglione nei corsi di laboratorio che presentano differenze nei progetti.",
-					candidati:[
+                  desc: "Create spaces for the exchange of advanced materials from projects. Implement the standardization of the software used in the courses, updating them to what is now required by the world of work and creation of a Mooc library / video tutorial on the use of the various software. Introduce more workshops and passion in action in collaboration between the different addresses. Insert the possibility of choosing the bracket in the laboratory courses that have differences in the projects.",
+                  	candidati:[
 						{id:1, imgUrl: "/img/candidati/svoltastudenti/marco_tintori.jpg", name: "Tintori Marco", detto: "TINTO"},
                         {id:2, imgUrl: "/img/candidati/svoltastudenti/giulia_daleo.jpg", name: "D'Aleo Giulia", detto: "GIUS"},
 						{id:3, imgUrl: "/img/candidati/svoltastudenti/vittorio_perobelli.jpg", name: "Perobelli Vittorio", detto: "PERO"},

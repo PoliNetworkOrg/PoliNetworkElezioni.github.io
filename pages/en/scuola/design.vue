@@ -15,8 +15,7 @@ export default {
         {
             id:1,
             name:"Design",
-            desc:"La Scuola del Design del Politecnico di Milano è oggi la più grande università internazionale, sia per numero di studenti sia per numero di docenti, per la formazione dei progettisti di prodotto, di comunicazione, di interni e di moda. È attiva a Milano in un campus di recente costruzione. Alcuni dati che ne descrivono la portata: circa 5000 studenti, oltre 450 docenti e circa 400 tra assistenti, esercitatori e cultori della materia di ausilio alla didattica. I percorsi formativi proposti si articolano in due livelli di laurea, la Laurea di primo livello e la Laurea Magistrale di ulteriori due anni. Secondo il “QS Rankin by Subject” la Scuola del Design è 1ª in Italia, 3ª in Europa e 5ª nel mondo"
-        }
+    desc: "The School of Design of the Politecnico di Milano is today the largest international university, both for the number of students and for the number of teachers, for the training of product, communication, interior and fashion designers. Milan in a recently built campus. Some data describing its scope: about 5000 students, over 450 teachers and about 400 assistants, trainers and students of teaching aids. The training courses offered are divided into two degree levels , the Bachelor's Degree and the Master's Degree for a further two years. According to the 'QS Rankin by Subject', the School of Design is 1st in Italy, 3rd in Europe and 5th in the world "    }
     ],
 
       liste: [
@@ -28,8 +27,8 @@ export default {
                 organi: [
                     {
                         name: "Design",
-                        desc : "Creare spazi per lo scambio di materiali avanzati dai progetti. Implementare l’omologazione dei software usati nei corsi, aggiornandoli a ciò che ora viene richiesto dal mondo del lavoro e creazione di una libreria di Mooc/video tutorial sull’utilizzo dei vari software. Introdurre più workshop e passion in action in collaborazione tra i diversi indirizzi. Inserire la possibilità di poter scegliere lo scaglione nei corsi di laboratorio che presentano differenze nei progetti.",
-           	            candidati:[
+                    desc: "Create spaces for the exchange of advanced materials from projects. Implement the standardization of the software used in the courses, updating them to what is now required by the world of work and creation of a Mooc library / video tutorial on the use of the various software. Introduce more workshops and passion in action in collaboration between the different addresses. Insert the possibility of choosing the bracket in the laboratory courses that have differences in the projects.     ",
+                    candidati:[
                             {id:1, imgUrl: "/img/candidati/svoltastudenti/marco_tintori.jpg", name: "Tintori Marco", detto: "TINTO"},
                             {id:2, imgUrl: "/img/candidati/svoltastudenti/giulia_daleo.jpg", name: "D'Aleo Giulia", detto: "GIUS"},
                             {id:3, imgUrl: "/img/candidati/svoltastudenti/vittorio_perobelli.jpg", name: "Perobelli Vittorio", detto: "PERO"},
@@ -46,8 +45,7 @@ export default {
                 organi:[
                     {
                         name: "Design",
-                    desc : "Proponiamo di aumentare i rapporti con le aziende per garantire l’ibridazione dei quattro corsi di studio nei workshop. Vogliamo aumentare le interazioni con il Career Service durante le lezioni chiedendo di poter avere un Career Point all’interno del campus. Desideriamo revisionare gli obiettivi dei laboratori di elementi visivi per tutti i corsi di studio, così da aumentare le capacità di visual del progetto. Infine, proponiamo di aumentare le convenzioni con i musei: entrata gratuita per gli studenti del Politecnico alla Triennale, alla Fondazione Castiglioni e al Kartell museo. Inoltre chiediamo la possibilità di ottenere pass a fiere come il Salone del mobile. Per migliorare il nostro Campus, proponiamo una tensostruttura con tavoli e sedie cablati nei prati tra il B6 e il B8, e il cablaggio dei tavoli del pratone dietro al B1.",
-                    candidati:
+               desc: "We propose to increase relationships with companies to ensure the hybridization of the four courses of study in the workshops. We want to increase interactions with the Career Service during the lessons by asking to have a Career Point on campus. We want to review the objectives of the visual elements laboratories for all study courses, so as to increase the visual skills of the project. Finally, we propose to increase the agreements with museums: free admission for Politecnico students to the Triennale, the Castiglioni Foundation and the Kartell museo. We also ask for the possibility of obtaining passes to fairs such as the Salone del mobile. To improve our Campus, we offer a tensile structure with tables and chairs wired in the lawns between B6 and B8, and the wiring of the tables in the lawn behind the B1. ",      candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/sofia_boni.jpg", name: "Boni Sofia", detto: "SOFI"},
@@ -75,8 +73,7 @@ export default {
                 organi:[
                     {
                         name: "Design",
-                        desc : "Continuiamo la nostra lotta per il rimborso dei costi dei materiali e per la stipulazione di convenzioni con negozi specialistici. Garantire il rimborso spese vuol dire dare a tuttз la possibilità di sperimentare, indipendentemente dalla fascia di reddito di appartenenza. Vogliamo inoltre garantire la possibilità ad ogni studentə di scegliere, all’interno della calendarizzazione, quando sostenere i propri esami. Chiediamo inoltre che siano chiare le valutazioni d’esame, con criteri omogenei tra diversi scaglioni. Vogliamo promuovere una cultura del progetto multidisciplinare, aperta alla sperimentazione e alla contaminazione. Proponiamo il potenziamento dei laboratori già esistenti e la valutazione di un nuovo Polifactory, sul modello già esistente, di libero accesso allз studentз.",
-                        candidati:
+                     desc: "We continue our fight for the reimbursement of the costs of materials and for the stipulation of agreements with specialist shops. Guaranteeing the reimbursement of expenses means giving everyone the opportunity to experiment, regardless of the income bracket they belong to. possibility for each student to choose, within the schedule, when to take their exams. We also ask that the exam assessments be clear, with homogeneous criteria between different brackets. We want to promote a multidisciplinary project culture, open to experimentation and contamination. We propose the upgrading of the existing laboratories and the evaluation of a new Polifactory, on the existing model, open to the students. ",    candidati:
                         [
                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/mercedes_vitali.png", name: "Vitali Mercedes", detto: ""},
                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/giovanni_smoquina.png", name: "Smoquina Giovanni", detto: ""}
@@ -92,8 +89,7 @@ export default {
                 organi:[
                     {
                         name: "Design",
-                        desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per lз studentз di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
-                        candidati:
+                    desc: "We believe it is necessary to set up a fund for material projects and prototypes in order to avoid making the cost for the design student excessive. We want to enhance Poliprint by making the quality of the prints higher and the prices more popular. We want a deposit. safe for prototypes in B2 so that the models do not have to travel as well and a point to dispose of the materials that can be reused. We want to regulate the intermediate revisions so that they can be carried out with digital support. ",     candidati:
                         [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.PNG", name: "Ippolito Ilenia", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/laura_giordano.PNG", name: "Giordano Laura", detto: ""},

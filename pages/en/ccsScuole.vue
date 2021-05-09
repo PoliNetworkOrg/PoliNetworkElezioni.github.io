@@ -9,14 +9,14 @@
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 testoCentrale" style="border:none;">
         <div style="text-align:center;">
-            <h2>Elezioni rappresentanti degli studenti</h2>
+            <h2>Election of student representatives</h2>
             <h4>CCS</h4>
             <br/>
 
             <p class="lead">
-                <blockquote>
-             DEFINISCE I PROGRAMMI DELLE MATERIE DEL CORSO DI LAUREA, LE MODALITÀ DI FRUIZIONE DELLA DIDATTICA, L’ANALISI DELL’EFFICACIA DEGLI INSEGNAMENTI SVOLTI, L’ORGANIZZAZIONE DEL PIANO DI STUDIO, LA DISTRIBUZIONE DEI CFU.
-                </blockquote>
+   <blockquote>
+              DEFINES THE PROGRAMS OF THE DEGREE COURSE SUBJECTS, THE METHODS OF USING THE DIDACTICS, THE ANALYSIS OF THE EFFECTIVENESS OF THE COURSES CARRIED OUT, THE ORGANIZATION OF THE STUDY PLAN, THE DISTRIBUTION OF THE ECTS.
+                 </blockquote>
             </p>
         </div>
 

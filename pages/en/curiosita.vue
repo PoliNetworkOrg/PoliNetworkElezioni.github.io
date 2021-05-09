@@ -9,27 +9,27 @@
     <div class="container2">
     <div class="container6">
         <header class=" my-4 ">
-        <h2 style="padding-bottom:1rem;" class="container4">Curiosit&agrave;</h2>
-        <p>
-            Questo sito, realizzato da <a href="https://polinetwork.github.io/">PoliNetwork</a>,
-             ha l'obiettivo di rendere più chiaro possibile agli studenti programmi e candidati.
-        </p>
+        <h2 style="padding-bottom:1rem;" class="container4">Curiosity</h2>
+<p>
+             This site, created by <a href="https://polinetwork.github.io/"> PoliNetwork </a>,
+              aims to make programs and candidates as clear as possible to students.
+         </p>
         
-        <p>
-            Il sito è stato realizzato in collaborazione con le stesse liste di rappresentanza candidate, le quali hanno fornito testi ed immagini.
-        </p>
+         <p>
+             The site was created in collaboration with the same candidate lists, which provided texts and images.
+         </p>
 
-        <p>
-            L'ordine delle liste visualizzato è <i>casuale</i> in ogni pagina, ciò significa che se ricaricate la pagina, l'ordine, con buona probabilità, cambierà.
-        </p>
+         <p>
+             The order of the lists displayed is <i> random </i> on each page, which means that if you reload the page, the order will likely change.
+         </p>
  
-  <p>
-            Se avete ulteriori dubbi sul voto, ad esempio per le modalità dello stesso, visitate la nostra <a href="../istruzioni/">pagina dedicata</a>.
-            </p>
+   <p>
+             If you have further doubts about the vote, for example about the modalities of the same, visit our <a href="../instructions/"> dedicated page </a>.
+             </p>
 
-        <p>
-            Se avete necessità di contattarci, specie in caso di errori, segnalazioni, suggerimenti, vi ricordiamo la pagina <a href="../contatti/">contatti</a>.
-        </p>
+         <p>
+             If you need to contact us, especially in case of errors, reports, suggestions, we remind you the page <a href="../contatti/"> contacts </a>.
+         </p>
 
       
         </header>

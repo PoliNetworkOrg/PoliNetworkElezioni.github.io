@@ -15,8 +15,7 @@ export default {
         {
             id:1,
             name:"AUIC",
-            desc:"Nella scuola AUIC sono eletti 5 rappresentanti degli studenti in Giunta della scuola."
-        }
+      desc: "In the AUIC school 5 student representatives are elected in the school board."   }
     ],
 
       liste: [
@@ -28,8 +27,7 @@ export default {
                 organi: [
                     {
                         name: "AUIC",
-                        desc: "Incontri, eventi culturali e convenzioni: Rendere il Politecnico stesso teatro di incontri ed eventi integrati e inerenti al percorso didattico. Verso il mondo del lavoro: introdurre supporto istituzionale alla creazione del portfolio. Implementare corsi su software di disegno, modellazione e applicazione della metodologia BIM: Implementare l’insegnamento di programmi nei primi anni del corso di studi. Inserimento laboratori annuali: 3 mesi non sono sufficienti per portare avanti progetti all’altezza.",
-           	            candidati:[
+                      desc: "Meetings, cultural events and conventions: Making the Politecnico itself the scene of integrated meetings and events related to the educational path. Towards the world of work: introducing institutional support to the creation of the portfolio. Implementing courses on design, modeling and application software of the BIM methodology: Implement the teaching of programs in the first years of the course of study. Insertion of annual workshops: 3 months are not enough to carry out projects that are up to standard. ",   candidati:[
                             {id:1, imgUrl: "/img/candidati/svoltastudenti/elena_picchetti.jpg", name: "Picchetti Elena", detto: ""},
                             {id:2, imgUrl: "/img/candidati/svoltastudenti/davide_diceglie_auic.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
                             {id:3, imgUrl: "/img/candidati/svoltastudenti/ian_fernandez.jpg", name: "Fernàndez Nava Ian Anthony Alloxis", detto: "IANF"},
@@ -47,8 +45,7 @@ export default {
                 organi:[
                     {
                         name: "AUIC",
-                        desc: "In scuola Auic lavoreremo su due pilastri: didattica e diritto allo studio. Per quanto riguarda la didattica, vorremmo dotare i docenti di strumenti tecnologici e digitali per aggiornare la didattica alle nuove forme che saranno decisive per noi studenti nel mondo del lavoro. Il Diritto allo Studio per gli studenti di Auic passa inevitabilmente dai costi che si devono sostenere per stampe e modelli: proponiamo un fondo e delle convenzioni per venire incontro, almeno in parte, a tutti gli studenti.",
-                    candidati:
+              desc: "In the Auic school we will work on two pillars: teaching and the right to study. As regards teaching, we would like to equip teachers with technological and digital tools to update teaching to new forms that will be decisive for us students in the world of work. The Right to Education for Auic students inevitably depends on the costs that must be incurred for prints and models: we propose a fund and agreements to meet, at least in part, all students. ",       candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
@@ -75,8 +72,7 @@ export default {
                 organi:[
                     {
                         name: "AUIC",
-                        desc: "Tutti abbiamo diritto agli stessi strumenti per la progettazione per questo richiediamo un accesso digitale alla bibliografia e un maggior numero di software gratuiti come Sketch-up pro e Lumion. Ci impegneremo anche per ridurre ulteriori costi a carico di noi studentз richiedendo la strumentazione adatta per poter svolgere revisioni in digitale. Ogni studentə vale più della sua media per questo proponiamo di essere valutati equamente per gli accessi sis ai laboratori che alle magistrali",
-           	            candidati:
+                  desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's ",       candidati:
                         [
                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""},
                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/letizia_guido.png", name: "Guido Letizia", detto: ""}
@@ -93,8 +89,7 @@ export default {
                 organi:[
                     {
                         name: "AUIC",
-                        desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tuttз la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
-                        candidati:
+                   desc: "We ask that more digital representation software courses be implemented to ensure a 360 degree preparation. We want there to be greater coordination of deliveries between the different classes of laboratories to avoid dispersion within the courses. It is necessary to set up a fund for the teaching material and guarantee remote reviews to ensure that everyone actively participates in the lessons and workshops. Finally, we believe that a maximum of one review per week can be accepted to avoid periods of excessive stress and overlaps. ",      candidati:
                         [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/tommasopaolo_bertolini.PNG", name: "Bertolini Tommasopaolo", detto: "TOMMI"},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/debora_maurelli.PNG", name: "Maurelli Debora", detto: ""},

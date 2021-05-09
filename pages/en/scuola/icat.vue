@@ -15,8 +15,7 @@ export default {
         {
             id:1,
             name:"ICAT",
-            desc:"La Scuola di Ingegneria Civile Ambientale e Territoriale eroga i Corsi di Studio in Ingegneria per l'Ambiente e il Territorio (campus Leonardo), Ingegneria Civile (campus Leonardo), Ingegneria Civile per la Mitigazione del Rischio/Civil Engineering for Risk Mitigation (campus Lecco) e Geoinformatics Engineering/Ingegneria Geoinformatica (campus Leonardo)."
-        }
+      desc: "The School of Civil, Environmental and Territorial Engineering provides study courses in Engineering for the Environment and the Territory (Leonardo campus), Civil Engineering (Leonardo campus), Civil Engineering for Risk Mitigation / Civil Engineering for Risk Mitigation (Lecco campus) and Geoinformatics Engineering / Geoinformatics Engineering (Leonardo campus). "   }
     ],
 
       liste: [
@@ -28,8 +27,8 @@ export default {
                 organi: [
                     {
                         name: "ICAT",
-                        desc: "PEER TUTORING: Incentivare e approfondire l’utilizzo del peer tutoring. Nuovi collegamenti con il mondo professionale: organizzare visite in cantiere, visite in azienda e colloqui “face to face” con professionisti del settore. FISICA 1+ FISICA 2A: Spezzare l’esame annuale in due moduli, per permettere agli studenti di sostenere i due esami distaccati tra loro/ in anni accademici diversi. LABS: introduzione di laboratori ed esperienze in aula nei corsi triennali al fine di dare un riscontro pratico alla teoria.",
-                            candidati:[
+                desc: "PEER TUTORING: Encourage and deepen the use of peer tutoring. New connections with the professional world: organize site visits, company visits and 'face to face' interviews with professionals in the sector. PHYSICS 1+ PHYSICS 2A: Breaking the annual exam in two modules, to allow students to take the two exams separated from each other / in different academic years. LABS: introduction of laboratories and classroom experiences in the three-year courses in order to give practical feedback to the theory. ",         
+                    candidati:[
                             {id:1, imgUrl: "/img/candidati/svoltastudenti/eleonora_pietrobelli.jpg", name: "Pietrobelli Eleonora", detto: ""},
                             {id:2, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi_icat.jpg", name: "Sgroi Antonino", detto: "LILLO"},
                             {id:3, imgUrl: "/img/candidati/svoltastudenti/fabrizio_murillo.jpg", name: "Murillo Fabrizio Roldos Jose", detto: ""},
@@ -47,8 +46,7 @@ export default {
                 organi:[
                     {
                         name: "ICAT",
-                        desc: "La scuola Icat, visto il numero ridotto di studenti, deve investire risorse per aumentare la qualità della didattica: scaglioni più piccoli, più laboratori e esperienze personalizzate, fin dalla triennale. Inoltre, lavoreremo per aumentare le politiche di orientamente verso la magistrale e il mondo del lavoro, anche grazie all’introduzione di corsi professionalizzanti e tirocini.",
-                    candidati:
+                  desc: "The Icat school, given the small number of students, must invest resources to increase the quality of teaching: smaller groups, more workshops and personalized experiences, starting from the three-year period. In addition, we will work to increase the policies of orienting towards the master's and the world of work, also thanks to the introduction of vocational courses and internships. ",   candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
 						{id:2, imgUrl: "/img/candidati/listaaperta/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
@@ -69,8 +67,7 @@ export default {
                 organi:[
                     {
                         name: "ICAT",
-                        desc: "Ridurre il carico degli esami aggiungendo le prove in itinere, limitando le prove con diverse modalità (scritto, orale, e progetto obbligatori) e migliorando le ore di esercitazioni eliminando le ripetizioni tra i corsi. In particolare, vogliamo ci impegneremo per rendere più equo il rapporto tra la valutazione del progetto e il tempo necessario per realizzarlo. Dobbiamo, e insieme possiamo, arrivare all’eliminazione delle precedenze! Ad ICAT ci impegneremo per più praticità ed esperienza sul campo, insieme ad un supporto crescente da parte del Career Service e per aver maggiormente al centro dei nostri corsi il tema della sostenibilità ambientale.",
-                    candidati:
+             desc: "Reduce the burden of exams by adding ongoing tests, limiting the tests with different modalities (written, oral, and project mandatory) and improving the hours of exercises by eliminating repetitions between courses. In particular, we want to strive to make more equitable the relationship between the evaluation of the project and the time needed to carry it out. We must, and together we can, get to the elimination of priorities! At ICAT we will strive for more practicality and experience in the field, together with a growing support from the Career Service and to have environmental sustainability at the center of our courses. ",         candidati:
                     [
                       {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/luca_lo_bosco.png", name: "Lo Bosco Luca", detto: ""},
                       {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/andrea_collini.png", name: "Collini Andrea", detto: ""}
@@ -87,8 +84,7 @@ export default {
                 organi:[
                     {
                         name: "ICAT",
-           	            desc: "A ICAT crediamo che i parziali debbano essere una libera scelta che non precluda il numero di appelli di una sessione. Crediamo che sia necessario aumentare il numero di laboratori che siano anche specifici ai 2 corsi di studio che compongono la scuola. La valutazione degli esami deve avere delle tempistiche certe dato che troppo spesso succede siano a discrezione del docente mettendo in difficoltà scaglioni di studenti. Crediamo sia necessario implementare delle modalità didattiche più interattive che stimolino la comprensione e la partecipazione dellз studentз.",
-                        candidati:
+           	    desc: "At ICAT we believe that partials must be a free choice that does not preclude the number of exam sessions in a session. We believe that it is necessary to increase the number of laboratories that are also specific to the 2 study courses that make up the school. of the exams must have certain timings as it happens too often at the discretion of the teacher putting in difficulty groups of students. We believe it is necessary to implement more interactive teaching methods that stimulate the understanding and participation of the student. ",         candidati:
                         [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/matteo_chiavegato.PNG", name: "Chiavegato Matteo", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/davide_varotto.PNG", name: "Varotto Davide", detto: ""},

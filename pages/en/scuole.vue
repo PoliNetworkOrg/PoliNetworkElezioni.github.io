@@ -9,16 +9,16 @@
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 testoCentrale" style="border:none;">
         <div style="text-align:center;">
-            <h2>Elezioni rappresentanti degli studenti</h2>
+            <h2>Election of student representatives</h2>
             <br />
-            <h4>Scuole</h4>
+            <h4>Schools</h4>
             <br/>
 
             <p class="lead">
                 <blockquote>
-                    COORDINA I CORSI DI STUDIO
-                E FORNISCE UN INDIRIZZO GENERALE
-                ALLA SCUOLA.
+               COORDINATES THE COURSES OF STUDY
+                 AND PROVIDES A GENERAL ADDRESS
+                 TO THE SCHOOL.
                 </blockquote>
             </p>
         </div>

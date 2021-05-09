@@ -9,16 +9,16 @@
     <!-- Jumbotron Header -->
     <header class=" my-4 ">
 		<div style="text-align:center;">
-			<span class="contattiTitle">Istruzioni di voto</span>
+			<span class="contattiTitle">Voting instructions</span>
 			<br />
       <br />
 		</div>
 
 <div>
-  <a class="linkEligo" href="https://polimi.evoting.it/plc/utentehome/organiindex">🌐 Link piattaforma di voto 'Eligo'</a>
+  <a class="linkEligo" href="https://polimi.evoting.it/plc/utentehome/organiindex">🌐 'Eligo' voting platform link</a>
 </div>
 <div>
-	  <a class="linkEligo" href="https://youtu.be/lX5bhxXr_fI">📽 Video istruzioni al voto</a>
+	  <a class="linkEligo" href="https://youtu.be/lX5bhxXr_fI">📽 Video instructions for voting</a>
 
 	</div>
 
@@ -27,23 +27,23 @@
 
 			<ul style="list-style: none;padding-left:0px;">
 			<li class="li">
-				<span class="questionSpan">Firme a sostegno:</span>
+				<span class="questionSpan">Supporting signatures:</span>
 				<br class="spacerQuestion" />
 				<span class="answerSpan">
             <ul>
-              <li>350 per senato e CdA, al termine della raccolta la lista viene tolta dal portale</li>
-              <li>50 per ogni scuola, idem per quanto riguarda il raggiungimento</li>
-              <li>20 per ogni candidato in CCS (a differenza degli altri organi qui il sistema permette di raccoglierne di più, che però appunto non servono)</li>
-              <li>Si può dare il sostegno a una sola lista/candidato per ogni organo, non si può sostenere sé stessi</li>
-              <li>Nei corsi di Ing. Geoinformatica, Ing. Nucleare, Music & Acoustic Engineering ci vogliono meno firme per il CCS (rispettivamente: 9, 19, 18)</li>
-              <li>Per i Consigli di Riferimento dei Poli Territoriali le firme a sostegno sono 10</li>
-              <li>Una volta dato il sostegno non si può modificare</li>
-              <li>Chi sostiene qualcuno figura nella lista dei sostegni</li>
+              <li> 350 for the Senate and Board of Directors, at the end of the collection the list is removed from the portal </li>
+               <li> 50 for each school, the same for achievement </li>
+               <li> 20 for each candidate in CCS (unlike the other organs, here the system allows you to collect more, which however are not needed) </li>
+               <li> You can only support one list / candidate for each body, you cannot support yourself </li>
+               <li> In the courses of Geoinformatics Engineering, Nuclear Engineering, Music &amp; Acoustic Engineering requires fewer signatures for the CCS (respectively: 9, 19, 18) </li>
+               <li> There are 10 supporting signatures for the Reference Councils of the Territorial Poles </li>
+               <li> Once support is given, it cannot be changed </li>
+               <li> Who supports someone is on the list of supports </li>
             </ul>
         </span>
 			</li>
       <li class="li">
-        <span class="questionSpan">Posti disponibili e preferenze</span>
+        <span class="questionSpan">Available places and preferences</span>
         <br class="spacerQuestion" />
         <span class="answerSpan">
 

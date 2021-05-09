@@ -12,45 +12,39 @@ export default {
             name: "Lista Aperta",
             mainWebsiteUrl: "https://www.readytobe-listaperta.com",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
-            desc: ["Lista Aperta è un gruppo di studenti e amici che passa gran parte delle giornate in Università. Per questo ci interessa migliorare il posto in cui siamo, per permettere a tutti di vivere appieno l’esperienza universitaria, dagli spazi studio alla didattica nelle aule fino alle attività extracurricolari. ",
-            "In questi giorni al Poli è cominciata la campagna elettorale: il nostro motto per queste elezioni è READY TO BE BACK TOGETHER! ",
-            "Ready to be: noi ci siamo, siamo presenti e viviamo l’università tutti i giorni, certi del valore di nuovi incontri, a lezione, nelle pause pranzo o nelle aule studio per studiare in compagnia. ",
-            "Readytobeback: siamo pronti a tornare in università, come prima ma più di prima!",
-            "Readytobetogether: l’esperienza di uno studente all’interno del politecnico non può essere in solitudine: per questo ci candidiamo insieme! Siamo 120 candidati, una squadra "],
-            imageUrl:"/img/listaaperta.png",
+         desc: ["Lista Aperta is a group of students and friends who spend most of their days at the University. This is why we are interested in improving the place we are in, to allow everyone to fully enjoy the university experience, from study spaces to teaching in the classrooms up to extracurricular activities. ",
+             "The electoral campaign has started in these days at the Poli: our motto for these elections is READY TO BE BACK TOGETHER!",
+             "Ready to be: we are there, we are present and we live the university every day, certain of the value of new meetings, in class, during lunch breaks or in study rooms to study together.",
+             "Readytobeback: we are ready to go back to university, as before but more than before!",
+             "Readytobetogether: the experience of a student within the polytechnic cannot be alone: this is why we apply together! We are 120 candidates, a team"],    imageUrl:"/img/listaaperta.png",
             instagram:"https://www.instagram.com/poli_listaperta/",
             programmaSottotitolo:"READY TO BE BACK TOGETHER!",
             programma:
                 [
                     {
                         id : 1,
-                        title: 'Valorizziamo la triennale',
+                   title: 'We enhance the triennial',
                         url : '/img/programmi/listaaperta/1.jpg',
-                        desc: "Desideriamo valorizzare mediante proposte concrete le lauree triennali, che ad oggi sembrano essere una semplice preparazione per la magistrale. Per questo motivo, finché non ci sarà una reale valorizzazione della triennale, non bisogna alzare ulteriormente le medie d’accesso alla magistrale!"
-                    },
+              desc: "We wish to enhance the three-year degrees through concrete proposals, which today seem to be a simple preparation for the master's. For this reason, until there is a real valorization of the three-year, we must not further raise the average access to the master! "      },
                     {
                         id: 2,
-                        title: 'Registrazioni',
-                        url : '/img/programmi/listaaperta/4.jpg',
-                        desc: "Le registrazioni sono un prezioso materiale didattico: lavoreremo affinché vengano sempre mantenute, coscienti del fatto che non potranno mai sostituire le vere lezioni live e in presenza."
-                    },
+                  title: 'Registrations',
+                         url : '/img/programmi/listaaperta/4.jpg',
+               desc: "The recordings are a precious didactic material: we will work to ensure that they are always maintained, aware of the fact that they can never replace real live and face-to-face lessons."      },
                     {
                         id: 3,
-                        title: 'Abbassiamo le tasse',
+               title: "Let's lower taxes",
                         url : '/img/programmi/listaaperta/3.jpg',
-                        desc: "Lavoreremo insieme all’Ateneo per destinare investimenti al Diritto allo Studio in particolare per diminuire il contributo per le fasce medio-basse, anche grazie alla proposta di ulteriori esoneri per merito"
-                    },
+                desc: "We will work together with the University to allocate investments to the Right to Education, in particular to decrease the contribution for the medium-low brackets, also thanks to the proposal for further exemptions for merit"    },
                     {
                         id: 4,
-                        title: 'Aumentiamo gli spazi studio',
+                  title: "Let's increase study spaces",
                         url : '/img/programmi/listaaperta/2.jpg',
-                        desc: "È fondamentale per noi avere spazi di qualità in cui poter studiare: proponiamo di sfruttare le nuove tecnologie e forme di lavoro flessibili, per liberare uffici amministrativi e aumentare gli spazi studio."
-                    }
+                 desc: "It is essential for us to have quality spaces in which to study: we propose to exploit new technologies and flexible forms of work, to free up administrative offices and increase study spaces."    }
                 ],
             senato:
             {
-                desc: "In Senato lavoreremo per garantire una didattica di qualità aperta a forme innovative per valorizzare le attitudini di ogni studente. Inoltre, è per noi un tema fondamentale incentivare l’internazionalizzazione sia al Politecnico sia con esperienze all’estero.",
-                candidati:[
+             desc: "In the Senate we will work to ensure quality teaching open to innovative forms to enhance the attitudes of each student. In addition, it is a fundamental issue for us to encourage internationalization both at the Polytechnic and with experiences abroad.",   candidati:[
                     {id: 1, imgUrl: "/img/candidati/listaaperta/marta_ghidoli.jpg", name: "Ghidoli Marta", detto: "MARTA"},
                     {id: 2, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
                     {id: 3, imgUrl: "/img/candidati/listaaperta/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
@@ -62,8 +56,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "In CdA ci batteremo per il Diritto allo Studio: una battaglia decisiva per permettere a tutti gli studenti di poter vivere a pieno l’università! Inoltre, ci impegneremo sempre per garantire i giusti finanziamenti per sviluppare i nostri campus sempre di più come luoghi di aggregazione e di qualità.",
-                candidati:[
+           desc: "In the Board of Directors we will fight for the Right to Education: a decisive battle to allow all students to be able to fully experience the university! Furthermore, we will always strive to guarantee the right funding to develop our campuses more and more like places of meeting and quality. ",      candidati:[
                     {id:1, imgUrl: "/img/candidati/listaaperta/daniele_redaelli.jpg", name: "Radaelli Daniele", detto: "REDA"},
                     {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
                     {id:3, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
@@ -71,10 +64,9 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Lista Aperta si candida in tutti i corsi di studio: 120 candidati. Una squadra che lavora insieme in tutti i livelli della rappresentanza, dal ccs fino al Senato Accademico. In questo contesto, le scuole sono un anello fondamentale per poter raggiungere risultati concreti per migliorare la nostra università e per creare un rete in cui condividere gli aspetti postivi, al servizio di tutti.",
-                auic:{
-                    desc: "In scuola Auic lavoreremo su due pilastri: didattica e diritto allo studio. Per quanto riguarda la didattica, vorremmo dotare i docenti di strumenti tecnologici e digitali per aggiornare la didattica alle nuove forme che saranno decisive per noi studenti nel mondo del lavoro. Il Diritto allo Studio per gli studenti di Auic passa inevitabilmente dai costi che si devono sostenere per stampe e modelli: proponiamo un fondo e delle convenzioni per venire incontro, almeno in parte, a tutti gli studenti.",
-                    candidati:
+             desc: "Lista Aperta is a candidate in all study courses: 120 candidates. A team that works together in all levels of representation, from the CCS to the Academic Senate. In this context, schools are a fundamental link to achieve results concrete to improve our university and to create a network in which to share positive aspects, at the service of all.",
+                 auic:{
+                  desc: "In the Auic school we will work on two pillars: teaching and the right to study. As regards teaching, we would like to equip teachers with technological and digital tools to update teaching to new forms that will be decisive for us students in the world of work. The Right to Education for Auic students inevitably depends on the costs that must be incurred for prints and models: we propose a fund and agreements to meet, at least in part, all students. ",  candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/maria_zini.jpg", name: "Zini Maria", detto: "MERI"},
@@ -92,8 +84,7 @@ export default {
                     ]
                 },
                 trei:{
-                    desc :"Il nostro lavoro nella scuola 3I si concentrerà principalmente su 3 aspetti: valorizzare la laurea triennali, aumentare la qualità dell’esperienza didattica e costruire una didattica che tiene conto dell’esperienza digitale dell’emergenza Covid. Non si può pensare di rendere ancora più difficile l’ingresso in magistrale senza politiche di valorizzazione del percorso della laurea triennale, che sempre di più sta perdendo qualità nella didattica. Per aumentare la qualità della didattica crediamo che sia fondamentale aumentare la possibilità di personalizzare il proprio percorso di studi, a partire dalle lauree in discontinuità. Infine, ci teniamo a cogliere gli aspetti positivi del digitale, come le registrazioni, per migliorare la didattica innovativa.",
-                    candidati:
+                  desc: "Our work in the 3I school will mainly focus on 3 aspects: enhancing the three-year degree, increasing the quality of the teaching experience and building a teaching that takes into account the digital experience of the Covid emergency. even more difficult to enter the master's without policies to enhance the course of the three-year degree, which is increasingly losing quality in teaching. To increase the quality of teaching, we believe that it is essential to increase the possibility of personalizing one's own course of study, to starting from graduate degrees in discontinuity. Finally, we want to grasp the positive aspects of digital, such as recordings, to improve innovative teaching. ",  candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
@@ -113,8 +104,7 @@ export default {
                     ]
                 },
                 icat:{
-                    desc: "La scuola Icat, visto il numero ridotto di studenti, deve investire risorse per aumentare la qualità della didattica: scaglioni più piccoli, più laboratori e esperienze personalizzate, fin dalla triennale. Inoltre, lavoreremo per aumentare le politiche di orientamente verso la magistrale e il mondo del lavoro, anche grazie all’introduzione di corsi professionalizzanti e tirocini.",
-                    candidati:
+               desc: "The Icat school, given the small number of students, must invest resources to increase the quality of teaching: smaller groups, more workshops and personalized experiences, starting from the three-year period. In addition, we will work to increase the policies of orienting towards the master's and the world of work, also thanks to the introduction of vocational courses and internships. ",     candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
 						{id:2, imgUrl: "/img/candidati/listaaperta/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
@@ -126,8 +116,7 @@ export default {
                     ]
                 },
                 design:{
-                    desc : "Proponiamo di aumentare i rapporti con le aziende per garantire l’ibridazione dei quattro corsi di studio nei workshop. Vogliamo aumentare le interazioni con il Career Service durante le lezioni chiedendo di poter avere un Career Point all’interno del campus. Desideriamo revisionare gli obiettivi dei laboratori di elementi visivi per tutti i corsi di studio, così da aumentare le capacità di visual del progetto. Infine, proponiamo di aumentare le convenzioni con i musei: entrata gratuita per gli studenti del Politecnico alla Triennale, alla Fondazione Castiglioni e al Kartell museo. Inoltre chiediamo la possibilità di ottenere pass a fiere come il Salone del mobile. Per migliorare il nostro Campus, proponiamo una tensostruttura con tavoli e sedie cablati nei prati tra il B6 e il B8, e il cablaggio dei tavoli del pratone dietro al B1.",
-                    candidati:
+                  desc: "We propose to increase relationships with companies to ensure the hybridization of the four courses of study in the workshops. We want to increase interactions with the Career Service during the lessons by asking to have a Career Point on campus. We want to review the objectives of the visual elements laboratories for all study courses, so as to increase the visual skills of the project. Finally, we propose to increase the agreements with museums: free admission for Politecnico students to the Triennale, the Castiglioni Foundation and the Kartell museo. We also ask for the possibility of obtaining passes to fairs such as the Salone del mobile. To improve our Campus, we offer a tensile structure with tables and chairs wired in the lawns between B6 and B8, and the wiring of the tables in the lawn behind the B1. ",  candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/chiara_giardiello.jpg", name: "Giardiello Chiara Edda Maria", detto: "CHIARA"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/sofia_boni.jpg", name: "Boni Sofia", detto: "SOFI"},

@@ -15,8 +15,7 @@ export default {
         {
             id:1,
             name:"3I",
-            desc:"La scuola coordina le attività didattiche per la maggior parte delle lauree e delle lauree magistrali in Ingegneria del Politecnico di Milano. La Scuola di Ingegneria Industriale e dell’Informazione è di gran lunga la più grande delle quattro presenti al Politecnico, con circa il 60 percento degli studenti iscritti nei propri corsi di Laurea e Laurea Magistrale. La Commissione Paritetica ha il compito di monitorare l’offerta formativa, la qualità della didattica e i servizi erogati agli studenti e di esprimere pareri sull'istituzione e la soppressione dei Corsi di studio. é composta da 5 studenti e 5 professori."
-        }
+    desc: "The school coordinates the teaching activities for most of the degrees and master's degrees in Engineering of the Politecnico di Milano. The School of Industrial and Information Engineering is by far the largest of the four present at the Politecnico, with about 60 percent of students enrolled in their Bachelor's and Master's Degree courses. The Joint Commission has the task of monitoring the educational offer, the quality of teaching and the services provided to students and expressing opinions on the establishment and cancellation of studio. is made up of 5 students and 5 professors. "    }
     ],
 
       liste: [
@@ -28,8 +27,7 @@ export default {
                 organi: [
                     {
                         name: "3I",
-                        desc: "Creare di rete di Ambassadors con lo scopo di avvicinare le ragazze al mondo ingegneristico. Aumentare l’attività laboratoriale nei corsi a scelta in magistrale: questi corsi sono già interdipartimentali e la contaminazione sarebbe facilmente implementabile. Inserire l’bbligo di caricare una versione corretta del tema d’esame e garantire la possibilità di accedere ai temi d’esami degli anni precedenti e simulazioni, attraverso un archivio centralizzato. Introdurre un nuovo appello d’esame: introdurre un appello totale in concomitanza della seconda prova parziale.",
-           	            candidati:[
+                       desc: "Create a network of Ambassadors with the aim of bringing girls closer to the engineering world. Increase laboratory activity in elective courses in the master's degree: these courses are already interdepartmental and the contamination would be easily implemented. Insert the obligation to upload a correct version of the exam topic and guarantee the possibility of accessing the exam topics of previous years and simulations, through a centralized archive. Introduce a new exam session: introduce a total session in conjunction with the second partial test. ",   candidati:[
                             {id:1, imgUrl: "/img/candidati/svoltastudenti/marsona_panci.jpg", name: "Panci Marsona", detto: "MARS"},
                             {id:2, imgUrl: "/img/candidati/svoltastudenti/raif_muhammad.jpg", name: "Muhammad Raif", detto: "RAIF"},
                             {id:3, imgUrl: "/img/candidati/svoltastudenti/mercedes_alazraki.jpg", name: "Alazraki Mercedes", detto: "MERCY AMG"},
@@ -55,8 +53,7 @@ export default {
                 organi:[
                     {
                         name: "3I",
-                        desc :"Il nostro lavoro nella scuola 3I si concentrerà principalmente su 3 aspetti: valorizzare la laurea triennali, aumentare la qualità dell’esperienza didattica e costruire una didattica che tiene conto dell’esperienza digitale dell’emergenza Covid. Non si può pensare di rendere ancora più difficile l’ingresso in magistrale senza politiche di valorizzazione del percorso della laurea triennale, che sempre di più sta perdendo qualità nella didattica. Per aumentare la qualità della didattica crediamo che sia fondamentale aumentare la possibilità di personalizzare il proprio percorso di studi, a partire dalle lauree in discontinuità. Infine, ci teniamo a cogliere gli aspetti positivi del digitale, come le registrazioni, per migliorare la didattica innovativa.",
-                    candidati:
+                   desc: "Our work in the 3I school will mainly focus on 3 aspects: enhancing the three-year degree, increasing the quality of the teaching experience and building a teaching that takes into account the digital experience of the Covid emergency. even more difficult to enter the master's without policies to enhance the course of the three-year degree, which is increasingly losing quality in teaching. To increase the quality of teaching, we believe that it is essential to increase the possibility of personalizing one's own course of study, to starting from graduate degrees in discontinuity. Finally, we want to grasp the positive aspects of digital, such as recordings, to improve innovative teaching. ",   candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/alessandro_alladio.jpg", name: "Alladio Alessandro", detto: "LALO"},
                         {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
@@ -85,8 +82,7 @@ export default {
                 organi:[
                     {
                         name: "3I",
-                        desc :"I calendari d’esame ci fanno spesso storcere il naso: date troppo vicine o lontane tra loro, sovrapposizioni… Esiste qualcosa che ci tuteli? Per ora solo delle “linee guida”, per questo vogliamo un regolamento che ci garantisca i nostri diritti! Vogliamo migliorare la didattica valorizzando laboratori, realizzando nuovi spazi per permettere agli studenti di realizzare i loro progetti e aggiungere la possibilità di esprimere un giudizio anche dopo un esame.",
-                    candidati:
+                  desc: "Exam calendars often make us turn up our noses: dates too close or far from each other, overlaps ... Is there something that protects us? For now only 'guidelines', so we want a regulation that guarantees us our rights! We want to improve teaching by enhancing laboratories, creating new spaces to allow students to carry out their projects and add the possibility of expressing an opinion even after an exam. ",    candidati:
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
                       {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/pedro_bossi.png", name: "Bossi Pedro", detto: ""}
@@ -103,8 +99,7 @@ export default {
                 organi:[
                     {
                         name: "3I",
-                        desc :"Piano di studi personalizzabile: crediamo che ognuno debba decidere con meno vincoli possibile il proprio percorso di studi in modo che si creino figure professionali nuove e multidisciplinari. Crediamo che l'abolizione delle medie di accesso alla magistrale sia  un ulteriore incentivo a far proseguire gli studi e a combattere l'abbandono degli studi, un problema caratteristico e grave del nostro ateneo. Le differenze tra scaglioni devono essere abolite promuovendo gli esempi virtuosi. Sempre nell'ottica di aumentare la scelta tra i corsi vogliamo incrementare il numero di laboratori a scelta.",
-                        candidati:
+                 desc: "Customizable study plan: we believe that everyone should decide their own study path with as few constraints as possible so that new and multidisciplinary professional figures are created. We believe that the abolition of access to the master's is a further incentive to continue their studies and fight dropping out of studies, a characteristic and serious problem of our university. The differences between brackets must be abolished by promoting virtuous examples. Always with a view to increasing the choice between courses, we want to increase the number of laboratories to choice.",        candidati:
                         [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.PNG", name: "Marcucci Edoardo", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/alice_portentoso.PNG", name: "Portentoso Alice", detto: ""},

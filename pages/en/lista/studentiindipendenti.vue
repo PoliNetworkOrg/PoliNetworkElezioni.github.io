@@ -12,41 +12,35 @@ export default {
             name: "Studenti Indipendenti",
             mainWebsiteUrl: "https://studentiindipendenti.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
-            desc: ["Studenti Indipendenti è la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università è un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità a tutela del percorso formativo e del benessere psicologico di ciascuno."],
-            imageUrl:"/img/sip2.png",
+          desc: ["Studenti Indipendenti is the new list of representatives of the Politecnico, independent, non-denominational and non-partisan. For us, representation is not an end to be reached but a means with which to improve the lives of students. a secular, inclusive and sustainable place, in which to encourage cooperation and create community to protect the educational path and the psychological well-being of each one. "],   imageUrl:"/img/sip2.png",
             instagram:"https://www.instagram.com/studenti.indipendenti.polimi/",
-            programmaSottotitolo:"Per la rappresentanza come mezzo e non come fine",
+            programmaSottotitolo:"For representation as a means and not as an end",
             programma:
                 [
                     {
                         id : 1,
-                        title: 'Aumentiamo gli appelli annui',
+            title: 'We increase the annual appeals',
                         url: '/img/programmi/studentiindipendenti/2.webp',
-                        desc: "Proponiamo di aumentare il numero totale di appelli all’anno ad almeno 7, di istituire una sessione straordinaria per i ripetenti e di dare la possibilità istituzionale di svolgere il primo appello durante il secondo parziale."
-                    },
+              desc: "We propose to increase the total number of exams per year to at least 7, to set up an extraordinary session for repeat students and to give the institutional possibility of carrying out the first exam during the second partial."        },
                     {
                         id: 2,
-                        title: 'Assorbenti e preservativi gratuiti',
+                 title: 'Free sanitary pads and condoms',
                         url: '/img/programmi/studentiindipendenti/3.webp',
-                        desc: "Chiediamo che vengano installati distributori di assorbenti gratuiti, garantendo alla componente femminile l’accesso a un bene di necessità. Chiediamo inoltre l’installazione di distributori di preservativi gratuiti per combattere la diffusione delle malattie sessualmente trasmissibili."
-                    },
+                  desc: "We are asking for distributors of free sanitary pads to be installed, guaranteeing the female component access to a necessity good. We also ask for the installation of distributors of free condoms to combat the spread of sexually transmitted diseases."   },
                     {
                         id : 3,
-                        title: 'Borracce gratuite e Ufficio sostenibilità',
-                        url: '/img/programmi/studentiindipendenti/2.webp',
-                        desc: "Per combattere il consumo di plastica proponiamo che venga fornita gratuitamente una borraccia di alluminio per tuttз lз studentз. Chiediamo l’istituzione di un Ufficio Sostenibilità di ateneo col compito di monitorare l’impatto ambientale e l’impegno ecologico del Poli."
-                    },
+                   title: 'Free water bottles and Sustainability Office',
+                         url: '/img/programmi/studentiindipendenti/2.webp',
+                  desc: "To combat the consumption of plastic, we propose that an aluminum bottle be provided free of charge for all students. We ask for the establishment of a University Sustainability Office with the task of monitoring the environmental impact and ecological commitment of the Poles."   },
                     {
                         id: 4,
-                        title: 'Licenze per tuttз',
-                        url: '/img/programmi/studentiindipendenti/4.webp',
-                        desc: "Proponiamo che vengano erogate a tutta la componente studentesca le licenze dei software più comunemente utilizzati e che vengano messi a disposizione gratuitamente su richiesta anche i software più specifici senza escludere lз studentз in base al corso di studio."
-                    },
+                      title: 'Licenses for all',
+                          url: '/img/programmi/studentiindipendenti/4.webp',
+                desc: "We propose that the licenses of the most commonly used software be provided to the entire student component and that even the most specific software are made available free of charge upon request, without excluding students based on the course of study."     },
                 ],
             senato:
             {
-                desc: "Per noi in Senato è importante discutere di decisioni politiche aprendo davvero alla possibilità di portare i temi dellз studentз senza il filtro del compromesso in modo da dialogare con gli altri componenti ateneo avendo ben chiara l'opinione di tuttз.",
-                candidati:[
+              desc: "For us in the Senate it is important to discuss political decisions, really opening up the possibility of bringing the issues of the student without the filter of compromise in order to dialogue with the other university members having a clear opinion of everyone.",  candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff_sen.PNG", name: "Wolff Jonathan", detto: "JONNY"},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.PNG", name: "Iodice Andrea", detto: ""},
                     {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca_sen.PNG", name: "Deluca Maria Nicole", detto: ""},
@@ -58,8 +52,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il Politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
-                candidati:[
+             desc: "We want to increase the management of funds, turning it towards making the Politecnico an avant-garde university in terms of liveability in the spaces, support and protection of study paths and to guarantee everyone, regardless of academic career, the possibility of doing dignified and valid path. ",  candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},
                     {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni_cda.PNG", name: "Arrigoni Chiara", detto: ""},
@@ -67,10 +60,8 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Nelle scuole vogliamo un coordinamento maggiore tra CCS per uniformare le esperienze così che la qualità delle esperienze formative non dipenda dal cognome. Crediamo che si possano valorizzare le modalità di gestione virtuose dei corsi e che vada tutelata al meglio la possibilità degli studenti di costruire una carriera personalizzata relativamente al percorso formativo e che ci sia pari trattamento su tutte le questioni legate ad un corso di laurea.",
-                auic:{
-                    desc: "Chiediamo che siano implementati più corsi di software per la rappresentazione digitale per garantire una preparazione a 360 gradi. Vogliamo che ci sia una maggiore coordinazione delle consegne tra le diverse classi di laboratori per evitare la dispersione all'interno dei corsi. E' necessario istituire un fondo per il materiale didattico e garantire revisioni a distanza per assicurare a tuttз la partecipazione attiva alle lezioni e ai laboratori. Crediamo infine che si possa accettare massimo una revisione a settimana per evitare di avere periodi di eccessivo stress e sovrapposizioni.",
-                    candidati:
+             desc: "In schools we want greater coordination between CCS to standardize the experiences so that the quality of the training experiences does not depend on the surname. We believe that the virtuous management methods of courses can be enhanced and that the possibility of students to build a personalized career in relation to the educational path and that there is equal treatment on all issues related to a degree course. ",   auic:{
+                 desc: "We ask that more digital representation software courses be implemented to ensure a 360 degree preparation. We want there to be greater coordination of deliveries between the different classes of laboratories to avoid dispersion within the courses. It is necessary to set up a fund for the teaching material and guarantee remote reviews to ensure that everyone actively participates in the lessons and workshops. Finally, we believe that a maximum of one review per week can be accepted to avoid periods of excessive stress and overlaps. ",   candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/tommasopaolo_bertolini.PNG", name: "Bertolini Tommasopaolo", detto: "TOMMI"},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/debora_maurelli.PNG", name: "Maurelli Debora", detto: ""},
@@ -87,8 +78,7 @@ export default {
                     ]
                 },
                 trei:{
-                    desc :"Piano di studi personalizzabile: crediamo che ognuno debba decidere con meno vincoli possibile il proprio percorso di studi in modo che si creino figure professionali nuove e multidisciplinari. Crediamo che l'abolizione delle medie di accesso alla magistrale sia  un ulteriore incentivo a far proseguire gli studi e a combattere l'abbandono degli studi, un problema caratteristico e grave del nostro ateneo. Le differenze tra scaglioni devono essere abolite promuovendo gli esempi virtuosi. Sempre nell'ottica di aumentare la scelta tra i corsi vogliamo incrementare il numero di laboratori a scelta.",
-                    candidati:
+                 desc: "Customizable study plan: we believe that everyone should decide their own study path with as few constraints as possible so that new and multidisciplinary professional figures are created. We believe that the abolition of access to the master's is a further incentive to continue their studies and fight dropping out of studies, a characteristic and serious problem of our university. The differences between brackets must be abolished by promoting virtuous examples. Always with a view to increasing the choice between courses, we want to increase the number of laboratories to choice.",   candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.PNG", name: "Marcucci Edoardo", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/alice_portentoso.PNG", name: "Portentoso Alice", detto: ""},
@@ -108,8 +98,7 @@ export default {
                     ]
                 },
                 icat:{
-                    desc: "A ICAT crediamo che i parziali debbano essere una libera scelta che non precluda il numero di appelli di una sessione. Crediamo che sia necessario aumentare il numero di laboratori che siano anche specifici ai 2 corsi di studio che compongono la scuola. La valutazione degli esami deve avere delle tempistiche certe dato che troppo spesso succede siano a discrezione del docente mettendo in difficoltà scaglioni di studenti. Crediamo sia necessario implementare delle modalità didattiche più interattive che stimolino la comprensione e la partecipazione dellз studentз.",
-                    candidati:
+                 desc: "At ICAT we believe that partials must be a free choice that does not preclude the number of exam sessions in a session. We believe that it is necessary to increase the number of laboratories that are also specific to the 2 study courses that make up the school. of the exams must have certain timings as it happens too often at the discretion of the teacher putting in difficulty groups of students. We believe it is necessary to implement more interactive teaching methods that stimulate the understanding and participation of the student. ",   candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/matteo_chiavegato.PNG", name: "Chiavegato Matteo", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/davide_varotto.PNG", name: "Varotto Davide", detto: ""},
@@ -119,8 +108,7 @@ export default {
                     ]
                 },
                 design:{
-                    desc : "Crediamo che sia necessario istituire un fondo per il materiale progetti e prototipi così da evitare di rendere eccessivo il costo per lз studentз di design. Vogliamo potenziare il Poliprint rendendo la qualità delle stampe più più alta e i prezzi più popolari. Vogliamo un deposito sicuro per prototipi in B2 così da non dover far viaggiare pure i modellini e un punto in cui smaltire i materiali che possono essere riutilizzati. Vogliamo regolamentare le revisioni intermedie in modo che si possano effettuare con supporto digitale.",
-                    candidati:
+                  desc: "We believe it is necessary to set up a fund for material projects and prototypes in order to avoid making the cost for the design student excessive. We want to enhance Poliprint by making the quality of the prints higher and the prices more popular. We want a deposit. safe for prototypes in B2 so that the models do not have to travel as well and a point to dispose of the materials that can be reused. We want to regulate the intermediate revisions so that they can be carried out with digital support. ",   candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/ilenia_ippolito.PNG", name: "Ippolito Ilenia", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/laura_giordano.PNG", name: "Giordano Laura", detto: ""},

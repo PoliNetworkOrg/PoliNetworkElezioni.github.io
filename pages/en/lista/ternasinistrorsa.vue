@@ -12,52 +12,45 @@ export default {
             name: "La Terna Sinistrorsa",
             mainWebsiteUrl: "https://www.ternasinistrorsa.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa.pdf",
-            desc: ["Siamo La Terna Sinistrorsa, una lista di rappresentanza studentesca del Politecnico di Milano. Da 25 anni lottiamo per un’università basata sul diritto allo studio e senza disuguaglianze. Inclusione, parità ed equità sono i notri valori fondanti: scopri il nostro programma e i nostri candidati!"],
-            imageUrl:"/img/terna.png",
+         desc: ["We are La Terna Sinistrorsa, a student representation list of the Politecnico di Milano. For 25 years we have been fighting for a university based on the right to study and without inequalities. Inclusion, equality and equity are our founding values: discover ours program and our candidates! "],   imageUrl:"/img/terna.png",
             instagram:"https://www.instagram.com/la_terna_sinistrorsa/",
-            programmaSottotitolo:"Siamo più di un numero",
+            programmaSottotitolo:"We are more than a number",
             programma:
                 [
                     {
                         id : 1,
-                        title: 'Hasta la gratuità',
+                        title: 'Hasta the gratuity',
                         url: '/img/programmi/ternasinistrorsa/1.png',
-                        desc: "Assorbenti gratuiti nei bagni dell’Ateneo! Continuiamo a lottare per la gratuità degli assorbenti: che siano accessibili a tutta la componente femminile del Politecnico. La situazione attuale è una scelta politica, non dettata dalla mancanza di soldi. A fronte di un disavanzo di bilancio di 39 milioni, non è mai stata presa in considerazione la proposta che abbiamo sviluppato in due anni di lavoro: con il vostro supporto vogliamo dare un segnale concreto per appianare le disparità di genere e tenere fede ai valori universitari. Non ci sono scuse per non farlo."
-                    },
+                   desc: "Free sanitary pads in the University bathrooms! We continue to fight for the free of charge sanitary pads: that they are accessible to all the female component of the Politecnico. The current situation is a political choice, not dictated by lack of money. budget deficit of 39 million, the proposal we have developed in two years of work has never been taken into consideration: with your support we want to give a concrete signal to smooth out gender inequalities and keep faith with university values. excuses for not doing it. " },
                     {
                         id: 2,
-                        title: 'Accessibilità e Inclusione',
+                        title: 'Accessibility and Inclusion',
                         url: '/img/programmi/ternasinistrorsa/2.png',
-                        desc: "L’inclusività è uno dei valori cardine dell’Ateneo, facciamo sì che lo sia anche nella prassi di tutti i giorni. Inclusione e accessibilità, due punti chiave del nostro programma. Dobbiamo superare un sistema basato solamente sulla media, o sul voto di laurea, che rispecchia una meritocrazia finta, che non esprime realmente l’impegno e l’interessamento dellз studentз. Vogliamo impegnarci per abbattere le barriere architettoniche e assicurare maggiore sensibilità per le disabilità."
-                    },
+                desc: "Inclusiveness is one of the core values of the University, we ensure that it is also in everyday practice. Inclusion and accessibility, two key points of our program. We must overcome a system based only on the average, or on the graduation mark, which reflects a fake meritocracy, which does not really express the commitment and interest of the student. We want to work to break down architectural barriers and ensure greater sensitivity for disabilities. "    },
                     {
                         id: 3,
-                        title: 'Tasse',
+                        title: 'Taxes',
                         url: '/img/programmi/ternasinistrorsa/4.png',
-                        desc: "Riteniamo indispensabile che i nostri sforzi e progetti di rappresentanza riguardino il diritto allo studio e l’abbassamento delle tasse per coloro che necessitano di un aiuto economico, al fine di minimizzare le disparità tra gli studenti e permettere loro di raggiungere al meglio i propri obiettivi. Ti sembra giusto pagare le tasse per un ISEE che non è il tuo? Secondo noi non lo è. Vogliamo riformare il sistema di tassazione abolendo la divisione in fasce: la tassazione continua permetterebbe di far pagare ad ogni studentз tasse eque secondo le proprie disponibilità economiche."
-                    },
+                  desc: "We believe it is essential that our efforts and representation projects concern the right to study and the lowering of fees for those in need of financial aid, in order to minimize the disparities between students and allow them to better reach the do you think it is fair to pay taxes for an ISEE that is not yours? In our opinion it is not. We want to reform the taxation system by abolishing the division into bands: continuous taxation would allow each student to pay fair taxes according to the own economic resources. "   },
                     {
                         id: 4,
-                        title: 'Pendolari, Fuorisede e Poli Territoriali',
+                       title: 'Commuters, Fuorisede and Territorial Poles',
                         url: '/img/programmi/ternasinistrorsa/3.png',
-                        desc: "E' fondamentale un'attenzione maggiore per le categorie poco rappresentate. Per noi è necessario fornire nuove tutele ai pendolari permettendo giustificazioni per assenze o ritardi causati da Trenord, garantire orari compatibili con un rientro in sicurezza ed estendere lo sportello furti non solo agli spazi dell'ateneo. Per i fuorisede dobbiamo ottenere lo spostamento del medico di base in Lombardia, oltre il covid e garantire sconti o rimborsi per il rientro a casa. Nel nostro programma abbiamo dedicato un'intera sezione per i Poli Territoriali, ognuno con le sue problematiche: dalla riduzione quanto più possibile le differenze di tassi di promozione tra sedi di Milano e Poli Territoriali all'aumentare il numero dei rappresentanti. Leggi il nostro programma per saperne di più!"
-                    }
+                desc: "It is essential to pay more attention to the poorly represented categories. For us it is necessary to provide new protections to commuters allowing justifications for absences or delays caused by Trenord, to guarantee times compatible with a safe return and to extend the theft counter not only to the spaces of the university. For the out-of-office we must obtain the transfer of the general practitioner to Lombardy, beyond the covid and guarantee discounts or reimbursements for returning home. In our program we have dedicated an entire section to the Territorial Poles, each with its problems: from reducing as much as possible the differences in promotion rates between the Milan offices and the Territorial Poles to increasing the number of representatives. Read our program to find out more! "     }
                 ],
             senato:
             {
-                desc: "Chi studia non è solo un numero: Siamo più dei voti che prendiamo, per questo l’accesso alle lauree magistrali non dovrebbe essere vincolato solo alla nostra media. Il diritto allo studio va garantito ed esteso a tutte le persone che ne hanno bisogno, per questo proponiamo l’innalzamento della NO TAX area totale ad almeno 30mila euro di ISEE  e una tassazione progressiva e continua che elimini l’attuale divisione in fasce. Chiediamo un Politecnico più accessibile architettonicamente ed economicamente, con mense a prezzi più bassi e assorbenti gratuiti nei bagni. Un Politecnico attento alla sostenibilità e alle disabilità. ",
-                candidati:[
+            desc: "Those who study are not just a number: We are more than the grades we get, so access to master's degrees should not be limited only to our average. The right to education must be guaranteed and extended to all people who have it need, for this we propose the raising of the total NO TAX area to at least 30 thousand euros of ISEE and a progressive and continuous taxation that eliminates the current division into bands. We ask for a Polytechnic that is more accessible architecturally and economically, with canteens at lower prices and free sanitary pads in the bathrooms. A Polytechnic that pays attention to sustainability and disabilities. ",    candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
                 ]
             },
             CdA:{
-                desc: "L’università gratuita si costruisce dal basso! Tassazione più equa: veramente continua e progressiva. Vogliamo innalzare la soglia massima di ISEE per la riduzione del contributo di modo che la tassazione sia più equa anche per coloro che sono sopra l’attuale massimale. Lotteremo, dentro e fuori l’ateneo, per maggiori fondi statali in modo di ridurre sempre il carico agli studenti e portare la NO TAX AREA totale a 30.000 € di ISEE.",
-                candidati:[
+            desc: "Free universities are built from below! Taxation fairer: truly continuous and progressive. We want to raise the maximum threshold of ISEE for the reduction of the contribution so that the taxation is fairer even for those who are above the current We will fight, inside and outside the university, for more state funds in order to always reduce the burden on students and bring the total NO TAX AREA to € 30,000 of ISEE. ",    candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                 ]
             },
             scuole:{
-                desc: "Nelle quattro scuole ci impegneremo per una didattica più giusta, per un maggiore rispetto dei nostri diritti, e per eliminare ostacoli retaggio del passato. Ogni scuola ha le sue peculiarità e problematiche, abbiamo studiato molto attentamente quali proposte mettere in campo. Insieme, possiamo ambire a un'università sempre più a misura di student[inserire e capovolta] partendo dal basso, dal quotidiano svolgersi di lezioni ed esami",
+               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together , we can aspire to a university that is increasingly student-friendly [insert and overturned] starting from the bottom, from the daily unfolding of lessons and exams ",
                 auic:{
                     desc: "Tutti abbiamo diritto agli stessi strumenti per la progettazione per questo richiediamo un accesso digitale alla bibliografia e un maggior numero di software gratuiti come Sketch-up pro e Lumion. Ci impegneremo anche per ridurre ulteriori costi a carico di noi studentз richiedendo la strumentazione adatta per poter svolgere revisioni in digitale. Ogni studentə vale più della sua media per questo proponiamo di essere valutati equamente per gli accessi sis ai laboratori che alle magistrali",
                     candidati:
@@ -68,8 +61,7 @@ export default {
                     ]
                 },
                 trei:{
-                    desc :"I calendari d’esame ci fanno spesso storcere il naso: date troppo vicine o lontane tra loro, sovrapposizioni… Esiste qualcosa che ci tuteli? Per ora solo delle “linee guida”, per questo vogliamo un regolamento che ci garantisca i nostri diritti! Vogliamo migliorare la didattica valorizzando laboratori, realizzando nuovi spazi per permettere agli studenti di realizzare i loro progetti e aggiungere la possibilità di esprimere un giudizio anche dopo un esame.",
-                    candidati:
+                  desc: "Exam calendars often make us turn up our noses: dates too close or far from each other, overlaps ... Is there something that protects us? For now only 'guidelines', so we want a regulation that guarantees us our rights! We want to improve teaching by enhancing laboratories, creating new spaces to allow students to carry out their projects and add the possibility of expressing an opinion even after an exam. ",  candidati:
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/clarissa_pasculli.png", name: "Pasculli Clarissa", detto: ""},
                       {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/pedro_bossi.png", name: "Bossi Pedro", detto: ""}
@@ -77,8 +69,7 @@ export default {
                     ]
                 },
                 icat:{
-                    desc: "Ridurre il carico degli esami aggiungendo le prove in itinere, limitando le prove con diverse modalità (scritto, orale, e progetto obbligatori) e migliorando le ore di esercitazioni eliminando le ripetizioni tra i corsi. In particolare, vogliamo ci impegneremo per rendere più equo il rapporto tra la valutazione del progetto e il tempo necessario per realizzarlo. Dobbiamo, e insieme possiamo, arrivare all’eliminazione delle precedenze! Ad ICAT ci impegneremo per più praticità ed esperienza sul campo, insieme ad un supporto crescente da parte del Career Service e per aver maggiormente al centro dei nostri corsi il tema della sostenibilità ambientale.",
-                    candidati:
+                   desc: "Reduce the burden of exams by adding ongoing tests, limiting the tests with different modalities (written, oral, and project mandatory) and improving the hours of exercises by eliminating repetitions between courses. In particular, we want to strive to make more equitable the relationship between the evaluation of the project and the time needed to carry it out. We must, and together we can, get to the elimination of priorities! At ICAT we will strive for more practicality and experience in the field, together with a growing support from the Career Service and to have environmental sustainability at the center of our courses. ",  candidati:
                     [
                       {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/luca_lo_bosco.png", name: "Lo Bosco Luca", detto: ""},
                       {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/andrea_collini.png", name: "Collini Andrea", detto: ""}
@@ -86,8 +77,7 @@ export default {
                     ]
                 },
                 design:{
-                    desc : "Continuiamo la nostra lotta per il rimborso dei costi dei materiali e per la stipulazione di convenzioni con negozi specialistici. Garantire il rimborso spese vuol dire dare a tuttз la possibilità di sperimentare, indipendentemente dalla fascia di reddito di appartenenza. Vogliamo inoltre garantire la possibilità ad ogni studentə di scegliere, all’interno della calendarizzazione, quando sostenere i propri esami. Chiediamo inoltre che siano chiare le valutazioni d’esame, con criteri omogenei tra diversi scaglioni. Vogliamo promuovere una cultura del progetto multidisciplinare, aperta alla sperimentazione e alla contaminazione. Proponiamo il potenziamento dei laboratori già esistenti e la valutazione di un nuovo Polifactory, sul modello già esistente, di libero accesso allз studentз.",
-                    candidati:
+                   desc: "We continue our fight for the reimbursement of the costs of materials and for the stipulation of agreements with specialist shops. Guaranteeing the reimbursement of expenses means giving everyone the opportunity to experiment, regardless of the income bracket they belong to. possibility for each student to choose, within the schedule, when to take their exams. We also ask that the exam assessments be clear, with homogeneous criteria between different brackets. We want to promote a multidisciplinary project culture, open to experimentation and contamination. We propose the upgrading of the existing laboratories and the evaluation of a new Polifactory, on the existing model, open to the students. ", candidati:
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/mercedes_vitali.png", name: "Vitali Mercedes", detto: ""},
                       {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/giovanni_smoquina.png", name: "Smoquina Giovanni", detto: ""}
