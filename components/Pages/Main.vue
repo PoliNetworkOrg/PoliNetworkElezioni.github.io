@@ -27,10 +27,10 @@
 	  <div style="    padding-left: 0px !important;font-size:calc(1px + 0.9rem + 0.3vw);list-style:none;">
 		  	<div class="lead" style="padding:5px;font-size:calc(2px + 0.82rem + 0.29vw);text-align:center;" >
 				  	<span v-if="language=='it'" >
-						📌 Piattaforma online <a href="./istruzioni/">votazioni Eligo &amp; istruzioni di voto</a>
+						📌 Piattaforma online <a href="/it/istruzioni/">votazioni Eligo &amp; istruzioni di voto</a>
 					</span>
-					<span v-if="language=='em'" >
-						📌 Online platform <a href="./instructions/"> voting Eligo & amp; voting instructions </a>
+					<span v-if="language=='en'" >
+						📌 Online platform <a href="/en/istruzioni/"> voting Eligo &amp; voting instructions</a>
 					</span>
 			</div>
 		</div>

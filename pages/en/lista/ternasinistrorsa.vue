@@ -52,8 +52,7 @@ export default {
             scuole:{
                desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together , we can aspire to a university that is increasingly student-friendly [insert and overturned] starting from the bottom, from the daily unfolding of lessons and exams ",
                 auic:{
-                    desc: "Tutti abbiamo diritto agli stessi strumenti per la progettazione per questo richiediamo un accesso digitale alla bibliografia e un maggior numero di software gratuiti come Sketch-up pro e Lumion. Ci impegneremo anche per ridurre ulteriori costi a carico di noi studentз richiedendo la strumentazione adatta per poter svolgere revisioni in digitale. Ogni studentə vale più della sua media per questo proponiamo di essere valutati equamente per gli accessi sis ai laboratori che alle magistrali",
-                    candidati:
+                 desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's ",    candidati:
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""},
                       {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/letizia_guido.png", name: "Guido Letizia", detto: ""}

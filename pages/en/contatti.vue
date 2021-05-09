@@ -10,7 +10,7 @@
     <!-- Jumbotron Header -->
     <header class=" my-4 ">
 		<div style="text-align:left;">
-			<span class="contattiTitle">Contatti</span>
+			<span class="contattiTitle">Contacts</span>
 			<div style="padding:5px;"></div>
 		</div>
 <div style = "text-align: left;">
