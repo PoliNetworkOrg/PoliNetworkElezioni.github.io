@@ -14,7 +14,7 @@ export default {
         {
             id:1,
             name:"Design",
-            desc:"La Scuola del Design del Politecnico di Milano è oggi la più grande università internazionale, sia per numero di studenti sia per numero di docenti, per la formazione dei progettisti di prodotto, di comunicazione, di interni e di moda. È attiva a Milano in un campus di recente costruzione. Alcuni dati che ne descrivono la portata: circa 5000 studenti, oltre 450 docenti e circa 400 tra assistenti, esercitatori e cultori della materia di ausilio alla didattica. I percorsi formativi proposti si articolano in due livelli di laurea, la Laurea di primo livello e la Laurea Magistrale di ulteriori due anni. Secondo il “QS Ranking by Subject” la Scuola del Design è 1ª in Italia, 3ª in Europa e 5ª nel mondo"
+            desc:"La Scuola del Design del Politecnico di Milano è oggi la più grande università internazionale, sia per numero di studenti sia per numero di docenti, per la formazione dei progettisti di prodotto, di comunicazione, di interni e di moda. È attiva a Milano in un campus di recente costruzione. Alcuni dati che ne descrivono la portata: circa 5000 studenti, oltre 450 docenti e circa 400 tra assistenti, esercitatori e cultori della materia di ausilio alla didattica. I percorsi formativi proposti si articolano in due livelli di laurea, la Laurea di primo livello e la Laurea Magistrale di ulteriori due anni. Secondo il “QS Ranking by Subject” la Scuola del Design è 1ª in Italia, 3ª in Europa e 5ª nel mondo."
         }
     ],
 
