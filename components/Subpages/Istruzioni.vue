@@ -501,9 +501,14 @@
                             <span class="answerSpan">
                                 <ul>
                                     <li>
-                                        <a href="https://www.polimi.it/fileadmin/user_upload/Studenti/Rappresentanti_e_associazioni/infografica_elezioni_2017_ENGLISH.pdf">
+
+                                        <a v-if="language == 'it'" href="https://www.polimi.it/fileadmin/user_upload/Studenti/Rappresentanti_e_associazioni/infografica_rappresentanza_studentesca.pdf">
 
                                             <span v-if="language == 'it'">Infografica rappresentanza studentesca</span>
+                                        </a>
+
+                                        <a v-if="language == 'en'" href="https://www.polimi.it/fileadmin/user_upload/Studenti/Rappresentanti_e_associazioni/infografica_elezioni_2017_ENGLISH.pdf">
+
                                             <span v-if="language == 'en'">Student Representation Infographics</span>
                                         </a>
                                     </li>
