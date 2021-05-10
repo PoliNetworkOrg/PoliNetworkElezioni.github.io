@@ -452,7 +452,13 @@
                                         <td style="border-top: 1px solid #000000; border-bottom: 2px double #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
                                     </tr>
                                     <tr>
-                                        <td style="border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Reference Council of the Territorial Pole of Como</font></td>
+                                        <td style="border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@">
+                                            <font face="Arial" size=1 color="#000000">
+
+                                                <span v-if="language == 'it'">Consiglio di Riferimento del Polo Territoriale di Como</span>
+                                                <span v-if="language == 'en'">Reference Council of the Territorial Pole of Como</span>
+                                            </font>
+                                        </td>
                                         <td style="border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000"><br></font></td>
                                         <td style="border-left: 1px solid #000000" align="center" valign=middle><font face="Arial" size=1 color="#000000">Como</font></td>
                                         <td style="border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">/</font></td>
@@ -466,21 +472,39 @@
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
                                     </tr>
                                     <tr>
-                                        <td style="border-top: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Reference Council of the Territorial Pole of Lecco</font></td>
+                                        <td style="border-top: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@">
+                                            <font face="Arial" size=1 color="#000000">
+
+                                                <span v-if="language == 'it'">Consiglio di Riferimento del Polo Territoriale di Lecco</span>
+                                                <span v-if="language == 'en'">Reference Council of the Territorial Pole of Lecco</span>
+                                            </font>
+                                        </td>
                                         <td style="border-top: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000"><br></font></td>
                                         <td style="border-top: 1px solid #000000; border-left: 1px solid #000000" align="center" valign=middle><font face="Arial" size=1 color="#000000">Lecco</font></td>
                                         <td style="border-top: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
                                         <td style="border-top: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
                                     </tr>
                                     <tr>
-                                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Reference Council of the Territorial Pole of Mantova</font></td>
+                                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@">
+                                            <font face="Arial" size=1 color="#000000">
+
+                                                <span v-if="language == 'it'">Consiglio di Riferimento del Polo Territoriale di Mantova</span>
+                                                <span v-if="language == 'en'">Reference Council of the Territorial Pole of Mantova</span>
+                                            </font>
+                                        </td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000"><br></font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" align="center" valign=middle><font face="Arial" size=1 color="#000000">Mantova</font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 2px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
                                     </tr>
                                     <tr>
-                                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000">Reference Council of the Territorial Pole of Piacenza</font></td>
+                                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="20" align="left" valign=middle sdnum="1033;0;@">
+                                            <font face="Arial" size=1 color="#000000">
+
+                                                <span v-if="language == 'it'">Consiglio di Riferimento del Polo Territoriale di Piacenza</span>
+                                                <span v-if="language == 'en'">Reference Council of the Territorial Pole of Piacenza</span>
+                                            </font>
+                                        </td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;@"><font face="Arial" size=1 color="#000000"><br></font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" align="center" valign=middle><font face="Arial" size=1 color="#000000">Piacenza</font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 2px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdval="1" sdnum="1033;0;0"><font face="Arial" size=1 color="#000000">1</font></td>
