@@ -66,7 +66,7 @@ export default {
                 organi:[
                     {
                         name: "ICAT",
-             desc: "Reduce the burden of exams by adding ongoing tests, limiting the tests with different modalities (written, oral, and project mandatory) and improving the hours of exercises by eliminating repetitions between courses. In particular, we want to strive to make more equitable the relationship between the evaluation of the project and the time needed to carry it out. We must, and together we can, get to the elimination of priorities! At ICAT we will strive for more practicality and experience in the field, together with a growing support from the Career Service and to have environmental sustainability at the center of our courses. ",         candidati:
+                        desc: "Reduce the burden of exams by adding ongoing tests, limiting the tests with different modalities (written, oral and project mandatory) and improving the hours of exercises by eliminating repetitions between courses. In particular, we want to make more equitable the relationship between the evaluation of the project and the time needed to carry it out. We must, and together we can, get to the elimination of priorities! At ICAT we will strive for more practicality and experience in the field, together with a growing support from the Career Service and to have environmental sustainability at the center of our courses. ",  candidati:
                     [
                       {id: 4 , imgUrl: "/img/candidati/ternasinistrorsa/luca_lo_bosco.png", name: "Lo Bosco Luca", detto: ""},
                       {id: 5 , imgUrl: "/img/candidati/ternasinistrorsa/andrea_collini.png", name: "Collini Andrea", detto: ""}
