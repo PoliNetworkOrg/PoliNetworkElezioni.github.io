@@ -43,7 +43,7 @@
                     :key="item.id"
                     style-param="max-width: 100%;flex: 1 4 25%;min-width:calc(150px + 9rem + 3vw)"
                 >
-                <a :href="item.linkLista">
+                <a :href="'/' + language + item.linkLista">
                     <div class="card">
                         <div class="listTile" style="width: 100%;">
                             <div class="cap-left" style="width: 100%;display:block; padding: 0px;">
