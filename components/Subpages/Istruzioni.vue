@@ -75,17 +75,27 @@
                                         <td align="center" valign=bottom><font color="#000000"><br></font></td>
                                         <td style="border-top: 2px solid #000000; border-left: 2px solid #000000" align="left" valign=bottom>
                                             <font face="Arial">
-                                                seats
+                                                <span v-if="language == 'it'">posti</span>
+                                <span v-if="language == 'en'">seats</span>
                                             </font>
                                         </td>
                                         <td style="border-top: 2px solid #000000; border-right: 2px solid #000000" align="left" valign=bottom>
                                             <font color="#000000">
-                                                preferences
+												             <span v-if="language == 'it'">preferenze</span>
+                                <span v-if="language == 'en'">preferences</span>
+                                                
                                             </font>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 0px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><b><font face="Arial" size=1 color="#000000">Academic Senate</font></b></td>
+                                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 0px solid #000000" height="19" align="left" valign=middle sdnum="1033;0;@"><b>
+											<font face="Arial" size=1 color="#000000">
+
+												          <span v-if="language == 'it'">Senato Accademico</span>
+                                <span v-if="language == 'en'">Academic Senate</span>
+											
+											</font></b>
+										</td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000;" align="left" valign=bottom><font color="#000000"><br></font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000;" align="center" valign=bottom><font color="#000000"><br></font></td>
                                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 2px solid #000000; border-right: 1px solid #000000" align="center" valign=middle sdnum="1033;0;0"><b><font face="Arial" size=1 color="#000000">4</font></b></td>
@@ -482,13 +492,22 @@
                         </li>
                         <br />
                         <li>
-                            <span class="questionSpan">Student Representation Infographics</span>
+                            <span class="questionSpan">
+								
+								
+								
+									          <span v-if="language == 'it'">Infografica rappresentanza studentesca</span>
+                                <span v-if="language == 'en'">Student Representation Infographics</span>
+								
+								</span>
                             <br class="spacerQuestion" />
                             <span class="answerSpan">
                                 <ul>
                                     <li>
                                         <a href="https://www.polimi.it/fileadmin/user_upload/Studenti/Rappresentanti_e_associazioni/infografica_elezioni_2017_ENGLISH.pdf">
-                                            Student Representation Infographics
+                                     
+									          <span v-if="language == 'it'">Infografica rappresentanza studentesca</span>
+                                <span v-if="language == 'en'">Student Representation Infographics</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -496,12 +515,52 @@
                         </li>
 
                         <li class="li">
-                            <span class="questionSpan">I have further doubts</span>
+                            <span class="questionSpan">
+								
+								
+
+								
+									          <span v-if="language == 'it'">Ho ulteriori dubbi</span>
+                                <span v-if="language == 'en'">I have further doubts</span>
+								
+								</span>
                             <br class="spacerQuestion" />
                             <span class="answerSpan">
                                 <ul>
-                                    <li> Visit the <a href="https://www.polimi.it/en/the-politecnico/organization/university-bodies/student-representatives/university-student-elections/"> official site </a> dedicated to the elections of the Politecnico di Milano </li>
-                                    <li> Visit our <a href="../contatti/"> contacts </a>  page</li>
+                                    <li> 
+
+										
+									          <span v-if="language == 'it'">
+												  
+Visita il <a href="https://www.polimi.it/en/the-politecnico/organization/university-bodies/student-representatives/university-student-elections/"> sito ufficiale </a> dedicato alle elezioni studentesche del Politecnico di Milano
+
+											  </span>
+                                <span v-if="language == 'en'">
+									
+Visit the <a href="https://www.polimi.it/en/the-politecnico/organization/university-bodies/student-representatives/university-student-elections/"> official site </a> dedicated to the students elections of the Politecnico di Milano
+
+								</span>
+										 
+										
+										</li>
+                                    <li>
+
+
+													          <span v-if="language == 'it'">
+																  
+ Visita la nostra pagina <a href="../contatti/">contatti</a>
+
+															  </span>
+                                <span v-if="language == 'en'">
+									
+ Visit our <a href="../contatti/"> contacts </a>  page
+
+								</span>
+										
+										
+										 
+										 
+										 </li>
                                 </ul>
                             </span>
                         </li>

@@ -34,6 +34,6 @@
             </div>
         </div>
 
-        <LayoutFooter language="en" />
+        <LayoutFooter language="it" />
     </div>
 </template>
