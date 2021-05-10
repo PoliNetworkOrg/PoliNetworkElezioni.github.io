@@ -26,7 +26,7 @@
                         <li class="liCcs"><a class="topLinks" href="#6">Laurea Magistrale in Architettura - Architettura delle Costruzioni LM4 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="#7">Laurea Magistrale in Architettura e Disegno Urbano - Architecture and Urban Design LM4 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="#8">Laurea Magistrale in Building and Architectural Engineering LM24 (MI, LC)</a></li>
-                        <li class="liCcs"><a class="topLinks" href="#9">Laurea Magistrale in Ingengeria dei Sistemi Edilizi LM24 (MI)</a></li>
+                        <li class="liCcs"><a class="topLinks" href="#9">Laurea Magistrale in Ingegneria dei Sistemi Edilizi LM24 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="#10">Laurea Magistrale in Landscape. Land Landscape Heritage LM3 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="#11">Laurea Magistrale in Management of Built Environment - Gestione del Costruito LM24 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="#12">Laurea Magistrale in Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Pesaggio LM4 (PC)</a></li>
@@ -212,7 +212,7 @@
                     <li> MASSUCCI CAMILLA</li>
                 </ul>
                 <hr />
-                <a><span id="9"></span>Laurea Magistrale in Ingengeria dei Sistemi Edilizi LM24 (MI)</a>
+                <a><span id="9"></span>Laurea Magistrale in Ingegneria dei Sistemi Edilizi LM24 (MI)</a>
                 <ul>
                     <li>
                         RABAIOLI PIETRO detto “RABA”
