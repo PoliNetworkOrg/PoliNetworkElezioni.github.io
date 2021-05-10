@@ -30,7 +30,7 @@
 
                     <a :href="this.dataLista.instagram" class="buttonLista">
                         <LayoutButton>
-                            <span v-if="language=='it'">&nbsp;Instagram 📷&nbsp;;</span>
+                            <span v-if="language=='it'">&nbsp;Instagram 📷&nbsp;</span>
                             <span v-if="language=='en'">&nbsp;Instagram 📷&nbsp;</span>
                         </LayoutButton>
                     </a>
