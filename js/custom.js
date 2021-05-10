@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
     /*
     for (var j=0; j < 5; j++)
     {
@@ -12,4 +12,3 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     */
 });
-
