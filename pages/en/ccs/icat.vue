@@ -104,7 +104,7 @@
                         ZANNOTTI ELENA detta "ELLE"
                     </li>
                     <li>
-                        ZITO ANDREAO
+                        ZITO ANDREA
                     </li>
                 </ul>
                 <hr />
