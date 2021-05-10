@@ -14,7 +14,7 @@ export default {
         {
             id:1,
             name:"Design",
-    desc: "The School of Design of the Politecnico di Milano is today the largest international university, both for the number of students and for the number of teachers, for the training of product, communication, interior and fashion designers. Milan in a recently built campus. Some data describing its scope: about 5000 students, over 450 teachers and about 400 assistants, trainers and students of teaching aids. The training courses offered are divided into two degree levels , the Bachelor's Degree and the Master's Degree for a further two years. According to the 'QS Rankin by Subject', the School of Design is 1st in Italy, 3rd in Europe and 5th in the world "    }
+    desc: "The School of Design of the Politecnico di Milano is today the largest international university, both for the number of students and for the number of teachers, for the training of product, communication, interior and fashion designers. Milan in a recently built campus. Some data describing its scope: about 5000 students, over 450 teachers and about 400 assistants, trainers and students of teaching aids. The training courses offered are divided into two degree levels , the Bachelor's Degree and the Master's Degree for a further two years. According to the 'QS Ranking by Subject', the School of Design is 1st in Italy, 3rd in Europe and 5th in the world "    }
     ],
 
       liste: [
