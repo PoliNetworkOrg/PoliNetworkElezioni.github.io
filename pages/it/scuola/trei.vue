@@ -114,7 +114,7 @@ export default {
                         {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/mario_spiniello.PNG", name: "Spiniello Mario", detto: ""},
                         {id: 8 , imgUrl: "/img/candidati/studentiindipendenti/gaia_carbone.PNG", name: "Carbone Gaia", detto: ""},
                         {id: 9 , imgUrl: "/img/candidati/studentiindipendenti/davide_stramare.PNG", name: "Stramare Davide", detto: "DADO"},
-                        {id: 10 , imgUrl: "/img/sip.PNG", name: "Truvolo Federica", detto: ""},
+                        {id: 10 , imgUrl: "/img/sip.png", name: "Truvolo Federica", detto: ""},
                         {id: 11 , imgUrl: "/img/candidati/studentiindipendenti/sara_ehetagegnehu_finardi.PNG", name: "Finardi Sara Ehetagegnehu", detto: "FES"},
                         {id: 12 , imgUrl: "/img/candidati/studentiindipendenti/francesco_puddu.PNG", name: "Puddu Francesco", detto: ""},
                         {id: 13 , imgUrl: "/img/candidati/studentiindipendenti/pietro_contardi.PNG", name: "Contardi Pietro", detto: ""},

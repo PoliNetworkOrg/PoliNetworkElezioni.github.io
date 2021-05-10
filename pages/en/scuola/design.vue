@@ -97,7 +97,7 @@ export default {
                         {id: 5 , imgUrl: "/img/candidati/studentiindipendenti/federica_pompa.PNG", name: "Pompa Federica", detto: ""},
                         {id: 6 , imgUrl: "/img/candidati/studentiindipendenti/caterina_creanza.PNG", name: "Creanza Caterina", detto: ""},
                         {id: 7 , imgUrl: "/img/candidati/studentiindipendenti/andreea_ciortan.PNG", name: "Ciortan Andreea", detto: ""},
-                        {id: 8 , imgUrl: "/img/sip.PNG", name: "Patti Lavinia", detto: ""}
+                        {id: 8 , imgUrl: "/img/sip.png", name: "Patti Lavinia", detto: ""}
                         ]
                     }
                 ]
