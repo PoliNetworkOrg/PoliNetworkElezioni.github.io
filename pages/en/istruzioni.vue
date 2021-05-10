@@ -464,7 +464,7 @@
         <span class="answerSpan">
           <ul>
             <li>
-          <a href="https://www.polimi.it/fileadmin/user_upload/Studenti/Rappresentanti_e_associazioni/infografica_rappresentanza_studentesca.pdf">
+          <a href="https://www.polimi.it/fileadmin/user_upload/Studenti/Rappresentanti_e_associazioni/infografica_elezioni_2017_ENGLISH.pdf">
             Student Representation Infographics
           </a>
         </li>
