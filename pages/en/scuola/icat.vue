@@ -1,8 +1,7 @@
 <template>
     <div>
 
-        <ListeConfrontoListe :liste="liste" :organi-confronto="organiConfronto"   language="en" />
-
+        <ListeConfrontoListe :liste="liste" :organi-confronto="organiConfronto" language="en" />
     </div>
 </template>
 
@@ -27,7 +26,7 @@ export default {
                 organi: [
                     {
                         name: "ICAT",
-                desc: "PEER TUTORING: Encourage and deepen the use of peer tutoring. New connections with the professional world: organize site visits, company visits and 'face to face' interviews with professionals in the sector. PHYSICS 1+ PHYSICS 2A: Breaking the annual exam in two modules, to allow students to take the two exams separated from each other / in different academic years. LABS: introduction of laboratories and classroom experiences in the three-year courses in order to give practical feedback to the theory. ",         
+                desc: "PEER TUTORING: Encourage and deepen the use of peer tutoring. New connections with the professional world: organize site visits, company visits and 'face to face' interviews with professionals in the sector. PHYSICS 1+ PHYSICS 2A: Breaking the annual exam in two modules, to allow students to take the two exams separated from each other / in different academic years. LABS: introduction of laboratories and classroom experiences in the three-year courses in order to give practical feedback to the theory. ",
                     candidati:[
                             {id:1, imgUrl: "/img/candidati/svoltastudenti/eleonora_pietrobelli.jpg", name: "Pietrobelli Eleonora", detto: ""},
                             {id:2, imgUrl: "/img/candidati/svoltastudenti/antonino_sgroi_icat.jpg", name: "Sgroi Antonino", detto: "LILLO"},

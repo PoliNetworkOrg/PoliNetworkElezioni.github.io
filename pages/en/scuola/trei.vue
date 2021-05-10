@@ -1,8 +1,7 @@
 <template>
     <div>
 
-        <ListeConfrontoListe :liste="liste" :organi-confronto="organiConfronto"  language="en" />
-
+        <ListeConfrontoListe :liste="liste" :organi-confronto="organiConfronto" language="en" />
     </div>
 </template>
 

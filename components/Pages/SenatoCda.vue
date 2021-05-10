@@ -2,10 +2,8 @@
     <div>
 
         <ListeConfrontoListe :liste="liste" :organi-confronto="organiConfronto" :language="language" />
-
     </div>
 </template>
-
 
 <script>
 export default {
@@ -19,16 +17,12 @@ export default {
             type:Array,
             required: true
         },
-        liste: 
+        liste:
             {
             type:Array,
             required: true
         }
     },
 
-
-    
- 
-  
 }
 </script>

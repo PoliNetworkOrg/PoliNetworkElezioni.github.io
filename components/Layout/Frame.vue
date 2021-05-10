@@ -1,7 +1,7 @@
 <template>
-    <div  :class="classParam" :style="styleParam">
-        <slot />
-    </div>
+  <div :class="classParam" :style="styleParam">
+    <slot />
+  </div>
 </template>
 
 <script>

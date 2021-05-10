@@ -2,13 +2,11 @@
     <div>
 
         <PagesSenatoCda language="it" :organi-confronto="organiConfronto" :liste="liste" />
-
     </div>
 </template>
 
 <script>
 export default {
-    
 
     data () {
     return {

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ListeListaDettaglio :data-lista="items"  language="en" />
+        <ListeListaDettaglio :data-lista="items" language="en" />
     </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
                         id : 1,
                     title: "MORE STUDENT-FRIENDLY EDUCATION",
                         url : '/img/programmi/svoltastudenti/1.jpg',
-                         desc: "We want to expand the choice of degree theses, including the possibility of sharing them with other courses of study, create an online platform that facilitates collaboration between students, set up aid networks between students for international mobility, set up a post-exam questionnaire for the evaluation of the methods of administration, and create ultra short mobility programs." 
+                         desc: "We want to expand the choice of degree theses, including the possibility of sharing them with other courses of study, create an online platform that facilitates collaboration between students, set up aid networks between students for international mobility, set up a post-exam questionnaire for the evaluation of the methods of administration, and create ultra short mobility programs."
                     },
                     {
                         id: 2,
@@ -106,7 +106,7 @@ export default {
                     ]
                 }
             }
-        }         
+        }
     }
   }
 }

@@ -1,39 +1,34 @@
 <template>
     <div>
 
-<LayoutNavigationBar language="en" />
+        <LayoutNavigationBar language="en" />
 
-<!-- Page Content -->
-<div class="container2">
+        <!-- Page Content -->
+        <div class="container2">
 
-    <!-- Jumbotron Header -->
-    <header class="jumbotron my-4 testoCentrale" style="border:none;">
-        <div style="text-align:center;">
-            <h2>Election of student representatives</h2>
-            <br />
-            <h4>Schools</h4>
-            <br/>
+            <!-- Jumbotron Header -->
+            <header class="jumbotron my-4 testoCentrale" style="border:none;">
+                <div style="text-align:center;">
+                    <h2>Election of student representatives</h2>
+                    <br />
+                    <h4>Schools</h4>
+                    <br />
 
-            <p class="lead">
-                <blockquote>
-               COORDINATES THE COURSES OF STUDY
-                 AND PROVIDES A GENERAL ADDRESS
-                 TO THE SCHOOL.
-                </blockquote>
-            </p>
+                    <p class="lead">
+                        <blockquote>
+                            COORDINATES THE COURSES OF STUDY
+                            AND PROVIDES A GENERAL ADDRESS
+                            TO THE SCHOOL.
+                        </blockquote>
+                    </p>
+                </div>
+            </header>
+
+            <SubpagesScuoleComponent :scuole-link="scuole" language="en" />
         </div>
+        <!-- /.container -->
 
-
-    </header>
-
-    <SubpagesScuoleComponent  :scuole-link="scuole"  language="en" />
-
-</div>
-<!-- /.container -->
-
-
-<LayoutFooter  language="en" />
-
+        <LayoutFooter language="en" />
     </div>
 </template>
 
@@ -47,8 +42,7 @@ export default {
           icat:"../scuola/icat/",
           design:"../scuola/design/"
       }
-            
-           
+
     }
   }
 }

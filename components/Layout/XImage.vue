@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <img :src="imageUrl" :class="classParam">
-  </div>
+    <div>
+        <img :src="imageUrl" :class="classParam">
+    </div>
 </template>
 
 <script>

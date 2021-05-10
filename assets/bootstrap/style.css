@@ -1,4 +1,4 @@
-.containerNavBar{
+.containerNavBar {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -19,107 +19,104 @@
     padding-left: 15px;
 }
 
-.container2{
+.container2 {
     width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     max-width: calc(720px + 22vw + 6rem);
 }
 
-.container3{
+.container3 {
     width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     max-width: calc(720px + 26vw + 9rem);
 }
 
-.container4{
+.container4 {
     margin-right: auto;
-	margin-left: auto;
+    margin-left: auto;
     max-width: calc(720px + 26vw + 9rem);
     width: 100%;
 }
 
-.container5{
+.container5 {
     margin-right: auto;
-	margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
     width: 100%;
 }
 
-.container6{
+.container6 {
     margin-right: auto;
-	margin-left: auto;
-	padding-right: calc(1px + 0.1vw + 0.02rem);
-	padding-left: calc(1px + 0.1vw + 0.02rem);
+    margin-left: auto;
+    padding-right: calc(1px + 0.1vw + 0.02rem);
+    padding-left: calc(1px + 0.1vw + 0.02rem);
     width: 100%;
     max-width: calc(720px + 7vw + 6rem);
 }
 
-.container7{
+.container7 {
     margin-right: auto;
-	margin-left: auto;
-	padding-right: calc(1px + 0.1vw + 0.02rem);
-	padding-left: calc(1px + 0.1vw + 0.02rem);
+    margin-left: auto;
+    padding-right: calc(1px + 0.1vw + 0.02rem);
+    padding-left: calc(1px + 0.1vw + 0.02rem);
     width: 100%;
     max-width: calc(720px + 25vw + 10rem);
 }
 
-.container8{
+.container8 {
     margin-right: auto;
-	margin-left: auto;
-	padding-right: calc(1px + 0.1vw + 0.02rem);
-	padding-left: calc(1px + 0.1vw + 0.02rem);
+    margin-left: auto;
+    padding-right: calc(1px + 0.1vw + 0.02rem);
+    padding-left: calc(1px + 0.1vw + 0.02rem);
     width: 100%;
     max-width: calc(520px + 14vw + 2rem);
 }
 
-.nav-item{
+.nav-item {
     padding-right: 50px;
     padding-left: 50px;
     font-size: 1.2em;
 }
 
-.navbar{
+.navbar {
     border-bottom: 1px solid #545454;
-
 }
 
-.testoCentrale{
+.testoCentrale {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.spacerScuole{
-    padding:0px;
-    margin:0px;
+.spacerScuole {
+    padding: 0px;
+    margin: 0px;
 }
 
-.descrizioneScuola{
-margin:0px;
-    padding:5px 5px 10px 5px;
+.descrizioneScuola {
+    margin: 0px;
+    padding: 5px 5px 10px 5px;
 }
 
-.titleScuole{
-
+.titleScuole {
     font-size: calc(5px + 1rem + 1vw);
-
 }
 
-.liScuola{
+.liScuola {
     padding: calc(2px + 0.2rem + 1vw);
     border: 1px solid rgba(0, 0, 0, 0.13);
     margin: calc(1px + 0.1rem + 0.5vw);
     border-radius: calc(6px + 0.4rem + 0.2vw);
 }
 
-.imageList{
+.imageList {
     width: 100%;
     /*height: 100%;*/
     object-fit: cover;
@@ -135,6 +132,7 @@ margin:0px;
     overflow: hidden;
     margin: 0;
 }
+
 figcaption {
     position: absolute;
     background: white;
@@ -143,14 +141,16 @@ figcaption {
     padding: 10px 20px;
     opacity: 0.6;
     -webkit-transition: all 0.6s ease;
-    -moz-transition:    all 0.6s ease;
-    -o-transition:      all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
     height: 100%;
     width: 100%;
 }
+
 figure:hover figcaption {
     opacity: 1;
 }
+
 figure:before {
     position: absolute;
     font-weight: 800;
@@ -161,39 +161,81 @@ figure:before {
     width: 24px;
     height: 24px;
     -webkit-border-radius: 12px;
-    -moz-border-radius:    12px;
-    border-radius:         12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
     text-align: center;
     font-size: 14px;
     line-height: 24px;
     -moz-transition: all 0.6s ease;
     opacity: 0.75;
 }
+
 figure:hover:before {
     opacity: 0;
 }
 
-.cap-left:before {  bottom: 10px; left: 10px; }
-.cap-left figcaption { bottom: 0; left: -100%; }
-.cap-left:hover figcaption { left: 0; }
+.cap-left:before {
+    bottom: 10px;
+    left: 10px;
+}
 
-.cap-right:before { bottom: 10px; right: 10px; }
-.cap-right figcaption { bottom: 0; right: -30%; }
-.cap-right:hover figcaption { right: 0; }
+.cap-left figcaption {
+    bottom: 0;
+    left: -100%;
+}
 
-.cap-top:before { top: 10px; left: 10px; }
-.cap-top figcaption { left: 0; top: -30%; }
-.cap-top:hover figcaption { top: 0; }
+.cap-left:hover figcaption {
+    left: 0;
+}
 
-.cap-bot:before { bottom: 10px; left: 10px; }
-.cap-bot figcaption { left: 0; bottom: -30%;}
-.cap-bot:hover figcaption { bottom: 0; }
+.cap-right:before {
+    bottom: 10px;
+    right: 10px;
+}
+
+.cap-right figcaption {
+    bottom: 0;
+    right: -30%;
+}
+
+.cap-right:hover figcaption {
+    right: 0;
+}
+
+.cap-top:before {
+    top: 10px;
+    left: 10px;
+}
+
+.cap-top figcaption {
+    left: 0;
+    top: -30%;
+}
+
+.cap-top:hover figcaption {
+    top: 0;
+}
+
+.cap-bot:before {
+    bottom: 10px;
+    left: 10px;
+}
+
+.cap-bot figcaption {
+    left: 0;
+    bottom: -30%;
+}
+
+.cap-bot:hover figcaption {
+    bottom: 0;
+}
 
 @media (max-width: 768px) {
-    .testoCentrale{
+    .testoCentrale {
         max-width: 100% !important;
     }
-    ul{
+
+    ul {
         padding-left: 5px;
     }
 }

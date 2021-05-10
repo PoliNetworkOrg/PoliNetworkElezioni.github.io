@@ -1,51 +1,36 @@
 <template>
     <div>
 
+        <!-- Page Features -->
+        <div class="row text-center" id="listeContainer" v-on:load="test" style="display:flex;opacity:0.5;">
 
-    <!-- Page Features -->
-    <div class="row text-center" id="listeContainer" v-on:load="test" style="display:flex;opacity:0.5;">
+            <LayoutFrame v-for="item in items"
+                         :key="item.name"
+                         class-param="col-lg-3 col-md-6 mb-4">
 
-			<LayoutFrame
-			v-for="item in items"
-			:key = "item.name"
-			class-param="col-lg-3 col-md-6 mb-4"
-			>
+                <div>
 
-
-
-				<div >
-
-					<a :href="'/' + language  +item.link">
-						<figure class="cap-left" style="width: 100%;">
-							<LayoutFrame class-param="card h-100" :style-param="item.style">
-								<div class="listTile" style="width: 100%;">
-									<div class="containerImgList">
-										<LayoutXImage :image-url="(item.image)" class-param="imageList"  />
-									</div>
-								</div>
-							</LayoutFrame>
-							<figcaption class="h-100">
-								<br />
-								<h2 class="titleListaFigcaption">{{item.name}}</h2>
-							</figcaption>
-						</figure>
-					</a>
-				</div>
-
-
-			</LayoutFrame>
-
-
-
-
-
-    </div>
-    <!-- /.row -->
-
-
+                    <a :href="'/' + language  +item.link">
+                        <figure class="cap-left" style="width: 100%;">
+                            <LayoutFrame class-param="card h-100" :style-param="item.style">
+                                <div class="listTile" style="width: 100%;">
+                                    <div class="containerImgList">
+                                        <LayoutXImage :image-url="(item.image)" class-param="imageList" />
+                                    </div>
+                                </div>
+                            </LayoutFrame>
+                            <figcaption class="h-100">
+                                <br />
+                                <h2 class="titleListaFigcaption">{{item.name}}</h2>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </LayoutFrame>
+        </div>
+        <!-- /.row -->
     </div>
 </template>
-
 
 <script>
 export default {
@@ -96,6 +81,4 @@ export default {
         }
     }
 }
-
-
 </script>

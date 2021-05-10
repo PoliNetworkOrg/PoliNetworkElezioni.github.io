@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ListeListaDettaglio :data-lista="items"  language="it" />
+        <ListeListaDettaglio :data-lista="items" language="it" />
     </div>
 </template>
 
@@ -146,7 +146,7 @@ export default {
                     ]
                 }
             }
-        }         
+        }
     }
   }
 }

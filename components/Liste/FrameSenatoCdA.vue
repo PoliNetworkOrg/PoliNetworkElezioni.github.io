@@ -11,12 +11,10 @@
         </div>
 
         <div style="display:flex;flex-wrap:wrap;">
-            <LayoutFrame 
-                v-for="candsenato in item.candidati"
-                :key = "candsenato.id"
-                class-param="col-md-6"
-                style-param="margin:auto;"
-            >
+            <LayoutFrame v-for="candsenato in item.candidati"
+                         :key="candsenato.id"
+                         class-param="col-md-6"
+                         style-param="margin:auto;">
                 <div>
                     <ListeCandidato :cand="candsenato" :url-lista="item.linkLista" />
                 </div>
@@ -40,13 +38,13 @@ export default {
 }
 </script>
 
-<style >
-.descrizioneFrameSenatoCdA{
-    margin:auto;
-    width: 100%;
-    max-width: calc(70px + 15rem + 40vw);
-    padding-left:calc(1vw + 1px + 0.07rem);
-    padding-right:calc(1vw + 1px + 0.07rem);
-    padding-bottom:calc(0.3rem + 6px);
-}
+<style>
+    .descrizioneFrameSenatoCdA {
+        margin: auto;
+        width: 100%;
+        max-width: calc(70px + 15rem + 40vw);
+        padding-left: calc(1vw + 1px + 0.07rem);
+        padding-right: calc(1vw + 1px + 0.07rem);
+        padding-bottom: calc(0.3rem + 6px);
+    }
 </style>

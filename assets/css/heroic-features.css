@@ -4,55 +4,51 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+    padding-top: 56px;
 }
 
-
-.nav-item{
-  display:flex;
+.nav-item {
+    display: flex;
 }
 
-.nav-link{
-  margin:auto;
+.nav-link {
+    margin: auto;
 }
 
-.navbar-nav{
-  padding-top: 0;
-  padding-bottom: 0;
+.navbar-nav {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-@media(max-width: 991px){
-  .navbar-nav{
-    padding-right: 0px;
-  }
+@media(max-width: 991px) {
+    .navbar-nav {
+        padding-right: 0px;
+    }
 }
 
-.containerImgList{
-display: table-cell;
-margin:auto;
-
+.containerImgList {
+    display: table-cell;
+    margin: auto;
 }
 
-.listTile{
-display: table;
+.listTile {
+    display: table;
 }
 
-.cap-left{
-  display:flex;
-
+.cap-left {
+    display: flex;
 }
 
-.h-100{
-  border: 1px solid rgba(0, 0, 0, 0.33);
-border-radius: 0.55rem;
-padding: 25px;
-width: 100%;
+.h-100 {
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    border-radius: 0.55rem;
+    padding: 25px;
+    width: 100%;
 }
 
-.imageList{
-
-margin:auto;
-max-width: 100%;
+.imageList {
+    margin: auto;
+    max-width: 100%;
 }
 
 .helper {

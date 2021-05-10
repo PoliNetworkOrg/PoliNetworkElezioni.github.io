@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <ListeListaDettaglio :data-lista="items" language="it"  />
-  </div>
+    <div>
+        <ListeListaDettaglio :data-lista="items" language="it" />
+    </div>
 </template>
 
 <script>
