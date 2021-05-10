@@ -30,7 +30,7 @@
 						📌 Piattaforma online <a href="/it/istruzioni/">votazioni Eligo &amp; istruzioni di voto</a>
 					</span>
 					<span v-if="language=='en'" >
-						📌 Online platform <a href="/en/istruzioni/"> voting Eligo &amp; voting instructions</a>
+						📌 Online voting <a href="/en/istruzioni/"> platform Eligo &amp; voting instructions</a>
 					</span>
 			</div>
 		</div>
