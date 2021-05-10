@@ -44,7 +44,7 @@
                             <p class="lead" style="padding-left:calc(5px + 0.5rem + 0.6vw);padding-right:calc(5px + 0.5rem + 0.6vw);text-align:center;">
 
                                 <span v-if="language=='it'">
-                                    In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di maggio 2021 🗳
+                                    In questa pagina potrai consultare i candidati delle liste di rappresentanza studentesca (e i relativi programmi) alle elezioni di Maggio 2021 🗳
                                 </span>
                                 <span v-if="language=='en'">
                                     On this page you can consult the candidates of the student representation lists (and the relative programs) in the elections of May 2021 🗳
