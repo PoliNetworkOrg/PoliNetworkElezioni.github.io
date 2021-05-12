@@ -67,7 +67,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Nelle scuole ci battiamo perché la distribuzione dei CFU sia sempre più uniforme, perché gli esami siano unificati, annullando così le differenze per scaglione, e per fare in modo di creare più scelta all'interno dei corsi. Inoltre, vogliamo che si crei una rete studentesca importante, di peer tutoring e condivisione di progetti, e cerchiamo di aumentare sempre di più le opportunità laboratoriali, per un politecnico più tecnico.",
+                desc: "Nelle scuole ci battiamo perché la distribuzione dei CFU sia sempre più uniforme, perché gli esami siano unificati, annullando così le differenze per scaglione, e per fare in modo di creare più scelta all'interno dei corsi. Inoltre, vogliamo che si crei una rete studentesca importante, di peer tutoring e condivisione di progetti, e cerchiamo di aumentare sempre di più le opportunità laboratoriali, per un Politecnico più tecnico.",
                 auic:{
                     desc: "Incontri, eventi culturali e convenzioni: Rendere il Politecnico stesso teatro di incontri ed eventi integrati e inerenti al percorso didattico. Verso il mondo del lavoro: introdurre supporto istituzionale alla creazione del portfolio. Implementare corsi su software di disegno, modellazione e applicazione della metodologia BIM: Implementare l’insegnamento di programmi nei primi anni del corso di studi. Inserimento laboratori annuali: 3 mesi non sono sufficienti per portare avanti progetti all’altezza.",
 					candidati:[

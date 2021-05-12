@@ -23,7 +23,7 @@ export default {
                 [
                     {
                         id : 1,
-                   title: 'We enhance the triennial',
+                   title: 'We enhance the triennials',
                         url : '/img/programmi/listaaperta/1.jpg',
               desc: "We wish to enhance the three-year degrees through concrete proposals, which today seem to be a simple preparation for the master's. For this reason, until there is a real valorization of the three-year, we must not further raise the average access to the master! "      },
                     {
