@@ -10,14 +10,15 @@
                 <span class="container3" style="padding-top:3px;">
                     Le liste di rappresentanza si affronteranno in una serie di dibattiti tematici in presenza, organizzati da <a href="https://www.poliradio.it/">POLI.RADIO</a>.
                     <div style="padding:5px;"></div>
-                    I dibattiti saranno trasmessi sul <a href="https://www.youtube.com/user/polimi">canale YouTube</a> ufficiale dell'ateneo.
-                    <div style="padding:5px;"></div>
-                    <span style="font-style:italic;">Aggiorneremo a breve questa pagina con maggiori dettagli (argomenti, orari).</span>
+                    I dibattiti saranno trasmessi sul <a href="https://www.youtube.com/user/PoliRadioRock">canale YouTube</a> di POLI.RADIO.
+                   
+    
                 </span>
             </div>
         </div>
         <SubpagesDibattito language="it" />
 
+ <div style="padding:5px;"></div>
         <LayoutHorizontalLine />
 
         <div class="container5">

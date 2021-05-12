@@ -10,14 +10,15 @@
                 <span class="container3" style="padding-top:3px;">
                     The representative lists will face each other in a series of thematic debates in the presence, organized by <a href="https://www.poliradio.it/"> POLI.RADIO</a>.
                     <div style="padding:5px;"></div>
-                    The debates will be broadcast on the University's official <a href="https://www.youtube.com/user/polimi"> YouTube channel</a>.
-                    <div style="padding:5px;"></div>
-                    <span style="font-style: italic;"> We will shortly update this page with more details (topics, times). </span>
+                    The debates will be broadcast on the POLI.RADIO <a href="https://www.youtube.com/user/PoliRadioRock">YouTube channel</a>.
+                   
+                    
                 </span>
             </div>
         </div>
         <SubpagesDibattito language="en" />
 
+        <div style="padding:5px;"></div>
         <LayoutHorizontalLine />
 
         <div class="container5">
