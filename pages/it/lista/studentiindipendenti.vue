@@ -12,7 +12,7 @@ export default {
             name: "Studenti Indipendenti",
             mainWebsiteUrl: "https://studentiindipendenti.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Studenti_Indipendenti.pdf",
-            desc: ["Studenti Indipendenti è la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di università è un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità a tutela del percorso formativo e del benessere psicologico di ciascuno."],
+            desc: ["Studenti Indipendenti è la nuova lista di rappresentanza del Politecnico, indipendente, aconfessionale e apartitica. Per noi fare rappresentanza non è un fine a cui arrivare ma un mezzo con il quale migliorare la vita degli studenti. La nostra idea di Università è un luogo laico, inclusivo è sostenibile, in cui incentivare la cooperazione e fare comunità a tutela del percorso formativo e del benessere psicologico di ciascuno."],
             imageUrl:"/img/sip2.png",
             instagram:"https://www.instagram.com/studenti.indipendenti.polimi/",
             programmaSottotitolo:"Per la rappresentanza come mezzo e non come fine",
@@ -58,7 +58,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il Politecnico un'università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
+                desc: "Vogliamo aumentare la gestione dei fondi volgendola a rendere il Politecnico un'Università d'avanguardia in termini di vivibilità negli spazi, al sostegno e tutela dei percorsi di studio e al garantire a tutti a prescindere dalla carriera accademica la possibilità di fare un percorso dignitoso e valido.",
                 candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},

@@ -14,8 +14,8 @@ export default {
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta.pdf",
             desc: ["Lista Aperta è un gruppo di studenti e amici che passa gran parte delle giornate in Università. Per questo ci interessa migliorare il posto in cui siamo, per permettere a tutti di vivere appieno l’esperienza universitaria, dagli spazi studio alla didattica nelle aule fino alle attività extracurricolari. ",
             "In questi giorni al Poli è cominciata la campagna elettorale: il nostro motto per queste elezioni è READY TO BE BACK TOGETHER! ",
-            "Ready to be: noi ci siamo, siamo presenti e viviamo l’università tutti i giorni, certi del valore di nuovi incontri, a lezione, nelle pause pranzo o nelle aule studio per studiare in compagnia. ",
-            "Readytobeback: siamo pronti a tornare in università, come prima ma più di prima!",
+            "Ready to be: noi ci siamo, siamo presenti e viviamo l’Università tutti i giorni, certi del valore di nuovi incontri, a lezione, nelle pause pranzo o nelle aule studio per studiare in compagnia. ",
+            "Readytobeback: siamo pronti a tornare in Università, come prima ma più di prima!",
             "Readytobetogether: l’esperienza di uno studente all’interno del Politecnico non può essere in solitudine: per questo ci candidiamo insieme! Siamo 120 candidati, una squadra "],
             imageUrl:"/img/listaaperta.png",
             instagram:"https://www.instagram.com/poli_listaperta/",
@@ -62,7 +62,7 @@ export default {
                 ]
             },
             CdA:{
-                desc: "In CdA ci batteremo per il Diritto allo Studio: una battaglia decisiva per permettere a tutti gli studenti di poter vivere a pieno l’università! Inoltre, ci impegneremo sempre per garantire i giusti finanziamenti per sviluppare i nostri campus sempre di più come luoghi di aggregazione e di qualità.",
+                desc: "In CdA ci batteremo per il Diritto allo Studio: una battaglia decisiva per permettere a tutti gli studenti di poter vivere a pieno l’Università! Inoltre, ci impegneremo sempre per garantire i giusti finanziamenti per sviluppare i nostri campus sempre di più come luoghi di aggregazione e di qualità.",
                 candidati:[
                     {id:1, imgUrl: "/img/candidati/listaaperta/daniele_redaelli.jpg", name: "Radaelli Daniele", detto: "REDA"},
                     {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
@@ -71,7 +71,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Lista Aperta si candida in tutti i corsi di studio: 120 candidati. Una squadra che lavora insieme in tutti i livelli della rappresentanza, dal ccs fino al Senato Accademico. In questo contesto, le scuole sono un anello fondamentale per poter raggiungere risultati concreti per migliorare la nostra università e per creare un rete in cui condividere gli aspetti postivi, al servizio di tutti.",
+                desc: "Lista Aperta si candida in tutti i corsi di studio: 120 candidati. Una squadra che lavora insieme in tutti i livelli della rappresentanza, dal ccs fino al Senato Accademico. In questo contesto, le scuole sono un anello fondamentale per poter raggiungere risultati concreti per migliorare la nostra Università e per creare un rete in cui condividere gli aspetti postivi, al servizio di tutti.",
                 auic:{
                     desc: "In scuola Auic lavoreremo su due pilastri: didattica e diritto allo studio. Per quanto riguarda la didattica, vorremmo dotare i docenti di strumenti tecnologici e digitali per aggiornare la didattica alle nuove forme che saranno decisive per noi studenti nel mondo del lavoro. Il Diritto allo Studio per gli studenti di Auic passa inevitabilmente dai costi che si devono sostenere per stampe e modelli: proponiamo un fondo e delle convenzioni per venire incontro, almeno in parte, a tutti gli studenti.",
                     candidati:

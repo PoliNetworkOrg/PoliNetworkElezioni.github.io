@@ -12,7 +12,7 @@ export default {
             name: "La Terna Sinistrorsa",
             mainWebsiteUrl: "https://www.ternasinistrorsa.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa.pdf",
-            desc: ["Siamo La Terna Sinistrorsa, una lista di rappresentanza studentesca del Politecnico di Milano. Da 25 anni lottiamo per un’università basata sul diritto allo studio e senza disuguaglianze. Inclusione, parità ed equità sono i notri valori fondanti: scopri il nostro programma e i nostri candidati!"],
+            desc: ["Siamo La Terna Sinistrorsa, una lista di rappresentanza studentesca del Politecnico di Milano. Da 25 anni lottiamo per un’Università basata sul diritto allo studio e senza disuguaglianze. Inclusione, parità ed equità sono i notri valori fondanti: scopri il nostro programma e i nostri candidati!"],
             imageUrl:"/img/terna.png",
             instagram:"https://www.instagram.com/la_terna_sinistrorsa/",
             programmaSottotitolo:"Siamo più di un numero",
@@ -51,13 +51,13 @@ export default {
                 ]
             },
             CdA:{
-                desc: "L’università gratuita si costruisce dal basso! Tassazione più equa: veramente continua e progressiva. Vogliamo innalzare la soglia massima di ISEE per la riduzione del contributo di modo che la tassazione sia più equa anche per coloro che sono sopra l’attuale massimale. Lotteremo, dentro e fuori l’ateneo, per maggiori fondi statali in modo di ridurre sempre il carico agli studenti e portare la NO TAX AREA totale a 30.000 € di ISEE.",
+                desc: "L’Università gratuita si costruisce dal basso! Tassazione più equa: veramente continua e progressiva. Vogliamo innalzare la soglia massima di ISEE per la riduzione del contributo di modo che la tassazione sia più equa anche per coloro che sono sopra l’attuale massimale. Lotteremo, dentro e fuori l’ateneo, per maggiori fondi statali in modo di ridurre sempre il carico agli studenti e portare la NO TAX AREA totale a 30.000 € di ISEE.",
                 candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                 ]
             },
             scuole:{
-              desc: "Nelle quattro scuole ci impegneremo per una didattica più giusta, per un maggiore rispetto dei nostri diritti, e per eliminare ostacoli retaggio del passato. Ogni scuola ha le sue peculiarità e problematiche, abbiamo studiato molto attentamente quali proposte mettere in campo. Insieme, possiamo ambire a un'università sempre più a misura di studentə partendo dal basso, dal quotidiano svolgersi di lezioni ed esami",
+              desc: "Nelle quattro scuole ci impegneremo per una didattica più giusta, per un maggiore rispetto dei nostri diritti, e per eliminare ostacoli retaggio del passato. Ogni scuola ha le sue peculiarità e problematiche, abbiamo studiato molto attentamente quali proposte mettere in campo. Insieme, possiamo ambire a un'Università sempre più a misura di studentə partendo dal basso, dal quotidiano svolgersi di lezioni ed esami",
                 auic:{
                     desc: "Tutti abbiamo diritto agli stessi strumenti per la progettazione per questo richiediamo un accesso digitale alla bibliografia e un maggior numero di software gratuiti come Sketch-up pro e Lumion. Ci impegneremo anche per ridurre ulteriori costi a carico di noi studentз richiedendo la strumentazione adatta per poter svolgere revisioni in digitale. Ogni studentə vale più della sua media per questo proponiamo di essere valutati equamente per gli accessi sis ai laboratori che alle magistrali",
                     candidati:

@@ -40,7 +40,7 @@ export default {
                         id: 4,
                         title: 'CAMPUS LIFE E AMBIENTE',
                         url : '/img/programmi/svoltastudenti/3.jpg',
-                        desc: "Vogliamo rendere il Politecnico la prima università italiana totalmente Carbon Neutral entro il 2040, impegnare l'ateneo nell'implementazione dell'Agenda 2030 dell'ONU e nei rispettivi Sustainable Development Goals, e sviluppare un'impronta etica e umanistica in tutti i corsi di laurea."
+                        desc: "Vogliamo rendere il Politecnico la prima Università italiana totalmente Carbon Neutral entro il 2040, impegnare l'ateneo nell'implementazione dell'Agenda 2030 dell'ONU e nei rispettivi Sustainable Development Goals, e sviluppare un'impronta etica e umanistica in tutti i corsi di laurea."
                     },
                 ],
             senato:

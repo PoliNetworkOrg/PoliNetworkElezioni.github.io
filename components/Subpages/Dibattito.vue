@@ -24,7 +24,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="tdDibattito2">
-                                                    <span v-if="language=='it'">Didattica e università</span>
+                                                    <span v-if="language=='it'">Didattica e Università</span>
                                                     <span v-if="language=='en'">Didactics and universities</span>
                                                 </td>
                                             </tr>
