@@ -10,7 +10,7 @@
                     <header class=" my-4 ">
                         <h2 style="padding-bottom:1rem;" class="container4">Curiosity</h2>
                         <p>
-                            This site, created by <a href="https://polinetwork.github.io/"> PoliNetwork </a>,
+                            This site, created by <a href="https://polinetwork.github.io/en/"> PoliNetwork</a>,
                             aims to make programs and candidates as clear as possible to students.
                         </p>
 
@@ -23,11 +23,11 @@
                         </p>
 
                         <p>
-                            If you have further doubts about the vote, for example about the modalities of the same, visit our <a href="../instructions/"> dedicated page </a>.
+                            If you have further doubts about the vote, for example about the modalities of the same, visit our <a href="../istruzioni/"> dedicated page</a>.
                         </p>
 
                         <p>
-                            If you need to contact us, especially in case of errors, reports, suggestions, we remind you the page <a href="../contatti/"> contacts </a>.
+                            If you need to contact us, especially in case of errors, reports, suggestions, we remind you the page <a href="../contatti/"> contacts</a>.
                         </p>
                     </header>
                 </div>
