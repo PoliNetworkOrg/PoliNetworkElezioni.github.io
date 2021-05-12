@@ -48,7 +48,9 @@
         <div class="section" id="our-info">
             <div class="container2" style="max-width: 100%;margin:auto; width:100%;">
                 <h2 class="container2 programmaElettorale">
-                    Electoral program 📝
+                           <span v-if="language=='it'">Programma elettorale 📝</span>
+                            <span v-if="language=='en'">Electoral program 📝</span>
+                    
                 </h2>
                 <hr />
                 <h3 style="text-align:center;font-size:calc(8px + 1.5vw + 0.2rem);font-variant: petite-caps;-webkit-text-stroke: 1px #0c013587;-webkit-text-fill-color: black;">
