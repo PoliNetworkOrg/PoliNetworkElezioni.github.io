@@ -14,7 +14,7 @@ export default {
         {
             id:1,
             name:"3I",
-    desc: "The school coordinates the teaching activities for most of the degrees and master's degrees in Engineering of the Politecnico di Milano. The School of Industrial and Information Engineering is by far the largest of the four present at the Politecnico, with about 60 percent of students enrolled in their Bachelor's and Master's Degree courses. The Joint Commission has the task of monitoring the educational offer, the quality of teaching and the services provided to students and expressing opinions on the establishment and cancellation of studio. is made up of 5 students and 5 professors. "    }
+    desc: "The school coordinates the teaching activities for most of the degrees and master's degrees in Engineering of the Politecnico di Milano. The School of Industrial and Information Engineering is by far the largest of the four present at the Politecnico, with about 60 percent of students enrolled in their Bachelor's and Master's Degree courses. The Joint Commission has the task of monitoring the educational offer, the quality of teaching and the services provided to students and expressing opinions on the establishment and cancellation of studio. It is made up of 5 students and 5 professors. "    }
     ],
 
       liste: [
