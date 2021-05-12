@@ -14,7 +14,7 @@ export default {
         {
             id:1,
             name:"3I",
-            desc:"La scuola coordina le attività didattiche per la maggior parte delle lauree e delle lauree magistrali in Ingegneria del Politecnico di Milano. La Scuola di Ingegneria Industriale e dell’Informazione è di gran lunga la più grande delle quattro presenti al Politecnico, con circa il 60 percento degli studenti iscritti nei propri corsi di Laurea e Laurea Magistrale. La Commissione Paritetica ha il compito di monitorare l’offerta formativa, la qualità della didattica e i servizi erogati agli studenti e di esprimere pareri sull'istituzione e la soppressione dei Corsi di studio. é composta da 5 studenti e 5 professori."
+            desc:"La scuola coordina le attività didattiche per la maggior parte delle lauree e delle lauree magistrali in Ingegneria del Politecnico di Milano. La Scuola di Ingegneria Industriale e dell’Informazione è di gran lunga la più grande delle quattro presenti al Politecnico, con circa il 60 percento degli studenti iscritti nei propri corsi di Laurea e Laurea Magistrale. La Commissione Paritetica ha il compito di monitorare l’offerta formativa, la qualità della didattica e i servizi erogati agli studenti e di esprimere pareri sull'istituzione e la soppressione dei Corsi di studio. É composta da 5 studenti e 5 professori."
         }
     ],
 
