@@ -104,7 +104,7 @@ export default {
                     ]
                 },
                 icat:{
-               desc: "The Icat school, given the small number of students, must invest resources to increase the quality of teaching: smaller groups, more workshops and personalized experiences, starting from the three-year period. In addition, we will work to increase the policies of orienting towards the master's and the world of work, also thanks to the introduction of vocational courses and internships. ",     candidati:
+               desc: "The ICAT school, given the small number of students, must invest resources to increase the quality of teaching: smaller groups, more workshops and personalized experiences, starting from the three-year period. In addition, we will work to increase the policies of orienting towards the master's and the world of work, also thanks to the introduction of vocational courses and internships. ",     candidati:
                     [
 						{id:1, imgUrl: "/img/candidati/listaaperta/andrea_mandelli.jpg", name: "Mandelli Andrea", detto: "ZAC"},
 						{id:2, imgUrl: "/img/candidati/listaaperta/francesco_bugo.jpg", name: "Bugo Francesco Maria", detto: "BUGO"},
