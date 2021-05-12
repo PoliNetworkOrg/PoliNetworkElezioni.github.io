@@ -40,7 +40,7 @@ export default {
                 ],
             senato:
             {
-            desc: "Those who study are not just a number: We are more than the grades we get, so access to master's degrees should not be limited only to our average. The right to education must be guaranteed and extended to all people who have it need, for this we propose the raising of the total NO TAX area to at least 30 thousand euros of ISEE and a progressive and continuous taxation that eliminates the current division into bands. We ask for a Polytechnic that is more accessible architecturally and economically, with canteens at lower prices and free sanitary pads in the bathrooms. A Polytechnic that pays attention to sustainability and disabilities. ",    candidati:[
+            desc: "Those who study are not just a number: We are more than the grades we get, so access to master's degrees should not be limited only to our average. The right to education must be guaranteed and extended to all people who have it need, for this we propose the raising of the total NO TAX area to at least 30,000€ of ISEE and a progressive and continuous taxation that eliminates the current division into bands. We ask for a Polytechnic that is more accessible architecturally and economically, with canteens at lower prices and free sanitary pads in the bathrooms. A Polytechnic that pays attention to sustainability and disabilities. ",    candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
                 ]
             },
@@ -50,9 +50,9 @@ export default {
                 ]
             },
             scuole:{
-               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together , we can aspire to a university that is increasingly student-friendly starting from the bottom, from the daily unfolding of lessons and exams ",
+               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together, we can aspire to a university that is increasingly student-friendly starting from the bottom, from the daily unfolding of lessons and exams. ",
                 auic:{
-                 desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's ",    candidati:
+                 desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's. ",    candidati:
                     [
                       {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""},
                       {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/letizia_guido.png", name: "Guido Letizia", detto: ""}

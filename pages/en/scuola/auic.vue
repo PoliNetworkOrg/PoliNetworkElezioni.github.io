@@ -71,7 +71,7 @@ export default {
                 organi:[
                     {
                         name: "AUIC",
-                  desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's ",       candidati:
+                  desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's. ",       candidati:
                         [
                            {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/chiara_nardelli.png", name: "Nardelli Chiara", detto: ""},
                            {id: 2 , imgUrl: "/img/candidati/ternasinistrorsa/letizia_guido.png", name: "Guido Letizia", detto: ""}

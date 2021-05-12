@@ -91,7 +91,7 @@ organiConfronto:[
                 organi:[
                     {
                     name: "Senate",
-                         desc: "Those who study are not just a number: We are more than the grades we get, so access to master's degrees should not be limited only to our average. The right to education must be guaranteed and extended to all people who have it need, for this we propose the raising of the total NO TAX area to at least 30 thousand euros of ISEE and a progressive and continuous taxation that eliminates the current division into bands. We ask for a Polytechnic that is more accessible architecturally and economically, with canteens at lower prices and free sanitary pads in the bathrooms. A Polytechnic that pays attention to sustainability and disabilities. ",     candidati:[
+                         desc: "Those who study are not just a number: We are more than the grades we get, so access to master's degrees should not be limited only to our average. The right to education must be guaranteed and extended to all people who have it need, for this we propose the raising of the total NO TAX area to at least 30,000€ of ISEE and a progressive and continuous taxation that eliminates the current division into bands. We ask for a Polytechnic that is more accessible architecturally and economically, with canteens at lower prices and free sanitary pads in the bathrooms. A Polytechnic that pays attention to sustainability and disabilities. ",     candidati:[
                             {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/ada_bacigalupo.png", name: "Bacigalupo Ada", detto: ""}
                         ]
                     },
