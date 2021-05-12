@@ -71,7 +71,7 @@ export default {
                 ]
             },
             scuole:{
-                desc: "Lista Aperta si candida in tutti i corsi di studio: 120 candidati. Una squadra che lavora insieme in tutti i livelli della rappresentanza, dal CCS fino al Senato Accademico. In questo contesto, le scuole sono un anello fondamentale per poter raggiungere risultati concreti per migliorare la nostra Università e per creare un rete in cui condividere gli aspetti postivi, al servizio di tutti.",
+                desc: "Lista Aperta si candida in tutti i corsi di studio: 120 candidati. Una squadra che lavora insieme in tutti i livelli della rappresentanza, dal CCS fino al Senato Accademico. In questo contesto, le scuole sono un anello fondamentale per poter raggiungere risultati concreti per migliorare la nostra Università e per creare un rete in cui condividere gli aspetti positivi, al servizio di tutti.",
                 auic:{
                     desc: "In scuola Auic lavoreremo su due pilastri: didattica e diritto allo studio. Per quanto riguarda la didattica, vorremmo dotare i docenti di strumenti tecnologici e digitali per aggiornare la didattica alle nuove forme che saranno decisive per noi studenti nel mondo del lavoro. Il Diritto allo Studio per gli studenti di Auic passa inevitabilmente dai costi che si devono sostenere per stampe e modelli: proponiamo un fondo e delle convenzioni per venire incontro, almeno in parte, a tutti gli studenti.",
                     candidati:
