@@ -27,7 +27,7 @@
                     <div>
                         <a class="linkEligo" href="https://youtu.be/lX5bhxXr_fI">
                             <span v-if="language == 'it'">📽 Video con istruzioni al voto</span>
-                            <span v-if="language == 'en'">📽 Video instructions for voting</span>
+                            <span v-if="language == 'en'">📽 Video instructions for voting (in italian)</span>
                         </a>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ export default {
             name: "La Terna Sinistrorsa",
             mainWebsiteUrl: "https://www.ternasinistrorsa.it/",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/La_Terna_Sinistrorsa_-_inglese.pdf",
-         desc: ["We are La Terna Sinistrorsa, a student representation list of the Politecnico di Milano. For 25 years we have been fighting for a university based on the right to study and without inequalities. Inclusion, equality and equity are our founding values: discover ours program and our candidates! "],   imageUrl:"/img/terna.png",
+         desc: ["We are La Terna Sinistrorsa, a student representation list of the Politecnico di Milano. For 25 years we have been fighting for a University based on the right to study and without inequalities. Inclusion, equality and equity are our founding values: discover ours program and our candidates! "],   imageUrl:"/img/terna.png",
             instagram:"https://www.instagram.com/la_terna_sinistrorsa/",
             programmaSottotitolo:"We are more than a number",
             programma:
@@ -21,7 +21,7 @@ export default {
                         id : 1,
                         title: 'Hasta the gratuity',
                         url: '/img/programmi/ternasinistrorsa/1.png',
-                   desc: "Free sanitary pads in the University bathrooms! We continue to fight for the free of charge sanitary pads: that they are accessible to all the female component of the Politecnico. The current situation is a political choice, not dictated by lack of money. budget deficit of 39 million, the proposal we have developed in two years of work has never been taken into consideration: with your support we want to give a concrete signal to smooth out gender inequalities and keep faith with university values. excuses for not doing it. " },
+                   desc: "Free sanitary pads in the University bathrooms! We continue to fight for the free of charge sanitary pads: that they are accessible to all the female component of the Politecnico. The current situation is a political choice, not dictated by lack of money. budget deficit of 39 million, the proposal we have developed in two years of work has never been taken into consideration: with your support we want to give a concrete signal to smooth out gender inequalities and keep faith with University values. excuses for not doing it. " },
                     {
                         id: 2,
                         title: 'Accessibility and Inclusion',
@@ -36,7 +36,7 @@ export default {
                         id: 4,
                        title: 'Commuters, Fuorisede and Territorial Poles',
                         url: '/img/programmi/ternasinistrorsa/3.png',
-                desc: "It is essential to pay more attention to the poorly represented categories. For us it is necessary to provide new protections to commuters allowing justifications for absences or delays caused by Trenord, to guarantee times compatible with a safe return and to extend the theft counter not only to the spaces of the university. For the out-of-office we must obtain the transfer of the general practitioner to Lombardy, beyond the covid and guarantee discounts or reimbursements for returning home. In our program we have dedicated an entire section to the Territorial Poles, each with its problems: from reducing as much as possible the differences in promotion rates between the Milan offices and the Territorial Poles to increasing the number of representatives. Read our program to find out more! "     }
+                desc: "It is essential to pay more attention to the poorly represented categories. For us it is necessary to provide new protections to commuters allowing justifications for absences or delays caused by Trenord, to guarantee times compatible with a safe return and to extend the theft counter not only to the spaces of the University. For the out-of-office we must obtain the transfer of the general practitioner to Lombardy, beyond the covid and guarantee discounts or reimbursements for returning home. In our program we have dedicated an entire section to the Territorial Poles, each with its problems: from reducing as much as possible the differences in promotion rates between the Milan offices and the Territorial Poles to increasing the number of representatives. Read our program to find out more! "     }
                 ],
             senato:
             {
@@ -45,12 +45,12 @@ export default {
                 ]
             },
             CdA:{
-            desc: "Free universities are built from below! Taxation fairer: truly continuous and progressive. We want to raise the maximum threshold of ISEE for the reduction of the contribution so that the taxation is fairer even for those who are above the current We will fight, inside and outside the university, for more state funds in order to always reduce the burden on students and bring the total NO TAX AREA to € 30,000 of ISEE. ",    candidati:[
+            desc: "Free universities are built from below! Taxation fairer: truly continuous and progressive. We want to raise the maximum threshold of ISEE for the reduction of the contribution so that the taxation is fairer even for those who are above the current We will fight, inside and outside the University, for more state funds in order to always reduce the burden on students and bring the total NO TAX AREA to € 30,000 of ISEE. ",    candidati:[
                   {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                 ]
             },
             scuole:{
-               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together, we can aspire to a university that is increasingly student-friendly starting from the bottom, from the daily unfolding of lessons and exams. ",
+               desc: "In the four schools we will strive for a more just teaching, for a greater respect for our rights, and to eliminate obstacles inherited from the past. Each school has its own peculiarities and problems, we have studied very carefully which proposals to put in place. Together, we can aspire to a University that is increasingly student-friendly starting from the bottom, from the daily unfolding of lessons and exams. ",
                 auic:{
                  desc: "We all have the right to the same design tools for this we require digital access to the bibliography and a greater number of free software such as Sketch-up pro and Lumion. We will also strive to reduce further costs for us students by requesting the instrumentation suitable to be able to carry out digital reviews. Each student is worth more than his average for this reason we propose to be evaluated equally for sis access to laboratories than to master's. ",    candidati:
                     [

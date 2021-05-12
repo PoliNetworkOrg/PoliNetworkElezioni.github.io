@@ -40,7 +40,7 @@ export default {
                 ],
             senato:
             {
-              desc: "For us in the Senate it is important to discuss political decisions, really opening up the possibility of bringing the issues of the student without the filter of compromise in order to dialogue with the other university members having a clear opinion of everyone.",  candidati:[
+              desc: "For us in the Senate it is important to discuss political decisions, really opening up the possibility of bringing the issues of the student without the filter of compromise in order to dialogue with the other University members having a clear opinion of everyone.",  candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff_sen.PNG", name: "Wolff Jonathan", detto: "JONNY"},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.PNG", name: "Iodice Andrea", detto: ""},
                     {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca_sen.PNG", name: "Deluca Maria Nicole", detto: ""},
@@ -52,7 +52,7 @@ export default {
                 ]
             },
             CdA:{
-             desc: "We want to increase the management of funds, turning it towards making the Politecnico an avant-garde university in terms of liveability in the spaces, support and protection of study paths and to guarantee everyone, regardless of academic career, the possibility of doing dignified and valid path. ",  candidati:[
+             desc: "We want to increase the management of funds, turning it towards making the Politecnico an avant-garde University in terms of liveability in the spaces, support and protection of study paths and to guarantee everyone, regardless of academic career, the possibility of doing dignified and valid path. ",  candidati:[
                     {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
                     {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},
                     {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni_cda.PNG", name: "Arrigoni Chiara", detto: ""},
@@ -78,7 +78,7 @@ export default {
                     ]
                 },
                 trei:{
-                 desc: "Customizable study plan: we believe that everyone should decide their own study path with as few constraints as possible so that new and multidisciplinary professional figures are created. We believe that the abolition of access to the master's is a further incentive to continue their studies and fight dropping out of studies, a characteristic and serious problem of our university. The differences between brackets must be abolished by promoting virtuous examples. Always with a view to increasing the choice between courses, we want to increase the number of laboratories to choice.",   candidati:
+                 desc: "Customizable study plan: we believe that everyone should decide their own study path with as few constraints as possible so that new and multidisciplinary professional figures are created. We believe that the abolition of access to the master's is a further incentive to continue their studies and fight dropping out of studies, a characteristic and serious problem of our University. The differences between brackets must be abolished by promoting virtuous examples. Always with a view to increasing the choice between courses, we want to increase the number of laboratories to choice.",   candidati:
                     [
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/edoardo_marcucci.PNG", name: "Marcucci Edoardo", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/alice_portentoso.PNG", name: "Portentoso Alice", detto: ""},

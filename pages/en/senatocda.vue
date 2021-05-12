@@ -31,7 +31,7 @@ organiConfronto:[
                 organi:[
                     {
                    name: "Senate",
-                         desc: "In the Senate it is essential for us to carry forward student-friendly ideas, in a way that is unrelated to party and confessional influences. We carry on the dialogue with the institutions requesting mutual respect, in order to bring the choices of the university more and more in favor of the students. ",     candidati:[
+                         desc: "In the Senate it is essential for us to carry forward student-friendly ideas, in a way that is unrelated to party and confessional influences. We carry on the dialogue with the institutions requesting mutual respect, in order to bring the choices of the University more and more in favor of the students. ",     candidati:[
                             {id: 1, imgUrl: "/img/candidati/svoltastudenti/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
                             { id: 2, imgUrl: "/img/candidati/svoltastudenti/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
                             { id: 3, imgUrl: "/img/candidati/svoltastudenti/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},
@@ -74,7 +74,7 @@ organiConfronto:[
                     },
                     {
                         name: "CdA",
-                      desc: "In the Board of Directors we will fight for the Right to Education: a decisive battle to allow all students to be able to fully experience the university! Furthermore, we will always strive to guarantee the right funding to develop our campuses more and more like places of meeting and quality. ",  candidati:[
+                      desc: "In the Board of Directors we will fight for the Right to Education: a decisive battle to allow all students to be able to fully experience the University! Furthermore, we will always strive to guarantee the right funding to develop our campuses more and more like places of meeting and quality. ",  candidati:[
                             {id:1, imgUrl: "/img/candidati/listaaperta/daniele_redaelli.jpg", name: "Radaelli Daniele", detto: "REDA"},
                             {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
                             {id:3, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
@@ -97,7 +97,7 @@ organiConfronto:[
                     },
                     {
                         name: "CdA",
-                desc: "Free universities are built from below! Taxation fairer: truly continuous and progressive. We want to raise the maximum threshold of ISEE for the reduction of the contribution so that the taxation is fairer even for those who are above the current We will fight, inside and outside the university, for more state funds in order to always reduce the burden on students and bring the total NO TAX AREA to € 30,000 of ISEE. ",         candidati:[
+                desc: "Free universities are built from below! Taxation fairer: truly continuous and progressive. We want to raise the maximum threshold of ISEE for the reduction of the contribution so that the taxation is fairer even for those who are above the current We will fight, inside and outside the University, for more state funds in order to always reduce the burden on students and bring the total NO TAX AREA to € 30,000 of ISEE. ",         candidati:[
                             {id: 1 , imgUrl: "/img/candidati/ternasinistrorsa/davide_luzzini.png", name: "Luzzini Davide", detto: ""}
                        ]
                     }
@@ -111,7 +111,7 @@ organiConfronto:[
                 organi:[
                     {
                    name: "Senate",
-                         desc: "For us in the Senate it is important to discuss political decisions, really opening up the possibility of bringing the issues of the student without the filter of compromise in order to dialogue with the other university members having a clear opinion of everyone.",      candidati:[
+                         desc: "For us in the Senate it is important to discuss political decisions, really opening up the possibility of bringing the issues of the student without the filter of compromise in order to dialogue with the other University members having a clear opinion of everyone.",      candidati:[
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/jonathan_wolff_sen.PNG", name: "Wolff Jonathan", detto: "JONNY"},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/andrea_iodice.PNG", name: "Iodice Andrea", detto: ""},
                         {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/maria_nicole_deluca_sen.PNG", name: "Deluca Maria Nicole", detto: ""},
@@ -124,7 +124,7 @@ organiConfronto:[
                     },
                     {
                         name: "CdA",
-                  desc: "We want to increase the management of funds, turning it towards making the Politecnico an avant-garde university in terms of liveability in the spaces, support and protection of study paths and to guarantee everyone, regardless of academic career, the possibility of doing dignified and valid path. ",      candidati:[
+                  desc: "We want to increase the management of funds, turning it towards making the Politecnico an avant-garde University in terms of liveability in the spaces, support and protection of study paths and to guarantee everyone, regardless of academic career, the possibility of doing dignified and valid path. ",      candidati:[
                         {id: 1 , imgUrl: "/img/candidati/studentiindipendenti/gloria_maria_crisogianni_cda.PNG", name: "Crisogianni Gloria Maria", detto: ""},
                         {id: 2 , imgUrl: "/img/candidati/studentiindipendenti/anita_clara_notarianni.PNG", name: "Notarianni Anita Clara", detto: ""},
                         {id: 3 , imgUrl: "/img/candidati/studentiindipendenti/chiara_arrigoni_cda.PNG", name: "Arrigoni Chiara", detto: ""},

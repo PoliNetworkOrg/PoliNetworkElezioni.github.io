@@ -16,7 +16,7 @@ export default {
             "In questi giorni al Poli è cominciata la campagna elettorale: il nostro motto per queste elezioni è READY TO BE BACK TOGETHER! ",
             "Ready to be: noi ci siamo, siamo presenti e viviamo l’Università tutti i giorni, certi del valore di nuovi incontri, a lezione, nelle pause pranzo o nelle aule studio per studiare in compagnia. ",
             "Readytobeback: siamo pronti a tornare in Università, come prima ma più di prima!",
-            "Readytobetogether: l’esperienza di uno studente all’interno del Politecnico non può essere in solitudine: per questo ci candidiamo insieme! Siamo 120 candidati, una squadra "],
+            "Readytobetogether: l’esperienza di uno studente all’interno del Politecnico non può essere in solitudine: per questo ci candidiamo insieme! Siamo 120 candidati, una squadra."],
             imageUrl:"/img/listaaperta.png",
             instagram:"https://www.instagram.com/poli_listaperta/",
             programmaSottotitolo:"READY TO BE BACK TOGETHER!",

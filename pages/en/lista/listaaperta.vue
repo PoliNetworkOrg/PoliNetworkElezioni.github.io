@@ -12,10 +12,10 @@ export default {
             name: "Lista Aperta",
             mainWebsiteUrl: "https://www.readytobe-listaperta.com",
             mainProgrammaUrl: "https://www.polimi.it/fileadmin/user_upload/il_Politecnico/votazioni-studenti/Votazioni_2021/programmi-elettorali/Lista_Aperta_-_Inglese.pdf",
-         desc: ["Lista Aperta is a group of students and friends who spend most of their days at the University. This is why we are interested in improving the place we are in, to allow everyone to fully enjoy the university experience, from study spaces to teaching in the classrooms up to extracurricular activities. ",
+         desc: ["Lista Aperta is a group of students and friends who spend most of their days at the University. This is why we are interested in improving the place we are in, to allow everyone to fully enjoy the University experience, from study spaces to teaching in the classrooms up to extracurricular activities. ",
              "The electoral campaign has started in these days at the Poli: our motto for these elections is READY TO BE BACK TOGETHER!",
-             "Ready to be: we are there, we are present and we live the university every day, certain of the value of new meetings, in class, during lunch breaks or in study rooms to study together.",
-             "Readytobeback: we are ready to go back to university, as before but more than before!",
+             "Ready to be: we are there, we are present and we live the University every day, certain of the value of new meetings, in class, during lunch breaks or in study rooms to study together.",
+             "Readytobeback: we are ready to go back to University, as before but more than before!",
              "Readytobetogether: the experience of a student within the polytechnic cannot be alone: this is why we apply together! We are 120 candidates, a team"],    imageUrl:"/img/listaaperta.png",
             instagram:"https://www.instagram.com/poli_listaperta/",
             programmaSottotitolo:"READY TO BE BACK TOGETHER!",
@@ -35,7 +35,7 @@ export default {
                         id: 3,
                title: "Let's lower taxes",
                         url : '/img/programmi/listaaperta/3.jpg',
-                desc: "We will work together with the University to allocate investments to the Right to Education, in particular to decrease the contribution for the medium-low brackets, also thanks to the proposal for further exemptions for merit"    },
+                desc: "We will work together with the University to allocate investments to the Right to Education, in particular to decrease the contribution for the medium-low brackets, also thanks to the proposal for further exemptions for merit."    },
                     {
                         id: 4,
                   title: "Let's increase study spaces",
@@ -56,7 +56,7 @@ export default {
                 ]
             },
             CdA:{
-           desc: "In the Board of Directors we will fight for the Right to Education: a decisive battle to allow all students to be able to fully experience the university! Furthermore, we will always strive to guarantee the right funding to develop our campuses more and more like places of meeting and quality. ",      candidati:[
+           desc: "In the Board of Directors we will fight for the Right to Education: a decisive battle to allow all students to be able to fully experience the University! Furthermore, we will always strive to guarantee the right funding to develop our campuses more and more like places of meeting and quality. ",      candidati:[
                     {id:1, imgUrl: "/img/candidati/listaaperta/daniele_redaelli.jpg", name: "Radaelli Daniele", detto: "REDA"},
                     {id:2, imgUrl: "/img/candidati/listaaperta/emanuela_dotti.jpg", name: "Dotti Emanuela", detto: "MANU"},
                     {id:3, imgUrl: "/img/candidati/listaaperta/tommaso_sanese.jpg", name: "Sanese Tommaso", detto: "TOMMI"},
@@ -64,7 +64,7 @@ export default {
                 ]
             },
             scuole:{
-             desc: "Lista Aperta is a candidate in all study courses: 120 candidates. A team that works together in all levels of representation, from the CCS to the Academic Senate. In this context, schools are a fundamental link to achieve results concrete to improve our university and to create a network in which to share positive aspects, at the service of all.",
+             desc: "Lista Aperta is a candidate in all study courses: 120 candidates. A team that works together in all levels of representation, from the CCS to the Academic Senate. In this context, schools are a fundamental link to achieve results concrete to improve our University and to create a network in which to share positive aspects, at the service of all.",
                  auic:{
                   desc: "In the Auic school we will work on two pillars: teaching and the right to study. As regards teaching, we would like to equip teachers with technological and digital tools to update teaching to new forms that will be decisive for us students in the world of work. The Right to Education for Auic students inevitably depends on the costs that must be incurred for prints and models: we propose a fund and agreements to meet, at least in part, all students. ",  candidati:
                     [

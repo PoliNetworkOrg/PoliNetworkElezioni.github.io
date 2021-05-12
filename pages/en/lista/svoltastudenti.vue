@@ -37,11 +37,11 @@ export default {
                         id: 4,
                    title: 'CAMPUS LIFE AND ENVIRONMENT',
                         url : '/img/programmi/svoltastudenti/3.jpg',
-                desc: "We want to make the Politecnico the first totally Carbon Neutral Italian university by 2040, engage the university in the implementation of the UN 2030 Agenda and the respective Sustainable Development Goals, and develop an ethical and humanistic footprint in all degree courses."     },
+                desc: "We want to make the Politecnico the first totally Carbon Neutral Italian University by 2040, engage the University in the implementation of the UN 2030 Agenda and the respective Sustainable Development Goals, and develop an ethical and humanistic footprint in all degree courses."     },
                 ],
             senato:
             {
-             desc: "In the Senate it is essential for us to carry forward student-friendly ideas, in a way that is unrelated to party and confessional influences. We carry on the dialogue with the institutions requesting mutual respect, in order to bring the choices of the university more and more in favor of the students. ",   candidati:[
+             desc: "In the Senate it is essential for us to carry forward student-friendly ideas, in a way that is unrelated to party and confessional influences. We carry on the dialogue with the institutions requesting mutual respect, in order to bring the choices of the University more and more in favor of the students. ",   candidati:[
                     { id: 1, imgUrl: "/img/candidati/svoltastudenti/marco_cesaro.jpg", name: "Cesaro Marco", detto: "SOMMELIER"},
                     { id: 2, imgUrl: "/img/candidati/svoltastudenti/lorenzo_ghettini.jpg", name: "Ghettini Lorenzo", detto: "LO SPEAKER"},
                     { id: 3, imgUrl: "/img/candidati/svoltastudenti/davide_diceglie.jpg", name: "Di Ceglie Davide", detto: "REFLASH"},

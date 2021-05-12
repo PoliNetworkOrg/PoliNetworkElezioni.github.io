@@ -19,16 +19,16 @@
                 </div>
                 <div style="text-align:center;">
                     <ul style="ulCcs">
-                        <li class="liCcs"><a class="topLinks" href="#1">Ingegneria per l'Ambiente e il Territorio - sede di Milano</a></li>
-                        <li class="liCcs"><a class="topLinks" href="#2">Ingegneria Civile - sede di Milano</a></li>
-                        <li class="liCcs"><a class="topLinks" href="#3">Ingegneria Civile e Ambientale - sede di Lecco</a></li>
+                        <li class="liCcs"><a class="topLinks" href="#1">Ingegneria per l'Ambiente e il Territorio - Sede di Milano</a></li>
+                        <li class="liCcs"><a class="topLinks" href="#2">Ingegneria Civile - Sede di Milano</a></li>
+                        <li class="liCcs"><a class="topLinks" href="#3">Ingegneria Civile e Ambientale - Sede di Lecco</a></li>
                         <li class="liCcs"><a class="topLinks" href="#4">Civil Engineering for Risk Mitigation - Sede di Lecco</a></li>
                     </ul>
                 </div>
             </header>
 
             <header class="jumbotron my</li><li>4 testoCentrale">
-                <a><span id="1"></span>Ingegneria per l'Ambiente e il Territorio - sede di Milano</a>
+                <a><span id="1"></span>Ingegneria per l'Ambiente e il Territorio - Sede di Milano</a>
                 <ul>
                     <li>
                         BARZON LORENZO
@@ -56,7 +56,7 @@
                     </li>
                 </ul>
                 <hr />
-                <a><span id="2"></span>Ingegneria Civile - sede di Milano</a>
+                <a><span id="2"></span>Ingegneria Civile - Sede di Milano</a>
                 <ul>
                     <li>
                         ABBENDA GIOVANNI detto “GIO”
@@ -108,7 +108,7 @@
                     </li>
                 </ul>
                 <hr />
-                <a><span id="3"></span>Ingegneria Civile e Ambientale - sede di Lecco</a>
+                <a><span id="3"></span>Ingegneria Civile e Ambientale - Sede di Lecco</a>
                 <br /><i>Informazioni non trovate</i>
                 <hr />
                 <a><span id="4"></span>Civil Engineering for Risk Mitigation - Sede di Lecco</a>

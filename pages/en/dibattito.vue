@@ -8,9 +8,9 @@
             <h3 class="dibattito">🗣 Debate May 13-14-15, 2021</h3>
             <div class="container9">
                 <span class="container3" style="padding-top:3px;">
-                    The representative lists will face each other in a series of thematic debates in the presence, organized by <a href="https://www.poliradio.it/"> POLI.RADIO </a>.
+                    The representative lists will face each other in a series of thematic debates in the presence, organized by <a href="https://www.poliradio.it/"> POLI.RADIO</a>.
                     <div style="padding:5px;"></div>
-                    The debates will be broadcast on the university's official <a href="https://www.youtube.com/user/polimi"> YouTube channel</a>.
+                    The debates will be broadcast on the University's official <a href="https://www.youtube.com/user/polimi"> YouTube channel</a>.
                     <div style="padding:5px;"></div>
                     <span style="font-style: italic;"> We will shortly update this page with more details (topics, times). </span>
                 </span>
