@@ -23,10 +23,12 @@
                                                     10:00-11:30
                                                 </td>
                                                 <td class="tdDibattito2">
+                                                    <a href="https://www.youtube.com/watch?v=RRYgU8dcKb8">
                                                           <div class="descrizioneDibattito">
                                                     <span v-if="language=='it'">Sostenibilità e spazi</span>
                                                     <span v-if="language=='en'">Sustainability and spaces</span>
                                                           </div>
+                                                          </a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -34,10 +36,12 @@
                                                     16:00-17:30
                                                 </td>
                                                 <td class="tdDibattito2">
+                                                    <a href="https://www.youtube.com/watch?v=Ld6B_kYd48k">
                                                           <div class="descrizioneDibattito">
                                                     <span v-if="language=='it'">Didattica e Università</span>
                                                     <span v-if="language=='en'">Didactics and universities</span>
                                                           </div>
+                                                    </a>
                                                 </td>
                                             </tr>
                                         </table>
@@ -57,10 +61,12 @@
                                                     10:00-11:30
                                                 </td>
                                                 <td class="tdDibattito2">
+                                                    <a href="https://www.youtube.com/watch?v=V1FiigJw1a0">
                                                           <div class="descrizioneDibattito">
                                                     <span v-if="language=='it'">Tasse, accessibilità, DSU</span>
                                                     <span v-if="language=='en'">Taxes, accessibility, DSU</span>
                                                           </div>
+                                                    </a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -68,10 +74,12 @@
                                                     16:00-17:30
                                                 </td>
                                                 <td class="tdDibattito2">
+                                                    <a href="https://www.youtube.com/watch?v=-zI2zh3By0s">
                                                     <div class="descrizioneDibattito">
                                                     <span v-if="language=='it'">Tematiche sociali, internazionalizzazione, welfare &amp; varie</span>
                                                     <span v-if="language=='en'">Social issues, internationalization, welfare &amp; various</span>
                                                     </div>
+                                                    </a>
                                                 </td>
                                             </tr>
                                         </table>
