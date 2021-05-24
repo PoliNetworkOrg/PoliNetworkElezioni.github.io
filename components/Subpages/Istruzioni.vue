@@ -19,7 +19,7 @@
 
                 <div style="margin:3px; padding-top:1rem;">
                     <div>
-                        <a class="linkEligo" href="https://polimi.evoting.it/plc/utentehome/organiindex">
+                        <a class="linkEligo" href="../piattaformavoto">
                             <span v-if="language == 'it'">🌐 Link alla piattaforma di voto 'Eligo'</span>
                             <span v-if="language == 'en'">🌐 'Eligo' voting platform link</span>
                         </a>

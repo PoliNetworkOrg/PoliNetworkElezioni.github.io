@@ -87,12 +87,12 @@
                                 </tr>
                                 <tr class="trDibattito">
                                     <td class="tdDibattito">
-                                        <a href="https://www.youtube.com/watch?v=gzWetZmfZwQ">
+                            
                                         <div class="giornoDibattito">
                                             <span v-if="language=='it'">15 Maggio</span>
                                             <span v-if="language=='en'">15 May</span>
                                         </div>
-                                        </a>
+                         
                                     </td>
                            
                                     <td class="tdDibattito">
@@ -104,10 +104,14 @@
                                                     16:00-17:30
                                                 </td>
                                                 <td class="tdDibattito2">
+                                                                             <a href="https://www.youtube.com/watch?v=gzWetZmfZwQ">
                                               <div class="descrizioneDibattito">
+                                     
                                                 <span v-if="language=='it'">Dibattito finale</span>
                                         <span v-if="language=='en'">Final debate</span>
+                                 
                                               </div>
+                                                                    </a>
                                                </td>
                                             </tr>
                                         </table>
