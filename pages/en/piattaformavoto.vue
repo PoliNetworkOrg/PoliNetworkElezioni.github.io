@@ -16,7 +16,7 @@
             </span>
                         <div style="padding:0.5rem;"></div>
                         <span>
-                            Click <a href="./istruzioni/">here</a> to go back to voting instructions.
+                            Click <a href="../istruzioni/">here</a> to go back to voting instructions.
                         </span>
         </div>
         </div>
