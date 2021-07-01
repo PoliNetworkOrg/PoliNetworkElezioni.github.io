@@ -14,25 +14,21 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" :href="'/' + language + '/'">
-                            Home
+                            Home 🏠
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/senatocda/'">Senato & CdA</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/senatocda/'">Senate & CdA</a>
+                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/organi'">Organi da votare 🗳</a>
+                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/organi'">Bodies to vote 🗳</a>
                     </li>
                     <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/scuole/'">Scuole</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/scuole/'">Schools</a>
+                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/storia'">Storia 📑</a>
+                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/storia'">History 📑</a>
                     </li>
                     <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/ccsScuole/'">CCS</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/ccsScuole/'">CCS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts</a>
+                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti 💬</a>
+                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts 💬</a>
                     </li>
                     <li class="nav-item">
                         <div style="border:1px solid #00000029; margin:auto; border-radius: 10px;">
