@@ -65,7 +65,7 @@
                                         <h1 class="scuole">
 
                                             <span v-if="language=='it'">
-                                                CSS
+                                                CCS
                                             </span>
                                             <span v-if="language=='en'">
                                                 CCS
