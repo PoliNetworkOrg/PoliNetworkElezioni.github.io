@@ -5,7 +5,7 @@
         <div class="row text-center">
 
                      <div class="col-lg-4 col-md-6 scuolaCard" style="margin: auto;">
-                <a  :href="'../' + language+'/senatocda/'">
+                <a  :href="'../../' + language+'/senatocda/'">
                     <div class="card h-100">
                         <div class="listTile" style="width: 100%;">
                             <div class="divScuole">
@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 scuolaCard" style="margin: auto;">
-                  <a  :href="'../' + language+'/scuole/'">
+                  <a  :href="'../../' + language+'/scuole/'">
                     <div class="card h-100">
                         <div class="listTile" style="width: 100%;">
 
@@ -55,7 +55,7 @@
             </div>
 
                     <div class="col-lg-4 col-md-6 scuolaCard" style="margin: auto;">
-                      <a  :href="'../' + language+'/ccsScuole/'">
+                      <a  :href="'../../' + language+'/ccsScuole/'">
                     <div class="card h-100">
                         <div class="listTile" style="width: 100%;">
 
