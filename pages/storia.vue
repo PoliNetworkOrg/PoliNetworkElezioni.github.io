@@ -56,10 +56,10 @@
                   Altro
                   <ul style="padding-top: 5px">
                     <li>
-                      <a href="./2021/"> Pagina dedicata </a>
+                      <a href="./../2021/"> Pagina dedicata </a>
                     </li>
                     <li>
-                      <a href="./2021/dibattito/"> Dibattito </a>
+                      <a href="./../2021/dibattito/"> Dibattito </a>
                     </li>
                   </ul>
                 </li>
