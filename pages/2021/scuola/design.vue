@@ -23,7 +23,7 @@ export default {
                 id: 1,
                 name: "Svoltastudenti",
                 imageUrlHorizontal: "/img/2021/logo-svolta_hor.png",
-                linkLista: "/lista/svoltastudenti/",
+                linkLista: "/2021/lista/svoltastudenti/",
                 organi: [
                     {
                         name: "Design",
@@ -41,7 +41,7 @@ export default {
                 id: 2,
                 name: "Lista aperta",
                 imageUrlHorizontal: "/img/2021/logo-listaaperta_hor.png",
-                linkLista: "/lista/listaaperta/",
+                linkLista: "/2021/lista/listaaperta/",
                 organi:[
                     {
                         name: "Design",
@@ -70,7 +70,7 @@ export default {
                 id: 3,
                 name: "Terna sinistrorsa",
                 imageUrlHorizontal: "/img/2021/logo-terna_hor.png",
-                linkLista: "/lista/ternasinistrorsa/",
+                linkLista: "/2021/lista/ternasinistrorsa/",
                 organi:[
                     {
                         name: "Design",
@@ -87,7 +87,7 @@ export default {
                 id: 4,
                 name: "Studenti indipendenti",
                 imageUrlHorizontal: "/img/2021/logo-sip_hor.png",
-                linkLista: "/lista/studentiindipendenti/",
+                linkLista: "/2021/lista/studentiindipendenti/",
                 organi:[
                     {
                         name: "Design",
