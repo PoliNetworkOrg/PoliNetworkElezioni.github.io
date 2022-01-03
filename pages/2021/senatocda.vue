@@ -28,7 +28,7 @@ organiConfronto:[
             {
                 id: 1,
                 name: "Svoltastudenti",
-                imageUrlHorizontal: "/img/2021/logo-svolta_hor.png",
+                imageUrlHorizontal: "/img/logo-svolta_hor.png",
                 linkLista: "/2021/lista/svoltastudenti/",
                 organi:[
                     {
@@ -60,7 +60,7 @@ organiConfronto:[
             {
                 id: 2,
                 name: "Lista aperta",
-                imageUrlHorizontal: "/img/2021/logo-listaaperta_hor.png",
+                imageUrlHorizontal: "/img/logo-listaaperta_hor.png",
                 linkLista: "/2021/lista/listaaperta/",
                 organi:[
                     {
@@ -92,7 +92,7 @@ organiConfronto:[
             {
                 id: 3,
                 name: "Terna sinistrorsa",
-                imageUrlHorizontal: "/img/2021/logo-terna_hor.png",
+                imageUrlHorizontal: "/img/logo-terna_hor.png",
                 linkLista: "/2021/lista/ternasinistrorsa/",
                 organi:[
                     {
@@ -114,7 +114,7 @@ organiConfronto:[
             {
                 id: 4,
                 name: "Studenti indipendenti",
-                imageUrlHorizontal: "/img/2021/logo-sip_hor.png",
+                imageUrlHorizontal: "/img/logo-sip_hor.png",
                 linkLista: "/2021/lista/studentiindipendenti/",
                 organi:[
                     {
