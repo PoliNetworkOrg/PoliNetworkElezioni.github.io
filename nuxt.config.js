@@ -50,10 +50,11 @@ export default {
     buildModules: [
     ],
 
-    // Modules: https://go.nuxtjs.dev/config-modules
-    modules: [
-        // https://go.nuxtjs.dev/bootstrap
-    ],
+
+	modules: [
+		'nuxt-i18n',
+		'nuxt-i18n-easy',
+	  ],
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
@@ -62,5 +63,35 @@ export default {
                 ['@babel/plugin-proposal-private-methods', { loose: true }]
             ]
         }
-    }
+    },
+
+	i18n: {
+		locales: [
+		  {
+			code: 'en',
+			name: 'English',
+			file: 'en.js'
+		  },
+		  {
+			code: 'it',
+			name: 'Italiano',
+			file: 'it.js'
+		  }
+		],
+		strategy: 'prefix',
+		langDir: 'lang/',
+		defaultLocale: 'it',
+		vueI18n: {
+			fallbackLocale: 'it'
+		}
+	  },
+	  i18nEasy: {
+		directories: [                         // default directories for search
+		  './layouts',
+		  './pages',
+		  './components'
+		],
+		files: ['*.vue', '*.js'],              // default files
+		sourceLanguage: 'it',                  // default source language
+	  },
 }

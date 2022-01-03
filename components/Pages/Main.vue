@@ -25,10 +25,10 @@
                         <div style="    padding-left: 0px !important;font-size:calc(1px + 0.9rem + 0.3vw);list-style:none;">
                             <div class="lead" style="padding:5px;font-size:calc(2px + 0.82rem + 0.29vw);text-align:center;">
                                 <span v-if="language=='it'">
-                                    📌 Piattaforma online <a href="/it/istruzioni/">votazioni Eligo &amp; istruzioni di voto</a>
+                                    📌 Piattaforma online <a href="/it/2021/istruzioni/">votazioni Eligo &amp; istruzioni di voto</a>
                                 </span>
                                 <span v-if="language=='en'">
-                                    📌 Online voting <a href="/en/istruzioni/"> platform Eligo &amp; voting instructions</a>
+                                    📌 Online voting <a href="/en/2021/istruzioni/"> platform Eligo &amp; voting instructions</a>
                                 </span>
                             </div>
                         </div>
@@ -59,30 +59,7 @@
         </div>
         <!-- /.container -->
 
-        <hr />
 
-        <div class="container5">
-            <div class="container3 lead" style="text-align:center;padding-top:calc(10px + 1rem);padding-bottom:calc(0.5rem);">
-                <h3 class="dibattito">
-                    <span v-if="language=='it'">🗣 Dibattito fra liste</span>
-                    <span v-if="language=='en'">🗣 Debate between lists</span>
-                </h3>
-                <span class="container5" style="padding-top:3px;">
-                    <span v-if="language=='it'">Le liste di rappresentanza si affronteranno in una serie di dibattiti tematici</span>
-                    <span v-if="language=='en'">The representative lists will face each other in a series of thematic debates</span>
-                </span>
-            </div>
-            <SubpagesDibattito :language="language" />
-            <br />
-            <div style="width:100%;text-align:center;">
-                <a :href="'/'+language+'/dibattito/'">
-                    <LayoutButton>
-                        <span v-if="language=='it'">&nbsp;Maggiori info&nbsp;</span>
-                        <span v-if="language=='en'">&nbsp;More info&nbsp;</span>
-                    </LayoutButton>
-                </a>
-            </div>
-        </div>
 
         <LayoutFooter :language="language" />
     </div>
