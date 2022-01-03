@@ -1,7 +1,7 @@
 <template>
   <!-- Page Content -->
   <div>
-    <LayoutNavigationBar language="it" />
+    <LayoutNavigationBar :language="$i18n.locale" />
     <div style="padding-top: calc(20px + 0.5vh + 0.5rem); width: 100%">
       <div class="container2">
         <div class="container6">
@@ -15,9 +15,8 @@
               <div style="padding: 5px"></div>
               <ul>
                 <li>
-                  <h4>Elezioni maggio 2021</h4>
-
-                  Programmi
+                  <h4>  {{ $t("Elezioni maggio 2021") }}</h4>
+                  {{ $t("Programmi") }}
                   <ul style="padding-top: 5px">
                     <li>
                       <a href="/files/2021/it/Lista_Aperta.pdf">Lista Aperta</a>
@@ -39,7 +38,7 @@
                     </li>
                   </ul>
 
-                  Risultati
+                  {{ $t("Risultati") }}
                   <ul style="padding-top: 5px">
                     <li>
                       <a
@@ -53,7 +52,7 @@
                       >
                     </li>
                   </ul>
-                  Altro
+                  {{ $t("Altro") }}
                   <ul style="padding-top: 5px">
                     <li>
                       <a href="./../2021/"> Pagina dedicata </a>
@@ -72,7 +71,7 @@
 
     <!-- /.container -->
 
-    <LayoutFooter language="it" />
+    <LayoutFooter :language="$i18n.locale" />
   </div>
 </template>
 
