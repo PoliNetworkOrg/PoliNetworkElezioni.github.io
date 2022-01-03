@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/organi", {data:[{}],fetch:{},mutations:void 0});

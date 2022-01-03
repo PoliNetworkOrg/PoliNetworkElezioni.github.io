@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/2021/ccs/icat", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/2021/lista", {data:[{}],fetch:{},mutations:void 0});

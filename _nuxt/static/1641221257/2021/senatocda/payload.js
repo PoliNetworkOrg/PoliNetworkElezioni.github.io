@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/2021/senatocda", {data:[{}],fetch:{},mutations:void 0});
