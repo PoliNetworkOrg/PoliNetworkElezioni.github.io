@@ -1,6 +1,6 @@
 <template>
     <div>
-        <LayoutNavigationBar:language="$i18n.locale" />
+        <LayoutNavigationBar :language="$i18n.locale" />
 
         <div class="container">
 
@@ -262,6 +262,6 @@
             </header>
         </div>
 
-        <LayoutFooter:language="$i18n.locale" />
+        <LayoutFooter :language="$i18n.locale" />
     </div>
 </template>

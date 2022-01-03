@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ListeListaDettaglio :data-lista="items":language="$i18n.locale" />
+        <ListeListaDettaglio :data-lista="items" :language="$i18n.locale" />
     </div>
 </template>
 

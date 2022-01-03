@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <LayoutNavigationBar:language="$i18n.locale" />
+        <LayoutNavigationBar :language="$i18n.locale" />
 
         <div style="padding:calc(6px + 1.5rem);"></div>
         <div class="container3 lead" style="text-align:center;padding-top:calc(10px + 1rem);padding-bottom:calc(0.5rem);">
@@ -16,7 +16,7 @@
                 </span>
             </div>
         </div>
-        <SubpagesDibattito:language="$i18n.locale" />
+        <SubpagesDibattito :language="$i18n.locale" />
 
  <div style="padding:5px;"></div>
         <LayoutHorizontalLine />
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <LayoutFooter:language="$i18n.locale" />
+        <LayoutFooter :language="$i18n.locale" />
     </div>
 </template>
 

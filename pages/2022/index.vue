@@ -1,6 +1,6 @@
 <template>
   <div style="text-align: center">
-    <LayoutNavigationBar:language="$i18n.locale" />
+    <LayoutNavigationBar :language="$i18n.locale" />
     <br />
     <br />
     <br />
@@ -14,7 +14,7 @@
 <br />
 	  <span>...pagina in costruzione...</span>
     </div>
-    <LayoutFooter:language="$i18n.locale" />
+    <LayoutFooter :language="$i18n.locale" />
   </div>
 </template>
 

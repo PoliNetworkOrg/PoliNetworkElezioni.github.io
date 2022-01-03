@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <LayoutNavigationBar:language="$i18n.locale" />
+        <LayoutNavigationBar :language="$i18n.locale" />
 
         <!-- Page Content -->
         <div class="container2">
@@ -16,14 +16,14 @@
                 </div>
             </header>
 
-            <SubpagesOrgani :language="$i18n.locale" />
+            <SubpagesOrgani  :language="$i18n.locale" />
         </div>
         <!-- /.container -->
 
         <div style="padding:calc(50px + 1vw + 1vh);">
         </div>
 
-        <LayoutFooter:language="$i18n.locale" />
+        <LayoutFooter :language="$i18n.locale" />
     </div>
 </template>
 
