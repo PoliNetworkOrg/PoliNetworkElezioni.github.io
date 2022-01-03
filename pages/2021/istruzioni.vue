@@ -1,5 +1,5 @@
 <template>
     <div>
-        <SubpagesIstruzioni language="it" />
+        <SubpagesIstruzioni:language="$i18n.locale" />
     </div>
 </template>

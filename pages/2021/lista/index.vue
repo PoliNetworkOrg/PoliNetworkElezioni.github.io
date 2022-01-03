@@ -1,7 +1,7 @@
 <template>
     <div>
 
-<LayoutNavigationBar language="it" />
+<LayoutNavigationBar:language="$i18n.locale" />
 
 <div style="padding:4rem;"></div>
 
@@ -9,7 +9,7 @@
     <SubpagesQuadratiListe />
     </div>
 
-<LayoutFooter language="it" />
+<LayoutFooter:language="$i18n.locale" />
 
         </div>
 </template>

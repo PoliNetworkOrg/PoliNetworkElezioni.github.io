@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <LayoutNavigationBar language="it" />
+        <LayoutNavigationBar:language="$i18n.locale" />
 
         <!-- Page Content -->
         <div class="container2">
@@ -21,11 +21,11 @@
                 </div>
             </header>
 
-            <SubpagesScuoleComponent :scuole-link="scuole" language="it" />
+            <SubpagesScuoleComponent :scuole-link="scuole":language="$i18n.locale" />
         </div>
         <!-- /.container -->
 
-        <LayoutFooter language="it" />
+        <LayoutFooter:language="$i18n.locale" />
     </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <PagesSenatoCda language="it" :organi-confronto="organiConfronto" :liste="liste" />
+        <PagesSenatoCda:language="$i18n.locale" :organi-confronto="organiConfronto" :liste="liste" />
     </div>
 </template>
 

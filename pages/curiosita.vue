@@ -2,7 +2,7 @@
 
     <div>
 
-        <LayoutNavigationBar language="it" />
+        <LayoutNavigationBar:language="$i18n.locale" />
 
         <div style="padding-top:calc(50px + 1vh + 1rem);width:100%;">
             <div class="container2">
@@ -34,6 +34,6 @@
             </div>
         </div>
 
-        <LayoutFooter language="it" />
+        <LayoutFooter:language="$i18n.locale" />
     </div>
 </template>
