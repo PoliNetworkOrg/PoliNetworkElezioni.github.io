@@ -4,5 +4,10 @@ export default {
   Altro: 'Altro',
   'Elezioni maggio 2021': 'Elezioni maggio 2021',
   Programmi: 'Programmi',
-  Risultati: 'Risultati'
+  Risultati: 'Risultati',
+  'COORDINA I CORSI DI STUDIO E FORNISCE UN INDIRIZZO GENERALE ALLA SCUOLA.': 'COORDINA I CORSI DI STUDIO E FORNISCE UN INDIRIZZO GENERALE ALLA SCUOLA.',
+  'Contatti 💬': 'Contatti 💬',
+  'Elezioni rappresentanti degli studenti': 'Elezioni rappresentanti degli studenti',
+  Scrivici: 'Scrivici',
+  Scuole: 'Scuole'
 }
