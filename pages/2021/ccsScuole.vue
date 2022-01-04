@@ -31,15 +31,15 @@
 
 <script>
 export default {
-    data () {
+  data() {
     return {
       scuole: {
-          auic:"../ccs/auic/",
-          trei:"../ccs/trei/",
-          icat:"../ccs/icat/",
-          design:"../ccs/design/"
-      }
-    }
-  }
-}
+        auic: "../ccs/auic/",
+        trei: "../ccs/trei/",
+        icat: "../ccs/icat/",
+        design: "../ccs/design/",
+      },
+    };
+  },
+};
 </script>

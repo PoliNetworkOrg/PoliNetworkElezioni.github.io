@@ -69,42 +69,40 @@
 
 <script>
 export default {
-    props: {
-        liste:{
-            type:Array,
-            default : null
-        },
-        organiConfronto:{
-            type:Array,
-            default : null
-        },
-        language:{
-            type:String,
-            default : 'it',
-            required:true
-        }
+  props: {
+    liste: {
+      type: Array,
+      default: null,
     },
-
-    mounted() {
-      this.$nextTick(() => {
-        this.test2();
-      });
+    organiConfronto: {
+      type: Array,
+      default: null,
     },
-    methods: {
-        test2(){
-            for (var j=0; j < 5; j++)
-            {
-                var ul =  document.getElementById("listeContainer2");
-                if (ul != null)
-                {
-                    for (var i = ul.children.length; i >= 0; i--) {
-                        ul.appendChild(ul.children[Math.random() * i | 0]);
-                    }
+    language: {
+      type: String,
+      default: "it",
+      required: true,
+    },
+  },
 
-                    ul.style.opacity = '1';
-                }
-            }
+  mounted() {
+    this.$nextTick(() => {
+      this.test2();
+    });
+  },
+  methods: {
+    test2() {
+      for (var j = 0; j < 5; j++) {
+        var ul = document.getElementById("listeContainer2");
+        if (ul != null) {
+          for (var i = ul.children.length; i >= 0; i--) {
+            ul.appendChild(ul.children[(Math.random() * i) | 0]);
+          }
+
+          ul.style.opacity = "1";
         }
-    }
-}
+      }
+    },
+  },
+};
 </script>

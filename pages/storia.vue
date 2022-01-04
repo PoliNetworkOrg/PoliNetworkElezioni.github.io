@@ -1,7 +1,7 @@
 <template>
   <!-- Page Content -->
   <div>
-    <LayoutNavigationBar  :language="$i18n.locale" />
+    <LayoutNavigationBar :language="$i18n.locale" />
     <div style="padding-top: calc(20px + 0.5vh + 0.5rem); width: 100%">
       <div class="container2">
         <div class="container6">
@@ -15,7 +15,7 @@
               <div style="padding: 5px"></div>
               <ul>
                 <li>
-                  <h4>  {{ $t("Elezioni maggio 2021") }}</h4>
+                  <h4>{{ $t("Elezioni maggio 2021") }}</h4>
                   {{ $t("Programmi") }}
                   <ul style="padding-top: 5px">
                     <li>
@@ -71,7 +71,7 @@
 
     <!-- /.container -->
 
-    <LayoutFooter  :language="$i18n.locale" />
+    <LayoutFooter :language="$i18n.locale" />
   </div>
 </template>
 

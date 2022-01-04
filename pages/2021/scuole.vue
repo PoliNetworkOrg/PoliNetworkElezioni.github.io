@@ -32,16 +32,15 @@
 
 <script>
 export default {
-    data () {
+  data() {
     return {
       scuole: {
-          auic:"../scuola/auic/",
-          trei:"../scuola/trei/",
-          icat:"../scuola/icat/",
-          design:"../scuola/design/"
-      }
-
-    }
-  }
-}
+        auic: "../scuola/auic/",
+        trei: "../scuola/trei/",
+        icat: "../scuola/icat/",
+        design: "../scuola/design/",
+      },
+    };
+  },
+};
 </script>
