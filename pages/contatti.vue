@@ -8,7 +8,7 @@
           <!-- Jumbotron Header -->
           <header class="my-4">
             <div style="text-align: left">
-              <span class="contattiTitle">Contatti 💬</span>
+              <span class="contattiTitle">{{ $t("Contatti 💬") }}</span>
               <div style="padding: 5px"></div>
             </div>
             <div style="text-align: left">
@@ -16,46 +16,49 @@
                 <li class="li">
                   <ul style="padding-left: 1px">
                     <li>
-                      <span class="questionSpan"
-                        >Sono membro di una lista di rappresentanza e vorrei
-                        aggiornare le informazioni presenti su questo sito</span
-                      >
+                      <span class="questionSpan">{{
+                        $t(
+                          "Sono membro di una lista di rappresentanza e vorrei aggiornare le informazioni presenti su questo sito"
+                        )
+                      }}</span>
                     </li>
                   </ul>
                   <br class="spacerQuestion" />
-                  <span class="answerSpan"
-                    >Tutte le liste di rappresentanza sono già in contatto con
-                    noi, contatta quindi il tuo responsabile di lista</span
-                  >
+                  <span class="answerSpan">{{
+                    $t(
+                      "Tutte le liste di rappresentanza sono già in contatto con noi, contatta quindi il tuo responsabile di lista"
+                    )
+                  }}</span>
                 </li>
-				  <div style="padding-top:1rem;"></div>
+                <div style="padding-top: 1rem"></div>
                 <li class="li">
                   <ul style="padding-left: 1px">
                     <li>
-                      <span class="questionSpan"
-                        >Sono candidato (ad esempio in un corso di studi) ma non
-                        sono affiliato con nessuna lista di rappresentanza, e
-                        vorrei essere aggiunto a questo sito</span
-                      >
+                      <span class="questionSpan">{{
+                        $t(
+                          "Sono candidato (ad esempio in un corso di studi) ma non sono affiliato con nessuna lista di rappresentanza, e vorrei essere aggiunto a questo sito"
+                        )
+                      }}</span>
                     </li>
                     <li>
-                      <span class="questionSpan"
-                        >Sono uno studente e vorrei avere più informazioni e/o
-                        segnalare degli errori</span
-                      >
+                      <span class="questionSpan">{{
+                        $t(
+                          "Sono uno studente e vorrei avere più informazioni e/o segnalare degli errori"
+                        )
+                      }}</span>
                     </li>
                     <li>
-                      <span class="questionSpan"
-                        >Faccio parte di una qualsiasi altra categoria d'utenza
-                        e vorrei contattarvi in merito a queste pagine dedicate
-                        alle elezioni</span
-                      >
+                      <span class="questionSpan">{{
+                        $t(
+                          "Faccio parte di una qualsiasi altra categoria d'utenza e vorrei contattarvi in merito a queste pagine dedicate alle elezioni"
+                        )
+                      }}</span>
                     </li>
                   </ul>
                   <br class="spacerQuestion" />
                   <span class="answerSpan">
                     <a href="https://polinetwork.org/en/learnmore/contacts/">
-                      Scrivici
+                      {{ $t("Scrivici") }}
                     </a>
                   </span>
                 </li>
