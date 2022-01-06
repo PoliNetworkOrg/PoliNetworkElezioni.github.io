@@ -51,19 +51,27 @@ export default {
     ],
 
 
-	modules: [
-		'nuxt-i18n',
-		'nuxt-i18n-easy',
-	  ],
-
-    // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         babel: {
-            plugins: [
-                ['@babel/plugin-proposal-private-methods', { loose: true }]
+          presets({isServer}) {
+            const targets = isServer ? { node: 'current' } : { ie: 11 }
+            return [
+              [ require.resolve("@babel/preset-env"), { targets }  ]
             ]
+          },
+          plugins: [
+            "@babel/syntax-dynamic-import",
+            "@babel/transform-runtime",
+            "@babel/transform-async-to-generator"
+          ]
         }
     },
+
+	modules: [
+		'nuxt-i18n'
+	  ],
+
+
 
 	i18n: {
 		locales: [
