@@ -11,13 +11,13 @@
       <br />
       <a href="./2022/">
         <h3>Elezioni CNSU 2022</h3>
-        <img src="/img/2022/cnsu.png" />
+        <img style="width: 100%;max-width: 40rem;padding: 5px;" src="/img/2022/cnsu.png" />
       </a>
       <br />
       <br />
       <br />
       <br />
-      <div style="text-align: left">
+      <div style="text-align: left; padding:1rem;">
         Passate:
         <ul>
           <li>
