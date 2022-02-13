@@ -1,9 +1,11 @@
 name: CD
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
+      - main
 
 jobs:
   cd:
@@ -31,9 +33,11 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-
-      - name: 👨🏻‍💻 Install dependencies
-        run: npm ci
+      - name: 👨🏻‍💻 Install dependencies (1)
+        run: npm cache verify
+        
+      - name: 👨🏻‍💻 Install dependencies (2)
+        run: npm install
 
       - name: 👨‍🏭️ Generate
         run: npm run generate
