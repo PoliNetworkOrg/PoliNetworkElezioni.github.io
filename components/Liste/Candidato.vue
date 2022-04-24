@@ -16,7 +16,7 @@
             </div>
             <div style="width: 100%">
               <span class="text">
-                {{ cand.detto == null ? '' :"Alternative valide sulla scheda:" }}
+                {{ cand.detto == null ? '' :$t("Alternative valide sulla scheda:") }}
               </span>
               <br/>
               <span class="nameDetto">

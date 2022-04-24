@@ -13,7 +13,7 @@
           style="font-size: calc(3px + 0.55rem + 0.35vw)"
         >
           Copyright &copy;
-          <a :href="'https://polinetwork.github.io/' + language">PoliNetwork</a>
+          <a :href="'https://polinetwork.org/' + language">PoliNetwork</a>
         </p>
 
         <div
@@ -25,13 +25,11 @@
           "
         >
           <a :href="'/' + language + '/contatti/'">
-            <span v-if="language == 'it'"> Contatti </span>
-            <span v-if="language == 'en'"> Contacts </span>
+            <span>{{ $t('Contatti') }}</span>
           </a>
           &nbsp;-&nbsp;
           <a :href="'/' + language + '/curiosita/'">
-            <span v-if="language == 'it'"> Curiosit&agrave; </span>
-            <span v-if="language == 'en'"> Curiosity </span>
+            <span>{{ $t('Curiosità') }}</span>
           </a>
         </div>
         <p
@@ -42,12 +40,7 @@
             padding-top: 10px;
           "
         >
-          <span v-if="language == 'it'"
-            >Questo sito non è affiliato al Politecnico di Milano</span
-          >
-          <span v-if="language == 'en'"
-            >This site is not affiliated with the Politecnico di Milano</span
-          >
+          <span>{{ $t('Questo sito non è affiliato al Politecnico di Milano') }}</span>
         </p>
       </div>
       <!-- /.container -->

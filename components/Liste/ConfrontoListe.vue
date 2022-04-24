@@ -9,8 +9,7 @@
                     <div style="margin: auto;">
                         <div style="text-align: center;">
                             <h2>
-                                <span v-if="language == 'it' ">Elezioni rappresentanti degli studenti</span>
-                                <span v-if="language == 'en' ">Election of student representatives</span>
+                                <span>{{ $t("Elezioni rappresentanti degli studenti") }}</span>
                             </h2>
                             <br />
                             <LayoutFrame v-for="item in organiConfronto"
@@ -18,7 +17,7 @@
                                 <div>
                                     <h4>{{item.name}}</h4>
                                       <blockquote>
-                                          {{item.desc}}
+                                          {{ item.desc[$i18n.locale] }}
                                       </blockquote>
                                 </div>
                             </LayoutFrame>

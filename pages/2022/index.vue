@@ -16,7 +16,7 @@ export default {
         {
           id: 1,
           name: "CNSU",
-          desc: "Il Consiglio nazionale degli studenti universitari (CNSU) è un organo consultivo del Ministero dell'università e della ricerca italiano. Previsto dalla legge 15 marzo 1997, n. 59 venne però di fatto istituito con il D.P.R. 2 dicembre 1997, n. 491. ",
+          desc: {it: "Il Consiglio nazionale degli studenti universitari (CNSU) è un organo consultivo del Ministero dell'università e della ricerca italiano. Previsto dalla legge 15 marzo 1997, n. 59 venne però di fatto istituito con il D.P.R. 2 dicembre 1997, n. 491.", en: "The Italian National Student University Council (CNSU) is a consultative body of the Italian Ministry of Education and Research. It was proposed by the law of 15 March 1997, n. 59, but was actually established with the D.P.R. 2 December 1997, n. 491."},
         },
       ],
 

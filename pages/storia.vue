@@ -8,7 +8,7 @@
           <!-- Jumbotron Header -->
           <header class="my-4">
             <div style="text-align: left">
-              <span class="contattiTitle">Storia 📑</span>
+              <span class="contattiTitle">{{ $t('Storia 📑') }}</span>
               <div style="padding: 5px"></div>
             </div>
             <div style="text-align: left">
@@ -16,7 +16,7 @@
               <ul>
                 <li>
                   <h4>{{ $t("Elezioni maggio 2021") }}</h4>
-                  {{ $t("Programmi") }}
+                  {{ $t("Programmi:") }}
                   <ul style="padding-top: 5px">
                     <li>
                       <a href="/files/2021/it/Lista_Aperta.pdf">Lista Aperta</a>
@@ -38,27 +38,27 @@
                     </li>
                   </ul>
 
-                  {{ $t("Risultati") }}
+                  {{ $t("Risultati:") }}
                   <ul style="padding-top: 5px">
                     <li>
                       <a
                         href="/files/2021/it/Scrutinio_complessivo_-_Elezioni_Studentesche_2021.pdf"
-                        >Risultati scrutinio complessivo</a
+                        >{{ $t('Risultati scrutinio complessivo') }}</a
                       >
                     </li>
                     <li>
                       <a href="/files/2021/it/Elenco_eletti_2021.pdf"
-                        >Rappresentanti eletti (provvisorio)</a
+                        >{{ $t('Rappresentanti eletti') }}</a
                       >
                     </li>
                   </ul>
-                  {{ $t("Altro") }}
+                  {{ $t("Altro:") }}
                   <ul style="padding-top: 5px">
                     <li>
-                      <a href="./../2021/"> Pagina dedicata </a>
+                      <a href="./../2021/">{{ $t('Pagina dedicata') }}</a>
                     </li>
                     <li>
-                      <a href="./../2021/dibattito/"> Dibattito </a>
+                      <a href="./../2021/dibattito/">{{ $t('Debate') }}</a>
                     </li>
                   </ul>
                 </li>
@@ -228,6 +228,7 @@ figcaption {
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   height: 100%;
   width: 100%;
 }
@@ -251,7 +252,10 @@ figure:before {
   text-align: center;
   font-size: 14px;
   line-height: 24px;
+  -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   opacity: 0.75;
 }
 
