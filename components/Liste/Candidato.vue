@@ -2,19 +2,10 @@
   <div class="candidatoCard">
     <a :href="urlLista">
       <div class="candidatoSV" style="text-align: center">
-        <figure
-          class="wow animated fadeInLeft animated"
-          style="
-            visibility: visible;
-            animation-name: fadeInLeft;
-            width: 100%;
-            margin-bottom: calc(0.2rem);
-            margin-top: calc(0.3rem);
-          "
-        >
+        <figure class="wow animated fadeInLeft">
           <img
             class="border-img img-responsive center-block immagineCandidato"
-            :src="cand.imgUrl"
+            :src="cand.imgUrl == null ? 'https://ui-avatars.com/api/?name=' + cand.name.split(' ').join('+') + '&size=512' :cand.imgUrl"
             style="width: 100%"
           />
         </figure>
@@ -24,6 +15,10 @@
               <span class="nameCandidatoFull">{{ cand.name }}</span>
             </div>
             <div style="width: 100%">
+              <span class="text">
+                {{ cand.detto == null ? '' :"Alternative valide sulla scheda:" }}
+              </span>
+              <br/>
               <span class="nameDetto">
                 {{ cand.detto }}
               </span>
@@ -56,14 +51,27 @@ figure {
   margin-right: auto;
 }
 
+.animated {
+  visibility: visible;
+  animation-name: fadeInLeft;
+  width: 100%;
+  margin-bottom: calc(0.2rem);
+  margin-top: calc(0.3rem);
+}
+
 .nameCandidatoFull {
-  font-size: small;
+  font-size: medium;
 }
 
 .nameDetto {
-  font-size: calc(1px + 0.5rem + 0.3vw);
+  font-size: small;
   color: #009ad7;
   font-style: italic;
+}
+
+.text {
+  font-size: 8pt;
+  color: black;
 }
 
 .candidatoCard {
@@ -71,5 +79,7 @@ figure {
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: calc(1px + 1rem);
   padding: calc(1px + 0.3rem);
+  margin-bottom: 10px;
+  height: 30vh;
 }
 </style>
