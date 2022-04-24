@@ -7,7 +7,7 @@
       <!-- Jumbotron Header -->
       <header class="jumbotron my-4 testoCentrale" style="border: none">
         <div style="text-align: center">
-          <h2>Organi</h2>
+          <h2>{{ $t("Organi") }}</h2>
         </div>
       </header>
 

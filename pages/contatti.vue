@@ -58,7 +58,7 @@
                   <br class="spacerQuestion" />
                   <span class="answerSpan">
                     <a href="https://polinetwork.org/en/learnmore/contacts/">
-                      {{ $t("Scrivici") }}
+                      {{ $t("Contattaci!") }}
                     </a>
                   </span>
                 </li>
@@ -151,7 +151,7 @@
 }
 
 .answerSpan {
-  font-size: calc(0.16vw + 0.7rem + 3px);
+  font-size: calc(0.16vw + 0.8rem + 3px);
   margin-top: calc(3px + 0.1rem);
   margin-bottom: calc(3px + 0.1rem);
   padding-top: calc(3px + 0.1rem);
@@ -228,6 +228,7 @@ figcaption {
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   height: 100%;
   width: 100%;
 }
@@ -251,7 +252,10 @@ figure:before {
   text-align: center;
   font-size: 14px;
   line-height: 24px;
+  -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   opacity: 0.75;
 }
 

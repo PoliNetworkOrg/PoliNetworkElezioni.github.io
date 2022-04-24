@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="scuoleContainer">
-      <h4 style="text-align: center">Maggio 2022:</h4>
+      <h4 style="text-align: center">{{ $t('Maggio 2022:') }}</h4>
       <div class="row text-center">
         <div class="col-lg-4 col-md-6 scuolaCard" style="margin: auto">
           <a :href="'../../' + language + '/2022/'">
@@ -25,7 +25,7 @@
     </div>
     <div class="scuoleContainer">
       <div style="padding-top: 10rem"></div>
-      <h4 style="text-align: center">Maggio 2021:</h4>
+      <h4 style="text-align: center">{{ $t('Maggio 2021:') }}</h4>
       <!-- Page Features -->
       <div class="row text-center">
         <div class="col-lg-4 col-md-6 scuolaCard" style="margin: auto">
@@ -36,8 +36,7 @@
                   <div>
                     <div>
                       <h1 class="scuole">
-                        <span v-if="language == 'it'"> Senato &amp; CDA </span>
-                        <span v-if="language == 'en'"> Senate &amp; CDA </span>
+                        <span>{{ $t('Senato & CDA') }}</span>
                       </h1>
                     </div>
                   </div>
@@ -54,8 +53,7 @@
                   <div>
                     <div>
                       <h1 class="scuole">
-                        <span v-if="language == 'it'"> Scuole </span>
-                        <span v-if="language == 'en'"> Schools </span>
+                        <span>{{ $t('Scuole') }}</span>
                       </h1>
                     </div>
                   </div>
@@ -73,8 +71,7 @@
                   <div>
                     <div>
                       <h1 class="scuole">
-                        <span v-if="language == 'it'"> CCS </span>
-                        <span v-if="language == 'en'"> CCS </span>
+                        <span> CCS </span>
                       </h1>
                     </div>
                   </div>
