@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PagesSenatoCda
+    <ListeConfrontoListe
       :language="$i18n.locale"
       :organi-confronto="organiConfronto"
       :liste="liste"

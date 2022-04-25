@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PagesSenatoCda
+    <ListeConfrontoListe
       :language="$i18n.locale"
       :organi-confronto="organiConfronto"
       :liste="liste"
@@ -16,7 +16,10 @@ export default {
         {
           id: 1,
           name: "CNSU",
-          desc: {it: "Il Consiglio nazionale degli studenti universitari (CNSU) è un organo consultivo del Ministero dell'università e della ricerca italiano. Previsto dalla legge 15 marzo 1997, n. 59 venne però di fatto istituito con il D.P.R. 2 dicembre 1997, n. 491.", en: "The Italian National Student University Council (CNSU) is a consultative body of the Italian Ministry of Education and Research. It was proposed by the law of 15 March 1997, n. 59, but was actually established with the D.P.R. 2 December 1997, n. 491."},
+          desc: {
+            it: "Il Consiglio nazionale degli studenti universitari (CNSU) è un organo consultivo del Ministero dell'università e della ricerca italiano. Previsto dalla legge 15 marzo 1997, n. 59 venne però di fatto istituito con il D.P.R. 2 dicembre 1997, n. 491.",
+            en: "The Italian National Student University Council (CNSU) is a consultative body of the Italian Ministry of Education and Research. It was proposed by the law of 15 March 1997, n. 59, but was actually established with the D.P.R. 2 December 1997, n. 491.",
+          },
         },
       ],
 
@@ -73,7 +76,7 @@ export default {
                 {
                   id: 9,
                   name: "Tonini Giulia",
-                }
+                },
               ],
             },
           ],
@@ -111,7 +114,7 @@ export default {
                 {
                   id: 6,
                   name: "Iacono Guglielmo Alberto Leonardo",
-                }
+                },
               ],
             },
           ],
@@ -165,7 +168,7 @@ export default {
                   id: 8,
                   name: "Oglina Elisa",
                   detto: "Elisa",
-                }
+                },
               ],
             },
           ],
@@ -204,7 +207,7 @@ export default {
                 {
                   id: 6,
                   name: "Palmieri Elia",
-                }
+                },
               ],
             },
           ],
@@ -257,7 +260,7 @@ export default {
                 {
                   id: 8,
                   name: "Gentile Lorenzo",
-                }
+                },
               ],
             },
           ],
@@ -274,7 +277,8 @@ export default {
               candidati: [
                 {
                   id: 1,
-                  imgUrl: "/img/2021/candidati/svoltastudenti/davide_diceglie.jpg",
+                  imgUrl:
+                    "/img/2021/candidati/svoltastudenti/davide_diceglie.jpg",
                   name: "Di Ceglie Davide",
                   detto: "Davide, Ceglie, De Ceglie",
                 },
@@ -295,7 +299,7 @@ export default {
                   id: 5,
                   name: "Bori Elisa",
                   detto: "Eli, Elisa",
-                }
+                },
               ],
             },
           ],
