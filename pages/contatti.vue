@@ -18,7 +18,7 @@
                     <li>
                       <span class="questionSpan">{{
                         $t(
-                          "Sono membro di una lista di rappresentanza e vorrei aggiornare le informazioni presenti su questo sito"
+                          "Sono membro di una lista di rappresentanza del PoliMi e vorrei aggiornare le informazioni presenti su questo sito"
                         )
                       }}</span>
                     </li>
