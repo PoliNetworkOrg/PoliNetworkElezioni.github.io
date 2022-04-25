@@ -6,7 +6,7 @@
     <br />
     <!-- Page Content -->
     <div class="container3">
-      <h2>{{ $t("Elezioni Rappresentanti Studenti") }}</h2>
+      <h2>{{ $t("Elezioni rappresentanti degli studenti") }}</h2>
       <br />
       <br />
       <a href="./2022/">

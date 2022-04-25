@@ -30,7 +30,7 @@
           class-param="col-md-3"
           v-for="item in liste"
           :key="item.id"
-          style-param="max-width: 15%;flex: 1 4 25%;min-width: 512px;"
+          style-param="max-width: 15%;flex: 1 4 25%;min-width: 350px;"
         >
           <a
             :href="
@@ -40,13 +40,13 @@
             "
           >
             <div class="card">
-              <div class="listTile" style="width: 100%">
+              <div>
                 <div class="cap-left">
-                  <div style="width: 100%">
+                  <div>
                     <img class="imageList" :src="item.imageUrlHorizontal" />
                   </div>
                   <div style="padding-top: 10px">
-                    <div class="candidateTable">
+                    <div>
                       <LayoutFrame v-for="item2 in item.organi" :key="item2.id">
                         <ListeFrameSenatoCdA
                           :item="item2"
@@ -97,11 +97,6 @@
   width: 100%;
   display: block;
   padding: 0px;
-}
-
-.candidateTable {
-  list-style: none;
-  padding-left: 0px;
 }
 </style>
 

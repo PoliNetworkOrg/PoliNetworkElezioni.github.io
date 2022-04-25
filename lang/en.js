@@ -7,7 +7,7 @@ export default {
 	'Risultati:': 'Results:',
 	'COORDINA I CORSI DI STUDIO E FORNISCE UN INDIRIZZO GENERALE ALLA SCUOLA.': 'COORDINATES THE COURSES OF STUDY AND PROVIDES A GENERAL ADDRESS TO THE SCHOOL.',
 	'Contatti 💬': 'Contacts 💬',
-	'Elezioni Rappresentanti Studenti': 'Election of Student Representatives',
+	'Elezioni rappresentanti degli studenti': 'Election of student representatives',
 	'Alternative valide sulla scheda:': 'Alternatives valid on the ballot:',
 	'Contattaci!': 'Contact us!',
 	'Scuole': 'Schools',
@@ -41,4 +41,6 @@ export default {
 	'pagina dedicata': 'dedicated page',
 	'Se avete necessità di contattarci, specie in caso di errori, segnalazioni, suggerimenti, vi ricordiamo la pagina': 'If you need to contact us, especially in case of errors or suggestions, we remind you the page',
 	'contatti': 'contacts',
+	'Presente al PoliMi': 'Present at PoliMi',
+	'Non presente al PoliMi': 'Not present at PoliMi',
 }

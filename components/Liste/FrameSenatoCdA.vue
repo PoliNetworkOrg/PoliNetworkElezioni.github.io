@@ -1,20 +1,21 @@
 <template>
   <div>
-    <div class="titoloFrameSenatoCdA">
-      <h2>{{ item.name }}</h2>
-      <div v-if="showIfFromPolimiOrNot">
-        <h3 v-if="fromPolimi" class="fromPolimi">✅ From PoliMi</h3>
-        <h3 v-if="!fromPolimi" class="notFromPolimi">❌ Not from PoliMi</h3>
+    <div class="intestazioneLista">
+      <div>
+        <h2>{{ item.name }}</h2>
+        <div v-if="showIfFromPolimiOrNot">
+          <h3 v-if="fromPolimi" class="fromPolimi">✅ {{ $t('Presente al PoliMi') }}</h3>
+          <h3 v-if="!fromPolimi" class="notFromPolimi">❌ {{ $t('Non presente al PoliMi') }}</h3>
+        </div>
+      </div>
+
+      <div class="descrizioneFrameSenatoCdA">
+        <span>
+          {{ item.desc }}
+        </span>
       </div>
     </div>
-
-    <div class="descrizioneFrameSenatoCdA">
-      <span>
-        {{ item.desc }}
-      </span>
-    </div>
-
-    <div style="display: flex; flex-wrap: wrap">
+    <div class="tabCandidati">
       <LayoutFrame
         v-for="candsenato in item.candidati"
         :key="candsenato.id"
@@ -51,9 +52,8 @@ export default {
 </script>
 
 <style>
-.titoloFrameSenatoCdA {
-  width: 100%;
-  height: 12vh;
+.intestazioneLista {
+  height: 40vh;
 }
 
 .descrizioneFrameSenatoCdA {
@@ -66,7 +66,11 @@ export default {
   padding-left: calc(1vw + 1px + 0.07rem);
   padding-right: calc(1vw + 1px + 0.07rem);
   padding-bottom: calc(0.3rem + 6px);
-  height: 20vh;
+}
+
+.tabCandidati {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .fromPolimi {
