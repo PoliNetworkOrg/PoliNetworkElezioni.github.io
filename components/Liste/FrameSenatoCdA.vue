@@ -2,7 +2,12 @@
   <div>
     <div class="titoloFrameSenatoCdA">
       <h2>{{ item.name }}</h2>
+      <div v-if="showIfFromPolimiOrNot">
+        <h3 v-if="fromPolimi" class="fromPolimi">✅ From PoliMi</h3>
+        <h3 v-if="!fromPolimi" class="notFromPolimi">❌ Not from PoliMi</h3>
+      </div>
     </div>
+
     <div class="descrizioneFrameSenatoCdA">
       <span>
         {{ item.desc }}
@@ -33,6 +38,14 @@ export default {
       type: Object,
       default: null,
     },
+    fromPolimi: {
+      type: Boolean,
+      default: true,
+    },
+    showIfFromPolimiOrNot: {
+      type: Boolean,
+      default: false,
+    },
   },
 };
 </script>
@@ -54,5 +67,13 @@ export default {
   padding-right: calc(1vw + 1px + 0.07rem);
   padding-bottom: calc(0.3rem + 6px);
   height: 20vh;
+}
+
+.fromPolimi {
+  color: green;
+}
+
+.notFromPolimi {
+  color: red;
 }
 </style>

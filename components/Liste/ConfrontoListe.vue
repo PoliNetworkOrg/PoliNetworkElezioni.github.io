@@ -1,62 +1,72 @@
 <template>
-    <div>
-        <LayoutNavigationBar :language="language" />
-        <!-- Page Content -->
-        <div class="container2">
-            <!-- Jumbotron Header -->
-            <div class="container7">
-                <header class="jumbotron my-4 testoCentrale" style="border: none;">
-                    <div style="margin: auto;">
-                        <div style="text-align: center;">
-                            <h2>
-                                <span>{{ $t("Elezioni rappresentanti degli studenti") }}</span>
-                            </h2>
-                            <br />
-                            <LayoutFrame v-for="item in organiConfronto"
-                                         :key="item.id">
-                                <div>
-                                    <h4>{{item.name}}</h4>
-                                      <blockquote>
-                                          {{ item.desc[$i18n.locale] }}
-                                      </blockquote>
-                                </div>
-                            </LayoutFrame>
-                        </div>
+  <div>
+    <LayoutNavigationBar :language="language" />
+    <!-- Page Content -->
+    <div class="container2">
+      <!-- Jumbotron Header -->
+      <div class="container7">
+        <header class="jumbotron my-4 testoCentrale" style="border: none">
+          <div style="margin: auto">
+            <div style="text-align: center">
+              <h2>
+                <span>{{ $t("Elezioni rappresentanti degli studenti") }}</span>
+              </h2>
+              <br />
+              <LayoutFrame v-for="item in organiConfronto" :key="item.id">
+                <div>
+                  <h4>{{ item.name }}</h4>
+                  <blockquote>
+                    {{ item.desc[$i18n.locale] }}
+                  </blockquote>
+                </div>
+              </LayoutFrame>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- Page Features -->
+      <div class="row text-center" id="listeContainer2" v-on:load="test2">
+        <LayoutFrame
+          class-param="col-md-3"
+          v-for="item in liste"
+          :key="item.id"
+          style-param="max-width: 15%;flex: 1 4 25%;min-width: 512px;"
+        >
+          <a
+            :href="
+              item.linkLista.startsWith('https://')
+                ? item.linkLista
+                : '/' + language + item.linkLista
+            "
+          >
+            <div class="card">
+              <div class="listTile" style="width: 100%">
+                <div class="cap-left">
+                  <div style="width: 100%">
+                    <img class="imageList" :src="item.imageUrlHorizontal" />
+                  </div>
+                  <div style="padding-top: 10px">
+                    <div class="candidateTable">
+                      <LayoutFrame v-for="item2 in item.organi" :key="item2.id">
+                        <ListeFrameSenatoCdA
+                          :item="item2"
+                          :fromPolimi="item.fromPolimi"
+                          :showIfFromPolimiOrNot="showIfFromPolimiOrNot"
+                        />
+                      </LayoutFrame>
                     </div>
-                </header>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- Page Features -->
-            <div class="row text-center" id="listeContainer2" v-on:load="test2">
-                <LayoutFrame class-param="col-md-3"
-                             v-for="item in liste"
-                             :key="item.id"
-                             style-param="max-width: 15%;flex: 1 4 25%;min-width: 512px;">
-                    <a :href="item.linkLista.startsWith('https://')?  item.linkLista: ('/' + language + item.linkLista)">
-                        <div class="card">
-                            <div class="listTile" style="width: 100%;">
-                                <div class="cap-left">
-                                    <div style="width: 100%;">
-                                        <img class="imageList" :src="item.imageUrlHorizontal">
-                                    </div>
-                                    <div style="padding-top: 10px;">
-                                        <div class="candidateTable">
-                                            <LayoutFrame v-for="item2 in item.organi"
-                                                         :key="item2.name">
-                                                <ListeFrameSenatoCdA :item="item2" />
-                                            </LayoutFrame>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </LayoutFrame>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-        <LayoutFooter :language="language" />
+          </a>
+        </LayoutFrame>
+      </div>
+      <!-- /.row -->
     </div>
+    <!-- /.container -->
+    <LayoutFooter :language="language" />
+  </div>
 </template>
 
 <style>
@@ -110,6 +120,10 @@ export default {
       type: String,
       default: "it",
       required: true,
+    },
+    showIfFromPolimiOrNot: {
+      type: Boolean,
+      default: false,
     },
   },
 

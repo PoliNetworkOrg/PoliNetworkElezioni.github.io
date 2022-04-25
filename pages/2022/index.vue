@@ -4,6 +4,7 @@
       :language="$i18n.locale"
       :organi-confronto="organiConfronto"
       :liste="liste"
+      :showIfFromPolimiOrNot="true"
     />
   </div>
 </template>
@@ -121,12 +122,13 @@ export default {
         },
         {
           id: 3,
-          name: "Azione Universitaria [Nessuna Lista del Poli]",
+          name: "Azione Universitaria",
+          fromPolimi: false,
           imageUrlHorizontal: "/img/2022/3.png",
           linkLista: "https://it-it.facebook.com/azioneuniversitariamilano/",
           organi: [
             {
-              name: "Azione Universitaria [Nessuna Lista del Poli]",
+              name: "Azione Universitaria",
               desc: "Descrizione di quello che vuole fare la lista...",
               candidati: [
                 {
@@ -214,12 +216,13 @@ export default {
         },
         {
           id: 5,
-          name: "Primavaera degli Studenti - UniSì - La Svolta - Run - Team - Su Genova [Nessuna Lista del Poli]",
+          name: "Primavaera degli Studenti - UniSì - La Svolta - Run - Team - Su Genova",
+          fromPolimi: false,
           imageUrlHorizontal: "/img/2022/5.png",
           linkLista: "https://it-it.facebook.com/unisi.statale",
           organi: [
             {
-              name: "Primavaera degli Studenti - UniSì - La Svolta - Run - Team - Su Genova [Nessuna Lista del Poli]",
+              name: "Primavaera degli Studenti - UniSì - La Svolta - Run - Team - Su Genova",
               desc: "Descrizione di quello che vuole fare la lista...",
               candidati: [
                 {
