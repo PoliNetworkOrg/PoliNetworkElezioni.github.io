@@ -30,7 +30,7 @@
           class-param="col-md-3"
           v-for="item in liste"
           :key="item.id"
-          style-param="max-width: 15%;flex: 1 4 25%;min-width: 350px;"
+          :style-param="'max-width: 15%;flex: 1 4 25%;min-width: ' + ($device.isMobile ? '350px;' : '512px;')"
         >
           <a
             :href="

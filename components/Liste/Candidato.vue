@@ -1,5 +1,5 @@
 <template>
-  <div class="candidatoCard">
+  <div class="candidatoCard" :style="$device.isMobile ? 'height: 50vh !important;' : ''">
     <a :href="urlLista">
       <div class="candidatoSV" style="text-align: center">
         <figure class="wow animated fadeInLeft">
@@ -80,6 +80,6 @@ figure {
   border-radius: calc(1px + 1rem);
   padding: calc(1px + 0.3rem);
   margin-bottom: 10px;
-  height: 30vh;
+  height: 35vh;
 }
 </style>
