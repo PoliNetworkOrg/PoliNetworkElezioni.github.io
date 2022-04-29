@@ -1,11 +1,20 @@
 <template>
-  <div class="candidatoCard" :style="$device.isMobile ? 'height: 50vh !important;' : ''">
+  <div
+    class="candidatoCard"
+    :style="$device.isMobile ? 'height: 50vh !important;' : ''"
+  >
     <a :href="urlLista">
       <div class="candidatoSV" style="text-align: center">
         <figure class="wow animated fadeInLeft">
           <img
             class="border-img img-responsive center-block immagineCandidato"
-            :src="cand.imgUrl == null ? 'https://ui-avatars.com/api/?name=' + cand.name.split(' ').join('+') + '&size=512' :cand.imgUrl"
+            :src="
+              cand.imgUrl == null
+                ? 'https://ui-avatars.com/api/?name=' +
+                  cand.name.split(' ').join('+') +
+                  '&size=512'
+                : cand.imgUrl
+            "
             style="width: 100%"
           />
         </figure>
@@ -14,11 +23,15 @@
             <div style="width: 100%">
               <span class="nameCandidatoFull">{{ cand.name }}</span>
             </div>
-            <div style="width: 100%">
+            <div v-if="cand.detto" style="width: 100%">
               <span class="text">
-                {{ cand.detto == null ? '' :$t("Alternative valide sulla scheda:") }}
+                {{
+                  cand.detto == null
+                    ? ""
+                    : $t("Alternative valide sulla scheda:")
+                }}
               </span>
-              <br/>
+              <br />
               <span class="nameDetto">
                 {{ cand.detto }}
               </span>
