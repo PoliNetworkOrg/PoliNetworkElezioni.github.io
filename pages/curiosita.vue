@@ -27,7 +27,7 @@
 
             <p>
               {{ $t('Se avete ulteriori dubbi sul voto, ad esempio per le modalità dello stesso, visitate la nostra ') }}
-              <a href="../2021/istruzioni/">{{ $t('pagina dedicata') }}</a>.
+              <a href="../istruzioni/">{{ $t('pagina dedicata') }}</a> {{ $t('(oppure quella') }} <a href="../2021/istruzioni/">{{ $t('specifica per il 2021') }}</a>).
             </p>
 
             <p>

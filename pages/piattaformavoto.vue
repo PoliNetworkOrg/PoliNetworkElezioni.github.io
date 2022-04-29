@@ -8,20 +8,19 @@
           <div class="container4">
             <div class="container5">
               <span>
-                La piattaforma di voto è solamente accessibile dai
+                {{ $t('La piattaforma di voto è solamente accessibile dai') }}
                 <a href="https://www.polimi.it/servizi-online/"
-                  >Servizi Online del Polimi</a
+                  >{{ $t('Servizi Online del Polimi') }}</a
                 >.
               </span>
               <div style="padding: 0.5rem"></div>
               <span>
-                Entra nella tua area personale dei servizi online e cerca
-                <b>"Votazioni Online"</b> nella lista servizi.
+                {{ $t('Entra nella tua area personale dei servizi online e cerca') }}
+                <b>"{{ $t('Votazioni Online') }}"</b> {{ $t('nella lista servizi.') }}
               </span>
               <div style="padding: 0.5rem"></div>
               <span>
-                Clicca <a href="../istruzioni/">qui</a> per tornare alle
-                istruzioni di voto.
+                {{ $t('Clicca') }} <a href="../../istruzioni/">{{ $t('qui') }} </a>{{ $t('per tornare alle istruzioni di voto.') }}
               </span>
             </div>
           </div>

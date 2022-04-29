@@ -26,65 +26,26 @@
             </a>
           </li>
           <li class="nav-item">
-            <a
-              v-if="language == 'it'"
-              class="nav-link"
-              :href="'/' + language + '/organi'"
-              >Organi da votare 🗳</a
-            >
-            <a
-              v-if="language == 'en'"
-              class="nav-link"
-              :href="'/' + language + '/organi'"
-              >Bodies to vote 🗳</a
-            >
+            <a class="nav-link" :href="'/' + language + '/organi/'">{{ $t('Organi da votare') }} 🗳</a>
           </li>
           <li class="nav-item">
-            <a
-              v-if="language == 'it'"
-              class="nav-link"
-              :href="'/' + language + '/storia'"
-              >Storia 📑</a
-            >
-            <a
-              v-if="language == 'en'"
-              class="nav-link"
-              :href="'/' + language + '/storia'"
-              >History 📑</a
-            >
+            <a class="nav-link" :href="'/' + language + '/storia/'">{{ $t('Storia') }} 📑</a>
           </li>
           <li class="nav-item">
-            <a
-              v-if="language == 'it'"
-              class="nav-link"
-              :href="'/' + language + '/contatti/'"
-              >Contatti 💬</a
-            >
-            <a
-              v-if="language == 'en'"
-              class="nav-link"
-              :href="'/' + language + '/contatti/'"
-              >Contacts 💬</a
-            >
+            <a class="nav-link" :href="'/' + language + '/contatti/'">{{ $t('Contatti') }} 💬</a>
           </li>
           <li class="nav-item">
-            <div
-              style="
-                border: 1px solid #00000029;
-                margin: auto;
-                border-radius: 10px;
-              "
-            >
+            <div class="langDiv">
               <table style="display: inline">
                 <tr>
                   <td>
                     <NuxtLink :to="switchLocalePath('it')"
-                      ><img src="/img/it.png" style="width: 35px; padding: 6px"
+                      ><img src="/img/it.png" class="langImg"
                     /></NuxtLink>
                   </td>
                   <td>
                     <NuxtLink :to="switchLocalePath('en')"
-                      ><img src="/img/en.png" style="width: 35px; padding: 6px"
+                      ><img src="/img/en.png" class="langImg"
                     /></NuxtLink>
                   </td>
                 </tr>
@@ -96,6 +57,19 @@
     </div>
   </nav>
 </template>
+
+<style>
+.langDiv {
+  border: 1px solid #00000029;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.langImg {
+  width: 35px;
+  padding: 6px;
+}
+</style>
 
 <script>
 export default {

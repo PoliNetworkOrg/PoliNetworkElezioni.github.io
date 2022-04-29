@@ -43,7 +43,7 @@
               <div>
                 <div class="cap-left">
                   <div>
-                    <img class="imageList" :src="item.imageUrlHorizontal" />
+                    <img class="imageList" :style="showIfFromPolimiOrNot ? '' : 'width: 100% !important; height: 100% !important;'" :src="item.imageUrlHorizontal" />
                   </div>
                   <div style="padding-top: 10px">
                     <div>
