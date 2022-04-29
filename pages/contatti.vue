@@ -8,7 +8,7 @@
           <!-- Jumbotron Header -->
           <header class="my-4">
             <div style="text-align: left">
-              <span class="contattiTitle">{{ $t("Contatti 💬") }}</span>
+              <span class="contattiTitle">{{ $t("Contatti") }} 💬</span>
               <div style="padding: 5px"></div>
             </div>
             <div style="text-align: left">
