@@ -8,7 +8,9 @@
       style="display: flex; opacity: 0.5"
     >
       <LayoutFrame
-        v-for="item in items"
+        v-for="item in items.filter(
+          (x) => listaEsclusa == null || x.name != listaEsclusa.name
+        )"
         :key="item.name"
         class-param="col-lg-3 col-md-6 mb-4"
       >
@@ -45,6 +47,11 @@ export default {
       type: String,
       default: "it",
       required: true,
+    },
+    listaEsclusa: {
+      type: Object,
+      default: null,
+      required: false,
     },
   },
   data() {
