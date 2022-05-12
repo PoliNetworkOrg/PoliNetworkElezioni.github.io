@@ -296,7 +296,10 @@
             >Also visit the pages dedicated to the other lists</span
           >
         </div>
-        <SubpagesQuadratiListe :language="language" />
+        <SubpagesQuadratiListe
+          :language="language"
+          :lista-esclusa="this.dataLista"
+        />
       </div>
     </div>
 
