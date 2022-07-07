@@ -1,6 +1,7 @@
 name: commit updates
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -40,13 +41,13 @@ jobs:
         run: npm install
         
       - name: 👨🏻‍💻 Install dependencies (3)
-        run: npm install vue-server-renderer@2.7.1
+        run: npm install vue-server-renderer@2.7.3
         
       - name: 👨🏻‍💻 Install dependencies (4)
-        run: npm install vue@2.7.1
+        run: npm install vue@2.7.3
         
       - name: 👨🏻‍💻 Install dependencies (5)
-        run: npm install vue-template-compiler@2.7.1
+        run: npm install vue-template-compiler@2.7.3
 
       - name: commit
         run: | 
