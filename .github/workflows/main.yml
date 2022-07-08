@@ -54,6 +54,7 @@ jobs:
           git config --global user.name "Github action"
           git add .
           (git commit -m 'push files') || true
+          (git pull) || true
           (git push) || true
 
       - name: 👨‍🏭️ Generate
