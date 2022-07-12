@@ -38,8 +38,9 @@ jobs:
         
       - name: 👨🏻‍💻 Install dependencies (2)
         run: |
-          npm install
-          npm update
+          (npm ci) || true
+          (npm install) || true
+          (npm update) || true
           
         
                 
