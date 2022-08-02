@@ -14,6 +14,18 @@
             <div style="text-align: left">
               <div style="padding: 5px"></div>
               <ul>
+				<li>
+					<h4>{{ $t("Elezioni CNSU 2022") }}</h4>
+					{{ $t("Risultati:") }}
+                  <ul style="padding-top: 5px">
+                    <li>
+                      <a
+                        href="/files/2022/it/esiti.pdf"
+                        >{{ $t('Risultati') }}</a
+                      >
+                    </li>
+                  </ul>
+				</li>
                 <li>
                   <h4>{{ $t("Elezioni maggio 2021") }}</h4>
                   {{ $t("Programmi:") }}
