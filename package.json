@@ -16,9 +16,9 @@
 		"nuxt": "^2.2.0",
 		"nuxt-i18n": "^6.28.1",
 		"regenerator-runtime": "^0.13.10",
-		"vue": "^2.7.13",
+		"vue": "^2.7.14",
 		"vue-server-renderer": "^2.7.13",
-		"vue-template-compiler": "^2.7.9"
+		"vue-template-compiler": "^2.7.14"
 	},
 	"devDependencies": {
 		"@nuxtjs/device": "^2.1.0",
