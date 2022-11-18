@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/2021/lista/listaaperta", {data:[{}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/2022", {data:[{}],fetch:{},mutations:void 0});

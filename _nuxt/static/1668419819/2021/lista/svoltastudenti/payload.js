@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/2021/lista/svoltastudenti", {data:[{}],fetch:{},mutations:void 0});

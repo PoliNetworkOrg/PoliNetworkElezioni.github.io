@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/2021/scuola/design", {data:[{}],fetch:{},mutations:void 0});
