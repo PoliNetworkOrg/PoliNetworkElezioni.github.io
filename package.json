@@ -13,15 +13,15 @@
 		"bootstrap": "^5.2.3",
 		"bootstrap-vue": "^2.23.0",
 		"core-js": "^3.26.1",
-		"nuxt": "^2.2.0",
+		"nuxt": "3.4.2",
 		"nuxt-i18n": "^6.28.1",
 		"regenerator-runtime": "^0.13.11",
-		"vue": "^2.7.13",
+		"vue": "3.2.47",
 		"vue-server-renderer": "^2.7.13",
 		"vue-template-compiler": "^2.7.9"
 	},
 	"devDependencies": {
 		"@nuxtjs/device": "^3.0.0",
-		"webpack": "^4.0.0"
+		"webpack": "5.80.0"
 	}
 }
