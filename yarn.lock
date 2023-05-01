@@ -3406,7 +3406,7 @@ nuxt-i18n@^6.28.1:
     ufo "^0.7.7"
     vue-i18n "^8.25.0"
 
-nuxt@^3.4.2:
+nuxt@^3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.4.3.tgz#0db58e3a70afa3c06744868cd6a13e5f0d83dbf1"
   integrity sha512-rOEdhHRH33m3L7aJDO7N8C+NC2vSa2mC/0hH/ePmg2S03qkzS0bVg1pIWW9ESDV5UVPFtfhOGoDTEkLJqvE18A==
@@ -4835,7 +4835,7 @@ webpack-virtual-modules@^0.5.0:
   resolved "https://registry.yarnpkg.com/webpack-virtual-modules/-/webpack-virtual-modules-0.5.0.tgz#362f14738a56dae107937ab98ea7062e8bdd3b6c"
   integrity sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==
 
-webpack@^5.80.0:
+webpack@^5.81.0:
   version "5.81.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.81.0.tgz#27a2e8466c8b4820d800a8d90f06ef98294f9956"
   integrity sha512-AAjaJ9S4hYCVODKLQTgG5p5e11hiMawBwV2v8MYLE0C/6UAGLuAF4n1qa9GOwdxnicaP+5k6M5HrLmD4+gIB8Q==
