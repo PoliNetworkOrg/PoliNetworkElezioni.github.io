@@ -38,9 +38,9 @@ jobs:
         
       - name: 👨🏻‍💻 Install dependencies (2)
         run: |
-          (npm ci) || true
-          (npm install) || true
-          (npm update) || true
+          (yarn) || true
+          (yarn install) || true
+          (yarn upgrade) || true
           
         
       - name: commit
