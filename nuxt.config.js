@@ -78,9 +78,6 @@ export default {
     strategy: "prefix",
     langDir: "lang/",
     defaultLocale: "it",
-    vueI18n: {
-      fallbackLocale: "it",
-    },
   },
   i18nEasy: {
     directories: [
