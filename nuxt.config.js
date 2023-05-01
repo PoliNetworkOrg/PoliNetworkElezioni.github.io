@@ -47,6 +47,9 @@ export default {
   buildModules: ["@nuxtjs/device"],
 
   build: {
+    rollupOptions: {
+      external: [/^node:.*/],
+    },
     babel: {
       presets({ isServer }) {
         const targets = isServer ? { node: "current" } : { ie: 11 };
