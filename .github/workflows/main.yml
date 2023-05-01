@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [16]
+        node: [18]
 
     steps:
       - name: 🛎 Checkout
@@ -34,7 +34,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: 👨🏻‍💻 Install dependencies (1)
-        run: npm cache verify
+        run: yarn cache clean
         
       - name: 👨🏻‍💻 Install dependencies (2)
         run: |

@@ -43,7 +43,7 @@
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/generator@^7.21.4", "@babel/generator@^7.21.5":
+"@babel/generator@^7.21.5":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.21.5.tgz#c0c0e5449504c7b7de8236d99338c3e2a340745f"
   integrity sha512-SrKK/sRv8GesIW1bDagf9cCG38IOMYZusoe1dfg0D8aiUe3Amvoj1QtjTPAWcfrZFvIwlleLb0gxzQidL9w14w==
@@ -86,7 +86,7 @@
     "@babel/helper-split-export-declaration" "^7.18.6"
     semver "^6.3.0"
 
-"@babel/helper-environment-visitor@^7.18.9", "@babel/helper-environment-visitor@^7.21.5":
+"@babel/helper-environment-visitor@^7.21.5":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.5.tgz#c769afefd41d171836f7cb63e295bedf689d48ba"
   integrity sha512-IYl4gZ3ETsWocUWgsFZLM5i1BYx9SoemminVEXadgLBa9TdeorzgLKm8wWLA6J1N/kT3Kch8XIk1laNzYoHKvQ==
@@ -212,12 +212,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.14.9", "@babel/parser@^7.18.10", "@babel/parser@^7.9.6":
-  version "7.21.4"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.21.4.tgz#94003fdfc520bbe2875d4ae557b43ddb6d880f17"
-  integrity sha512-alVJj7k7zIxqBZ7BTRhz0IqJFxW1VJbm6N8JbcYhQ186df9ZBPbZBmWSqAMXwHGsCJdYks7z/voa3ibiS5bCIw==
-
-"@babel/parser@^7.16.4", "@babel/parser@^7.20.7", "@babel/parser@^7.21.4", "@babel/parser@^7.21.5":
+"@babel/parser@^7.14.9", "@babel/parser@^7.16.4", "@babel/parser@^7.18.10", "@babel/parser@^7.20.7", "@babel/parser@^7.21.5", "@babel/parser@^7.9.6":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.21.5.tgz#821bb520118fd25b982eaf8d37421cf5c64a312b"
   integrity sha512-J+IxH2IsxV4HbnTrSWgMAQj0UEo61hDA4Ny8h8PCX0MLXiibqHbqIOVneqdocemSBc22VpBKxt4J6FQzy9HarQ==
@@ -260,7 +255,7 @@
     "@babel/parser" "^7.20.7"
     "@babel/types" "^7.20.7"
 
-"@babel/traverse@^7.0.0", "@babel/traverse@^7.21.5":
+"@babel/traverse@^7.0.0", "@babel/traverse@^7.14.9", "@babel/traverse@^7.18.10", "@babel/traverse@^7.21.5":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.21.5.tgz#ad22361d352a5154b498299d523cf72998a4b133"
   integrity sha512-AhQoI3YjWi6u/y/ntv7k48mcrCXmus0t79J9qPNlk/lAsFlCiJ047RmbfMOawySTHtywXhbXgpx/8nXMYd+oFw==
@@ -273,22 +268,6 @@
     "@babel/helper-split-export-declaration" "^7.18.6"
     "@babel/parser" "^7.21.5"
     "@babel/types" "^7.21.5"
-    debug "^4.1.0"
-    globals "^11.1.0"
-
-"@babel/traverse@^7.14.9", "@babel/traverse@^7.18.10":
-  version "7.21.4"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.21.4.tgz#a836aca7b116634e97a6ed99976236b3282c9d36"
-  integrity sha512-eyKrRHKdyZxqDm+fV1iqL9UAHMoIg0nDaGqfIOd8rKH17m5snv7Gn4qgjBoFfLz9APvjFU/ICT00NVCv1Epp8Q==
-  dependencies:
-    "@babel/code-frame" "^7.21.4"
-    "@babel/generator" "^7.21.4"
-    "@babel/helper-environment-visitor" "^7.18.9"
-    "@babel/helper-function-name" "^7.21.0"
-    "@babel/helper-hoist-variables" "^7.18.6"
-    "@babel/helper-split-export-declaration" "^7.18.6"
-    "@babel/parser" "^7.21.4"
-    "@babel/types" "^7.21.4"
     debug "^4.1.0"
     globals "^11.1.0"
 
@@ -537,36 +516,12 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@3.4.3", "@nuxt/kit@^3.3.3":
+"@nuxt/kit@3.4.3", "@nuxt/kit@^3.0.0-rc.13", "@nuxt/kit@^3.3.3":
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.3.tgz#2ab6efb0a4db7b4e5f4d8d7d7e696fa30a6e8771"
   integrity sha512-aQyzplYFCL292UsVZzlOZOC51ZKYFL0PBihbcPzxTzXQvAfMF8/DQ539kqzqXzxTCcmnUB9ROhIaNUrAeUkFYA==
   dependencies:
     "@nuxt/schema" "3.4.3"
-    c12 "^1.4.1"
-    consola "^3.1.0"
-    defu "^6.1.2"
-    globby "^13.1.4"
-    hash-sum "^2.0.0"
-    ignore "^5.2.4"
-    jiti "^1.18.2"
-    knitwork "^1.0.0"
-    lodash.template "^4.5.0"
-    mlly "^1.2.0"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    scule "^1.0.0"
-    semver "^7.5.0"
-    unctx "^2.3.0"
-    unimport "^3.0.6"
-    untyped "^1.3.2"
-
-"@nuxt/kit@^3.0.0-rc.13":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.2.tgz#a7ae05f154c43560f18dd56c49df1b23a2c2553b"
-  integrity sha512-bFUpkyG2ZF6RYqiW+tXnWssccHQQqMF4kZJJLP/0eKXf+Fkt/Is0R7IY768jy8ylnyqeMBbmpg4Zv5gSZjfZQw==
-  dependencies:
-    "@nuxt/schema" "3.4.2"
     c12 "^1.4.1"
     consola "^3.1.0"
     defu "^6.1.2"
@@ -593,21 +548,6 @@
     chalk "^4.1.0"
     consola "^2.15.0"
     node-fetch "^2.6.7"
-
-"@nuxt/schema@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.4.2.tgz#1cdafdc3246027bb9964c2ccb172003213c4d989"
-  integrity sha512-DXB/fyjrAssFt9KGXyS+ZSfm1A0NYKhEoc01wyz1lGo//oETzUh3MmwE6X3x65NPqDlYZ6Mnj+IdftRRophv5Q==
-  dependencies:
-    defu "^6.1.2"
-    hookable "^5.5.3"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    postcss-import-resolver "^2.0.0"
-    std-env "^3.3.2"
-    ufo "^1.1.1"
-    unimport "^3.0.6"
-    untyped "^1.3.2"
 
 "@nuxt/schema@3.4.3":
   version "3.4.3"
@@ -2822,9 +2762,9 @@ jiti@^1.18.2:
   integrity sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==
 
 js-cookie@^3.0.0, js-cookie@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-3.0.1.tgz#9e39b4c6c2f56563708d7d31f6f5f21873a92414"
-  integrity sha512-+0rgsUXZu4ncpPxRL+lNEptWMOWl9etvPHc/koSRp6MPwpRYAhmk0dUG00J4bxVV3r9uUzfo24wW0knS07SKSw==
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-3.0.5.tgz#0b7e2fd0c01552c58ba86e0841f94dc2557dcdbc"
+  integrity sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==
 
 js-tokens@^4.0.0:
   version "4.0.0"
