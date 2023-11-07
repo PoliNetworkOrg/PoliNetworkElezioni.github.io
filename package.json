@@ -15,7 +15,7 @@
 		"core-js": "^3.33.2",
 		"nuxt": "^3.4.3",
 		"regenerator-runtime": "^0.13.11",
-		"vue": "3.3.7",
+		"vue": "3.3.8",
 		"vue-server-renderer": "^2.7.15",
 		"vue-template-compiler": "^2.7.15"
 	},
