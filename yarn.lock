@@ -3835,7 +3835,7 @@ nitro-tools@0.2.4:
   resolved "https://registry.npmjs.org/nitro-tools/-/nitro-tools-0.2.4.tgz"
   integrity sha512-K5ubPOykO3yqKO2olMQxE9Uye7W3DyRdyj3ALYyGw+EVyjHgRuJ9ZqBTihUxuh7gMrJ3jl+4bwWMsQ9zWdN6lw==
 
-nitro@^2.2.28:
+nitro@^2.2.26:
   version "2.2.28"
   resolved "https://registry.npmjs.org/nitro/-/nitro-2.2.28.tgz"
   integrity sha512-uhkakIC3PgfN2IOHbLtTzxg+v+uSr79HuocYkoJyADBlj5bIF7JUPfZ5MtKLs12/1+X58fdHZDHl3lSSdmXpYQ==
