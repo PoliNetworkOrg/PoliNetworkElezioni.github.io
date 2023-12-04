@@ -17,12 +17,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-
+          
       - name: Install dependencies
-        run: npm install
+        run: yarn install
 
       - name: Fix peer dependencies
-        run: npm update
+        run: yarn upgrade --latest
 
       - name: Git setup
         run: |
