@@ -1,4 +1,4 @@
-export default {
+export default async () => ({
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
@@ -92,4 +92,4 @@ export default {
     files: ["*.vue", "*.js"], // default files
     sourceLanguage: "it", // default source language
   },
-};
+});
