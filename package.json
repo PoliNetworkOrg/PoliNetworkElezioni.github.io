@@ -21,6 +21,6 @@
 	},
 	"devDependencies": {
 		"@nuxtjs/device": "^3.1.0",
-		"webpack": "^5.82.1"
+		"webpack": "^5.91.0"
 	}
 }
